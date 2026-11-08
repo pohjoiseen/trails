@@ -58,6 +58,8 @@ button { cursor: pointer; }
 .link { color: var(--primary-hi); }
 .app { position: relative; height: 100%; display: grid; grid-template-columns: var(--panel-w) 1fr; }
 #map { height: 100%; width: 100%; grid-column: 2; background: var(--soft); }
+.maplibregl-canvas { position: absolute; left: 0; top: 0; }
+.leaflet-gl-layer { z-index: 200; }
 .leaflet-container { font-family: var(--f-body); background: var(--soft); }
 
 /* ---------- panel ---------- */
@@ -80,9 +82,9 @@ button { cursor: pointer; }
 .search input { width: 100%; box-sizing: border-box; border: 1px solid var(--shade); background: var(--surface); border-radius: var(--r); padding: 5px 10px 5px 32px; font-size: 14px; }
 .search svg { position: absolute; left: 10px; top: 50%; transform: translateY(-50%); width: 15px; height: 15px; color: var(--muted); }
 .filters { display: flex; flex-direction: column; gap: 6px; }
-.frow { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: none; padding-bottom: 2px; align-items: center; }
-.frow::-webkit-scrollbar { display: none; }
-.flabel { font-size: 13px; color: var(--muted); flex: none; min-width: 6.2em; }
+.frow { display: grid; grid-template-columns: 6.6em 1fr; gap: 6px; align-items: start; }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; min-width: 0; }
+.flabel { font-size: 13px; color: var(--muted); padding-top: 2px; }
 .chip { flex: none; border: 1px solid var(--shade); border-bottom-width: 2px; background: var(--bg); padding: 1px 9px; border-radius: var(--r); font-size: 13px; white-space: nowrap; display: inline-flex; align-items: center; gap: 5px; }
 .chip:hover { background: var(--surface); }
 .chip:active { transform: translateY(1px); border-bottom-width: 1px; }

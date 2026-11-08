@@ -20,7 +20,7 @@
     sort: store.get("sort", "name"),
     selected: null,
     hover: null,
-    base: store.get("base", "osm"),
+    base: store.get("base", "vector"),
   };
   const t = (k) => (I.strings[S.lang] && I.strings[S.lang][k]) ?? I.strings.en[k] ?? k;
   const tn = (k, n) => { const f = t(k); const form = I.plural(S.lang, n); return (f[form] || f.other).replace("{n}", n); };
@@ -118,9 +118,32 @@
   /* Base layers. Add more raster options here (e.g. MML topo, needs an API key); the layer
      button appears automatically once there is more than one. */
   const BASES = {
+    vector: { key: "layer_vector", make: makeVector },
     osm: { key: "layer_osm", make: () => L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>' }) }
     // mml: { key: "layer_mml", make: () => L.tileLayer("https://avoin-karttakuva.maanmittauslaitos.fi/avoin/wmts/1.0.0/maastokartta/default/WGS84_Pseudo-Mercator/{z}/{y}/{x}.png?api-key=YOUR_KEY", { maxZoom: 16, attribution: "&copy; Maanmittauslaitos" }) }
   };
+
+  /* OpenFreeMap vector tiles (OSM data, no key), drawn by MapLibre GL: sharp on high-DPI screens.
+     MapLibre and its Leaflet bridge are loaded only when this layer is used. */
+  function loadScript(src) {
+    return new Promise((res, rej) => { const s = document.createElement("script"); s.src = src; s.onload = res; s.onerror = rej; document.head.appendChild(s); });
+  }
+  let glReady = null;
+  function makeVector() {
+    const group = L.layerGroup();
+    glReady = glReady || loadScript("https://cdnjs.cloudflare.com/ajax/libs/maplibre-gl/4.7.1/maplibre-gl.js")
+      .then(() => loadScript("https://cdn.jsdelivr.net/npm/@maplibre/maplibre-gl-leaflet@0.0.22/leaflet-maplibre-gl.js"));
+    glReady.then(() => {
+      const gl = L.maplibreGL({
+        style: "https://tiles.openfreemap.org/styles/liberty",
+        attribution: '<a href="https://openfreemap.org" target="_blank" rel="noopener">OpenFreeMap</a> &copy; <a href="https://www.openmaptiles.org/" target="_blank" rel="noopener">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>'
+      });
+      group.addLayer(gl);
+      const m = gl.getMaplibreMap && gl.getMaplibreMap();
+      if (m) { m.once("load", () => group.fire("tileload")); m.on("error", () => group.fire("tileerror")); }
+    }).catch(() => group.fire("tileerror").fire("tileerror"));
+    return group;
+  }
 
   /* Where the full app is hosted with working tiles (Claude artifacts block external images). */
   const FULL_URL = "https://pohjoiseen.github.io/trails/";
@@ -281,15 +304,15 @@
     const f = S.filter;
     const chip = (group, val, label, pressed, extra = "") => '<button class="chip" data-g="' + group + '" data-v="' + esc(val) + '" aria-pressed="' + pressed + '">' + extra + esc(label) + "</button>";
     const munis = Object.keys(I.munis).filter((m) => S.trails.some((tr) => tr.municipality === m));
-    let h = '<div class="frow"><span class="flabel">' + esc(t("municipality")) + "</span>" + chip("muni", "", t("allMunis"), !f.muni.length) +
-      munis.map((m) => chip("muni", m, muniName(m), f.muni.includes(m))).join("") + "</div>";
-    h += '<div class="frow"><span class="flabel">' + esc(t("length")) + "</span>" + chip("len", "", t("anyLength"), !f.len) +
-      Object.keys(LEN).map((k) => chip("len", k, t("len_" + k), f.len === k)).join("") + "</div>";
-    h += '<div class="frow"><span class="flabel">' + esc(t("type")) + "</span>" + chip("kind", "", t("anyType"), !f.kind) +
-      ["loop", "linear", "network"].map((k) => chip("kind", k, t("kind_" + k), f.kind === k, ICON[k])).join("") + "</div>";
+    let h = '<div class="frow"><span class="flabel">' + esc(t("municipality")) + "</span><div class=\"chips\">" + chip("muni", "", t("allMunis"), !f.muni.length) +
+      munis.map((m) => chip("muni", m, muniName(m), f.muni.includes(m))).join("") + "</div></div>";
+    h += '<div class="frow"><span class="flabel">' + esc(t("length")) + "</span><div class=\"chips\">" + chip("len", "", t("anyLength"), !f.len) +
+      Object.keys(LEN).map((k) => chip("len", k, t("len_" + k), f.len === k)).join("") + "</div></div>";
+    h += '<div class="frow"><span class="flabel">' + esc(t("type")) + "</span><div class=\"chips\">" + chip("kind", "", t("anyType"), !f.kind) +
+      ["loop", "linear", "network"].map((k) => chip("kind", k, t("kind_" + k), f.kind === k, ICON[k])).join("") + "</div></div>";
     if (hasRatings()) {
-      h += '<div class="frow"><span class="flabel">' + esc(t("rating")) + "</span>" + chip("rating", "", t("anyRating"), !f.rating) +
-        [2, 3].map((n) => chip("rating", n, n === 3 ? "" : "+", f.rating === n, stars(n))).join("") + "</div>";
+      h += '<div class="frow"><span class="flabel">' + esc(t("rating")) + "</span><div class=\"chips\">" + chip("rating", "", t("anyRating"), !f.rating) +
+        [2, 3].map((n) => chip("rating", n, n === 3 ? "" : "+", f.rating === n, stars(n))).join("") + "</div></div>";
     }
     $("#filters").innerHTML = h;
   }
@@ -360,7 +383,7 @@
     }
     if (tx.fallback) h += '<div class="note">' + esc(t("fallbackText")) + "</div>";
     if (desc) h += '<div class="desc">' + desc + "</div>";
-    if (tx.network_note) h += '<div class="sec"><h3>' + esc(t("networkExtent")) + "</h3><p>" + esc(tx.network_note) + "</p></div>";
+    if (tx.network_note) h += '<div class="sec"><h3>' + esc(t(tr.kind === "network" ? "networkExtent" : "routeOptions")) + "</h3><p>" + esc(tx.network_note) + "</p></div>";
     if (tx.duration) h += '<div class="note">' + esc(tx.duration) + "</div>";
     if (tr.geom_quality === "approx") h += '<div class="note">' + esc(t("approxTrack")) + "</div>";
     if (tr.geom_quality === "none") h += '<div class="note">' + esc(t("noTrack")) + "</div>";

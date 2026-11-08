@@ -3,7 +3,7 @@
 A client-side map of nature and hiking trails in Vaasa (incl. Vähäkyrö), Korsholm, Malax, Laihia, Isokyrö and Vörå.
 It is plain HTML/JS with Leaflet (`vendor/leaflet.js`, 1.9.4) and has no build step for the app itself.
 
-- Full version, with OpenStreetMap tiles: GitHub Pages, https://pohjoiseen.github.io/trails/ (Settings → Pages → deploy from branch, root folder; `.nojekyll` is included).
+- Full version, with the map tiles: GitHub Pages, https://pohjoiseen.github.io/trails/ (Settings → Pages → deploy from branch, root folder; `.nojekyll` is included).
 - The same files are published as a Claude artifact. Artifacts block external images, so tiles don't load there; the page then shows a link to the full version.
 
 ## Layout
@@ -38,7 +38,7 @@ python3 tools/build_data.py
 
 ## Base map
 
-OpenStreetMap raster tiles. More base layers (e.g. a Maanmittauslaitos topographic map, which needs an API key) can be added to `BASES` in `app.js`; a layer switcher appears once there is more than one.
+OpenFreeMap vector tiles (OpenStreetMap data, no API key, drawn with MapLibre GL so they stay sharp on high-DPI screens; MapLibre is loaded only for this layer), with classic OSM raster tiles as an alternative. More base layers (e.g. a Maanmittauslaitos topographic map, which needs an API key) can be added to `BASES` in `app.js`; a layer switcher appears once there is more than one.
 
 ## Track clean-up
 
