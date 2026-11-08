@@ -44,22 +44,22 @@
   ]
  },
  "vaasa-pilvilampi-network": {
-  "desc": "Pilvilampi lies 9 km east of the centre on the Höstvesi ridge, a large upland that continues north beyond the city. The ~800 ha forest is mostly very bouldery and partly rough going, with patches of old spruce forest among younger conifers and extensive lily-of-the-valley carpets under the spruces. The lake is a raw-water reservoir (no swimming or dogs in the water).\n\nNesting waterfowl include goldeneye, tufted duck and common sandpiper; forests hold hazel grouse, black grouse, pygmy owl, black woodpecker and long-tailed tit. Many shelters: Närvänmutka, Käpykota, Kivijärvi and Aurinko lean-tos, Eetun piilo, Kuutamo and Höstvesi lean-tos, Pilvimaja cabin, plus viewpoints and an archaeological site.",
+  "desc": "Pilvilampi lies 9 km east of the centre on the Höstvesi ridge, a large upland that continues north beyond the city. The ~800 ha forest is mostly very bouldery and partly rough going, with patches of old spruce forest among younger conifers and extensive lily-of-the-valley carpets under the spruces. The lake is a raw-water reservoir (no swimming or dogs in the water).\n\nNesting waterfowl include goldeneye, tufted duck and common sandpiper; forests hold hazel grouse, black grouse, pygmy owl, black woodpecker and long-tailed tit. Many shelters: Närvänmutka, Käpykota, Kivijärvi and Aurinko lean-tos, Eetun piilo, Kuutamo and Höstvesi lean-tos, Pilvimaja cabin, plus viewpoints.\n\nNear the southern end of the lake are two protected ancient monuments: in the shore water, next to a boulder, a flat stone with the year 1589 carved into one corner (at times under water, as the lake level is regulated), and about 450 m to the south, on a hill between Pilvilampi and the drained Skomakarträsket, the stone foundations of old buildings, one stone bearing the year 1604. Viking Age objects have been found nearby by metal detecting.",
   "highlights": [
    "Pilvilampi lake",
    "bouldery Höstvesi ridge forest",
    "old spruce stands",
    "several lean-tos and huts",
    "viewpoints",
-   "archaeological site"
+   "stones carved with the years 1589 and 1604"
   ],
   "network_note": "Extensive network of marked paths and forest roads over an ~800 ha area (~4 × 4 km) around Pilvilampi lake, linked to Vaasa's 70 km outdoor trail system. Sensible rounds: lake loop ~3–5 km; longer rounds via Kivijärvi and Pilvimaja ~10–12 km.",
-  "access": "Easy to reach by Vaasa city buses (Vaasa local transport, lifts.vaasa.fi).",
+  "access": "Easy to reach by Vaasa city buses (Vaasa local transport, journey planner: https://vaasa.digitransit.fi/).",
   "season": "Ski tracks in winter (Vaasan Latu); 22 km winter fatbike trail.",
   "parking_notes": [
-   "Main Pilvilampi parking on the west shore (Kappelinmäentie); a second lot lies nearby.",
+   "Main Pilvilampi parking by the start of the trails (Kappelinmäentie).",
    "Gädda ski-track parking ('Latuparkki') at the north-west trailhead.",
-   "South trailhead by the forest road; exact parking spot uncertain."
+   "South trailhead by the forest road; exact address uncertain."
   ]
  },
  "vaasa-city-bay-trail": {
@@ -73,13 +73,13 @@
    "16 info signs"
   ],
   "duration": "Kalaranta–Majakkakivi 7 km; continues ~3 km to Risö (one way). First section of a planned ~30 km round of the Southern City Bay.",
-  "access": "Easy to reach by Vaasa city buses (Vaasa local transport, lifts.vaasa.fi).",
+  "access": "Easy to reach by Vaasa city buses (Vaasa local transport, journey planner: https://vaasa.digitransit.fi/).",
   "parking_notes": [
    "Start at Kalaranta on the city-centre shore; public parking also at Hietalahti and Suvilahti, and the east end connects to Risö parking (Ampujantie)."
   ]
  },
  "vahakyro-ojaniemi-hyyria": {
-  "desc": "Paths wind through the forests of Ojaniemi and Hyyriä villages, mostly fresh and dry heath forest, with herb-rich vegetation and the Vainionperä spring near the start. Palolampi pond has a bird tower; Palanusenkallio's folded bedrock ridges show post-glacial changes and the Ojaniemi lean-to (fireplace, toilet, overnight use) stands on top.\n\nThe Marjamäki route follows rocky ridges unusual for Vähäkyrö and passes Iron Age (c. 400–800 AD) burial cairns at Marjamäki and Huumansaari, plus Kylymä helevetti, a hiding place from the Great Northern War. The children's trail has animal-themed boards.",
+  "desc": "Paths wind through the forests of Ojaniemi and Hyyriä villages, mostly fresh and dry heath forest, with herb-rich vegetation and the Vainionperä spring near the start. Palolampi pond has a bird tower; Palanusenkallio's folded bedrock ridges show post-glacial changes and the Ojaniemi lean-to (fireplace, toilet, overnight use) stands on top.\n\nThe Marjamäki route follows rocky ridges unusual for Vähäkyrö and passes Iron Age (c. 400–800 AD) burial cairns at Marjamäki and Huumansaari, plus Kylymä helevetti ('cold hell' in the local dialect), a hiding place from the Great Northern War. The children's trail has animal-themed boards.",
   "highlights": [
    "Palolampi bird tower",
    "Palanusenkallio bedrock",
@@ -166,7 +166,7 @@
   ],
   "season": "Newer route; signposting may still be incomplete.",
   "parking_notes": [
-   "Trailhead parking off Kalsilantie; exact spot uncertain."
+   "Trailhead parking off Kalsilantie; exact address uncertain."
   ]
  },
  "bjorko-panike-trail": {
@@ -256,7 +256,7 @@
   "season": "No winter maintenance.",
   "parking_notes": [
    "Public car park at the end of the road near the Sommarö guard hut; the neighbouring lot is private.",
-   "Alternative start at Sommarösund beach (Södra Vallgrund); exact parking spot uncertain."
+   "Alternative start at Sommarösund beach (Södra Vallgrund); exact address uncertain."
   ]
  },
  "valsorarna-nature-trail": {
@@ -302,7 +302,7 @@
   ]
  },
  "stundars-trails": {
-  "desc": "Marked trails starting from the Stundars open-air museum in Solf, running through forest and field edges west of the museum toward the low-lying farmland near Söderfjärden. The longer 6.6 km route passes a dam and the pumping-station museum; a bird tower at the pumping station overlooks the fields and wetlands. A shorter 2 km loop is also signed. Info boards along the way.",
+  "desc": "Marked trails starting from the Stundars open-air museum in Solf, running through forest and field edges west of the museum toward the low-lying farmland near Söderfjärden. The longer 6.6 km route passes a dam and the pumping-station museum; a bird tower at the pumping station overlooks the fields and wetlands. A shorter c. 2 km loop is also signposted on site, but it is not drawn on the map. Info boards along the way.",
   "highlights": [
    "bird tower at pumping station",
    "Stundars open-air museum",
@@ -313,13 +313,14 @@
   ]
  },
  "skatila-trail": {
-  "desc": "Mostly a forest path of varying width from Skatila sports field westward to Storhälleberget, a bare bedrock hill with a fireplace and views over the surrounding forests of eastern Korsholm.",
+  "desc": "Mostly a forest path of varying width from Skatila sports field westward to Storhälleberget, a bare bedrock hill with a fireplace and views over the surrounding forests of eastern Korsholm. The trail connects to the Pilvilampi trail network and effectively extends it on the eastern side.",
   "highlights": [
-   "Storhälleberget rock hill"
+   "Storhälleberget rock hill",
+   "link to the Pilvilampi network"
   ],
   "duration": "9 km return to Storhälleberget.",
   "parking_notes": [
-   "Skatila sports field / sports cabin; exact parking spot uncertain."
+   "Skatila sports field / sports cabin; exact address uncertain."
   ]
  },
  "malsorleden": {
@@ -334,7 +335,7 @@
   "parking_notes": [
    "Small car park (3 cars).",
    "",
-   "North parking; location approximate."
+   "North parking; exact address uncertain."
   ]
  },
  "tolby-kyrkstigen": {
@@ -388,10 +389,13 @@
   ]
  },
  "ojskatsleden": {
-  "desc": "Forest trail northward from Österhankmo village (Tåning) to the Öjskat area by the coast, with a lean-to midway and a grill site with benches at the far end.",
+  "desc": "Forest trail northward from Österhankmo village (Tåning) to the Öjskat area by the coast, with a lean-to midway and a grill site with benches at the far end. Towards the coast the forest turns into dry pine heath strewn with boulders and large stone blocks, and at the end of the trail the view opens over the sea.\n\nRight by the parking area stands a memorial to the Swedish landing at Österhankmo in June 1808, during the Finnish War of 1808–1809: Swedish troops under Colonel Johan Bergenstråhle came ashore here in an attempt to retake Vaasa from the Russians, but were defeated in the Battle of Vaasa on 25 June 1808.",
   "highlights": [
    "lean-to",
-   "grill site at trail end"
+   "grill site at trail end",
+   "sea view at trail end",
+   "dry pine heath with boulders",
+   "memorial to the 1808 Swedish landing by the parking"
   ],
   "duration": "10.2 km return.",
   "parking_notes": [
@@ -443,7 +447,7 @@
   ],
   "duration": "Marked path 2.0 km one way; 4.1 km round returning along Åminnevägen and Mobergsvägen; 5.1 km round from Åminne Folkpark",
   "parking_notes": [
-   "Roadside parking at the Dimmornas bro grill shelter, southern end of the trail; exact spot uncertain.",
+   "Roadside parking at the Dimmornas bro grill shelter, southern end of the trail; exact address uncertain.",
    "Åminne Folkpark parking, start of the 5.1 km round; there is no parking at the northern end (Mobergsvägen)."
   ]
  },
@@ -472,7 +476,7 @@
   "duration": "4.5 km one way between Viitala and Velkmoss village hall, 9 km there and back; bird-tower spur c. 0.4 km",
   "parking_notes": [
    "Northern start with info board near the Bjurnäsvägen–Vargmossa skogsväg junction.",
-   "Velkmoss village hall (byagård), c. 0.5 km east of the southern trail end; location approximate."
+   "Velkmoss village hall (byagård), c. 0.5 km east of the southern trail end; exact address uncertain."
   ]
  },
  "mamrestigen-storsjostigen": {
@@ -484,8 +488,8 @@
   ],
   "duration": "c. 3.5–4 km one way, 8 km there and back",
   "parking_notes": [
-   "Western start at Mamrelund; exact parking spot uncertain.",
-   "Eastern start at Storsjön; exact parking spot uncertain."
+   "Western start at Mamrelund; exact address uncertain.",
+   "Eastern start at Storsjön; exact address uncertain."
   ]
  },
  "jarnaldersleden": {
@@ -521,7 +525,6 @@
    "two lean-tos",
    "start of Kurjen kierros"
   ],
-  "access": "Fires forbidden during forest fire warnings.",
   "parking_notes": [
    "Yard of the Rajavuori hiking centre, c. 12 km south of Kylänpää; the trail starts at the info board."
   ]
@@ -537,10 +540,10 @@
   ],
   "duration": "Maalarinmaa parking to bird tower 0.6 km; Rajavuori–Maalarinmaa c. 14 km; Rajavuori–Peräkylä c. 24 km one way. The Levaneva trail itself (Peräkylä–Maalarinmaa and on) is 13.6 km one way. From the southern end, trails continue to Pässilä and Kalajaisjärvi (Ilmajoki), c. 30–50 km in total.",
   "access": "Linear route: arrange transport or walk out and back. Levaneva is a state nature reserve (Metsähallitus): stay on the marked trail.",
-  "season": "Duckboards can be slippery in wet weather. Fires forbidden during forest fire warnings.",
+  "season": "Duckboards can be slippery in wet weather.",
   "parking_notes": [
    "Northern start at the Rajavuori hiking centre.",
-   "Maalarinmaa parking on the Kurikka side: from road 687 turn towards the Kivi- ja Levalampi reservoir (signposted Kurjen kierros); exact spot uncertain.",
+   "Maalarinmaa parking on the Kurikka side: from road 687 turn towards the Kivi- ja Levalampi reservoir (signposted Kurjen kierros); exact address uncertain.",
    "Peräkylä parking, southern access to Levaneva (Kurikka)."
   ]
  },
@@ -608,10 +611,10 @@
   ]
  },
  "isokyro-orisberg-kotilammi": {
-  "desc": "The loop circles Kotilammi, regarded as Finland's oldest artificial lake - a reservoir dammed for the Orisberg ironworks - through varied terrain on forest paths, duckboards and forest roads. It starts at the bell tower of Orisberg church, an old manor and ironworks milieu linked with Zachris Topelius and Jean Sibelius (by tradition Sibelius and Aino Järnfelt got engaged here). A kota stands by the lake; the far half of the loop crosses into Ylistaro. Long enough to require good fitness.",
+  "desc": "The loop circles Kotilammi, regarded as Finland's oldest artificial lake - a reservoir dammed for the Orisberg ironworks - through varied terrain on forest paths, duckboards and forest roads. It starts at the bell tower of Orisberg church. Practically nothing remains of the ironworks itself, and Orisberg manor, linked with Zachris Topelius and Jean Sibelius (by tradition Sibelius and Aino Järnefelt got engaged here), is private property and not open to visitors; of the historic milieu, essentially only the church with its bell tower and the cemetery are accessible. A kota stands by the lake. Long enough to require good fitness.",
   "highlights": [
    "Kotilammi reservoir (oldest artificial lake in Finland)",
-   "Orisberg church and bell tower",
+   "Orisberg church, bell tower and cemetery",
    "kota by the lake",
    "duckboards"
   ],
@@ -671,7 +674,7 @@
   "season": "In winter the tracks are groomed ski tracks - no walking on them.",
   "parking_notes": [
    "Ylipää youth association hall (Nuorisoseura) parking.",
-   "Alternative start beside the Lukkuhaka camping area; exact spot approximate."
+   "Alternative start beside the Lukkuhaka camping area; exact address uncertain."
   ]
  },
  "vora-andkil": {
@@ -717,7 +720,7 @@
    "information boards"
   ],
   "parking_notes": [
-   "Parking at Tottesund manor next to the information board; exact spot approximate."
+   "Parking at Tottesund manor next to the information board; exact address uncertain."
   ]
  },
  "vora-kimo-bruk-trails": {
@@ -728,7 +731,7 @@
    "stone labyrinth"
   ],
   "parking_notes": [
-   "Start at Kimo Bruk; park up by the road (exact spot uncertain)."
+   "Start at Kimo Bruk; park up by the road (exact address uncertain)."
   ]
  },
  "vora-kinnkangleden": {
@@ -739,7 +742,7 @@
    "Oravais 1808 battlefield c. 1.5 km away"
   ],
   "parking_notes": [
-   "Start at the eastern edge of Oravais village (Kimovägen); exact parking spot uncertain."
+   "Start at the eastern edge of Oravais village (Kimovägen); exact address uncertain."
   ]
  },
  "vora-komossa-hoppamaki": {
@@ -795,7 +798,7 @@
    "rocky hill amid farmland"
   ],
   "parking_notes": [
-   "Large parking by the Storberget info map; exact spot approximate."
+   "Large parking by the Storberget info map; exact address uncertain."
   ]
  },
  "vora-tyrstigen": {
@@ -817,7 +820,7 @@
    "bog views"
   ],
   "parking_notes": [
-   "Start at the reconstructed ancient houses; exact parking spot uncertain."
+   "Start at the reconstructed ancient houses; exact address uncertain."
   ]
  },
  "vora-vastero": {
@@ -837,7 +840,7 @@
   ]
  },
  "vora-skidcentrum-trail": {
-  "desc": "A trail network behind the Vörå ski slope (Dansarhällorna) through varied terrain with old 'troll forest' and steep rock faces. The blue loop passes a lean-to (1.3 km) and circles through Norrskogen; the red extension heads east past small mires to a rest stop and Stupet, a steep cliff viewpoint. Fires at the lean-to are forbidden during forest-fire warnings.",
+  "desc": "A trail network behind the Vörå ski slope (Dansarhällorna) through varied terrain with old 'troll forest' and steep rock faces. The blue loop passes a lean-to (1.3 km) and circles through Norrskogen; the red extension heads east past small mires to a rest stop and Stupet, a steep cliff viewpoint.",
   "highlights": [
    "old 'troll forest'",
    "Stupet cliff",
@@ -873,7 +876,7 @@
   ],
   "duration": "~0.9 km each way",
   "parking_notes": [
-   "Where the forest track to the towers leaves Karlebyvägen, near the Pärtstugan museum; exact spot approximate."
+   "Where the forest track to the towers leaves Karlebyvägen, near the Pärtstugan museum; exact address uncertain."
   ]
  }
 }

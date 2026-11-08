@@ -44,22 +44,22 @@
   ]
  },
  "vaasa-pilvilampi-network": {
-  "desc": "Molnträsket ligger 9 km öster om centrum på Höstvesiåsen, ett stort högland som fortsätter norrut utanför stadsgränsen. Den ca 800 ha stora skogen är mestadels mycket stenig och delvis svårframkomlig, med fläckar av gammal granskog bland yngre barrskog och vidsträckta mattor av liljekonvalj under granarna. Träsket är en råvattentäkt (ingen simning och inga hundar i vattnet).\n\nBland häckande sjöfåglar finns knipa, vigg och drillsnäppa; i skogarna lever järpe, orre, sparvuggla, spillkråka och stjärtmes. Gott om rastställen: vindskydden Närvänmutka, Käpykota, Kivijärvi och Aurinko, Eetun piilo, vindskydden Kuutamo och Höstvesi, stugan Pilvimaja samt utsiktsplatser och en fornlämning.",
+  "desc": "Molnträsket ligger 9 km öster om centrum på Höstvesiåsen, ett stort högland som fortsätter norrut utanför stadsgränsen. Den ca 800 ha stora skogen är mestadels mycket stenig och delvis svårframkomlig, med fläckar av gammal granskog bland yngre barrskog och vidsträckta mattor av liljekonvalj under granarna. Träsket är en råvattentäkt (ingen simning och inga hundar i vattnet).\n\nBland häckande sjöfåglar finns knipa, vigg och drillsnäppa; i skogarna lever järpe, orre, sparvuggla, spillkråka och stjärtmes. Gott om rastställen: vindskydden Närvänmutka, Käpykota, Kivijärvi och Aurinko, Eetun piilo, vindskydden Kuutamo och Höstvesi, stugan Pilvimaja samt utsiktsplatser.\n\nNära träskets södra ände finns två fornlämningar: i strandvattnet invid ett flyttblock en flat sten med årtalet 1589 inhugget i ett hörn (ibland under vatten, eftersom vattenståndet regleras), och ca 450 m söderut, på en backe mellan Molnträsket och det utdikade Skomakarträsket, stengrunder till gamla byggnader, där en av stenarna bär årtalet 1604. I närheten har föremål från vikingatiden hittats med metalldetektor.",
   "highlights": [
    "Molnträsket",
    "stenig skog på Höstvesiåsen",
    "bestånd av gammal gran",
    "flera vindskydd och stugor",
    "utsiktsplatser",
-   "fornlämning"
+   "stenar med inhuggna årtalen 1589 och 1604"
   ],
   "network_note": "Omfattande nät av märkta stigar och skogsvägar på ett ca 800 ha stort område (ca 4 × 4 km) runt Molnträsket, anslutet till Vasa stads 70 km långa ledsystem för naturmotion. Lämpliga rundor: runt träsket ca 3–5 km; längre rundor via Kivijärvi och Pilvimaja ca 10–12 km.",
-  "access": "Lätt att nå med Vasa stads bussar (Vasa lokaltrafik, lifts.vaasa.fi).",
+  "access": "Lätt att nå med Vasa stads bussar (Vasa lokaltrafik, reseplanerare: https://vaasa.digitransit.fi/).",
   "season": "Skidspår vintertid (Vaasan Latu); 22 km lång vinterled för fatbike.",
   "parking_notes": [
-   "Molnträskets huvudparkering på västra stranden (Kappelinmäentie); en andra parkering finns i närheten.",
+   "Molnträskets huvudparkering vid stigarnas början (Kappelinmäentie).",
    "Skidspårsparkeringen vid Gädda (”Latuparkki”) vid startpunkten i nordväst.",
-   "Södra startpunkten vid skogsvägen; exakt parkeringsplats osäker."
+   "Södra startpunkten vid skogsvägen; exakt adress osäker."
   ]
  },
  "vaasa-city-bay-trail": {
@@ -73,13 +73,13 @@
    "16 infoskyltar"
   ],
   "duration": "Fiskstranden–Majakkakivi 7 km; fortsätter ca 3 km till Risö (enkel väg). Första etappen av en planerad ca 30 km lång runda kring Södra stadsfjärden.",
-  "access": "Lätt att nå med Vasa stads bussar (Vasa lokaltrafik, lifts.vaasa.fi).",
+  "access": "Lätt att nå med Vasa stads bussar (Vasa lokaltrafik, reseplanerare: https://vaasa.digitransit.fi/).",
   "parking_notes": [
    "Start vid Fiskstranden (Kalaranta) på stranden i centrum; allmän parkering också i Sandviken och Sunnanvik, och östra änden ansluter till Risö parkering (Ampujantie)."
   ]
  },
  "vahakyro-ojaniemi-hyyria": {
-  "desc": "Stigarna slingrar sig genom skogarna i byarna Ojaniemi och Hyyriä, mest frisk och torr moskog, med örtrik växtlighet och Vainionperä källa nära starten. Vid tjärnen Palolampi finns ett fågeltorn; de veckade berghällarna på Palanusenkallio visar förändringarna efter istiden, och uppe på berget står Ojaniemi vindskydd (eldstad, dass, får användas för övernattning).\n\nMarjamäkirundan följer bergsryggar som är ovanliga i Lillkyro och går förbi gravrösen från järnåldern (ca 400–800 e.Kr.) på Marjamäki och Huumansaari samt Kylymä helevetti, ett gömställe från stora ofreden. Barnstigen har tavlor med djurtema.",
+  "desc": "Stigarna slingrar sig genom skogarna i byarna Ojaniemi och Hyyriä, mest frisk och torr moskog, med örtrik växtlighet och Vainionperä källa nära starten. Vid tjärnen Palolampi finns ett fågeltorn; de veckade berghällarna på Palanusenkallio visar förändringarna efter istiden, och uppe på berget står Ojaniemi vindskydd (eldstad, dass, får användas för övernattning).\n\nMarjamäkirundan följer bergsryggar som är ovanliga i Lillkyro och går förbi gravrösen från järnåldern (ca 400–800 e.Kr.) på Marjamäki och Huumansaari samt Kylymä helevetti (”kalla helvetet” på den lokala dialekten), ett gömställe från stora ofreden. Barnstigen har tavlor med djurtema.",
   "highlights": [
    "fågeltornet vid Palolampi",
    "berghällarna på Palanusenkallio",
@@ -166,7 +166,7 @@
   ],
   "season": "Nyare led; skyltningen kan ännu vara ofullständig.",
   "parking_notes": [
-   "Parkering vid startpunkten invid Kalsilantie; exakt plats osäker."
+   "Parkering vid startpunkten invid Kalsilantie; exakt adress osäker."
   ]
  },
  "bjorko-panike-trail": {
@@ -256,7 +256,7 @@
   "season": "Inget vinterunderhåll.",
   "parking_notes": [
    "Allmän parkering vid vägens slut nära vaktstugan på Sommarö; den intilliggande parkeringen är privat.",
-   "Alternativ start vid badstranden i Sommarösund (Södra Vallgrund); exakt parkeringsplats osäker."
+   "Alternativ start vid badstranden i Sommarösund (Södra Vallgrund); exakt adress osäker."
   ]
  },
  "valsorarna-nature-trail": {
@@ -302,7 +302,7 @@
   ]
  },
  "stundars-trails": {
-  "desc": "Märkta stigar som börjar vid friluftsmuseet Stundars i Solf och går genom skog och åkerkanter väster om museet mot de lågt liggande åkrarna vid Söderfjärden. Den längre leden på 6.6 km går förbi en damm och pumpstationsmuseet; ett fågeltorn vid pumpstationen blickar ut över åkrar och våtmarker. Det finns också en kortare skyltad slinga på 2 km. Infotavlor längs vägen.",
+  "desc": "Märkta stigar som börjar vid friluftsmuseet Stundars i Solf och går genom skog och åkerkanter väster om museet mot de lågt liggande åkrarna vid Söderfjärden. Den längre leden på 6.6 km går förbi en damm och pumpstationsmuseet; ett fågeltorn vid pumpstationen blickar ut över åkrar och våtmarker. Det finns också en kortare skyltad slinga på ca 2 km, men den är inte inritad på kartan. Infotavlor längs vägen.",
   "highlights": [
    "fågeltornet vid pumpstationen",
    "friluftsmuseet Stundars",
@@ -313,13 +313,14 @@
   ]
  },
  "skatila-trail": {
-  "desc": "Mestadels en skogsstig av varierande bredd från Skatila idrottsplan västerut till Storhälleberget, ett kalt berg med eldstad och utsikt över skogarna i östra Korsholm.",
+  "desc": "Mestadels en skogsstig av varierande bredd från Skatila idrottsplan västerut till Storhälleberget, ett kalt berg med eldstad och utsikt över skogarna i östra Korsholm. Leden ansluter till Molnträskets ledsystem och fungerar i praktiken som en förlängning av det på östra sidan.",
   "highlights": [
-   "berget Storhälleberget"
+   "berget Storhälleberget",
+   "anslutning till Molnträskets ledsystem"
   ],
   "duration": "9 km tur och retur till Storhälleberget.",
   "parking_notes": [
-   "Skatila idrottsplan/idrottsstuga; exakt parkeringsplats osäker."
+   "Skatila idrottsplan/idrottsstuga; exakt adress osäker."
   ]
  },
  "malsorleden": {
@@ -334,7 +335,7 @@
   "parking_notes": [
    "Liten parkering (3 bilar).",
    "",
-   "Norra parkeringen; ungefärligt läge."
+   "Norra parkeringen; exakt adress osäker."
   ]
  },
  "tolby-kyrkstigen": {
@@ -388,10 +389,13 @@
   ]
  },
  "ojskatsleden": {
-  "desc": "Skogsled norrut från Österhankmo by (Tåning) till Öjskatområdet vid kusten, med ett vindskydd halvvägs och en grillplats med bänkar längst ut.",
+  "desc": "Skogsled norrut från Österhankmo by (Tåning) till Öjskatområdet vid kusten, med ett vindskydd halvvägs och en grillplats med bänkar längst ut. Mot kusten övergår skogen i torr tallhed med gott om stenar och stora stenblock, och vid ledens slut öppnar sig utsikten över havet.\n\nAlldeles invid parkeringen står ett minnesmärke över den svenska landstigningen i Österhankmo i juni 1808 under finska kriget 1808–1809: svenska trupper under överste Johan Bergenstråhle gick i land här i ett försök att återta Vasa från ryssarna, men besegrades i slaget vid Vasa den 25 juni 1808.",
   "highlights": [
    "vindskydd",
-   "grillplats vid ledens slut"
+   "grillplats vid ledens slut",
+   "havsutsikt vid ledens slut",
+   "torr tallhed med stenblock",
+   "minnesmärke över landstigningen 1808 vid parkeringen"
   ],
   "duration": "10.2 km tur och retur.",
   "parking_notes": [
@@ -443,7 +447,7 @@
   ],
   "duration": "Märkt stig 2.0 km enkel väg; 4.1 km lång runda tillbaka längs Åminnevägen och Mobergsvägen; 5.1 km lång runda från Åminne Folkpark",
   "parking_notes": [
-   "Parkering vid vägkanten vid grillskyddet Dimmornas bro i ledens södra ände; exakt plats osäker.",
+   "Parkering vid vägkanten vid grillskyddet Dimmornas bro i ledens södra ände; exakt adress osäker.",
    "Åminne Folkparks parkering, start för den 5.1 km långa rundan; ingen parkering i norra änden (Mobergsvägen)."
   ]
  },
@@ -472,7 +476,7 @@
   "duration": "4.5 km enkel väg mellan Viitala och Velkmoss byagård, 9 km tur och retur; stickspåret till fågeltornet ca 0.4 km",
   "parking_notes": [
    "Norra starten med infotavla nära korsningen Bjurnäsvägen–Vargmossa skogsväg.",
-   "Velkmoss byagård, ca 0.5 km öster om ledens södra ände; ungefärligt läge."
+   "Velkmoss byagård, ca 0.5 km öster om ledens södra ände; exakt adress osäker."
   ]
  },
  "mamrestigen-storsjostigen": {
@@ -484,8 +488,8 @@
   ],
   "duration": "ca 3.5–4 km enkel väg, 8 km tur och retur",
   "parking_notes": [
-   "Västra starten vid Mamrelund; exakt parkeringsplats osäker.",
-   "Östra starten vid Storsjön; exakt parkeringsplats osäker."
+   "Västra starten vid Mamrelund; exakt adress osäker.",
+   "Östra starten vid Storsjön; exakt adress osäker."
   ]
  },
  "jarnaldersleden": {
@@ -521,7 +525,6 @@
    "två vindskydd",
    "start för Kurjen kierros"
   ],
-  "access": "Eld förbjuden när varning för skogsbrand råder.",
   "parking_notes": [
    "Gården vid Rajavuori vandringscentrum, ca 12 km söder om Kylänpää; leden börjar vid infotavlan."
   ]
@@ -537,10 +540,10 @@
   ],
   "duration": "Maalarinmaa parkering till fågeltornet 0.6 km; Rajavuori–Maalarinmaa ca 14 km; Rajavuori–Peräkylä ca 24 km enkel väg. Själva Levanevaleden (Peräkylä–Maalarinmaa och vidare) är 13.6 km enkel väg. Från södra änden fortsätter leder till Pässilä och Kalajaisjärvi (Ilmola), totalt ca 30–50 km.",
   "access": "Linjär led: ordna skjuts eller gå fram och tillbaka. Levaneva är ett statligt naturskyddsområde (Forststyrelsen): håll dig på den märkta leden.",
-  "season": "Spängerna kan vara hala i vått väder. Eld förbjuden när varning för skogsbrand råder.",
+  "season": "Spängerna kan vara hala i vått väder.",
   "parking_notes": [
    "Norra starten vid Rajavuori vandringscentrum.",
-   "Maalarinmaa parkering på Kurikkasidan: från väg 687 sväng mot reservoaren Kivi- ja Levalampi (skyltat Kurjen kierros); exakt plats osäker.",
+   "Maalarinmaa parkering på Kurikkasidan: från väg 687 sväng mot reservoaren Kivi- ja Levalampi (skyltat Kurjen kierros); exakt adress osäker.",
    "Peräkylä parkering, södra infarten till Levaneva (Kurikka)."
   ]
  },
@@ -608,10 +611,10 @@
   ]
  },
  "isokyro-orisberg-kotilammi": {
-  "desc": "Slingan går runt Kotilammi, som räknas som Finlands äldsta konstgjorda sjö – en damm som byggdes för Orisbergs bruk – genom omväxlande terräng på skogsstigar, spänger och skogsvägar. Den börjar vid klockstapeln vid Orisbergs kyrka, i en gammal herrgårds- och bruksmiljö med anknytning till Zachris Topelius och Jean Sibelius (enligt traditionen förlovade sig Sibelius och Aino Järnefelt här). En kåta står vid sjön; den bortre halvan av slingan går över gränsen till Ylistaro. Så pass lång att den kräver god kondition.",
+  "desc": "Slingan går runt Kotilammi, som räknas som Finlands äldsta konstgjorda sjö – en damm som byggdes för Orisbergs bruk – genom omväxlande terräng på skogsstigar, spänger och skogsvägar. Den börjar vid klockstapeln vid Orisbergs kyrka. Av själva bruket finns i praktiken ingenting kvar, och Orisbergs herrgård, med anknytning till Zachris Topelius och Jean Sibelius (enligt traditionen förlovade sig Sibelius och Aino Järnefelt här), är privat och inte öppen för besökare; av den historiska miljön är i stort sett bara kyrkan med klockstapeln och begravningsplatsen tillgängliga. En kåta står vid sjön. Så pass lång att den kräver god kondition.",
   "highlights": [
    "dammen Kotilammi (Finlands äldsta konstgjorda sjö)",
-   "Orisbergs kyrka och klockstapel",
+   "Orisbergs kyrka, klockstapel och begravningsplats",
    "kåta vid sjön",
    "spänger"
   ],
@@ -671,7 +674,7 @@
   "season": "Vintertid är banorna preparerade skidspår – gå inte på dem.",
   "parking_notes": [
    "Parkeringen vid Ylipää ungdomsförenings lokal (Nuorisoseura).",
-   "Alternativ start intill Lukkuhaka campingområde; ungefärligt läge."
+   "Alternativ start intill Lukkuhaka campingområde; exakt adress osäker."
   ]
  },
  "vora-andkil": {
@@ -717,7 +720,7 @@
    "infotavlor"
   ],
   "parking_notes": [
-   "Parkering vid Tottesund herrgård intill infotavlan; ungefärligt läge."
+   "Parkering vid Tottesund herrgård intill infotavlan; exakt adress osäker."
   ]
  },
  "vora-kimo-bruk-trails": {
@@ -728,7 +731,7 @@
    "stenlabyrint"
   ],
   "parking_notes": [
-   "Start vid Kimo bruk; parkera uppe vid vägen (exakt plats osäker)."
+   "Start vid Kimo bruk; parkera uppe vid vägen (exakt adress osäker)."
   ]
  },
  "vora-kinnkangleden": {
@@ -739,7 +742,7 @@
    "slagfältet vid Oravais 1808 ca 1.5 km bort"
   ],
   "parking_notes": [
-   "Start i östra kanten av Oravais by (Kimovägen); exakt parkeringsplats osäker."
+   "Start i östra kanten av Oravais by (Kimovägen); exakt adress osäker."
   ]
  },
  "vora-komossa-hoppamaki": {
@@ -795,7 +798,7 @@
    "bergig kulle mitt i odlingsmarken"
   ],
   "parking_notes": [
-   "Stor parkering vid Storbergets infokarta; ungefärligt läge."
+   "Stor parkering vid Storbergets infokarta; exakt adress osäker."
   ]
  },
  "vora-tyrstigen": {
@@ -817,7 +820,7 @@
    "utsikt över mossen"
   ],
   "parking_notes": [
-   "Start vid de rekonstruerade fornhusen; exakt parkeringsplats osäker."
+   "Start vid de rekonstruerade fornhusen; exakt adress osäker."
   ]
  },
  "vora-vastero": {
@@ -837,7 +840,7 @@
   ]
  },
  "vora-skidcentrum-trail": {
-  "desc": "Ett ledsystem bakom Vörå slalombacke (Dansarhällorna) genom omväxlande terräng med gammal ”trollskog” och branta bergväggar. Den blå slingan går förbi ett vindskydd (1.3 km) och runt genom Norrskogen; den röda förlängningen går österut förbi små myrar till en rastplats och Stupet, en utsiktsplats på en brant klippa. Eld vid vindskyddet är förbjuden när varning för skogsbrand råder.",
+  "desc": "Ett ledsystem bakom Vörå slalombacke (Dansarhällorna) genom omväxlande terräng med gammal ”trollskog” och branta bergväggar. Den blå slingan går förbi ett vindskydd (1.3 km) och runt genom Norrskogen; den röda förlängningen går österut förbi små myrar till en rastplats och Stupet, en utsiktsplats på en brant klippa.",
   "highlights": [
    "gammal ”trollskog”",
    "klippan Stupet",
@@ -873,7 +876,7 @@
   ],
   "duration": "ca 0.9 km enkel väg",
   "parking_notes": [
-   "Där skogsbilvägen till tornen tar av från Karlebyvägen, nära museet Pärtstugan; ungefärligt läge."
+   "Där skogsbilvägen till tornen tar av från Karlebyvägen, nära museet Pärtstugan; exakt adress osäker."
   ]
  }
 }

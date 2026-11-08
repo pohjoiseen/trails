@@ -44,22 +44,22 @@
   ]
  },
  "vaasa-pilvilampi-network": {
-  "desc": "Pilvilampi sijaitsee 9 km keskustasta itään Höstveden selänteellä, laajalla ylänköalueella, joka jatkuu pohjoiseen kaupungin rajan yli. Noin 800 hehtaarin metsä on enimmäkseen hyvin kivikkoista ja paikoin vaikeakulkuista; nuorempien havumetsien lomassa on vanhan kuusikon laikkuja, ja kuusten alla kasvaa laajoja kielokasvustoja. Lampi on raakavesiallas (uiminen ja koirien vedessä uittaminen kielletty).\n\nPesiviä vesilintuja ovat mm. telkkä, tukkasotka ja rantasipi; metsissä elävät pyy, teeri, varpuspöllö, palokärki ja pyrstötiainen. Taukopaikkoja on runsaasti: Närvänmutkan, Käpykodan, Kivijärven ja Auringon laavut, Eetun piilo, Kuutamon ja Höstveden laavut, Pilvimajan tupa sekä näköalapaikkoja ja muinaisjäännöskohde.",
+  "desc": "Pilvilampi sijaitsee 9 km keskustasta itään Höstveden selänteellä, laajalla ylänköalueella, joka jatkuu pohjoiseen kaupungin rajan yli. Noin 800 hehtaarin metsä on enimmäkseen hyvin kivikkoista ja paikoin vaikeakulkuista; nuorempien havumetsien lomassa on vanhan kuusikon laikkuja, ja kuusten alla kasvaa laajoja kielokasvustoja. Lampi on raakavesiallas (uiminen ja koirien vedessä uittaminen kielletty).\n\nPesiviä vesilintuja ovat mm. telkkä, tukkasotka ja rantasipi; metsissä elävät pyy, teeri, varpuspöllö, palokärki ja pyrstötiainen. Taukopaikkoja on runsaasti: Närvänmutkan, Käpykodan, Kivijärven ja Auringon laavut, Eetun piilo, Kuutamon ja Höstveden laavut, Pilvimajan tupa sekä näköalapaikkoja.\n\nLammen eteläpään lähellä on kaksi muinaisjäännösrekisteriin merkittyä kohdetta: rantavedessä siirtolohkareen vieressä on pinnaltaan tasainen kivi, jonka kulmaan on hakattu vuosiluku 1589 (säännöstellyn vedenpinnan vuoksi se on ajoittain veden alla), ja noin 450 m etelämpänä, Pilvilammen ja ojitetun Skomakarträsketin välisellä mäellä, on vanhojen rakennusten kiviperustuksia, joista yhdessä kivessä on vuosiluku 1604. Läheltä on löydetty metallinetsinnässä viikinkiaikaisia esineitä.",
   "highlights": [
    "Pilvilampi",
    "Höstveden selänteen kivikkoinen metsä",
    "vanhat kuusikot",
    "useita laavuja ja majoja",
    "näköalapaikat",
-   "muinaisjäännöskohde"
+   "kiviin hakatut vuosiluvut 1589 ja 1604"
   ],
   "network_note": "Laaja merkittyjen polkujen ja metsäteiden verkosto noin 800 hehtaarin (noin 4 × 4 km) alueella Pilvilammen ympärillä; yhteydessä Vaasan 70 km:n luontoliikuntareitistöön. Järkeviä lenkkejä: lammen kierros noin 3–5 km; pidemmät kierrokset Kivijärven ja Pilvimajan kautta noin 10–12 km.",
-  "access": "Helppo saavuttaa Vaasan kaupungin linja-autoilla (Vaasan paikallisliikenne, lifts.vaasa.fi).",
+  "access": "Helppo saavuttaa Vaasan kaupungin linja-autoilla (Vaasan paikallisliikenne, reittiopas: https://vaasa.digitransit.fi/).",
   "season": "Talvella hiihtoladut (Vaasan Latu); 22 km:n talvinen läskipyöräreitti.",
   "parking_notes": [
-   "Pilvilammen pääpysäköintialue länsirannalla (Kappelinmäentie); toinen pysäköintipaikka on lähellä.",
+   "Pilvilammen pääpysäköintialue polkujen alkupäässä (Kappelinmäentie).",
    "Gäddan latupysäköinti (Latuparkki) luoteisella lähtöpaikalla.",
-   "Eteläinen lähtöpaikka metsätien varressa; tarkka pysäköintipaikka epävarma."
+   "Eteläinen lähtöpaikka metsätien varressa; tarkka osoite epävarma."
   ]
  },
  "vaasa-city-bay-trail": {
@@ -73,13 +73,13 @@
    "16 opastetaulua"
   ],
   "duration": "Kalaranta–Majakkakivi 7 km; jatkuu noin 3 km Risöön (yhteen suuntaan). Ensimmäinen osuus suunnitellusta noin 30 km:n Eteläisen Kaupunginselän kierroksesta.",
-  "access": "Helppo saavuttaa Vaasan kaupungin linja-autoilla (Vaasan paikallisliikenne, lifts.vaasa.fi).",
+  "access": "Helppo saavuttaa Vaasan kaupungin linja-autoilla (Vaasan paikallisliikenne, reittiopas: https://vaasa.digitransit.fi/).",
   "parking_notes": [
    "Lähtö Kalarannasta keskustan rannalta; yleisiä pysäköintipaikkoja myös Hietalahdessa ja Suvilahdessa, ja itäpää yhtyy Risön pysäköintialueeseen (Ampujantie)."
   ]
  },
  "vahakyro-ojaniemi-hyyria": {
-  "desc": "Polut mutkittelevat Ojaniemen ja Hyyriän kylien metsissä, enimmäkseen tuoreilla ja kuivilla kankailla. Lähtöpaikan lähellä on lehtomaista kasvillisuutta ja Vainionperän lähde. Palolammella on lintutorni; Palanusenkallion poimuttuneet kallioselänteet kertovat jääkauden jälkeisistä muutoksista, ja kallion laella on Ojaniemen laavu (tulisija, käymälä, yöpyminen sallittu).\n\nMarjamäen reitti seurailee Vähäkyrölle harvinaisia kallioselänteitä ja kulkee Marjamäen ja Huumansaaren rautakautisten (n. 400–800 jKr.) hautaröykkiöiden sekä Kylymän helevetin, isonvihan aikaisen piilopaikan, ohi. Lasten polun varrella on eläinaiheisia tauluja.",
+  "desc": "Polut mutkittelevat Ojaniemen ja Hyyriän kylien metsissä, enimmäkseen tuoreilla ja kuivilla kankailla. Lähtöpaikan lähellä on lehtomaista kasvillisuutta ja Vainionperän lähde. Palolammella on lintutorni; Palanusenkallion poimuttuneet kallioselänteet kertovat jääkauden jälkeisistä muutoksista, ja kallion laella on Ojaniemen laavu (tulisija, käymälä, yöpyminen sallittu).\n\nMarjamäen reitti seurailee Vähäkyrölle harvinaisia kallioselänteitä ja kulkee Marjamäen ja Huumansaaren rautakautisten (n. 400–800 jKr.) hautaröykkiöiden sekä Kylymän helevetin (murteella ”kylmä helvetti”), isonvihan aikaisen piilopaikan, ohi. Lasten polun varrella on eläinaiheisia tauluja.",
   "highlights": [
    "Palolammen lintutorni",
    "Palanusenkallion kallioperä",
@@ -166,7 +166,7 @@
   ],
   "season": "Uudempi reitti; viitoitus voi olla vielä puutteellinen.",
   "parking_notes": [
-   "Lähtöpaikan pysäköinti Kalsilantien varressa; tarkka paikka epävarma."
+   "Lähtöpaikan pysäköinti Kalsilantien varressa; tarkka osoite epävarma."
   ]
  },
  "bjorko-panike-trail": {
@@ -256,7 +256,7 @@
   "season": "Ei talvikunnossapitoa.",
   "parking_notes": [
    "Yleinen pysäköintipaikka tien päässä Sommarön vartiotuvan lähellä; viereinen pysäköintialue on yksityinen.",
-   "Vaihtoehtoinen lähtöpaikka Sommarösundin uimarannalla (Södra Vallgrund); tarkka pysäköintipaikka epävarma."
+   "Vaihtoehtoinen lähtöpaikka Sommarösundin uimarannalla (Södra Vallgrund); tarkka osoite epävarma."
   ]
  },
  "valsorarna-nature-trail": {
@@ -302,7 +302,7 @@
   ]
  },
  "stundars-trails": {
-  "desc": "Merkittyjä polkuja Sulvan Stundarsin ulkomuseolta. Ne kulkevat metsässä ja pellonreunoilla museon länsipuolella kohti Söderfjärdenin matalia viljelysmaita. Pidempi, 6,6 km:n reitti ohittaa padon ja pumppaamomuseon; pumppaamon lintutornista näkee pelloille ja kosteikoille. Lisäksi on viitoitettu lyhyempi 2 km:n kierros. Varrella opastetauluja.",
+  "desc": "Merkittyjä polkuja Sulvan Stundarsin ulkomuseolta. Ne kulkevat metsässä ja pellonreunoilla museon länsipuolella kohti Söderfjärdenin matalia viljelysmaita. Pidempi, 6,6 km:n reitti ohittaa padon ja pumppaamomuseon; pumppaamon lintutornista näkee pelloille ja kosteikoille. Lisäksi maastossa on viitoitettu lyhyempi, noin 2 km:n kierros, mutta sitä ei ole piirretty karttaan. Varrella opastetauluja.",
   "highlights": [
    "pumppaamon lintutorni",
    "Stundarsin ulkomuseo",
@@ -313,13 +313,14 @@
   ]
  },
  "skatila-trail": {
-  "desc": "Enimmäkseen leveydeltään vaihteleva metsäpolku Skatilan urheilukentältä länteen Storhällebergetille, paljaalle kalliomäelle, jolla on tulisija ja näkymät Itä-Mustasaaren metsiin.",
+  "desc": "Enimmäkseen leveydeltään vaihteleva metsäpolku Skatilan urheilukentältä länteen Storhällebergetille, paljaalle kalliomäelle, jolla on tulisija ja näkymät Itä-Mustasaaren metsiin. Reitti liittyy Pilvilammen reitistöön ja on käytännössä sen jatke itäpuolella.",
   "highlights": [
-   "Storhällebergetin kalliomäki"
+   "Storhällebergetin kalliomäki",
+   "yhteys Pilvilammen reitistöön"
   ],
   "duration": "9 km edestakaisin Storhällebergetille.",
   "parking_notes": [
-   "Skatilan urheilukenttä / urheilumaja; tarkka pysäköintipaikka epävarma."
+   "Skatilan urheilukenttä / urheilumaja; tarkka osoite epävarma."
   ]
  },
  "malsorleden": {
@@ -334,7 +335,7 @@
   "parking_notes": [
    "Pieni pysäköintipaikka (3 autoa).",
    "",
-   "Pohjoinen pysäköintipaikka; sijainti likimääräinen."
+   "Pohjoinen pysäköintipaikka; tarkka osoite epävarma."
   ]
  },
  "tolby-kyrkstigen": {
@@ -388,10 +389,13 @@
   ]
  },
  "ojskatsleden": {
-  "desc": "Metsäpolku Österhankmon kylästä (Tåning) pohjoiseen rannikon Öjskatin alueelle. Puolivälissä on laavu ja perillä grillipaikka penkkeineen.",
+  "desc": "Metsäpolku Österhankmon kylästä (Tåning) pohjoiseen rannikon Öjskatin alueelle. Puolivälissä on laavu ja perillä grillipaikka penkkeineen. Rannikkoa kohti metsä muuttuu kuivaksi, kivikkoiseksi männikkökankaaksi, jossa on paljon lohkareita ja kivenjärkäleitä, ja reitin päässä avautuu näkymä merelle.\n\nAivan pysäköintipaikan vieressä on muistomerkki Suomen sodan (1808–1809) ruotsalaisesta maihinnoususta Österhankmoon kesäkuussa 1808: eversti Johan Bergenstråhlen johtamat ruotsalaisjoukot nousivat täällä maihin yrittäessään vallata Vaasan takaisin venäläisiltä, mutta ne lyötiin Vaasan taistelussa 25. kesäkuuta 1808.",
   "highlights": [
    "laavu",
-   "grillipaikka reitin päässä"
+   "grillipaikka reitin päässä",
+   "merinäköala reitin päässä",
+   "kuiva, lohkareinen männikkökangas",
+   "vuoden 1808 maihinnousun muistomerkki pysäköintipaikalla"
   ],
   "duration": "10,2 km edestakaisin.",
   "parking_notes": [
@@ -443,7 +447,7 @@
   ],
   "duration": "Merkitty polku 2,0 km yhteen suuntaan; 4,1 km:n kierros paluu Åminnevägeniä ja Mobergsvägeniä pitkin; 5,1 km:n kierros Åminne Folkparkista",
   "parking_notes": [
-   "Tienvarsipysäköinti Dimmornas bron grillikatoksen luona reitin eteläpäässä; tarkka paikka epävarma.",
+   "Tienvarsipysäköinti Dimmornas bron grillikatoksen luona reitin eteläpäässä; tarkka osoite epävarma.",
    "Åminne Folkparkin pysäköintipaikka, 5,1 km:n kierroksen lähtöpaikka; reitin pohjoispäässä (Mobergsvägen) ei ole pysäköintiä."
   ]
  },
@@ -472,7 +476,7 @@
   "duration": "4,5 km yhteen suuntaan Viitalan ja Velkmossin kylätalon välillä, 9 km edestakaisin; sivupolku lintutornille n. 0,4 km",
   "parking_notes": [
    "Pohjoinen lähtöpaikka opastetauluineen Bjurnäsvägenin ja Vargmossa skogsvägin risteyksen lähellä.",
-   "Velkmossin kylätalo (byagård), n. 0,5 km reitin eteläpäästä itään; sijainti likimääräinen."
+   "Velkmossin kylätalo (byagård), n. 0,5 km reitin eteläpäästä itään; tarkka osoite epävarma."
   ]
  },
  "mamrestigen-storsjostigen": {
@@ -484,8 +488,8 @@
   ],
   "duration": "n. 3,5–4 km yhteen suuntaan, 8 km edestakaisin",
   "parking_notes": [
-   "Läntinen lähtöpaikka Mamrelundissa; tarkka pysäköintipaikka epävarma.",
-   "Itäinen lähtöpaikka Storsjönillä; tarkka pysäköintipaikka epävarma."
+   "Läntinen lähtöpaikka Mamrelundissa; tarkka osoite epävarma.",
+   "Itäinen lähtöpaikka Storsjönillä; tarkka osoite epävarma."
   ]
  },
  "jarnaldersleden": {
@@ -521,7 +525,6 @@
    "kaksi laavua",
    "Kurjen kierroksen lähtöpaikka"
   ],
-  "access": "Tulenteko kielletty metsäpalovaroituksen aikana.",
   "parking_notes": [
    "Rajavuoren erä- ja vaelluskeskuksen piha, n. 12 km Kylänpäästä etelään; reitti alkaa opastetaululta."
   ]
@@ -537,10 +540,10 @@
   ],
   "duration": "Maalarinmaan pysäköintipaikalta lintutornille 0,6 km; Rajavuori–Maalarinmaa n. 14 km; Rajavuori–Peräkylä n. 24 km yhteen suuntaan. Itse Levanevan reitti (Peräkylä–Maalarinmaa ja edelleen) on 13,6 km yhteen suuntaan. Eteläpäästä reitit jatkuvat Pässilään ja Kalajaisjärvelle (Ilmajoki), yhteensä n. 30–50 km.",
   "access": "Yhdensuuntainen reitti: järjestä kuljetus tai kulje edestakaisin. Levaneva on valtion luonnonsuojelualue (Metsähallitus): pysy merkityllä reitillä.",
-  "season": "Pitkospuut voivat olla märällä säällä liukkaita. Tulenteko kielletty metsäpalovaroituksen aikana.",
+  "season": "Pitkospuut voivat olla märällä säällä liukkaita.",
   "parking_notes": [
    "Pohjoinen lähtöpaikka Rajavuoren erä- ja vaelluskeskuksella.",
-   "Maalarinmaan pysäköinti Kurikan puolella: tieltä 687 käänny kohti Kivi- ja Levalammen allasta (viitoitus Kurjen kierros); tarkka paikka epävarma.",
+   "Maalarinmaan pysäköinti Kurikan puolella: tieltä 687 käänny kohti Kivi- ja Levalammen allasta (viitoitus Kurjen kierros); tarkka osoite epävarma.",
    "Peräkylän pysäköintipaikka, Levanevan eteläinen sisäänkäynti (Kurikka)."
   ]
  },
@@ -608,10 +611,10 @@
   ]
  },
  "isokyro-orisberg-kotilammi": {
-  "desc": "Kierros kiertää Kotilammin, jota pidetään Suomen vanhimpana tekojärvenä – se padottiin Orisbergin ruukin tarpeisiin. Reitti kulkee vaihtelevassa maastossa metsäpolkuja, pitkospuita ja metsäteitä pitkin. Lähtö on Orisbergin kirkon kellotapulilta vanhan kartano- ja ruukkimiljöön keskeltä, johon liittyvät Zachris Topelius ja Jean Sibelius (perimätiedon mukaan Sibelius ja Aino Järnefelt menivät täällä kihloihin). Lammen rannalla on kota; kierroksen kauempi puolisko kulkee Ylistaron puolella. Pituutensa vuoksi reitti vaatii hyvää kuntoa.",
+  "desc": "Kierros kiertää Kotilammin, jota pidetään Suomen vanhimpana tekojärvenä – se padottiin Orisbergin ruukin tarpeisiin. Reitti kulkee vaihtelevassa maastossa metsäpolkuja, pitkospuita ja metsäteitä pitkin. Lähtö on Orisbergin kirkon kellotapulilta. Itse ruukista ei ole säilynyt käytännössä mitään, ja Orisbergin kartano, johon liittyvät Zachris Topelius ja Jean Sibelius (perimätiedon mukaan Sibelius ja Aino Järnefelt menivät täällä kihloihin), on yksityisaluetta, jonne ei ole pääsyä; historiallisesta miljööstä yleisölle avoimia ovat käytännössä vain kirkko kellotapuleineen ja hautausmaa. Lammen rannalla on kota. Pituutensa vuoksi reitti vaatii hyvää kuntoa.",
   "highlights": [
    "Kotilammi (Suomen vanhin tekojärvi)",
-   "Orisbergin kirkko ja kellotapuli",
+   "Orisbergin kirkko, kellotapuli ja hautausmaa",
    "kota lammen rannalla",
    "pitkospuut"
   ],
@@ -671,7 +674,7 @@
   "season": "Talvella radat ovat hoidettuja latuja – niillä ei saa kävellä.",
   "parking_notes": [
    "Ylipään nuorisoseurantalon pysäköintipaikka.",
-   "Vaihtoehtoinen lähtöpaikka Lukkuhaan leirintäalueen vieressä; tarkka paikka likimääräinen."
+   "Vaihtoehtoinen lähtöpaikka Lukkuhaan leirintäalueen vieressä; tarkka osoite epävarma."
   ]
  },
  "vora-andkil": {
@@ -717,7 +720,7 @@
    "opastetaulut"
   ],
   "parking_notes": [
-   "Pysäköinti Tottesundin kartanolla opastetaulun vieressä; tarkka paikka likimääräinen."
+   "Pysäköinti Tottesundin kartanolla opastetaulun vieressä; tarkka osoite epävarma."
   ]
  },
  "vora-kimo-bruk-trails": {
@@ -728,7 +731,7 @@
    "kivilabyrintti"
   ],
   "parking_notes": [
-   "Lähtö Kimo Brukista; pysäköi ylös tien varteen (tarkka paikka epävarma)."
+   "Lähtö Kimo Brukista; pysäköi ylös tien varteen (tarkka osoite epävarma)."
   ]
  },
  "vora-kinnkangleden": {
@@ -739,7 +742,7 @@
    "Oravaisten 1808 taistelutanner n. 1,5 km:n päässä"
   ],
   "parking_notes": [
-   "Lähtö Oravaisten kylän itälaidalta (Kimovägen); tarkka pysäköintipaikka epävarma."
+   "Lähtö Oravaisten kylän itälaidalta (Kimovägen); tarkka osoite epävarma."
   ]
  },
  "vora-komossa-hoppamaki": {
@@ -795,7 +798,7 @@
    "kalliomäki viljelysmaiden keskellä"
   ],
   "parking_notes": [
-   "Iso pysäköintipaikka Storbergetin opastekartan luona; tarkka paikka likimääräinen."
+   "Iso pysäköintipaikka Storbergetin opastekartan luona; tarkka osoite epävarma."
   ]
  },
  "vora-tyrstigen": {
@@ -817,7 +820,7 @@
    "suonäkymät"
   ],
   "parking_notes": [
-   "Lähtö rekonstruoiduilta muinaistaloilta; tarkka pysäköintipaikka epävarma."
+   "Lähtö rekonstruoiduilta muinaistaloilta; tarkka osoite epävarma."
   ]
  },
  "vora-vastero": {
@@ -837,7 +840,7 @@
   ]
  },
  "vora-skidcentrum-trail": {
-  "desc": "Polkuverkosto Vöyrin laskettelurinteen (Dansarhällorna) takana vaihtelevassa maastossa, jossa on vanhaa ”peikkometsää” ja jyrkkiä kallioseinämiä. Sininen kierros ohittaa laavun (1,3 km) ja kiertää Norrskogenin kautta; punainen jatke suuntaa itään pienten soiden ohi levähdyspaikalle ja Stupetille, jyrkälle kalliojyrkänteelle ja näköalapaikalle. Tulenteko laavulla on kielletty metsäpalovaroituksen aikana.",
+  "desc": "Polkuverkosto Vöyrin laskettelurinteen (Dansarhällorna) takana vaihtelevassa maastossa, jossa on vanhaa ”peikkometsää” ja jyrkkiä kallioseinämiä. Sininen kierros ohittaa laavun (1,3 km) ja kiertää Norrskogenin kautta; punainen jatke suuntaa itään pienten soiden ohi levähdyspaikalle ja Stupetille, jyrkälle kalliojyrkänteelle ja näköalapaikalle.",
   "highlights": [
    "vanha ”peikkometsä”",
    "Stupetin jyrkänne",
@@ -873,7 +876,7 @@
   ],
   "duration": "noin 0,9 km suuntaansa",
   "parking_notes": [
-   "Kohta, jossa torneille vievä metsäura erkanee Karlebyvägeniltä Pärtstugan-museon lähellä; tarkka paikka likimääräinen."
+   "Kohta, jossa torneille vievä metsäura erkanee Karlebyvägeniltä Pärtstugan-museon lähellä; tarkka osoite epävarma."
   ]
  }
 }
