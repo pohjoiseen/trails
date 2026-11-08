@@ -1,5 +1,2767 @@
 [
- {"id":"pilvilampi","municipality":"vaasa","area":"Pilvilampi","name":{"fi":"Pilvilammen polut","sv":"Pilvilampi stigar"},"local":"fi","kind":"network","length_km":[2,15],"parking":[{"lat":63.0435,"lon":21.7418,"address":"Kappelinmäentie 245, 65370 Vaasa"}],"facilities":["laavu","fireplace"],"geometry":{"lipas_ids":[512194]},"sources":["https://www.vaasa.fi"]},
- {"id":"bodvattnet","municipality":"korsholm","area":"Björköby","name":{"fi":"Bodvattnetin kierros","sv":"Bodvattnet runt"},"local":"sv","kind":"loop","length_km":[4,4],"parking":[{"lat":63.4655,"lon":21.1645,"address":"Svedjehamn, 65870 Björköby"}],"facilities":["tower","toilet","accessible"],"geometry":{"lipas_ids":[602251]},"sources":[]},
- {"id":"rokio","municipality":"vora","area":"Rökiö","name":{"fi":"Rökiön vaellusreitti","sv":"Rökiö vandringsled"},"local":"sv","kind":"loop","length_km":[6.7,6.7],"rating":3,"parking":[{"lat":63.1,"lon":22.3,"address":"Vöråvägen 305, 66600 Vörå"}],"geometry":{"lipas_ids":[606567]},"sources":[]}
+ {
+  "id": "vaasa-ojen-nature-trail",
+  "municipality": "vaasa",
+  "area": "Sundom / Öjen",
+  "name": {
+   "fi": "Öjenin luontopolku",
+   "sv": "Öjen naturstig",
+   "en": "Öjen Nature Trail"
+  },
+  "local": "fi",
+  "kind": "loop",
+  "length_km": [
+   4.5,
+   5.9
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.07002,
+    "lon": 21.57481,
+    "address": "Myrgrundintie 166, 65410 Vaasa (Sundom)"
+   }
+  ],
+  "facilities": [
+   "fireplace",
+   "toilet",
+   "signs",
+   "duckboards"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    512199
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vaasa.fi/luonto-ja-aktiviteetit/?tyyppi%5B%5D=2794&alue=76&haku=",
+   "https://www.luontoon.fi/fi/reitit/ojen-luontopolku-vaasa-34912",
+   "https://www.vaasa.fi/asu-ja-ela/vapaa-aika/luontovaasa/retkeilykohteet/luontokohteet/ojen/",
+   "https://api.lipas.fi/v2/sports-sites/512199"
+  ]
+ },
+ {
+  "id": "vaasa-riso-trail",
+  "municipality": "vaasa",
+  "area": "Risö / Eteläinen Kaupunginselkä",
+  "name": {
+   "fi": "Risön reitti (Risön luontopolku)",
+   "sv": "Risö naturstig",
+   "en": "Risö Nature Trail"
+  },
+  "local": "fi",
+  "kind": "loop+linear",
+  "length_km": [
+   3.6,
+   4.9
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.0628,
+    "lon": 21.69924,
+    "address": "Ampujantie (end), 65380 Vaasa"
+   }
+  ],
+  "facilities": [
+   "fireplace",
+   "toilet",
+   "duckboards",
+   "tower"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    528076
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vaasa.fi/luonto-ja-aktiviteetit/?tyyppi%5B%5D=2794&alue=76&haku=",
+   "https://www.luontoon.fi/fi/reitit/rison-reitti-vaasa-34915",
+   "https://www.vaasa.fi/asu-ja-ela/vapaa-aika/luontovaasa/retkeilykohteet/luontokohteet/etelainen-kaupunginselka/",
+   "https://api.lipas.fi/v2/sports-sites/528076",
+   "https://api.lipas.fi/v2/sports-sites/74041"
+  ]
+ },
+ {
+  "id": "vaasa-ojberget-nature-trail",
+  "municipality": "vaasa",
+  "area": "Sundom / Öjberget",
+  "name": {
+   "fi": "Öjbergetin luontopolku",
+   "sv": "Öjbergets naturstig",
+   "en": "Öjberget Nature Trail"
+  },
+  "local": "fi",
+  "kind": "loop",
+  "length_km": [
+   2.0,
+   2.5
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.03705,
+    "lon": 21.56792,
+    "address": "Öjbergintie 96, 65410 Vaasa (Sundom)"
+   }
+  ],
+  "facilities": [
+   "tower",
+   "fireplace",
+   "hut",
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    509577
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vaasa.fi/luonto-ja-aktiviteetit/?tyyppi%5B%5D=2794&alue=76&haku=",
+   "https://www.vaasa.fi/uploads/2024/01/9582f6f4-ojbergetin-luontopolun-esite.pdf",
+   "https://www.vaasa.fi/asu-ja-ela/vapaa-aika/luontovaasa/retkeilykohteet/luontokohteet/ojberget/",
+   "https://www.luontoon.fi/fi/reitit/ojbergetin-luontopolku-vaasa-509577",
+   "https://api.lipas.fi/v2/sports-sites/509577"
+  ]
+ },
+ {
+  "id": "vaasa-pilvilampi-network",
+  "municipality": "vaasa",
+  "area": "Pilvilampi / Höstvesi",
+  "name": {
+   "fi": "Pilvilammen polut (Pilvilammen ulkoilu- ja virkistysalue)",
+   "sv": "Molnträskets stigar",
+   "en": "Pilvilampi trail network"
+  },
+  "local": "fi",
+  "kind": "network",
+  "length_km": [
+   3,
+   12
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.09539,
+    "lon": 21.7442,
+    "address": "Kappelinmäentie 240, 65370 Vaasa"
+   },
+   {
+    "lat": 63.10573,
+    "lon": 21.72844,
+    "address": "Vesilaitoksentie 183, 65370 Vaasa"
+   },
+   {
+    "lat": 63.08142,
+    "lon": 21.76877,
+    "address": "Kappelinmäentie 245, Vaasa (approx.)"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "kota",
+   "fireplace",
+   "hut",
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/vaasa-pilvilampi-network.geojson"
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vaasa.fi/luonto-ja-aktiviteetit/?tyyppi%5B%5D=2794&alue=76&haku=",
+   "https://www.vaasa.fi/asu-ja-ela/vapaa-aika/luontovaasa/retkeilykohteet/luontokohteet/pilvilampi/",
+   "https://www.vaasa.fi/app/uploads/2026/09/Pilvilampi_kartta_2026.jpg",
+   "https://issuu.com/graafisetpalvelut_vaasa/docs/pilvilampiesite_netti",
+   "https://www.luontoon.fi/fi/reitit/pilvilammen-polut-vaasa-512194",
+   "https://www.arcgis.com/apps/mapviewer/index.html?webmap=67839ee063c04e6aa2af21ad991ba510"
+  ]
+ },
+ {
+  "id": "vaasa-city-bay-trail",
+  "municipality": "vaasa",
+  "area": "Kalaranta – Suvilahti – Vanha Vaasa",
+  "name": {
+   "fi": "Kaupunginselän reitti (Eteläisen kaupunginselän ulkoilureitti)",
+   "sv": "Stadsfjärdsleden",
+   "en": "City Bay Trail"
+  },
+  "local": "fi",
+  "kind": "linear",
+  "length_km": [
+   7,
+   10
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.09099,
+    "lon": 21.60654,
+    "address": "Kalaranta, Rantakatu, 65100 Vaasa"
+   }
+  ],
+  "facilities": [
+   "fireplace",
+   "toilet",
+   "accessible",
+   "swimming"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/vaasa-city-bay-trail.geojson"
+  },
+  "borderline": true,
+  "sources": [
+   "https://www.vaasa.fi/asu-ja-ela/vapaa-aika/luontovaasa/retkeilykohteet/luontokohteet/etelainen-kaupunginselka/",
+   "https://www.vaasa.fi/luonto-ja-aktiviteetit/?tyyppi%5B%5D=2794&alue=76&haku=",
+   "https://www.vaasa.fi/ajankohtaista/etelaisen-kaupunginselan-reitin-ensimmainen-osuus-valmistui-avajaisia-vietetaan-majakkakivella-1-6/",
+   "https://www.vaasa.fi/uploads/2022/05/7e03d575-kaupunginselka_kartta.jpg",
+   "https://api.lipas.fi/v2/sports-sites/528766"
+  ]
+ },
+ {
+  "id": "vahakyro-ojaniemi-hyyria",
+  "municipality": "vaasa",
+  "area": "Vähäkyrö (Ojaniemi, Hyyriä)",
+  "name": {
+   "fi": "Ojaniemi–Hyyriän patikkareitistö",
+   "sv": "Nätverket av vandringsleder mellan Ojaniemi och Hyyriä",
+   "en": "Ojaniemi–Hyyriä hiking trails"
+  },
+  "local": "fi",
+  "kind": "network",
+  "length_km": [
+   1.4,
+   11.7
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.07062,
+    "lon": 22.10674,
+    "address": "Hyyriäntie 105, 66500 Vähäkyrö"
+   },
+   {
+    "lat": 63.10283,
+    "lon": 22.10569,
+    "address": "Hyyriäntie 478 (Kaitajantie), 66500 Vähäkyrö"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace",
+   "toilet",
+   "tower",
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/vahakyro-ojaniemi-hyyria.geojson"
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vaasa.fi/koe-ja-nae/nahtavyydet-ja-kayntikohteet/koe-vahakyro/vahankyron-patikkareitit/",
+   "https://www.vaasa.fi/sv/se-och-upplev/sevardheter-och-besoksmal/upptack-lillkyro/vandringslederna-i-lillkyro/",
+   "https://services1.arcgis.com/plmcGSi1EuZUrOaf/arcgis/rest/services/patikkareitit/FeatureServer/2",
+   "https://api.lipas.fi/v2/sports-sites/514810"
+  ]
+ },
+ {
+  "id": "vahakyro-kruutari-mestoosplassi",
+  "municipality": "vaasa",
+  "area": "Vähäkyrö (Selkämäki, Haarajoki)",
+  "name": {
+   "fi": "Patikkareitistö Kruutarista Mestoosplassille",
+   "sv": "Nätverket av vandringsleder från Kruutari till Mestoosplassi",
+   "en": "Kruutari–Mestoosplassi hiking trails"
+  },
+  "local": "fi",
+  "kind": "network",
+  "length_km": [
+   2.6,
+   8.4
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.05852,
+    "lon": 22.15669,
+    "address": "Selkämäentie 197, 66500 Vähäkyrö"
+   },
+   {
+    "lat": 63.07579,
+    "lon": 22.14534,
+    "address": "Vöyrintie 281, 66500 Vähäkyrö"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace",
+   "toilet",
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/vahakyro-kruutari-mestoosplassi.geojson"
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vaasa.fi/koe-ja-nae/nahtavyydet-ja-kayntikohteet/koe-vahakyro/vahankyron-patikkareitit/",
+   "https://www.vaasa.fi/sv/se-och-upplev/sevardheter-och-besoksmal/upptack-lillkyro/vandringslederna-i-lillkyro/",
+   "https://services1.arcgis.com/plmcGSi1EuZUrOaf/arcgis/rest/services/patikkareitit/FeatureServer/2",
+   "https://api.lipas.fi/v2/sports-sites/514812"
+  ]
+ },
+ {
+  "id": "vahakyro-saarenpaa-mullola",
+  "municipality": "vaasa",
+  "area": "Vähäkyrö (Saarenpää, Mullola)",
+  "name": {
+   "fi": "Saarenpää–Mullolan polkureitti",
+   "sv": "Stigen mellan Saarenpää och Mullola",
+   "en": "Saarenpää–Mullola heritage trail"
+  },
+  "local": "fi",
+  "kind": "loop",
+  "length_km": [
+   14,
+   21
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.07759,
+    "lon": 22.07639,
+    "address": "Mullolantie 169, 66500 Vähäkyrö"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "kota",
+   "fireplace"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/vahakyro-saarenpaa-mullola.geojson"
+  },
+  "borderline": true,
+  "sources": [
+   "https://www.vaasa.fi/koe-ja-nae/nahtavyydet-ja-kayntikohteet/koe-vahakyro/vahankyron-patikkareitit/",
+   "https://www.vaasa.fi/sv/se-och-upplev/sevardheter-och-besoksmal/upptack-lillkyro/vandringslederna-i-lillkyro/",
+   "https://services1.arcgis.com/plmcGSi1EuZUrOaf/arcgis/rest/services/patikkareitit/FeatureServer/2",
+   "https://api.lipas.fi/v2/sports-sites/514809",
+   "https://api.lipas.fi/v2/sports-sites/528202"
+  ]
+ },
+ {
+  "id": "vahakyro-petulian-patikka",
+  "municipality": "vaasa",
+  "area": "Vähäkyrö (Tervajoki, Aittoomäki)",
+  "name": {
+   "fi": "Petulian patikka",
+   "sv": "Vandringsleden Petulian patikka",
+   "en": "Petulia Trail"
+  },
+  "local": "fi",
+  "kind": "loop+linear",
+  "length_km": [
+   7.8,
+   10.1
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.99464,
+    "lon": 22.12959,
+    "address": "Aittoomäentie 2, 66440 Tervajoki"
+   },
+   {
+    "lat": 62.97705,
+    "lon": 22.13189,
+    "address": "Hirsikorventie, 66440 Tervajoki"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace",
+   "toilet",
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/vahakyro-petulian-patikka.geojson"
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vaasa.fi/koe-ja-nae/nahtavyydet-ja-kayntikohteet/koe-vahakyro/vahankyron-patikkareitit/",
+   "https://www.vaasa.fi/sv/se-och-upplev/sevardheter-och-besoksmal/upptack-lillkyro/vandringslederna-i-lillkyro/",
+   "https://services1.arcgis.com/plmcGSi1EuZUrOaf/arcgis/rest/services/patikkareitit/FeatureServer/2"
+  ]
+ },
+ {
+  "id": "vahakyro-kolkki-nature-trail",
+  "municipality": "vaasa",
+  "area": "Vähäkyrö (Merikaarto, Kolkki)",
+  "name": {
+   "fi": "Kolkin luontopolku",
+   "sv": "Kolkki naturstig",
+   "en": "Kolkki Nature Trail"
+  },
+  "local": "fi",
+  "kind": "loop",
+  "length_km": [
+   1.2,
+   1.2
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.07827,
+    "lon": 21.94795,
+    "address": "Kolkinsilta 55 / Jokivarsitie 1000, 66510 Merikaarto"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace",
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    619880
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vaasa.fi/koe-ja-nae/nahtavyydet-ja-kayntikohteet/koe-vahakyro/vahankyron-patikkareitit/",
+   "https://api.lipas.fi/v2/sports-sites/619880"
+  ]
+ },
+ {
+  "id": "vahakyro-korkiavuori",
+  "municipality": "vaasa",
+  "area": "Vähäkyrö (Hiiripelto, Korkiavuori)",
+  "name": {
+   "fi": "Korkiavuoren luontopolut (Korkiavuoren kierros)",
+   "sv": "Naturstigarna i Korkiavuori",
+   "en": "Korkiavuori nature trail"
+  },
+  "local": "fi",
+  "kind": "loop",
+  "length_km": [
+   2.8,
+   2.8
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.03584,
+    "lon": 22.15628,
+    "address": "Kalsilantie, 66500 Vähäkyrö"
+   }
+  ],
+  "facilities": [
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/vahakyro-korkiavuori.geojson"
+  },
+  "borderline": true,
+  "sources": [
+   "https://www.vaasa.fi/sv/se-och-upplev/sevardheter-och-besoksmal/upptack-lillkyro/vandringslederna-i-lillkyro/",
+   "https://www.vaasa.fi/en/vahakyro-hiking-routes/",
+   "https://services1.arcgis.com/plmcGSi1EuZUrOaf/arcgis/rest/services/patikkareitit/FeatureServer/2",
+   "https://services1.arcgis.com/plmcGSi1EuZUrOaf/arcgis/rest/services/Patikkareitteihin_liittyvät_kohteet/FeatureServer/3"
+  ]
+ },
+ {
+  "id": "bjorko-panike-trail",
+  "municipality": "korsholm",
+  "area": "Björköby",
+  "name": {
+   "fi": "Björkö–Paniken vaellusreitti",
+   "sv": "Björkö–Panike vandringsled",
+   "en": "Björkö–Panike Hiking Trail"
+  },
+  "local": "sv",
+  "kind": "loop+linear",
+  "length_km": [
+   3.4,
+   12
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.35957,
+    "lon": 21.30071,
+    "address": "Björkövägen 1011, 65870 Björköby"
+   },
+   {
+    "lat": 63.31803,
+    "lon": 21.17109,
+    "address": "Vargisvägen (end), Panike, Replot"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "shelter",
+   "fireplace",
+   "toilet",
+   "tent",
+   "duckboards",
+   "cafe"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    515798,
+    620880
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/bjorkoby-panike-vandringsled",
+   "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/bjorkobyn-paniken-vaellusreitti",
+   "https://www.luontoon.fi/fi/reitit/bjorko-panike-vaellusreitti-mustasaari-23858",
+   "https://www.openstreetmap.org/relation/20657818"
+  ]
+ },
+ {
+  "id": "bodvattnet-runt",
+  "municipality": "korsholm",
+  "area": "Björköby (Svedjehamn)",
+  "name": {
+   "fi": "Bodvattnetin kierros",
+   "sv": "Bodvattnet runt",
+   "en": "Bodvattnet Trail"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   3.8,
+   4.2
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.35957,
+    "lon": 21.30071,
+    "address": "Björkövägen 1011, 65870 Björköby"
+   }
+  ],
+  "facilities": [
+   "fireplace",
+   "toilet",
+   "accessible",
+   "signs",
+   "cafe"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/bodvattnet-runt.geojson"
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/bodvattnet-runt",
+   "https://www.luontoon.fi/fi/reitit/bodvattnet-runt-mustasaari-62410",
+   "https://www.luontoon.fi/fi/reitit/bodvattnet-vaativa-esteeton-reitti-mustasaari-195841",
+   "https://julkaisut.metsa.fi/assets/pdf/lp/Esitteet/kvarken_bodvattnetsve.pdf"
+  ]
+ },
+ {
+  "id": "vikarskat-hamnbastun",
+  "municipality": "korsholm",
+  "area": "Björköby (Vikarskat)",
+  "name": {
+   "fi": "Vikarskat–Hamnbastun vaellusreitti",
+   "sv": "Vikarskat–Hamnbastun vandringsled",
+   "en": "Vikarskat–Hamnbastun Trail"
+  },
+  "local": "sv",
+  "kind": "linear",
+  "length_km": [
+   2.5,
+   2.5
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.36774,
+    "lon": 21.37508,
+    "address": "Vikarskatvägen 422, 65870 Björköby"
+   }
+  ],
+  "facilities": [],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    515777
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/vikarskat",
+   "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/vikarskat",
+   "https://www.openstreetmap.org/relation/4016547"
+  ]
+ },
+ {
+  "id": "kikanberget",
+  "municipality": "korsholm",
+  "area": "Klobbskat (Replot)",
+  "name": {
+   "fi": "Kikanbergetin polku",
+   "sv": "Kikanberget",
+   "en": "Kikanberget Trail"
+  },
+  "local": "sv",
+  "kind": "linear",
+  "length_km": [
+   0.5,
+   0.5
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.30426,
+    "lon": 21.09199,
+    "address": "Klobbskatvägen 164, Klobbskat (Replot)"
+   }
+  ],
+  "facilities": [
+   "signs",
+   "cafe"
+  ],
+  "photos": [],
+  "geometry": {
+   "osm": [
+    "relation/21307229"
+   ]
+  },
+  "borderline": true,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/kikanberget",
+   "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/kikanberget",
+   "https://www.openstreetmap.org/relation/21307229"
+  ]
+ },
+ {
+  "id": "vargis-trails",
+  "municipality": "korsholm",
+  "area": "Panike (Replot)",
+  "name": {
+   "fi": "Vargiksen luontopolut (Wargin kierto, Hirvipolku)",
+   "sv": "Vargis naturstigar (Wargrundan, Älgrundan)",
+   "en": "Vargis Nature Trails"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   0.8,
+   2.6
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.31803,
+    "lon": 21.17109,
+    "address": "Vargisvägen (end), Panike, Replot"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace",
+   "toilet",
+   "tent"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/vargis-trails.geojson"
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/vargis-vandringsleder",
+   "https://www.luontoon.fi/fi/reitit/vargis-kesaretkeilyreitti-mustasaari-127042",
+   "https://korsholm.fi/wp-content/uploads/2025/05/kvarken_vargisfinsveeng.pdf"
+  ]
+ },
+ {
+  "id": "sommaro-nature-trails",
+  "municipality": "korsholm",
+  "area": "Södra Vallgrund (Sommarö)",
+  "name": {
+   "fi": "Sommarön luontopolut",
+   "sv": "Sommarö naturstigar",
+   "en": "Sommarö Nature Trails"
+  },
+  "local": "sv",
+  "kind": "loop+linear",
+  "length_km": [
+   1.5,
+   3.4
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.16405,
+    "lon": 21.30315,
+    "address": "Sommarövägen (end), 65930 Södra Vallgrund"
+   },
+   {
+    "lat": 63.17052,
+    "lon": 21.27496,
+    "address": "Sommarösundsvägen 367, 65930 Södra Vallgrund"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "kota",
+   "fireplace",
+   "toilet",
+   "hut",
+   "accessible"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    515795
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/sommaro-naturstig",
+   "https://www.luontoon.fi/fi/reitit/sommaron-luontopolku-mustasaari-61409",
+   "https://www.luontoon.fi/fi/reitit/sommaro-vaativa-esteeton-reitti-mustasaari-61414",
+   "https://korsholm.fi/kommun/turism/sevardheter/fort-sommaro"
+  ]
+ },
+ {
+  "id": "valsorarna-nature-trail",
+  "municipality": "korsholm",
+  "area": "Valsörarna (outer archipelago, Björköby)",
+  "name": {
+   "fi": "Valassaarten luontopolku",
+   "sv": "Valsörarnas naturstig (Kärleksstigen)",
+   "en": "Valsörarna Nature Trail"
+  },
+  "local": "sv",
+  "kind": "linear",
+  "length_km": [
+   2.5,
+   3
+  ],
+  "rating": null,
+  "parking": [],
+  "facilities": [
+   "toilet",
+   "fireplace",
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/valsorarna-nature-trail.geojson"
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/valsorarna",
+   "https://www.luontoon.fi/fi/reitit/valsorarnas-natur-och-kulturstig-mustasaari-70006",
+   "https://www.luontoon.fi/fi/reitit/valassaarten-luontopolku-mustasaari-515793",
+   "https://korsholm.fi/kommun/turism/sevardheter/valsorarna",
+   "https://julkaisut.metsa.fi/assets/pdf/lp/Esitteet/Valassaarten-kartta.pdf"
+  ]
+ },
+ {
+  "id": "iskmo-jungsund-trail",
+  "municipality": "korsholm",
+  "area": "Iskmo / Jungsund",
+  "name": {
+   "fi": "Iskmon–Jungsundin vaellusreitti",
+   "sv": "Iskmo–Jungsund vandringsled",
+   "en": "Iskmo–Jungsund Hiking Trail"
+  },
+  "local": "sv",
+  "kind": "loop+linear",
+  "length_km": [
+   1.8,
+   12
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.20821,
+    "lon": 21.62452,
+    "address": "Tistronskärsvägen 156, 65760 Iskmo"
+   },
+   {
+    "lat": 63.18861,
+    "lon": 21.60593,
+    "address": "Jungsundvägen 641, 65730 Jungsund"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace",
+   "duckboards"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    602406
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/iskmo-jungsund-vandringsled",
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/iskmo-jungsund-vandringsled/ma-bra-stigen",
+   "https://iskmosunden.fi/vandringsled/",
+   "https://iskmosunden.fi/wp-content/uploads/2016/04/ijv_vandringsled_a4_2016.pdf",
+   "https://iskmosunden.fi/2026/10/13/valkommen-till-invigningen-av-utsiktstornet-17-10-tervetuloa-nakoalatornin-avajaisiin-17-10/"
+  ]
+ },
+ {
+  "id": "kunileden",
+  "municipality": "korsholm",
+  "area": "Kuni",
+  "name": {
+   "fi": "Kunin vaellusreitti",
+   "sv": "Kunileden",
+   "en": "Kuni Hiking Trail"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   6.4,
+   12.5
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.15194,
+    "lon": 21.96282,
+    "address": "Kunivägen 100, 66580 Kuni"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    602471
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/kunileden",
+   "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/kunin-vaellusreitti",
+   "https://korsholm.fi/wp-content/uploads/2021/07/Karta-vandring-Kunileden-2019-scaled.jpg"
+  ]
+ },
+ {
+  "id": "stundars-trails",
+  "municipality": "korsholm",
+  "area": "Solf",
+  "name": {
+   "fi": "Stundarsin vaellusreitit",
+   "sv": "Stundars vandringsleder",
+   "en": "Stundars Trails"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   2,
+   6.6
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.01454,
+    "lon": 21.64529,
+    "address": "Stundarsvägen 5, 65450 Solf"
+   }
+  ],
+  "facilities": [
+   "fireplace",
+   "toilet"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    515794
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/stundars-vandringsleder",
+   "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/stundarsin-vaellusreitit",
+   "https://www.openstreetmap.org/relation/20164286"
+  ]
+ },
+ {
+  "id": "skatila-trail",
+  "municipality": "korsholm",
+  "area": "Skatila (Veikars)",
+  "name": {
+   "fi": "Skatilan vaellusreitti",
+   "sv": "Skatila vandringsled",
+   "en": "Skatila Hiking Trail"
+  },
+  "local": "sv",
+  "kind": "linear",
+  "length_km": [
+   4.5,
+   4.5
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.0903,
+    "lon": 21.87693,
+    "address": "Veikarsvägen 826, 66520 Veikars"
+   }
+  ],
+  "facilities": [
+   "fireplace"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    515792
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/skatila-vandringsled",
+   "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/skatilan-vaellusreitti"
+  ]
+ },
+ {
+  "id": "malsorleden",
+  "municipality": "korsholm",
+  "area": "Kuni (Mälsor)",
+  "name": {
+   "fi": "Mälsorin vaellusreitti",
+   "sv": "Mälsorleden",
+   "en": "Mälsor Trail"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   2.6,
+   9
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.171,
+    "lon": 21.91065,
+    "address": "Hagnäs-Mälsorvägen 71, 66580 Kuni"
+   },
+   {
+    "lat": 63.17265,
+    "lon": 21.88838,
+    "address": "Mälsorfjärdsvägen 120, 66580 Kuni"
+   },
+   {
+    "lat": 63.17905,
+    "lon": 21.90437,
+    "address": "Mälsor, north parking (approx.)"
+   }
+  ],
+  "facilities": [
+   "fireplace"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    617746,
+    617748,
+    618925
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/malsorleden",
+   "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/malsorin-vaellusreitti",
+   "https://korsholm.fi/wp-content/uploads/2025/08/Malsorleden-nya.pdf"
+  ]
+ },
+ {
+  "id": "tolby-kyrkstigen",
+  "municipality": "korsholm",
+  "area": "Tölby",
+  "name": {
+   "fi": "Tölbyn kirkkopolku",
+   "sv": "Kyrkstigen (Tölby)",
+   "en": "Tölby Church Path"
+  },
+  "local": "sv",
+  "kind": "linear",
+  "length_km": [
+   2.1,
+   2.85
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.01981,
+    "lon": 21.7015,
+    "address": "Tölby-Vikbyvägen 220, 65460 Tölby"
+   }
+  ],
+  "facilities": [
+   "fireplace"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    515775
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/kyrkstigen",
+   "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/kyrkstigen",
+   "https://korsholm.fi/wp-content/uploads/2025/09/Kyrkstigen-482x681.jpg"
+  ]
+ },
+ {
+  "id": "karikaleden",
+  "municipality": "korsholm",
+  "area": "Österhankmo",
+  "name": {
+   "fi": "Karikan reitti",
+   "sv": "Karikaleden",
+   "en": "Karika Trail"
+  },
+  "local": "sv",
+  "kind": "linear",
+  "length_km": [
+   0.8,
+   0.8
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.23999,
+    "lon": 21.93607,
+    "address": "Silldisvägen 111, 66560 Österhankmo"
+   }
+  ],
+  "facilities": [
+   "fireplace"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    602657
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/karikaleden",
+   "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/karikaleden"
+  ]
+ },
+ {
+  "id": "petsmo-trail",
+  "municipality": "korsholm",
+  "area": "Petsmo",
+  "name": {
+   "fi": "Petsmon vaellusreitti",
+   "sv": "Petsmo vandringsled",
+   "en": "Petsmo Hiking Trail"
+  },
+  "local": "sv",
+  "kind": "loop+linear",
+  "length_km": [
+   0.6,
+   12.5
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.24249,
+    "lon": 21.81987,
+    "address": "Vikminnevägen, 66540 Petsmo"
+   },
+   {
+    "lat": 63.22166,
+    "lon": 21.78948,
+    "address": "Petsmovägen 508, 66540 Petsmo"
+   }
+  ],
+  "facilities": [
+   "fireplace",
+   "duckboards",
+   "accessible"
+  ],
+  "photos": [],
+  "geometry": {
+   "osm": [
+    "relation/13324856"
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/petsmo-vandringsled",
+   "https://petsmovandringsled.fi/",
+   "https://petsmovandringsled.fi/wp-content/uploads/2022/09/HEMSIDESKARTA-SV-TRIPPEL.pdf"
+  ]
+ },
+ {
+  "id": "soderfjarden-trail",
+  "municipality": "korsholm",
+  "area": "Solf (Söderfjärden)",
+  "name": {
+   "fi": "Söderfjärdenin vaellusreitti",
+   "sv": "Söderfjärdens vandringsled",
+   "en": "Söderfjärden Hiking Trail"
+  },
+  "local": "sv",
+  "kind": "loop+linear",
+  "length_km": [
+   4.7,
+   8.2
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.98302,
+    "lon": 21.59826,
+    "address": "Söderfjärdsvägen 760, 65450 Solf"
+   }
+  ],
+  "facilities": [
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "osm": [
+    "relation/20300529",
+    "relation/20300530",
+    "relation/20300531",
+    "relation/20300532"
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/soderfjardens-vandringsled",
+   "https://www.soderfjardenhf.fi/vandringsled/",
+   "https://www.openstreetmap.org/relation/20300533"
+  ]
+ },
+ {
+  "id": "ojskatsleden",
+  "municipality": "korsholm",
+  "area": "Österhankmo",
+  "name": {
+   "fi": "Öjskatsleden",
+   "sv": "Öjskatsleden",
+   "en": "Öjskat Trail"
+  },
+  "local": "sv",
+  "kind": "linear",
+  "length_km": [
+   5.1,
+   5.1
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.24494,
+    "lon": 21.92967,
+    "address": "Österhankmovägen 900, 66560 Österhankmo"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    610301
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/ojskatsleden",
+   "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/ojskatsleden"
+  ]
+ },
+ {
+  "id": "isokyro-lymmyys-nature-trail",
+  "municipality": "isokyro",
+  "area": "Palhojainen (Hietakangas)",
+  "name": {
+   "fi": "Lymmyysen luontopolku",
+   "sv": "Lymmyys naturstig",
+   "en": "Lymmyys Nature Trail"
+  },
+  "local": "fi",
+  "kind": "loop",
+  "length_km": [
+   0.8,
+   0.8
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.0292,
+    "lon": 22.24258,
+    "address": "Palhojaistentie 260, 61500 Isokyrö"
+   }
+  ],
+  "facilities": [
+   "kota",
+   "laavu",
+   "fireplace",
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/isokyro-lymmyys-nature-trail.gpx"
+  },
+  "borderline": false,
+  "sources": [
+   "https://isokyro.fi/hyvinvointi-ja-vapaa-aika/vapaa-aika/liikuntapalvelut/luontoreitit/patikkareitisto/",
+   "https://isokyro.fi/tiedostopankki/3517/Lymmyynen-0-8.GPX",
+   "https://api.lipas.fi/v2/sports-sites/608299",
+   "https://api.lipas.fi/v2/sports-sites/608391",
+   "https://api.lipas.fi/v2/sports-sites/514771"
+  ]
+ },
+ {
+  "id": "isokyro-fatisaari",
+  "municipality": "isokyro",
+  "area": "Tulisalo / Lehmäjoki",
+  "name": {
+   "fi": "Fatisaaren patikkareitti",
+   "sv": "Fatisaari vandringsled",
+   "en": "Fatisaari Hiking Trail"
+  },
+  "local": "fi",
+  "kind": "linear",
+  "length_km": [
+   7.0,
+   7.0
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.05448,
+    "lon": 22.30971,
+    "address": "Marjoniementie, 61500 Isokyrö (turn off Tulisalontie at no. 525)"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace",
+   "duckboards"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/isokyro-fatisaari.gpx"
+  },
+  "borderline": false,
+  "sources": [
+   "https://isokyro.fi/hyvinvointi-ja-vapaa-aika/vapaa-aika/liikuntapalvelut/luontoreitit/patikkareitisto/",
+   "https://isokyro.fi/tiedostopankki/3516/Fatisaari-7-0.GPX",
+   "https://api.lipas.fi/v2/sports-sites/608298",
+   "https://api.lipas.fi/v2/sports-sites/514776"
+  ]
+ },
+ {
+  "id": "isokyro-ruusupuro-rookki",
+  "municipality": "isokyro",
+  "area": "Ruusupuro / Lehmäjoki",
+  "name": {
+   "fi": "Ruusupuro-Röökin patikkareitti",
+   "sv": "Ruusupuro-Röökki vandringsled",
+   "en": "Ruusupuro-Röökki Hiking Trail"
+  },
+  "local": "fi",
+  "kind": "loop",
+  "length_km": [
+   5.0,
+   5.0
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.0546,
+    "lon": 22.40084,
+    "address": "Ruusupurontie 769, 61500 Isokyrö"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace",
+   "swimming"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/isokyro-ruusupuro-rookki.gpx"
+  },
+  "borderline": false,
+  "sources": [
+   "https://isokyro.fi/hyvinvointi-ja-vapaa-aika/vapaa-aika/liikuntapalvelut/luontoreitit/patikkareitisto/",
+   "https://isokyro.fi/tiedostopankki/3527/Ruusupuro-Rookki-5-0.GPX",
+   "https://api.lipas.fi/v2/sports-sites/608300"
+  ]
+ },
+ {
+  "id": "isokyro-vuoressalo",
+  "municipality": "isokyro",
+  "area": "Kuivila",
+  "name": {
+   "fi": "Vuoressalon patikkareitit",
+   "sv": "Vuoressalo vandringsleder",
+   "en": "Vuoressalo Hiking Trails"
+  },
+  "local": "fi",
+  "kind": "loop",
+  "length_km": [
+   2.0,
+   4.5
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.97973,
+    "lon": 22.43266,
+    "address": "Kuivilantie 174, 61500 Isokyrö"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/isokyro-vuoressalo.gpx"
+  },
+  "borderline": false,
+  "sources": [
+   "https://isokyro.fi/hyvinvointi-ja-vapaa-aika/vapaa-aika/liikuntapalvelut/luontoreitit/patikkareitisto/",
+   "https://isokyro.fi/tiedostopankki/3522/Vuoressalo-2-4.GPX",
+   "https://api.lipas.fi/v2/sports-sites/608301"
+  ]
+ },
+ {
+  "id": "isokyro-orisberg-kotilammi",
+  "municipality": "isokyro",
+  "area": "Orisberg",
+  "name": {
+   "fi": "Orisbergin patikkareitti",
+   "sv": "Orisbergs vandringsled",
+   "en": "Orisberg Hiking Trail (Kotilammi loop)"
+  },
+  "local": "fi",
+  "kind": "loop",
+  "length_km": [
+   11.4,
+   11.4
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.88337,
+    "lon": 22.3852,
+    "address": "Åbergintie 64, 61560 Orisberg"
+   }
+  ],
+  "facilities": [
+   "kota",
+   "fireplace",
+   "duckboards",
+   "swimming"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/isokyro-orisberg-kotilammi.gpx"
+  },
+  "borderline": false,
+  "sources": [
+   "https://isokyro.fi/hyvinvointi-ja-vapaa-aika/vapaa-aika/liikuntapalvelut/luontoreitit/patikkareitisto/",
+   "https://isokyro.fi/tiedostopankki/3515/Orisberg-11-4.GPX",
+   "https://api.lipas.fi/v2/sports-sites/608302"
+  ]
+ },
+ {
+  "id": "isokyro-tuomaanmaki",
+  "municipality": "isokyro",
+  "area": "Tuomaanmäki / Ventälä",
+  "name": {
+   "fi": "Tuomaanmäen patikkareitti",
+   "sv": "Tuomaanmäki vandringsled",
+   "en": "Tuomaanmäki Hiking Trail"
+  },
+  "local": "fi",
+  "kind": "loop",
+  "length_km": [
+   4.0,
+   4.0
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.94268,
+    "lon": 22.26268,
+    "address": "Ventäläntie 670, 61500 Isokyrö"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace",
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/isokyro-tuomaanmaki.gpx"
+  },
+  "borderline": false,
+  "sources": [
+   "https://isokyro.fi/hyvinvointi-ja-vapaa-aika/vapaa-aika/liikuntapalvelut/luontoreitit/patikkareitisto/",
+   "https://isokyro.fi/tiedostopankki/3525/Tuomaanmaki-4-0.GPX",
+   "https://api.lipas.fi/v2/sports-sites/608305",
+   "https://api.lipas.fi/v2/sports-sites/514773",
+   "https://api.lipas.fi/v2/sports-sites/514774"
+  ]
+ },
+ {
+  "id": "isokyro-lapinmaki",
+  "municipality": "isokyro",
+  "area": "Isokyrö centre (Lapinmäki)",
+  "name": {
+   "fi": "Lapinmäen patikkareitti",
+   "sv": "Lapinmäki vandringsled",
+   "en": "Lapinmäki Hiking Trail"
+  },
+  "local": "fi",
+  "kind": "loop+linear",
+  "length_km": [
+   1.4,
+   2.3
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.98515,
+    "lon": 22.30929,
+    "address": "Pohjantie (end of the road), 61500 Isokyrö"
+   }
+  ],
+  "facilities": [],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/isokyro-lapinmaki.gpx"
+  },
+  "borderline": false,
+  "sources": [
+   "https://isokyro.fi/hyvinvointi-ja-vapaa-aika/vapaa-aika/liikuntapalvelut/luontoreitit/patikkareitisto/",
+   "https://isokyro.fi/tiedostopankki/3521/Lapinmaki-2-3.GPX",
+   "https://api.lipas.fi/v2/sports-sites/608304"
+  ]
+ },
+ {
+  "id": "isokyro-peippoonen",
+  "municipality": "isokyro",
+  "area": "Peippoonen / Kylkkälä",
+  "name": {
+   "fi": "Peippoosen patikkareitit",
+   "sv": "Peippoonen vandringsleder",
+   "en": "Peippoonen Trails"
+  },
+  "local": "fi",
+  "kind": "network",
+  "length_km": [
+   1.0,
+   3.0
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.99648,
+    "lon": 22.16252,
+    "address": "Peippoostentie, 61500 Isokyrö"
+   }
+  ],
+  "facilities": [
+   "kota",
+   "fireplace"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/isokyro-peippoonen.gpx"
+  },
+  "borderline": false,
+  "sources": [
+   "https://isokyro.fi/hyvinvointi-ja-vapaa-aika/vapaa-aika/liikuntapalvelut/luontoreitit/patikkareitisto/",
+   "https://isokyro.fi/tiedostopankki/3524/Peippoonen-3-0.GPX",
+   "https://api.lipas.fi/v2/sports-sites/608306",
+   "https://api.lipas.fi/v2/sports-sites/608392"
+  ]
+ },
+ {
+  "id": "isokyro-ylipaa-marjamaki",
+  "municipality": "isokyro",
+  "area": "Ylipää / Valtaala",
+  "name": {
+   "fi": "Ylipään ulkoilureitit (Marjamäki)",
+   "sv": "Ylipää friluftsleder (Marjamäki)",
+   "en": "Ylipää Outdoor Trails and Marjamäki Tower"
+  },
+  "local": "fi",
+  "kind": "network",
+  "length_km": [
+   1.0,
+   5.0
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.97295,
+    "lon": 22.3787,
+    "address": "Valtaalantie 403, 61550 Isokyrö"
+   },
+   {
+    "lat": 62.97,
+    "lon": 22.355,
+    "address": "Kortesluomantie 157, 61500 Isokyrö"
+   }
+  ],
+  "facilities": [
+   "tower",
+   "laavu",
+   "fireplace"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/isokyro-ylipaa-marjamaki.gpx"
+  },
+  "borderline": true,
+  "sources": [
+   "https://isokyro.fi/hyvinvointi-ja-vapaa-aika/vapaa-aika/liikuntapalvelut/luontoreitit/patikkareitisto/",
+   "https://isokyro.fi/tiedostopankki/3518/Ylipaa-6-5.GPX",
+   "https://api.lipas.fi/v2/sports-sites/608308",
+   "https://api.lipas.fi/v2/sports-sites/514767",
+   "https://api.lipas.fi/v2/sports-sites/608389",
+   "https://api.lipas.fi/v2/sports-sites/514768"
+  ]
+ },
+ {
+  "id": "vora-andkil",
+  "municipality": "vora",
+  "area": "Andkil (Rejpelt)",
+  "name": {
+   "fi": "Andkilin vaellusreitti",
+   "sv": "Andkil vandringsled",
+   "en": "Andkil Hiking Trail"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   1.7,
+   9.0
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.10275,
+    "lon": 22.242,
+    "address": "Kondivorvägen, 66600 Vörå (signposted from Rejpeltvägen/Torrkullvägen)"
+   }
+  ],
+  "facilities": [],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    606386
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://www.vora.fi/assets/Sidor/1/129/Andkil_Vandringsled.pdf",
+   "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
+   "https://api.lipas.fi/v2/sports-sites/606386",
+   "https://www.openstreetmap.org/relation/21123759",
+   "https://www.openstreetmap.org/relation/21123760"
+  ]
+ },
+ {
+  "id": "vora-arvidsstigen-vernersstigen",
+  "municipality": "vora",
+  "area": "Rasmusbacken (Koskeby)",
+  "name": {
+   "fi": "Arvidinpolku ja Vernerinpolku",
+   "sv": "Arvidsstigen och Vernersstigen",
+   "en": "Arvid and Verner Trails (Rasmusbacken)"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   1.3,
+   2.8
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.1147,
+    "lon": 22.23842,
+    "address": "Haviståkersvägen 95, 66600 Vörå"
+   }
+  ],
+  "facilities": [
+   "accessible",
+   "cafe"
+  ],
+  "photos": [],
+  "geometry": {
+   "osm": [
+    "relation/21232723",
+    "relation/21232724"
+   ]
+  },
+  "borderline": true,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://www.vora.fi/assets/Sidor/1/129/Rasmusstigarna-dragning.png",
+   "https://www.vora.fi/en/visitvora/activities/sights/",
+   "https://api.lipas.fi/v2/sports-sites/606415",
+   "https://www.openstreetmap.org/relation/21232723",
+   "https://www.openstreetmap.org/relation/21232724"
+  ]
+ },
+ {
+  "id": "vora-coronastigen-keskis",
+  "municipality": "vora",
+  "area": "Keskis (Komossa)",
+  "name": {
+   "fi": "Koronapolku",
+   "sv": "Coronastigen",
+   "en": "Corona Trail (Keskis)"
+  },
+  "local": "sv",
+  "kind": "loop+linear",
+  "length_km": [
+   1.7,
+   6.0
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.16136,
+    "lon": 22.51482,
+    "address": "Brännarsvägen 730, 66820 Vörå"
+   }
+  ],
+  "facilities": [
+   "fireplace"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    606414
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://www.vora.fi/assets/Sidor/1/129/Coronaleden-karta.jpg",
+   "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
+   "https://api.lipas.fi/v2/sports-sites/606414",
+   "https://www.openstreetmap.org/relation/21232921"
+  ]
+ },
+ {
+  "id": "vora-herrgardsleden-tottesund",
+  "municipality": "vora",
+  "area": "Tottesund (Maxmo)",
+  "name": {
+   "fi": "Herraskartanon vaellusreitti",
+   "sv": "Herrgårdsleden",
+   "en": "Manor Trail (Tottesund)"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   3.6,
+   4.0
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.2319,
+    "lon": 22.0308,
+    "address": "Tottesund 529, 66640 Vörå (Maxmo)"
+   }
+  ],
+  "facilities": [
+   "kota",
+   "fireplace",
+   "toilet",
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    602106
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://www.vora.fi/assets/Sidor/1/129/Herrgardsleden_tottesund.pdf",
+   "https://maxmohf.sou.fi/sv/herrgarden/herrgardsleden/",
+   "https://api.lipas.fi/v2/sports-sites/602106",
+   "https://www.openstreetmap.org/relation/21358544"
+  ]
+ },
+ {
+  "id": "vora-kimo-bruk-trails",
+  "municipality": "vora",
+  "area": "Kimo (Oravais)",
+  "name": {
+   "fi": "Kimon vaellusreitit",
+   "sv": "Kimo vandringsleder",
+   "en": "Kimo Ironworks Trails"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   1.5,
+   8.0
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.2441,
+    "lon": 22.4554,
+    "address": "Bruksgatan (Ruukinkatu) 38, 66810 Vörå"
+   }
+  ],
+  "facilities": [
+   "accessible",
+   "cafe"
+  ],
+  "photos": [],
+  "geometry": {
+   "quality": "none"
+  },
+  "borderline": true,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
+   "https://www.kimobruk.fi/naturstig-och-jungfrudans",
+   "https://api.lipas.fi/v2/sports-sites/523811"
+  ]
+ },
+ {
+  "id": "vora-kinnkangleden",
+  "municipality": "vora",
+  "area": "Oravais",
+  "name": {
+   "fi": "Kinnkangleden",
+   "sv": "Kinnkangleden",
+   "en": "Kinnkang Trail"
+  },
+  "local": "sv",
+  "kind": "loop+linear",
+  "length_km": [
+   2.0,
+   5.0
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.29398,
+    "lon": 22.39365,
+    "address": "Kimovägen 70, 66830 Vörå (Oravais)"
+   }
+  ],
+  "facilities": [],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    608854
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://www.vora.fi/assets/Sidor/1/129/Kinnkangelden-karta.jpg",
+   "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
+   "https://api.lipas.fi/v2/sports-sites/608854"
+  ]
+ },
+ {
+  "id": "vora-komossa-hoppamaki",
+  "municipality": "vora",
+  "area": "Komossa",
+  "name": {
+   "fi": "Komossan vaellusreitti (Hoppamäki)",
+   "sv": "Komossa vandringsled (Hoppamäki)",
+   "en": "Komossa Hiking Trail and Hoppamäki Tower"
+  },
+  "local": "sv",
+  "kind": "loop+linear",
+  "length_km": [
+   2.5,
+   4.8
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.20025,
+    "lon": 22.55417,
+    "address": "Brännarsvägen 200, 66820 Vörå (Komossa)"
+   }
+  ],
+  "facilities": [
+   "tower",
+   "laavu"
+  ],
+  "photos": [],
+  "geometry": {
+   "waypoints": [
+    [
+     [
+      63.20017,
+      22.55256
+     ],
+     [
+      63.2009,
+      22.55142
+     ],
+     [
+      63.20174,
+      22.54925
+     ],
+     [
+      63.20243,
+      22.5471
+     ],
+     [
+      63.20358,
+      22.54487
+     ],
+     [
+      63.20425,
+      22.54205
+     ],
+     [
+      63.20481,
+      22.5406
+     ],
+     [
+      63.20551,
+      22.53879
+     ],
+     [
+      63.20574,
+      22.53739
+     ],
+     [
+      63.2055,
+      22.53608
+     ],
+     [
+      63.20507,
+      22.53479
+     ],
+     [
+      63.20466,
+      22.53385
+     ],
+     [
+      63.20459,
+      22.53335
+     ]
+    ],
+    [
+     [
+      63.20459,
+      22.53335
+     ],
+     [
+      63.20527,
+      22.53171
+     ],
+     [
+      63.20596,
+      22.52956
+     ],
+     [
+      63.20634,
+      22.52712
+     ],
+     [
+      63.2066,
+      22.52573
+     ],
+     [
+      63.20721,
+      22.52579
+     ],
+     [
+      63.20801,
+      22.52685
+     ],
+     [
+      63.20838,
+      22.5278
+     ],
+     [
+      63.20779,
+      22.52926
+     ],
+     [
+      63.20734,
+      22.52967
+     ],
+     [
+      63.20678,
+      22.53112
+     ],
+     [
+      63.20622,
+      22.53257
+     ],
+     [
+      63.20564,
+      22.53351
+     ],
+     [
+      63.20487,
+      22.53347
+     ]
+    ],
+    [
+     [
+      63.20574,
+      22.53739
+     ],
+     [
+      63.20636,
+      22.53899
+     ],
+     [
+      63.20637,
+      22.5417
+     ],
+     [
+      63.20617,
+      22.54478
+     ],
+     [
+      63.20633,
+      22.54713
+     ],
+     [
+      63.20657,
+      22.5498
+     ],
+     [
+      63.20664,
+      22.54945
+     ],
+     [
+      63.2079,
+      22.54619
+     ],
+     [
+      63.2092,
+      22.54394
+     ],
+     [
+      63.21087,
+      22.54129
+     ],
+     [
+      63.21095,
+      22.54365
+     ],
+     [
+      63.21153,
+      22.54491
+     ],
+     [
+      63.2101,
+      22.54786
+     ],
+     [
+      63.20869,
+      22.55148
+     ],
+     [
+      63.20742,
+      22.55441
+     ],
+     [
+      63.20666,
+      22.55453
+     ],
+     [
+      63.2064,
+      22.55152
+     ],
+     [
+      63.2065,
+      22.54981
+     ],
+     [
+      63.20587,
+      22.54924
+     ],
+     [
+      63.20446,
+      22.54846
+     ],
+     [
+      63.20258,
+      22.54707
+     ]
+    ]
+   ],
+   "quality": "approx"
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://www.vora.fi/assets/KOMOSSA-VANDRINGSLED_pdf-2.pdf",
+   "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
+   "https://api.lipas.fi/v2/sports-sites/621421"
+  ]
+ },
+ {
+  "id": "vora-kovik",
+  "municipality": "vora",
+  "area": "Kovik",
+  "name": {
+   "fi": "Kovikin vaellusreitti",
+   "sv": "Kovik vandringsled",
+   "en": "Kovik Hiking Trail"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   3.0,
+   3.0
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.21892,
+    "lon": 22.30882,
+    "address": "Kovik byväg 121, 66600 Vörå"
+   }
+  ],
+  "facilities": [],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    620863
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://www.vora.fi/assets/Kovik-vandringsled.webp",
+   "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
+   "https://api.lipas.fi/v2/sports-sites/620863"
+  ]
+ },
+ {
+  "id": "vora-lotlax",
+  "municipality": "vora",
+  "area": "Lotlax",
+  "name": {
+   "fi": "Lotlaxin vaellusreitti",
+   "sv": "Lotlax vandringsled",
+   "en": "Lotlax Hiking Trail"
+  },
+  "local": "sv",
+  "kind": "loop+linear",
+  "length_km": [
+   3.5,
+   3.5
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.17372,
+    "lon": 22.20758,
+    "address": "Lotlaxvägen 426, 66600 Vörå"
+   }
+  ],
+  "facilities": [],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    606412
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://lotlax.fi/sv/vandringsleden/",
+   "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
+   "https://api.lipas.fi/v2/sports-sites/606412"
+  ]
+ },
+ {
+  "id": "vora-rokio-norrvalla-boberget",
+  "municipality": "vora",
+  "area": "Rökiö (Norrvalla)",
+  "name": {
+   "fi": "Rökiön vaellusreitit (Norrvalla-Boberget)",
+   "sv": "Rökiö vandringsleder (Norrvalla-Boberget)",
+   "en": "Rökiö Trails (Norrvalla-Boberget)"
+  },
+  "local": "sv",
+  "kind": "network",
+  "length_km": [
+   1.6,
+   16.1
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.15472,
+    "lon": 22.26684,
+    "address": "Vöråvägen 305, 66600 Vörå"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    606567,
+    606568
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://www.vora.fi/assets/Sidor/1/129/Norvalla-Boberget_Vandringsled.pdf",
+   "https://www.vora.fi/assets/Sidor/1/129/Norrvalla-Boberget-Lasor-Vitmossen_Vandringsled.pdf",
+   "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
+   "https://api.lipas.fi/v2/sports-sites/606567",
+   "https://api.lipas.fi/v2/sports-sites/606568",
+   "https://www.openstreetmap.org/relation/20632021",
+   "https://www.openstreetmap.org/relation/20632022"
+  ]
+ },
+ {
+  "id": "vora-storberget",
+  "municipality": "vora",
+  "area": "Rejpelt",
+  "name": {
+   "fi": "Storbergetin vaellusreitti",
+   "sv": "Storbergets vandringsled",
+   "en": "Storberget Trail"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   1.5,
+   1.5
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.10167,
+    "lon": 22.28134,
+    "address": "Rejpeltvägen 341, 66600 Vörå"
+   }
+  ],
+  "facilities": [
+   "accessible"
+  ],
+  "photos": [],
+  "geometry": {
+   "waypoints": [
+    [
+     63.10167,
+     22.28134
+    ],
+    [
+     63.10167,
+     22.28031
+    ],
+    [
+     63.10214,
+     22.27901
+    ],
+    [
+     63.10296,
+     22.2785
+    ],
+    [
+     63.10342,
+     22.27721
+    ],
+    [
+     63.10368,
+     22.27334
+    ],
+    [
+     63.10307,
+     22.27308
+    ],
+    [
+     63.10208,
+     22.27295
+    ],
+    [
+     63.10196,
+     22.27372
+    ],
+    [
+     63.10121,
+     22.27463
+    ],
+    [
+     63.10021,
+     22.27592
+    ],
+    [
+     63.10021,
+     22.27889
+    ],
+    [
+     63.10085,
+     22.27901
+    ],
+    [
+     63.10144,
+     22.27876
+    ],
+    [
+     63.10179,
+     22.27785
+    ],
+    [
+     63.10167,
+     22.28031
+    ],
+    [
+     63.10167,
+     22.28134
+    ]
+   ],
+   "quality": "approx"
+  },
+  "borderline": true,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://www.vora.fi/assets/Sidor/1/129/Storbergets-vandringsled.png",
+   "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf"
+  ]
+ },
+ {
+  "id": "vora-tyrstigen",
+  "municipality": "vora",
+  "area": "Kärklax (Maxmo)",
+  "name": {
+   "fi": "Tyrstigen-polku",
+   "sv": "Tyrstigen",
+   "en": "Tyr Trail"
+  },
+  "local": "sv",
+  "kind": "loop+linear",
+  "length_km": [
+   2.0,
+   2.0
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.20287,
+    "lon": 22.10969,
+    "address": "Kärklaxvägen 308, 66640 Vörå (Maxmo)"
+   }
+  ],
+  "facilities": [
+   "cafe"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    620864
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://www.vora.fi/assets/Sidor/1/129/Tyrstigen-karta.webp",
+   "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
+   "https://api.lipas.fi/v2/sports-sites/620864"
+  ]
+ },
+ {
+  "id": "vora-vitmossen",
+  "municipality": "vora",
+  "area": "Tuckor",
+  "name": {
+   "fi": "Vitmossenin vaellusreitti",
+   "sv": "Vitmossens vandringsled",
+   "en": "Vitmossen Trail (Bronze Age settlement)"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   2.9,
+   4.5
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.18856,
+    "lon": 22.34906,
+    "address": "Kuckusvägen 1148, 66600 Vörå (signposted)"
+   }
+  ],
+  "facilities": [
+   "fireplace",
+   "laavu"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    606566
+   ],
+   "lipas_parts": {
+    "606566": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31,
+     32,
+     33,
+     35,
+     38,
+     39,
+     40,
+     41,
+     42
+    ]
+   }
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://www.vora.fi/assets/Sidor/1/129/vitmossen_vandringsled.pdf",
+   "https://www.vora.fi/assets/Sidor/1/129/Norrvalla-Boberget-Lasor-Vitmossen_Vandringsled.pdf",
+   "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
+   "https://api.lipas.fi/v2/sports-sites/606566"
+  ]
+ },
+ {
+  "id": "vora-vastero",
+  "municipality": "vora",
+  "area": "Västerö (Maxmo)",
+  "name": {
+   "fi": "Västerön vaellusreitti",
+   "sv": "Västerö vandringsled",
+   "en": "Västerö Hiking Trail"
+  },
+  "local": "sv",
+  "kind": "linear",
+  "length_km": [
+   3.0,
+   10.8
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.33749,
+    "lon": 21.96095,
+    "address": "Söderskatavägen (end), 66640 Vörå (Maxmo)"
+   },
+   {
+    "lat": 63.35536,
+    "lon": 21.97132,
+    "address": "Equityvägen, Storsandviken, 66640 Vörå (Maxmo)"
+   }
+  ],
+  "facilities": [
+   "hut",
+   "fireplace",
+   "toilet",
+   "tent"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    525376
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://www.vora.fi/assets/Sidor/1/129/Vastero_Vandringsled.pdf",
+   "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
+   "https://www.luontoon.fi/en/trails/vastero-hiking-trail-voyri-63614-en",
+   "https://api.lipas.fi/v2/sports-sites/525376"
+  ]
+ },
+ {
+  "id": "vora-skidcentrum-trail",
+  "municipality": "vora",
+  "area": "Koskeby (Vörå ski centre)",
+  "name": {
+   "fi": "Vöyrin hiihtokeskuksen vaellusreitti",
+   "sv": "Vörå skidcentrums vandringsled",
+   "en": "Vörå Ski Centre Hiking Trail"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   5.0,
+   6.3
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.1359,
+    "lon": 22.26107,
+    "address": "Skidbacksvägen 16, 66600 Vörå"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace"
+  ],
+  "photos": [],
+  "geometry": {
+   "waypoints": [
+    [
+     [
+      63.1359,
+      22.26107
+     ],
+     [
+      63.13635,
+      22.26684
+     ],
+     [
+      63.13564,
+      22.26883
+     ],
+     [
+      63.13485,
+      22.27047
+     ],
+     [
+      63.13606,
+      22.27114
+     ],
+     [
+      63.1368,
+      22.27298
+     ],
+     [
+      63.13792,
+      22.27581
+     ],
+     [
+      63.13861,
+      22.27608
+     ],
+     [
+      63.13884,
+      22.278
+     ],
+     [
+      63.13939,
+      22.27915
+     ],
+     [
+      63.1404,
+      22.2788
+     ],
+     [
+      63.14155,
+      22.27768
+     ],
+     [
+      63.14133,
+      22.27602
+     ],
+     [
+      63.14194,
+      22.27385
+     ],
+     [
+      63.14332,
+      22.27457
+     ],
+     [
+      63.14301,
+      22.27801
+     ],
+     [
+      63.1425,
+      22.28072
+     ],
+     [
+      63.14213,
+      22.28399
+     ],
+     [
+      63.14118,
+      22.28452
+     ],
+     [
+      63.14061,
+      22.28272
+     ],
+     [
+      63.13924,
+      22.28238
+     ],
+     [
+      63.13896,
+      22.28047
+     ],
+     [
+      63.13773,
+      22.28055
+     ],
+     [
+      63.13637,
+      22.2816
+     ],
+     [
+      63.13491,
+      22.2827
+     ],
+     [
+      63.13467,
+      22.28048
+     ],
+     [
+      63.13527,
+      22.27812
+     ],
+     [
+      63.13588,
+      22.27708
+     ],
+     [
+      63.13591,
+      22.27162
+     ],
+     [
+      63.13606,
+      22.27114
+     ],
+     [
+      63.13485,
+      22.27047
+     ],
+     [
+      63.13635,
+      22.26684
+     ],
+     [
+      63.1359,
+      22.26107
+     ]
+    ],
+    [
+     [
+      63.14213,
+      22.28399
+     ],
+     [
+      63.14294,
+      22.28894
+     ],
+     [
+      63.14363,
+      22.29411
+     ],
+     [
+      63.14122,
+      22.29856
+     ],
+     [
+      63.14061,
+      22.29139
+     ],
+     [
+      63.13914,
+      22.29219
+     ],
+     [
+      63.13735,
+      22.29229
+     ],
+     [
+      63.13568,
+      22.29049
+     ],
+     [
+      63.13594,
+      22.28555
+     ],
+     [
+      63.13637,
+      22.2816
+     ]
+    ]
+   ],
+   "quality": "approx"
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.vora.fi/tjanster/motion-och-idrott/vandringsleder/",
+   "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
+   "https://www.vora.fi/assets/Vandringsleden-vid-skidcentrum.pdf",
+   "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf"
+  ]
+ },
+ {
+  "id": "vora-mickelsorarna-nature-trail",
+  "municipality": "vora",
+  "area": "Mickelsörarna (Kummelskär)",
+  "name": {
+   "fi": "Mikkelinsaarten luontopolku",
+   "sv": "Mickelsörarnas naturstig",
+   "en": "Mickelsörarna Nature Trail"
+  },
+  "local": "sv",
+  "kind": "loop+linear",
+  "length_km": [
+   1.1,
+   1.5
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.46035,
+    "lon": 21.77303,
+    "address": "Kummelskär, Mickelsörarna (Vörå) - boat access only"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace",
+   "toilet",
+   "tower",
+   "cafe",
+   "sauna"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/vora-mickelsorarna-nature-trail.geojson"
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.luontoon.fi/en/trails/mickelsorarna-nature-trail-voyri-63857-en",
+   "https://www.vora.fi/en/visitvora/activities/worldheritagesite/",
+   "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
+   "https://classic.nationalparks.fi/kvarken/islands/mickelsorarna"
+  ]
+ },
+ {
+  "id": "vora-kimo-river-mouth-bird-towers",
+  "municipality": "vora",
+  "area": "Oravais fabrik (Kimo river mouth)",
+  "name": {
+   "fi": "Kimojokisuun lintutornit",
+   "sv": "Kimo å mynnings fågeltorn",
+   "en": "Kimo River Mouth Bird Towers"
+  },
+  "local": "sv",
+  "kind": "linear",
+  "length_km": [
+   1.8,
+   1.8
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 63.32369,
+    "lon": 22.39825,
+    "address": "Karlebyvägen 280, 66830 Vörå (Oravais)"
+   }
+  ],
+  "facilities": [
+   "tower"
+  ],
+  "photos": [],
+  "geometry": {
+   "osm": [
+    "way/118873548",
+    "way/118873476"
+   ]
+  },
+  "borderline": true,
+  "sources": [
+   "https://api.lipas.fi/v2/sports-sites/621422",
+   "https://api.lipas.fi/v2/sports-sites/621423",
+   "https://www.openstreetmap.org/way/118873476"
+  ]
+ }
 ]

@@ -47,7 +47,7 @@
 
   /* ---------------- formatting ---------------- */
   const fmtNum = (x) => {
-    const r = x >= 10 ? Math.round(x) : Math.round(x * 10) / 10;
+    const r = x >= 20 ? Math.round(x) : Math.round(x * 10) / 10;
     return S.lang === "en" ? String(r) : String(r).replace(".", ",");
   };
   const fmtLen = (tr) => {
@@ -98,8 +98,9 @@
   const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 
   function initMap() {
-    map = L.map("map", { zoomControl: false, attributionControl: true, minZoom: 7, maxZoom: 18, zoomSnap: 1, preferCanvas: false })
+    map = L.map("map", { zoomControl: false, attributionControl: true, minZoom: 8, maxZoom: 18, zoomSnap: 1, preferCanvas: false })
       .setView([63.08, 21.75], 9);
+    map.setMaxBounds([[62.3, 20.0], [64.0, 24.0]]);
     L.control.zoom({ position: "bottomright" }).addTo(map);
     map.attributionControl.setPrefix(false);
     canvas = L.canvas({ padding: 0.3, tolerance: 6 });
@@ -168,18 +169,32 @@
   }
   async function buildSimpleBase() {
     simpleBase = L.layerGroup();
-    const files = ["land", "water", "rivers", "roads", "places"];
+    const files = ["land", "forest", "wetland", "urban", "water", "rivers", "roads", "places"];
     const data = {};
     await Promise.all(files.map(async (f) => { try { data[f] = await getJSON("data/basemap/" + f + ".json"); } catch (e) { data[f] = null; } }));
+    Object.keys(data).forEach((k) => { if (data[k] && data[k].f) data[k] = decodeBase(data[k]); });
     simpleBase._data = data;
     styleSimpleBase();
     simpleLoaded = true;
     map.on("zoomend moveend", updatePlaces);
   }
+  /* Inverse of compact() in tools/build_basemap.py */
+  function decodeBase(d) {
+    const S = d.s;
+    const dec = (r) => { const out = []; let x = 0, y = 0; for (let i = 0; i < r.length; i += 2) { x += r[i]; y += r[i + 1]; out.push([x / S, y / S]); } return out; };
+    return { type: "FeatureCollection", features: d.f.map((f) => {
+      const rings = f.slice(1).map(dec);
+      const geometry = d.t === "Polygon" ? { type: "Polygon", coordinates: rings } : d.t === "LineString" ? { type: "LineString", coordinates: rings[0] } : { type: "Point", coordinates: rings[0][0] };
+      return { type: "Feature", properties: f[0] || {}, geometry };
+    }) };
+  }
   function styleSimpleBase() {
     const d = simpleBase._data; simpleBase.clearLayers();
     const opt = { pane: "base", renderer: canvas, interactive: false };
     if (d.land) simpleBase.addLayer(L.geoJSON(d.land, { ...opt, style: { stroke: true, color: css("--map-land"), weight: 0.5, fillColor: css("--map-land"), fillOpacity: 1 } }));
+    if (d.forest) simpleBase.addLayer(L.geoJSON(d.forest, { ...opt, style: { stroke: false, fillColor: css("--map-forest"), fillOpacity: 1 } }));
+    if (d.wetland) simpleBase.addLayer(L.geoJSON(d.wetland, { ...opt, style: { stroke: false, fillColor: css("--map-wetland"), fillOpacity: 1 } }));
+    if (d.urban) simpleBase.addLayer(L.geoJSON(d.urban, { ...opt, style: { stroke: false, fillColor: css("--map-urban"), fillOpacity: 1 } }));
     if (d.water) simpleBase.addLayer(L.geoJSON(d.water, { ...opt, style: { stroke: false, fillColor: css("--map-lake"), fillOpacity: 1 } }));
     if (d.rivers) simpleBase.addLayer(L.geoJSON(d.rivers, { ...opt, style: { color: css("--map-lake"), weight: 2.2 } }));
     if (d.roads) {
@@ -406,14 +421,16 @@
     h += '<div class="facts"><div class="big"><b>' + fmtLen(tr) + "<small>" + esc(t("km")) + "</small></b><span>" + esc(t("length")) + "</span></div>" +
       '<div class="kd">' + kindHtml(tr.kind) + "<p>" + esc(t("kindLong_" + tr.kind)) + "</p>" +
       (tr.kind === "network" && tx.network_note ? "<p><b>" + esc(t("networkExtent")) + ":</b> " + esc(tx.network_note) + "</p>" : "") +
-      (tx.duration ? "<p>" + esc(tx.duration) + "</p>" : "") + "</div></div>";
+      "</div></div>";
     if (tr.photos && tr.photos.length) {
       h += '<div class="sec"><h3>' + esc(t("photos")) + '</h3><div class="gallery">' +
         tr.photos.map((p, i) => '<button data-photo="' + i + '" aria-label="' + esc(photoCaption(p) || t("photos")) + '"><img loading="lazy" src="' + esc(p.thumb || p.src) + '" alt="' + esc(photoCaption(p)) + '"></button>').join("") + "</div></div>";
     }
     if (tx.fallback) h += '<div class="note">' + esc(t("fallbackText")) + "</div>";
     if (desc) h += '<div class="desc">' + desc + "</div>";
+    if (tx.duration) h += '<div class="note">' + esc(tx.duration) + "</div>";
     if (tr.geom_quality === "approx") h += '<div class="note">' + esc(t("approxTrack")) + "</div>";
+    if (tr.geom_quality === "none") h += '<div class="note">' + esc(t("noTrack")) + "</div>";
     if (tr.geom_quality === "partial") h += '<div class="note">' + esc(t("partialTrack")) + "</div>";
     if (tx.highlights && tx.highlights.length) h += '<div class="sec"><h3>' + esc(t("highlights")) + "</h3><ul>" + tx.highlights.map((x) => "<li>" + esc(x) + "</li>").join("") + "</ul></div>";
     if (tr.facilities && tr.facilities.length) h += '<div class="sec"><h3>' + esc(t("facilities")) + '</h3><div class="tags">' + tr.facilities.map((f) => '<span class="tag">' + esc((I.facilities[f] && (I.facilities[f][S.lang] || I.facilities[f].en)) || f) + "</span>").join("") + "</div></div>";

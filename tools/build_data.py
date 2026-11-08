@@ -21,7 +21,6 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "data-src")
 OUT = os.path.join(ROOT, "data")
 CACHE = os.path.join(SRC, "geometry")
-OVERPASS = ["https://overpass.private.coffee/api/interpreter", "https://maps.mail.ru/osm/tools/overpass/api/interpreter"]
 
 
 def fetch(url, data=None, tries=4):
@@ -55,29 +54,40 @@ def lipas_lines(lid):
 
 
 def osm_lines(ref):
+    """Ways of an OSM way or relation (direct members only), via the OSM API; cached."""
     typ, oid = ref.split("/")
     path = os.path.join(CACHE, "osm-%s-%s.json" % (typ, oid))
     if not os.path.exists(path):
-        q = "[out:json][timeout:60];%s(%s);%s;out geom;" % (typ, oid, "way(r)" if typ == "relation" else "")
-        q = q.replace(";;", ";")
-        raw = None
-        for url in OVERPASS:
-            try:
-                raw = fetch(url, data=("data=" + urllib.parse.quote(q)).encode(), tries=2)
-                json.loads(raw)
-                break
-            except Exception:
-                raw = None
-        if raw is None:
-            raise RuntimeError("overpass failed for " + ref)
+        raw = fetch("https://api.openstreetmap.org/api/0.6/%s/%s/full.json" % (typ, oid))
         with open(path, "wb") as f:
             f.write(raw)
     d = json.load(open(path))
-    return [[[p["lat"], p["lon"]] for p in e["geometry"]] for e in d["elements"] if e["type"] == "way" and "geometry" in e]
+    nodes = {e["id"]: (e["lat"], e["lon"]) for e in d["elements"] if e["type"] == "node"}
+    ways = {e["id"]: e for e in d["elements"] if e["type"] == "way"}
+    if typ == "relation":
+        rel = [e for e in d["elements"] if e["type"] == "relation" and e["id"] == int(oid)][0]
+        order = [m["ref"] for m in rel["members"] if m["type"] == "way" and m["ref"] in ways]
+    else:
+        order = list(ways)
+    return [[list(nodes[n]) for n in ways[w]["nodes"] if n in nodes] for w in order]
+
+
+def gpx_lines(path):
+    import xml.etree.ElementTree as ET
+    root = ET.parse(os.path.join(ROOT, path)).getroot()
+    out = []
+    for seg in root.iter():
+        if seg.tag.endswith("trkseg") or seg.tag.endswith("}rte") or seg.tag == "rte":
+            pts = [[float(p.get("lat")), float(p.get("lon"))] for p in seg if p.tag.endswith("trkpt") or p.tag.endswith("rtept")]
+            if len(pts) > 1:
+                out.append(pts)
+    return out
 
 
 def file_lines(path):
     d = json.load(open(os.path.join(ROOT, path)))
+    if isinstance(d, list):  # bare [[[lon,lat],...],...] multiline
+        return [[[c[1], c[0]] for c in ln] for ln in d]
     feats = d["features"] if d.get("type") == "FeatureCollection" else [d]
     out = []
     for f in feats:
@@ -189,10 +199,11 @@ def main():
             lines += ls
         for ref in g.get("osm", []):
             lines += osm_lines(ref)
-        if g.get("file"):
-            lines += file_lines(g["file"])
+        for fp in ([g["file"]] if isinstance(g.get("file"), str) else g.get("file", [])):
+            lines += gpx_lines(fp) if fp.lower().endswith(".gpx") else file_lines(fp)
         if g.get("waypoints"):
-            lines.append(g["waypoints"])
+            wp = g["waypoints"]
+            lines += wp if wp and isinstance(wp[0][0], list) else [wp]
         lines = merge_chains(lines)
         lines = [ln for ln in lines if len(ln) >= 2]
         detail = [dp(ln, 1.5) for ln in lines]
@@ -245,5 +256,4 @@ def main():
 
 
 if __name__ == "__main__":
-    import urllib.parse  # noqa
     main()

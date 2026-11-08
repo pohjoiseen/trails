@@ -1,1 +1,716 @@
-{"pilvilampi":{"desc":"Test para one.\n\nTest para two.","highlights":["Lean-to"],"network_note":"about 20 km of paths"}}
+{
+ "vaasa-ojen-nature-trail": {
+  "desc": "Öjen is an unusually large old-growth forest reserve for western Finland (old-growth forest protection programme and Natura 2000), managed by Metsähallitus. Most of the area is old, spruce-dominated conifer forest, partly paludified; the oldest trees are nearly 200 years old. Along the loop the landscape varies from lush shore groves to barren rocky pine forest on bedrock, on gently undulating terrain with duckboards that can be slippery.\n\nInfo boards present the forest nature, medicinal plants and old folk beliefs. On Kompassberget, the highest point, two stone compass roses mark the cardinal directions. Rest site with benches, campfire place (bring own firewood) and composting toilet.",
+  "highlights": [
+   "old-growth spruce forest (Natura 2000)",
+   "trees ~200 years old",
+   "Kompassberget stone compass roses",
+   "rocky pine forest",
+   "duckboards"
+  ],
+  "duration": "2.5–3 h on foot (official). 4.5 km loop; about 5.7–5.9 km incl. the ~0.6 km approach from the parking each way.",
+  "season": "No winter maintenance.",
+  "parking_notes": [
+   "Parking on Myrgrundintie (road 6741); walk ~300 m along the gravel road Öjenintie until a small bridge and info boards on the left."
+  ]
+ },
+ "vaasa-riso-trail": {
+  "desc": "The trail circles the Risöfladan area at the inner end of the Eteläinen Kaupunginselkä (Southern City Bay), one of Finland's best wetland bird sites, on state land by the reed-fringed estuary of the Tuovila/Laihia river. The loop is easy gravel road (also cyclable); the spur to the Ryövärinkari bird tower is a duckboard path through forest and reedbed that can be partly under water at high sea level.\n\nIn spring and autumn migration hundreds of geese, swans and waders and thousands of waterfowl rest and feed here; reedbeds hold reed bunting, sedge warbler and bearded tit. Campfire place and dry toilet by the tower; a second, lower viewing platform lies at the river mouth.",
+  "highlights": [
+   "Ryövärinkari bird tower (closed since 23.10.2025 due to rot damage)",
+   "Risö viewing platform",
+   "reedbed estuary",
+   "bird migration"
+  ],
+  "network_note": "~3.6 km gravel-road loop with spur paths to the Ryövärinkari/Rövarskäret bird tower (~350 m duckboard path) and the Risö viewing platform; official length 4.9 km.",
+  "season": "No winter maintenance. Ryövärinkari bird tower out of use since 23 Oct 2025 (Lipas 74041); platform (Lipas 528217) active. Duckboards may flood at high water.",
+  "parking_notes": [
+   "Risö parking area at the end of Ampujantie, south of the motorway."
+  ]
+ },
+ "vaasa-ojberget-nature-trail": {
+  "desc": "Öjberget is part of a rocky forested ridge rising from the fields of Sundom, about 270 ha of mainly pine–lingonberry heath forest, bordering the Söderfjärden meteorite crater (c. 520 million years old) to the south. The trail runs from the Öjbergsmossen bog past a giant's kettle (pothole) and across a boulder field ('devil's field') to the stunted pines on the crater rim.\n\nThe area holds the oldest traces of human activity in the Vaasa region, a Stone Age site c. 4,000 years old. The lookout tower on the ski-slope top (65 m a.s.l.) views Söderfjärden, the archipelago and Vaasa; owls call in late winter. Fitness stairs (271 steps) lead down to the stadium and grill hut.",
+  "highlights": [
+   "lookout tower 65 m a.s.l.",
+   "giant's kettle",
+   "boulder field",
+   "Söderfjärden meteorite crater rim",
+   "Stone Age site",
+   "Öjbergsmossen bog"
+  ],
+  "duration": "at least 1.5 h (brochure); shorter 2 km yellow-marked variant from Markenintie",
+  "parking_notes": [
+   "Öjberget winter sports centre / stadium area; trail starts at the large info board by the ski lodge (city lists Öjbergintie 98)."
+  ]
+ },
+ "vaasa-pilvilampi-network": {
+  "desc": "Pilvilampi lies 9 km east of the centre on the Höstvesi ridge, a large upland that continues north beyond the city. The ~800 ha forest is mostly very bouldery and partly rough going, with patches of old spruce forest among younger conifers and extensive lily-of-the-valley carpets under the spruces. The lake is a raw-water reservoir (no swimming or dogs in the water).\n\nNesting waterfowl include goldeneye, tufted duck and common sandpiper; forests hold hazel grouse, black grouse, pygmy owl, black woodpecker and long-tailed tit. Many shelters: Närvänmutka, Käpykota, Kivijärvi and Aurinko lean-tos, Eetun piilo, Kuutamo and Höstvesi lean-tos, Pilvimaja cabin, plus viewpoints and an archaeological site.",
+  "highlights": [
+   "Pilvilampi lake",
+   "bouldery Höstvesi ridge forest",
+   "old spruce stands",
+   "several lean-tos and huts",
+   "viewpoints",
+   "archaeological site"
+  ],
+  "network_note": "~41 km of marked nature-trail paths and forest roads (city GIS) over an ~800 ha area (~4 x 4 km) around Pilvilampi lake; part of the 70 km Vaasa luontoliikuntareitistö. Sensible rounds: lake loop ~3–5 km; longer rounds via Kivijärvi and Pilvimaja ~10–12 km.",
+  "season": "Ski tracks in winter (Vaasan Latu); winter fatbike trail 22 km (Lipas 617556).",
+  "parking_notes": [
+   "Pilvilampi parking on the west shore (city lists both Kappelinmäentie 215 and 240). Second lot nearby at 63.09662,21.74094.",
+   "'Latuparkki' / Gädda ski-track parking, NW trailhead.",
+   "South trailhead by the forest road; position from Lipas start point, approximate."
+  ]
+ },
+ "vaasa-city-bay-trail": {
+  "desc": "A mostly accessible shore path following the Eteläinen Kaupunginselkä (Southern City Bay), a 6 km long sea bay narrowing towards the Tuovila/Laihia river delta. It passes Hietalahti and Suvilahti with lush deciduous shore groves (aspens used by flying squirrels, old villa-garden plants), shallow bays and new islets rising through land uplift, then the Old Vaasa canal and Majakkakivi beacon boulder, ending at the Natura 2000 reedbeds near Risö.\n\nSixteen signs present history and nature (bats, moor frog, birds, land uplift). Grebes, ducks, geese and waders gather in migration; thrush nightingales sing in the groves. Rest and campfire sites, beaches and a parallel canoe route.",
+  "highlights": [
+   "Southern City Bay shore",
+   "land uplift islets",
+   "Suvilahti shore groves",
+   "Old Vaasa canal bridge",
+   "Majakkakivi",
+   "16 info signs"
+  ],
+  "duration": "Kalaranta–Majakkakivi 7 km; continues ~3 km to Risö (one way). First section of a planned ~30 km round of the Southern City Bay.",
+  "parking_notes": [
+   "Start at Kalaranta (city centre shore); public parking also at Hietalahti and Suvilahti (P on the official map). East end connects to Risö parking (Ampujantie)."
+  ]
+ },
+ "vahakyro-ojaniemi-hyyria": {
+  "desc": "Paths wind through the forests of Ojaniemi and Hyyriä villages, mostly fresh and dry heath forest, with herb-rich vegetation and the Vainionperä spring near the start. Palolampi pond has a bird tower; Palanusenkallio's folded bedrock ridges show post-glacial changes and the Ojaniemi lean-to (fireplace, toilet, overnight use) stands on top.\n\nThe Marjamäki route follows rocky ridges unusual for Vähäkyrö and passes Iron Age (c. 400–800 AD) burial cairns at Marjamäki and Huumansaari, plus Kylymä helevetti, a hiding place from the Great Northern War. The children's trail has animal-themed boards.",
+  "highlights": [
+   "Palolampi bird tower",
+   "Palanusenkallio bedrock",
+   "Ojaniemi lean-to",
+   "Iron Age burial cairns",
+   "Kylymä helevetti hiding place",
+   "Vainionperä spring"
+  ],
+  "network_note": "7 colour-coded routes from two trailheads: Children's trail 2.1, Palolampi 2.1, Palanusenkallio 1.4, Hyyriä 4.4, Marjamäki 11.7 (from Hyyriäntie 105); Kylymä helevetti round 2.7 (from Kaitaja parking, Hyyriäntie 478). ~22.6 km of route lines in total.",
+  "season": "No winter maintenance. Mountain biking allowed (partly very hard).",
+  "parking_notes": [
+   "Main trailhead, room for 8 cars, info board.",
+   "Kaitaja parking (2–3 cars) for the Kylymä helevetti round; road use restricted during farm work."
+  ]
+ },
+ "vahakyro-kruutari-mestoosplassi": {
+  "desc": "Easy routes mostly on old cart tracks, forest paths and tractor tracks through Ostrobothnian field and barn landscape and forest, with stony sections mid-way on the Klapurintönkkä path. Good spots for watching spring and autumn bird migration over the fields; several old springs (Heininniemenmäki spring) and the Haarajoki stream.\n\nThe Kruutari and Klapurintönkkä paths pass Iron Age (Merovingian, c. 400–800 AD) cairns of the Vallinmäki settlement unit. Mestoosplassi is a former execution site (late 1500s–1825) with an info board. Haarajoki and Selkämäki lean-tos have fireplaces, toilets and firewood.",
+  "highlights": [
+   "Iron Age burial cairns (Vallinmäki)",
+   "Mestoosplassi execution site",
+   "springs",
+   "field landscape and migrating birds"
+  ],
+  "network_note": "5 loop and linear routes (2.6–8.4 km): from Kruutarinmaja – Kruutari loop 2.6, Klapurintönkkä path 3–8.4 (linear to Perkiöntie), Heininniemenmäki loop 6.2; from Mestoosplassi – Niisneva loop 3.4, Koirasaari route 7.4. ~21.5 km of route lines.",
+  "season": "No winter maintenance. Signposted links to Ojaniemi–Hyyriä network.",
+  "parking_notes": [
+   "Kruutarinmaja (Kruutari house), info board.",
+   "Mestoosplassi, info board."
+  ]
+ },
+ "vahakyro-saarenpaa-mullola": {
+  "desc": "A loop on village roads and cart tracks through traditional Kyrö river farmland and forest, with short spurs to sights. Along Ainmaantie are Iron Age burial cairns, springs (Jaakob's spring), the 'shepherd's writing stone' and Jätintie, a 49 m stone-slab causeway over 1,400 years old, regarded as Finland's oldest stone bridge, built over a former wetland when sea level was higher.\n\nFurther on: forest-workers' camp sites, the Kylymä helevetti hiding place, Kaitaja lean-to and viewpoint, the site of Mullovius parsonage and the ancient Mullola harbour (a reminder of land uplift), and two rock-carved sundials.",
+  "highlights": [
+   "Jätintie – Finland's oldest stone bridge",
+   "Iron Age cairns",
+   "shepherd's writing stone",
+   "Kaitaja viewpoint",
+   "Mullola ancient harbour",
+   "rock sundials",
+   "springs"
+  ],
+  "duration": "Main loop ~14 km (anticlockwise); ~21 km with all out-and-back spurs to sights. Recommended by bike, spurs on foot.",
+  "season": "No winter maintenance. Avoid driving the narrow cart roads during farm work; Savisilta hut: avoid during moose hunting.",
+  "parking_notes": [
+   "Saarenpää sports lodge yard; Saarenpää lean-to and info board behind the lodge."
+  ]
+ },
+ "vahakyro-petulian-patikka": {
+  "desc": "The trail explores Aittoomäki, the 'seven hills' area nicknamed Petulia city, which was an important Iron Age dwelling and probably trading place when the Kyrönjoki river mouth lay at Tervajoki around the start of the Common Era. Over a hundred burial cairns and about ten dwelling sites are known; settlement moved on as land uplift pushed the shore away. Signposted spurs lead to cairns at Aittoomäki and Höysälänmäki.\n\nRoad sections cross open Ostrobothnian fields; forest paths are stony and partly wet. Boards present forest nature (kettle hole, flying squirrel, Höysälänlakia birds, Turukivi boulder). Lean-to with fireplace and toilet at Hirsikorpi.",
+  "highlights": [
+   "Iron Age burial cairns",
+   "Aittoomäki 'Petulia' hills",
+   "kettle hole",
+   "Turukivi boulder",
+   "flying squirrel habitat"
+  ],
+  "network_note": "Main loop 7.8 km (anticlockwise) + spurs (total 10.1 km). Short options from Hirsikorpi hunting lodge: ~2 km loop to the kettle hole and ~1 km linear to Turukivi.",
+  "season": "No winter maintenance, no firewood service. Avoid during hunting season.",
+  "parking_notes": [
+   "Junction of Kyröntie (highway 18) and Aittoomäentie, info board.",
+   "Hirsikorpi hunting lodge yard (lean-to); start for the short loops."
+  ]
+ },
+ "vahakyro-kolkki-nature-trail": {
+  "desc": "A short trail by the Kyrönjoki river right next to the Kolkinkoski rapids, using old paths of the former Kolkki sawmill and cloth-mill site and new wood-chip sections. It loops around Kolkki manor (one of Vaasa's oldest buildings), Vartiosaari and Kuljunsaari islands within a nationally significant built cultural environment (RKY), with history boards.\n\nThe Vartiosaari path is rootier and runs close to the river at the southern tip (take care). Vartiosaari lean-to with campfire and fishing spot by the rapids; firewood and fishing permits from Kolkki manor.",
+  "highlights": [
+   "Kolkinkoski rapids",
+   "Kyrönjoki river",
+   "Kolkki manor",
+   "RKY cultural landscape",
+   "lean-to"
+  ],
+  "network_note": "Parts: Vartiosaari path 0.5 km, Lyra path 0.7 km; anticlockwise.",
+  "season": "No winter maintenance. Partly runs through a private restaurant's yard area.",
+  "parking_notes": [
+   "Trailhead parking with info board (also start of the Five Bridges cycling route)."
+  ]
+ },
+ "vahakyro-korkiavuori": {
+  "desc": "A short forest loop on Korkiavuori hill near Hiiripelto village, one of the five planned Vähäkyrö trail networks. It passes the Ristimäki burial cairn, where a National Board of Antiquities board describes the wealthy Migration and Merovingian period settlement (400–800 AD) and a wine ladle made in Capua, Italy, around 100 AD, found at nearby Kirstintönkkä. The Hauksalo hut of Hiiripelto village (code-locked) lies about 1 km south.",
+  "highlights": [
+   "Ristimäki Iron Age cairn",
+   "forest hill"
+  ],
+  "season": "Not yet described on the city's Finnish route page (2025-26); signposting status uncertain.",
+  "parking_notes": [
+   "'Korkiavuoren kierros' parking in city GIS."
+  ]
+ },
+ "bjorko-panike-trail": {
+  "desc": "The trail crosses the heart of the Kvarken Archipelago World Heritage Site: land-uplift shores, bays turning into flads and gloe lakes, ponds and small bogs, and grazed birch woods rich in windthrows and hollow trees. From Svedjehamn it passes the Saltkaret tower and the Märaryggbro fish-watching bridge, then becomes a narrow stony path to the Långgrund pier.\n\nA small ferry crosses to Stora Segelsören; the route continues over bridged islands (Slåttskäret, Bullerskäret, Rönnskäret) with sheep pastures, old hay barns and lily-of-the-valley rich uplift forest to Rotörskatan. Shelters, cooking huts and lean-tos along the way.",
+  "highlights": [
+   "Saltkaret observation tower",
+   "Märaryggbro fish-watching bridge",
+   "de Geer moraines",
+   "island hopping over bridges",
+   "grazing sheep",
+   "old hay barns"
+  ],
+  "duration": "One-way lengths: mainland section Svedjehamn–Långgrund pier 3.4 km (7 km return, with a small loop near Långgrund); Svedjehamn–Rotörskatan via the islands c. 12 km. Can be done as a c. 15 km round trip back to Svedjehamn via the southern (wet) branch. luontoon.fi total incl. all branches and the Vargis trails: 23.7 km (2 days).",
+  "access": "Mainland part (Svedjehamn–Långgrund) walkable from the car park. Small ferry (lossi) from Långgrund pier to Stora Segelsören. Between Rotörskatan and Vargis/Panike a boat transfer must be booked (Björköby boat transport, e.g. Ove Kaarto +358 50 530 8062).",
+  "season": "No winter maintenance. Sheep grazing June–October. Mosquitoes in summer; stony and wet terrain.",
+  "parking_notes": [
+   "Svedjehamn parking (fee: 2 EUR/4 h, 4 EUR/24 h per OSM)",
+   "Vargis parking at the Panike end (barrier, unlocked)"
+  ]
+ },
+ "bodvattnet-runt": {
+  "desc": "An easy loop around Bodvattnet, a former sea bay now almost cut off by land uplift, in the Kvarken World Heritage Site. The path runs on land-uplift shores and through grazed knotty birch woods and moist hollows; Highland cattle graze the shore meadows in summer and many birds nest and rest on the shores.\n\nThe 20+ m Saltkaret tower gives a view over the stony archipelago and the \"washboard\" de Geer moraines; the Märaryggbro bridge is good for watching spawning pike and perch in spring. Bodback, the old fishing harbour from which mail boats rowed to Umeå, is now a museum area with boathouses.",
+  "highlights": [
+   "Saltkaret observation tower (accessible lower deck)",
+   "de Geer moraines",
+   "Bodback old fishing harbour",
+   "fish-watching bridge",
+   "Highland cattle pastures"
+  ],
+  "duration": "About 1.5 h. Accessible out-and-back to Saltkaret tower and Bodback c. 3.3 km.",
+  "season": "No winter maintenance except parking–tower section. Saltkaret tower open year round.",
+  "parking_notes": [
+   "Svedjehamn parking (fee)"
+  ]
+ },
+ "vikarskat-hamnbastun": {
+  "desc": "Unmaintained shoreline path from Vikarskat fishing harbour along the coast to the harbour sauna at Finnhamnen, in the Kvarken World Heritage archipelago. It passes old-growth forest and gloe lakes formed by land uplift, with sea views, \"Russian ovens\" (stone-built ovens) and monuments.",
+  "highlights": [
+   "Russian ovens",
+   "gloe lakes",
+   "old-growth forest",
+   "sea views",
+   "Hamnbastun harbour sauna"
+  ],
+  "duration": "5 km return (out-and-back to the harbour sauna at Finnhamnen).",
+  "season": "No maintainer; path partly overgrown.",
+  "parking_notes": [
+   "Vikarskat fishing harbour (Google: Björköby fiskehamn)"
+  ]
+ },
+ "kikanberget": {
+  "desc": "A short unmarked path from Klobbskat at the western tip of Replot up the rocky Kikanberget hill with a Metsähallitus observation tower overlooking the outer Kvarken archipelago and the open sea toward Sweden. Part of the Kvarken World Heritage landscape of moraine islands and rocky shores.",
+  "highlights": [
+   "Kikanberget observation tower",
+   "view over the outer archipelago"
+  ],
+  "duration": "About 1 km return.",
+  "parking_notes": [
+   "Café Compass parking"
+  ]
+ },
+ "vargis-trails": {
+  "desc": "Two loops from the old Warg farmstead on Panike, where Richard Warg smuggled liquor during prohibition. Wargrundan (0.8 km) crosses former fields now reforested and has a bench overlooking the Kvicksund strait. Älgrundan (2.6 km) follows the rocky, bouldery shore of Kvicksund, then enters birch woods and old spruce forest.\n\nIt passes a boulder field (\"devil's field\", an ancient shoreline) with a large prehistoric cairn and a viewing platform over Kvicksund and the sea. Big glacial erratics along both paths. Terrain rocky and slippery in places.",
+  "highlights": [
+   "viewing platform over Kvicksund",
+   "boulder field / ancient shoreline",
+   "prehistoric cairn",
+   "glacial erratics",
+   "Warg farmstead"
+  ],
+  "season": "No winter maintenance.",
+  "parking_notes": [
+   "Vargis parking; last stretch of Vargisvägen is a private road behind an unlocked barrier (close it after you)"
+  ]
+ },
+ "sommaro-nature-trails": {
+  "desc": "Trails on the Sommarö headland in the Kvarken World Heritage area, site of a coastal artillery fort (1939–1987) whose bunkers and gun platforms remain. The Ängesholm loop circles a pond in old spruce forest and descends to the shore; the Hålören headland loop has a viewpoint and an accessible viewing platform.\n\nThe path also crosses bare rock areas, young aspen stands and a small bog hollow. The longer branch to Sommarösund beach passes a pothole (giant's kettle) and archipelago cultural landscape with stone walls and cairns.",
+  "highlights": [
+   "Fort Sommarö bunkers",
+   "pothole (giant's kettle)",
+   "viewpoint on Hålören",
+   "stone-walled cultural landscape",
+   "old spruce forest"
+  ],
+  "duration": "Ängesholm loop 1.5 km; Hålören accessible route 2.2 km (out-and-back with 0.8 km loop); linear branch to Sommarösund beach c. 3.4 km one-way (c. 7 km return). Whole network c. 5–8 km.",
+  "season": "No winter maintenance.",
+  "parking_notes": [
+   "Public car park at the end of the road near the Sommarö guard hut (an adjacent OSM parking node is private)",
+   "Alternative start at Södra Vallgrund (Sommarösund) beach, approx. from Lipas"
+  ]
+ },
+ "valsorarna-nature-trail": {
+  "desc": "Remote islands in the outer Kvarken archipelago c. 15 km NW of Björköby. The stony path between the sea rescue station on Ebbskär and the lighthouse on Storskär crosses fragrant heath, rocky shores and flads, with ribbed (Rogen-type) moraines typical of the World Heritage area.\n\nLandmarks are the 36 m red iron lighthouse (1886, built in Paris by the Eiffel Tower firm), keepers' buildings, fishing huts and a monument to Russian soldiers. A biological station (since 1966) serves bird and bat research; white-tailed eagles are common.",
+  "highlights": [
+   "Valsörarna lighthouse (1886)",
+   "ribbed (Rogen) moraines",
+   "flads",
+   "biological station / bird migration",
+   "fishing huts"
+  ],
+  "duration": "About 6 km return.",
+  "access": "Reachable only by boat (own boat, water taxi or summer excursion boats, e.g. from Björköby/Vaasa). No road access or parking.",
+  "season": "Landing ban 1 May–31 July (nesting season) except harbours and the nature trail. No winter maintenance."
+ },
+ "iskmo-jungsund-trail": {
+  "desc": "A village-built trail through a string of lakes and flads (land-uplift lagoons) and varied forest north of Jungsund: hills, paths on duckboards over wetlands, blueberry and raspberry patches. Hallonnäsfladan is a highlight; a new observation tower over it opened in October 2026.\n\nBjörnhällorna, a scenic rock outcrop with a lean-to, is the most visited rest stop; Kråknäs has a rest area with a bridge over Skatasund. White-tailed eagle, osprey, nesting swans and spring smew can be seen.",
+  "highlights": [
+   "Hallonnäsfladan observation tower (2026)",
+   "Björnhällorna rock outcrop",
+   "bridge over Skatasund",
+   "flads",
+   "birdlife"
+  ],
+  "duration": "Jungsund–Strömssund 2 km, Strömssund–Hallonnäs 2 km, Hallonnäs–Björnhällorna 2.3 km; Hallonnäsrundan loop 1.8 km, Björnhällsrundan loop 4 km; whole trail 12 km. Må bra-stigen (wellbeing path, blue hearts) = two loops from Hallonnäs, 4 km.",
+  "season": "Moose hunting in autumn.",
+  "parking_notes": [
+   "Hallonnäs P1 (main for the short loops)",
+   "Jungsund sports field (southern start)"
+  ]
+ },
+ "kunileden": {
+  "desc": "Loop trail south of Kuni village through forested, hilly terrain with rocky and boulder-strewn areas, small bogs and ditched wetlands. Sights include a small cave (\"Grotta\") and the bedrock hill Märkenkall (Merkkikallio) at the southern end, with a lean-to and fireplace.\n\nAn accessible grill site lies at the Bastuholmsvägen–Kåtakärrvägen junction after 2 km; forest roads allow shortcuts.",
+  "highlights": [
+   "Märkenkall hill",
+   "cave",
+   "boulder fields"
+  ],
+  "duration": "Northern loop 6.4 km, southern loop 7.9 km (from rest stop 1), whole trail 12.5 km.",
+  "parking_notes": [
+   "Info board at trailhead"
+  ]
+ },
+ "stundars-trails": {
+  "desc": "Marked trails starting from the Stundars open-air museum in Solf, running through forest and field edges west of the museum toward the low-lying farmland near Söderfjärden. The longer 6.6 km route passes a dam and the pumping-station museum; a bird tower at the pumping station (Lipas 621352) overlooks the fields and wetlands. A shorter 2 km loop is also signed. Info boards along the way.",
+  "highlights": [
+   "bird tower at pumping station",
+   "Stundars open-air museum",
+   "dam"
+  ],
+  "parking_notes": [
+   "Stundars museum parking"
+  ]
+ },
+ "skatila-trail": {
+  "desc": "Mostly a forest path of varying width from Skatila sports field westward to Storhälleberget, a bare bedrock hill with a fireplace and views over the surrounding forests of eastern Korsholm.",
+  "highlights": [
+   "Storhälleberget rock hill"
+  ],
+  "duration": "9 km return to Storhälleberget.",
+  "parking_notes": [
+   "Skatila sports field / sports cabin (coords from Lipas; no parking mapped in OSM)"
+  ]
+ },
+ "malsorleden": {
+  "desc": "Forest trail at Mälsor near the Mälsorfjärden bay with sights such as Storstenen (a large glacial erratic, with rest stop), the \"Blysten\" stone, and the 1958 crash site of a Fokker C.X military aircraft. Moomin figures along the path make it child-friendly; the southern part is marked for dark-season walks with headlamps.",
+  "highlights": [
+   "Storstenen erratic boulder",
+   "1958 aircraft crash site",
+   "Moomin figures",
+   "night-walk loop"
+  ],
+  "duration": "Whole trail c. 9 km; shorter loops possible (Lipas parts 2.6 km and 5.2 km loops + 0.9 km spur).",
+  "parking_notes": [
+   "Small car park (3 cars)",
+   "",
+   ""
+  ]
+ },
+ "tolby-kyrkstigen": {
+  "desc": "Historic church path north from Tölby through Västerskogen, a forest with small bogs and the Västerträsket pond area, to Västernäsbacken by Löjnviken. Beyond lies the flat drained farmland of Risöfladan, a former sea bay, and the pumping station at the Toby river (Laihianjoki) mouth.",
+  "highlights": [
+   "old church path",
+   "Risöfladan drained bay",
+   "pumping station"
+  ],
+  "duration": "2.1 km to the grill site at Västernäset; +750 m to the pumping station; return by road through Vikby makes a 3.6 km round.",
+  "parking_notes": [
+   "No parking mapped in OSM; roadside near start"
+  ]
+ },
+ "karikaleden": {
+  "desc": "Short trail from Österhankmo beach over bare granite bedrock with lichen-covered rock and open pine forest to Karikaberget, where a 13 m wooden observation tower stands by a fireplace.",
+  "highlights": [
+   "13 m wooden observation tower",
+   "bedrock pine forest"
+  ],
+  "duration": "1.7 km return (official length).",
+  "parking_notes": [
+   "Österhankmo beach"
+  ]
+ },
+ "petsmo-trail": {
+  "desc": "Varied trail with bogs, old-growth forest and a chain of small, deep lakes (Särkiträsk, Rudträsk, Kvarnträsk), partly on paths trodden 100–200 years ago. A 600 m duckboard section crosses Källmossen bog, whose peat is over 7 m deep. A side trip leads to the historic Björnberget hill.\n\nFour lakeside rest sites; Rudträsk is accessible for wheelchair users (car access by arrangement).",
+  "highlights": [
+   "Källmossen bog duckboards",
+   "Björnberget",
+   "forest lakes",
+   "old-growth forest"
+  ],
+  "duration": "From Start 1 (day care): whole trail 12.5 km, Södra Rundan 7.5 km. From Start 2 (Vikminnevägen): whole trail 11 km, Norra Rundan 7.3 km, Särkiträsk 0.3 km, Rudträsk-rundan 0.7 km.",
+  "season": "Hunting 20.8–28.2; dogs on leash.",
+  "parking_notes": [
+   "Start 2",
+   "Start 1, Petsmo day care"
+  ]
+ },
+ "soderfjarden-trail": {
+  "desc": "Trails on the edge of Söderfjärden, the flat cultivated basin of a c. 520-million-year-old meteorite crater. The \"Skogsvägen\" follows the old forest road along the forested crater edge, once the only route into Söderfjärden, past farms built where the ground was drier before the basin was drained.\n\nThe open fields are a major staging area for cranes and geese in spring and autumn.",
+  "highlights": [
+   "meteorite crater landscape",
+   "old forest road",
+   "crane and goose staging fields"
+  ],
+  "duration": "Loops: Östra slingan 4.7 km, Västra slingan 5.1 km, Hela slingan 8.2 km; linear Skogsvägen 5.6 km from Malax-Söderfjärdsvägen to Väster-Solf.",
+  "parking_notes": [
+   "Gravel car park with map board (OSM); address from Söderfjärden HF"
+  ]
+ },
+ "ojskatsleden": {
+  "desc": "Forest trail northward from Österhankmo village (Tåning) to the Öjskat area by the coast, with a lean-to midway and a grill site with benches at the far end.",
+  "highlights": [
+   "lean-to",
+   "grill site at trail end"
+  ],
+  "duration": "10.2 km return.",
+  "parking_notes": [
+   "Harbour by Kalkmagasinet; turn at Österhankmovägen 900, walk 100 m back and 100 m north along the road to the start (63.24543, 21.92588)"
+  ]
+ },
+ "isokyro-lymmyys-nature-trail": {
+  "desc": "A short educational loop on the sandy Hietakangas heath beside Palhojaistentie. The path crosses several forest types, from dry pine heath (kuiva kangasmetsä) to spruce and birch stands and the edge of a mire; information boards along the way present the local trees, berries (bilberry, lingonberry), animals such as squirrel, elk and wood ants, and bogs. It suits families with small children. The walk ends at a roofed kota and a log lean-to by the parking area.",
+  "highlights": [
+   "nature information boards",
+   "kota (Hietakankaan kota)",
+   "log lean-to"
+  ],
+  "duration": "15-30 min",
+  "parking_notes": [
+   "Gravel road turns off Palhojaistentie at no. 260 to the kota parking area (OSM node 14143188867)."
+  ]
+ },
+ "isokyro-fatisaari": {
+  "desc": "The first part winds through varied forest, after which the trail opens onto a wide treeless bog crossed on more than a kilometre of duckboards. The destination is Fatisaari, a rugged bedrock 'island' rising out of the mire, with a lean-to on top of the rock. You return the same way.",
+  "highlights": [
+   "open bog landscape",
+   "over 1 km of duckboards",
+   "rocky mire island Fatisaari",
+   "lean-to on the rock"
+  ],
+  "duration": "1.5-2 h there and back (3.5 km each way)",
+  "parking_notes": [
+   "Follow Marjoniementie to Tuurala hunting lodge, then the narrow road to the right to its end (OSM parking node 13140457979). The municipality asks not to park in the hunting lodge yard (older Lipas text says the opposite)."
+  ]
+ },
+ "isokyro-ruusupuro-rookki": {
+  "desc": "Starting from the well-equipped Ruusupuro swimming beach, the loop climbs through dense, rugged forest onto bare rocky hilltops. The terrain alternates between rock, forest and steeper sections, which makes it the most varied and physically demanding of the shorter Isokyrö trails. Midway there is the Röökki lean-to and fire site; bird nest boxes have been put up along the path nearby, so birds can be watched at close range. A swim at the beach can round off the walk.",
+  "highlights": [
+   "rocky hilltops",
+   "Röökki lean-to",
+   "bird nest boxes",
+   "swimming beach at start"
+  ],
+  "duration": "1.5-2 h",
+  "parking_notes": [
+   "Ruusupuro swimming beach parking (OSM node 12964065310); signposted trail start."
+  ]
+ },
+ "isokyro-vuoressalo": {
+  "desc": "Vuoressalo is a bedrock hill rising from the flat fields of the Kyrönjoki valley. Two loops lead up onto its open, lichen-white rock outcrops with wide views. Among the rocks are curious stone formations whose human origin has long been debated: the base map marks a 'pakouuni' (refuge oven), said to be a low wall built by peasants in the Club War, where a natural cleft forms a vault about 2 m high. A lean-to lies at the south end, reached by a short spur from the red-and-white marked path. One of the 'Tarinapolku' mobile-game stories is located here.",
+  "highlights": [
+   "lichen-covered rock outcrops",
+   "viewpoint",
+   "'pakouuni' rock cleft and legend",
+   "lean-to"
+  ],
+  "duration": "45 min-1 h per loop",
+  "parking_notes": [
+   "Parking area is on the opposite side of the road from the trail start (OSM node 13140501561); do not park on the road."
+  ]
+ },
+ "isokyro-orisberg-kotilammi": {
+  "desc": "The loop circles Kotilammi, regarded as Finland's oldest artificial lake - a reservoir dammed for the Orisberg ironworks - through varied terrain on forest paths, duckboards and forest roads. It starts at the bell tower of Orisberg church, an old manor and ironworks milieu linked with Zachris Topelius and Jean Sibelius (by tradition Sibelius and Aino Järnfelt got engaged here). A kota stands by the lake; the far half of the loop crosses into Ylistaro. Long enough to require good fitness.",
+  "highlights": [
+   "Kotilammi reservoir (oldest artificial lake in Finland)",
+   "Orisberg church and bell tower",
+   "kota by the lake",
+   "duckboards"
+  ],
+  "duration": "2.5-3 h; shorter option: walk to the Kotilammi kota and back the same way",
+  "parking_notes": [
+   "Parking on Åbergintie (OSM node 540237484), start at the Orisberg church bell tower; loop signed anticlockwise. During summer camps at the camp centre paint marks begin at its southernmost cabin - join the trail directly from Åbergintie."
+  ]
+ },
+ "isokyro-tuomaanmaki": {
+  "desc": "A varied loop through the Tuomaanmäki nature reserve, a forested hill with abundant natural values and a well-preserved Bronze Age cairn site. Several burial cairns have been dug into and robbed of stones; one has only its ring of kerb stones left, locally called the 'court stones' or 'judge's circle', which gave the hill its old name Tuomarmäki. The route also passes a rock basin that looks like a giant's kettle (but is not one) and a lean-to. One of the 'Tarinapolku' mobile-game stories is located here.",
+  "highlights": [
+   "Bronze Age burial cairns",
+   "'judge's circle' stone ring",
+   "pseudo giant's kettle",
+   "lean-to",
+   "nature reserve"
+  ],
+  "duration": "about 1 h",
+  "parking_notes": [
+   "Park only in the parking area and do not block the trail entrance (OSM node 4111599951). Lipas gives Ventäläntie 760."
+  ]
+ },
+ "isokyro-lapinmaki": {
+  "desc": "A short, easy forest loop right at the edge of Isokyrö centre, starting beside the Lapinmäki playground. Despite the location it offers a genuine woodland walk; an optional out-and-back spur leads to the Isohaankallio rock outcrop. Good for families with children.",
+  "highlights": [
+   "Isohaankallio rock outcrop",
+   "close to the village centre"
+  ],
+  "duration": "30-45 min",
+  "parking_notes": [
+   "Parking at the end of Pohjantie next to the Lapinmäki playground (coordinates = GPX start; no OSM parking mapped)."
+  ]
+ },
+ "isokyro-peippoonen": {
+  "desc": "A small network of forest paths right next to the Peippoonen residential area, combining a marked nature trail, the sawdust-surfaced Kylkkälä exercise track (ski track in winter - do not walk on it) and paths formed naturally in the woods. The terrain is varied woodland. A fire site lies along the nature trail and a kota stands next to the exercise track. Ticks are abundant in summer.",
+  "highlights": [
+   "forest close to housing",
+   "fire site",
+   "kota"
+  ],
+  "network_note": "Nature trail loop (~3 km, walk clockwise) plus the Kylkkälä sawdust exercise track, an old exercise track and informal paths; the GPX covering all paths is 6.5 km.",
+  "duration": "3 km loop about 45 min",
+  "season": "Many ticks in summer; exercise track is a ski track in winter.",
+  "parking_notes": [
+   "Parking by the Peippoonen disc golf course / Kylkkälä exercise track (OSM node 1824719452), left just after the playground. The nature trail starts across the road ~200 m up the pedestrian way; it returns near the parking."
+  ]
+ },
+ "isokyro-ylipaa-marjamaki": {
+  "desc": "A hilly outdoor area of forested moraine and rock around Marjamäki, with several marked loops - largely the area's exercise tracks (snow-made ski tracks in winter, when walking on them is forbidden) - plus paths leading up from the Lukkuhaka camping area through woods. At the top of Marjamäki stand a lookout tower and two lean-tos; a further lean-to with a sledging hill is by the stadium near the youth association hall. There is an 18-hole disc golf course beside the track.",
+  "highlights": [
+   "Marjamäki lookout tower",
+   "two lean-tos on Marjamäki",
+   "steep climbs"
+  ],
+  "network_note": "Several loops of 1-5 km (exercise tracks 1.4, 2, 3 and 5 km plus paths) on Marjamäki hill; ~6.5-7 km of paths in all (Lipas 6.9 km), GPX walking everything 13.8 km.",
+  "duration": "5 km loop about 1 h",
+  "season": "In winter the tracks are groomed ski tracks - no walking on them.",
+  "parking_notes": [
+   "Ylipää youth association (Nuorisoseura) parking (OSM node 343530377).",
+   "Alternative start beside Lukkuhaka camping area; coordinates approximate (~300 m), from the camping address."
+  ]
+ },
+ "vora-andkil": {
+  "desc": "Two loops through the forested hills west of Rejpelt. The long loop first climbs over bare rock slabs and boulder ground on Kondivor (Höstklint) - the trail's highest point is 52 m above sea level - then continues south through the extensive Västerskogen forest with small bog pools, mire edges and open patches before returning along the eastern side. On the later part, signs give old dialect place names derived from local legends. The short 1.7 km loop circles Kondivor hill only.",
+  "highlights": [
+   "bedrock slabs and boulders on Kondivor",
+   "highest point 52 m a.s.l.",
+   "dialect place-name signs with legends"
+  ],
+  "duration": "short loop ~30 min, long loop 2.5-3 h",
+  "parking_notes": [
+   "Start point given in the municipal brochure (63°06'09.9\"N 22°14'31.2\"E) at the end of Kondivorvägen near Nybo; no parking area mapped in OSM - roadside parking at the start sign."
+  ]
+ },
+ "vora-arvidsstigen-vernersstigen": {
+  "desc": "Two short loops in the small hilly woods behind the Rasmusgården farm museum, over low moraine knolls (about 20 m a.s.l.) with mixed forest. The paths are easy and passable with a pushchair; in summer fairy-tale figures and toy animals line the trails, making them popular with families. Rasmusgården also has the Verner Rasmus museum, a petting farm and a café in summer.",
+  "highlights": [
+   "fairy-tale figures (summer)",
+   "Rasmusgården farm museum"
+  ],
+  "duration": "20-30 min each",
+  "parking_notes": [
+   "Rasmusgården parking (OSM node 14097523706); trails start behind the outbuilding at Arvidsgården."
+  ]
+ },
+ "vora-coronastigen-keskis": {
+  "desc": "Starting at the Keskis village hall, the trail loops over Nyåkersbergen hill and through ditched forest and small rocky knolls, partly along the old lit ski track and a forest road. The longest option heads east past the rock outcrops of Storhällorna towards the Fallmossen bog. A bench and a small grill site are along the way.",
+  "highlights": [
+   "Nyåkersbergen hill",
+   "Storhällorna rock outcrops",
+   "grill site"
+  ],
+  "parking_notes": [
+   "Keskis UF (youth association hall) parking (OSM node 14097608311)."
+  ]
+ },
+ "vora-herrgardsleden-tottesund": {
+  "desc": "A trail from Tottesund manor (17th-century origins) along the shores of Rämpan bay and out onto the Bytesholmarna peninsula, mostly through shoreline deciduous and mixed forest close to the water - a land-uplift coast of the Kvarken archipelago. Two lookout spots face the sea, and the far tip, Bytesholmsudden, has a barbecue hut, fireplace and dry toilet. Information boards with quizzes present trees (Swiss pine, alder, oak) and manor history, including Sibelius' wedding at Tottesund. Tables and benches along the way.",
+  "highlights": [
+   "Tottesund manor",
+   "sea lookout spots",
+   "barbecue hut at Bytesholmsudden",
+   "information boards"
+  ],
+  "parking_notes": [
+   "Parking at Tottesund manor next to the information board (map symbol); coordinates approximate (~50 m), no parking mapped in OSM."
+  ]
+ },
+ "vora-kimo-bruk-trails": {
+  "desc": "Trails starting from Kimo Bruk, one of Finland's oldest ironworks (founded 1703), along the Kimo river valley. The 1.5 and 3 km routes follow a wide sawdust track suitable for pushchairs and, with assistance, wheelchairs; the 8 km route is partly a rough forest path. Four rest stops with tables and benches. Afterwards you can stroll through the ironworks park and walk the stone labyrinth ('jungfrudans').",
+  "highlights": [
+   "historic Kimo ironworks",
+   "ironworks park",
+   "stone labyrinth"
+  ],
+  "parking_notes": [
+   "Start at Kimo Bruk; the municipality says to park up by the road. Coordinates = ironworks museum (OSM way 844455425); exact parking spot not verified."
+  ]
+ },
+ "vora-kinnkangleden": {
+  "desc": "Starting at the eastern edge of Oravais village, a ~2 km loop crosses the forested Skrymlorna-Kuivalainen area; the 5 km option continues east through mixed forest and boulder-strewn moraine ground to the bank of the Kimo river and back. The Oravais battlefield of 1808 and the Lotta Svärd stone lie just south of the start. A bench and table along the route.",
+  "highlights": [
+   "Kimo river bank",
+   "boulder-strewn forest",
+   "near Oravais 1808 battlefield"
+  ],
+  "parking_notes": [
+   "Start point from Lipas; no parking area mapped in OSM."
+  ]
+ },
+ "vora-komossa-hoppamaki": {
+  "desc": "From the lean-to at the trailhead, the path climbs gradually over open, lichen-covered bedrock slabs and rocky pine forest to Hoppamäki, at about 71 m one of the highest points in Ostrobothnia, crowned by a lookout tower. The Auras loop continues over the bare rock hills north-west of the tower towards the shore at Nörråkern; the Haaplund loop explores the rocky forest and small mires to the north-east (Lil hällan, Haplund).",
+  "highlights": [
+   "Hoppamäki lookout tower (71 m a.s.l.)",
+   "open bedrock slabs",
+   "lean-to at start"
+  ],
+  "duration": "Hoppamäki 2.5 km out-and-back; Auras 3.8 km; Haaplund 4.8 km",
+  "parking_notes": [
+   "Start coordinates from the municipal brochure (63°12'00.9\"N 22°33'15.0\"E), signposted from Brännarsvägen; lean-to at the start (OSM way 710481708)."
+  ]
+ },
+ "vora-kovik": {
+  "desc": "A loop through beautiful, hilly forest terrain with rocky knolls and small mires around Kovik village. Ten numbered sites along the trail tell of memorable events, villagers' everyday life and colourful characters from the village's past. Natural resting spots along the way; making fires is forbidden.",
+  "highlights": [
+   "10 local-history sites",
+   "hilly rocky forest"
+  ],
+  "parking_notes": [
+   "Parking per the trail board (N63°13.139' E22°18.520'), OSM node 11993259312; signposted from Vöråvägen."
+  ]
+ },
+ "vora-lotlax": {
+  "desc": "Laid out in the late 1980s and restored in 2014 by the local heritage society. From the village the path heads east past Blusibacken into forest and mire terrain, ending in a small loop around a wet hollow with ponds. About halfway there is a rest area with picnic tables; the stretch up to it is easy, but parts beyond cross difficult terrain.",
+  "highlights": [
+   "rest area with picnic tables",
+   "forest ponds"
+  ],
+  "parking_notes": [
+   "Lotlax bygård (village hall); start coordinates from the municipal brochure; signposted from Lotlaxvägen."
+  ]
+ },
+ "vora-rokio-norrvalla-boberget": {
+  "desc": "Trails north from the Norrvalla centre through the Rökiö forests: bare rock slabs, old 'troll forest' with large spruces, mires and small lakes, and ancient remains. The Norrvalla-Boberget loop reaches the Boberget hill (lean-to and fireplace); from there the link trail runs east past Lasor träsk and an ancient monument site to the reconstructed Bronze Age houses at Vitmossen, allowing long day hikes.",
+  "highlights": [
+   "old-growth spruce 'troll forest'",
+   "rock slabs",
+   "lean-to at Boberget",
+   "ancient monument",
+   "link to Vitmossen Bronze Age site"
+  ],
+  "network_note": "Norrvalla-Boberget-Norrvalla 7.1 km with shortcuts A 1.6, B 3.0, C 4.7 km; from Boberget a 4.5 km link continues to the Vitmossen ancient houses (Norrvalla-Vitmossen-Norrvalla 16.1 km; >20 km with the Vitmossen loops).",
+  "parking_notes": [
+   "Norrvalla sports and conference centre parking (OSM way 1370480681); start signposted at Norrvalla. Several forest-road access points along Rökiö forest road."
+  ]
+ },
+ "vora-storberget": {
+  "desc": "A wide, easy path circling Storberget, a low rocky hill rising above the farmland of the Vörå river valley at Rejpelt. On the hill are the Fädernegården heritage museum, a dance pavilion and the village hall. Suitable for everyone and passable with a pushchair in summer.",
+  "highlights": [
+   "Fädernegården heritage museum",
+   "rocky hill amid farmland"
+  ],
+  "parking_notes": [
+   "Large parking at the Storberget info map; coordinates approximate (~150 m), estimated from the municipal map relative to the Rejpeltvägen/Rösslevägen junction."
+  ]
+ },
+ "vora-tyrstigen": {
+  "desc": "From the Klemetsgårdarna heritage farm the path crosses the main road and climbs to Tyrgärdback ('Tyrjäälback'), a small rocky, wooded hill thought to be an ancient assembly and sacrificial site, possibly from the 600s, named after the Norse god Tyr. Two small loops circle the hilltop before returning the same way.",
+  "highlights": [
+   "Tyrgärdback ancient assembly site",
+   "Klemetsgårdarna heritage farm"
+  ],
+  "parking_notes": [
+   "Klemetsgårdarna museum parking (OSM way 958642848)."
+  ]
+ },
+ "vora-vitmossen": {
+  "desc": "A loop around the Vitmossen bog through rocky forest that was a seashore in the Bronze Age, when an arm of the sea reached southern Vörå. It starts at reconstructed Stone and Bronze Age houses and passes one of Finland's older known early-Bronze-Age settlements (c. 1500-900 BC) with clear hut terraces, cairn graves including large 'crater' cairns and a cremation field, and Kluvisteinin, one of the largest glacial erratic boulders in Vörå.",
+  "highlights": [
+   "reconstructed Bronze Age houses",
+   "Bronze Age settlement and cairns",
+   "Kluvisteinin erratic boulder",
+   "bog views"
+  ],
+  "parking_notes": [
+   "Start at the reconstructed ancient houses (brochure coordinates 63°11'18.8\"N 22°20'56.6\"E); no parking mapped in OSM."
+  ]
+ },
+ "vora-vastero": {
+  "desc": "A coastal trail on the western shore of Västerö, largely within state-owned protected areas of the Kvarken land-uplift coast. It follows rocky shores and sea bays and crosses old-growth forest, with views to the Mickelsörarna archipelago and the open sea. History is present too: the area was important to the Jäger movement (the S/S Equity weapons landing of 1916) and traces of past wars remain. There are open day-use huts at Mastviken and Söderskatan, a tent site, campfire sites with firewood and dry toilets.",
+  "highlights": [
+   "land-uplift seashore and bays",
+   "old-growth forest",
+   "views to Mickelsörarna",
+   "S/S Equity Jäger memorial",
+   "day-use huts"
+  ],
+  "duration": "whole trail ~10 km one way incl. side branches (luontoon: 10.8 km, ~6 h)",
+  "season": "Not maintained in winter.",
+  "parking_notes": [
+   "Southern parking and info board (OSM node 7276189865; brochure start 63°20'15.5\"N 21°57'38.7\"E), signposted from Skatavägen.",
+   "Middle parking and info board (OSM way 712480027) near the S/S Equity memorial."
+  ]
+ },
+ "vora-skidcentrum-trail": {
+  "desc": "A trail network behind the Vörå ski slope (Dansarhällorna) through varied terrain with old 'troll forest' and steep rock faces. The blue loop passes a lean-to (1.3 km) and circles through Norrskogen; the red extension heads east past small mires to a rest stop and Stupet, a steep cliff viewpoint. Fires at the lean-to are forbidden during forest-fire warnings.",
+  "highlights": [
+   "old 'troll forest'",
+   "Stupet cliff",
+   "lean-to",
+   "rock outcrops"
+  ],
+  "duration": "blue loop 5 km (lean-to at 1.3 km); red extension 2.5 km (rest stop at 2.4 km, Stupet viewpoint at 3 km)",
+  "parking_notes": [
+   "Ski centre parking at the foot of the slalom slope (OSM node 321437811)."
+  ]
+ },
+ "vora-mickelsorarna-nature-trail": {
+  "desc": "A short trail on Kummelskär in the outer Mickelsörarna archipelago (nearly 300 islands), part of the Kvarken Archipelago World Heritage Site where land uplift of almost 1 cm a year keeps raising new land from the sea. The path crosses the low, rocky island and shows the remains of a 16th-century fishing camp and harbour - stone foundations of fishermen's huts now well above sea level. At the start are the nature information hut with an observation tower, a summer café, lean-to, campfire site, dry toilet and rental sauna at the former coast-guard station.",
+  "highlights": [
+   "Kvarken World Heritage land-uplift landscape",
+   "16th-century fishing camp ruins",
+   "observation tower (summer)",
+   "nature station"
+  ],
+  "duration": "luontoon.fi suggests about 2 h incl. stops",
+  "access": "Reachable by boat only (own boat, or summer day cruises to Kummelskär from Stråkaviken).",
+  "season": "Bird nesting season 1.5-15.7: stay on marked trails. Nature hut, tower and café open in summer only.",
+  "parking_notes": [
+   "Trailhead at the nature station harbour on Kummelskär (start of the luontoon.fi track). Nearest harbours reachable by car: Köklot (Korsholm, ~20 km by boat); summer day cruises by M/S Filifjonkan from Stråkaviken (Vörå/Maxmo)."
+  ]
+ },
+ "vora-kimo-river-mouth-bird-towers": {
+  "desc": "Two birdwatching towers at the mouth of the Kimo river where it enters the shallow Oravaisfjärden bay, reached by a forest track and path of under a kilometre. The shallow, sheltered river-mouth bay on this land-uplift coast is a good spot for watching waterbirds, especially during migration.",
+  "highlights": [
+   "two bird towers",
+   "river mouth wetland"
+  ],
+  "duration": "~0.9 km each way",
+  "parking_notes": [
+   "Approximate: where the forest track to the towers leaves Karlebyvägen, near the Pärtstugan museum; no parking mapped in OSM."
+  ]
+ }
+}
