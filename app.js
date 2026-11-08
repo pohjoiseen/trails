@@ -418,7 +418,7 @@
     let h = '<button class="back" id="back">' + ICON.back + esc(t("back")) + "</button>";
     h += '<div class="dh"><h2>' + esc(primaryName(tr)) + "</h2>" + (alt ? '<div class="alt">' + esc(alt) + "</div>" : "") +
       '<div class="where">' + esc(muniName(tr.municipality)) + (tr.area ? " · " + esc(tr.area) : "") + " " + (tr.rating ? stars(tr.rating) : '<span class="stars" style="color:var(--muted);font-size:.78rem">' + esc(t("notRated")) + "</span>") + "</div></div>";
-    h += '<div class="facts"><div class="big"><b>' + fmtLen(tr) + "<small>" + esc(t("km")) + "</small></b><span>" + esc(t("length")) + "</span></div>" +
+    h += '<div class="facts"><div class="big"><b>' + fmtLen(tr) + "<small>" + esc(t("km")) + "</small></b><span>" + esc(t("length")) + (tr.kind === "linear" ? ", " + esc(t("oneWay")) : "") + "</span></div>" +
       '<div class="kd">' + kindHtml(tr.kind) + "<p>" + esc(t("kindLong_" + tr.kind)) + "</p>" +
       (tr.kind === "network" && tx.network_note ? "<p><b>" + esc(t("networkExtent")) + ":</b> " + esc(tx.network_note) + "</p>" : "") +
       "</div></div>";

@@ -394,6 +394,163 @@
    "Harbour by Kalkmagasinet; turn at Österhankmovägen 900, walk 100 m back and 100 m north along the road to the start (63.24543, 21.92588)"
   ]
  },
+ "bergo-vandringsled": {
+  "desc": "Figure-of-eight trail on Granön in the northern part of Bergö island, in the Kvarken archipelago. It leads through the island's most scenic forest, past small lakes (Kalvskärs träsk) and rocky outcrops; the northern loop crosses Storfurusan, a ridge formerly used as a gravel pit. Duckboards cover the wettest sections. Along the way are rest areas, information boards and wooden bird and animal artworks by local artist Lars-Göran Söderholm, and the grill hut 'Adolf' with a dry toilet. Opened 2006 and re-marked 2018–19; maintained by Bergö Öråd.",
+  "highlights": [
+   "grill hut Adolf",
+   "Kalvskärs träsk rest area",
+   "Storfurusan ridge",
+   "wooden bird artworks",
+   "archipelago forest"
+  ],
+  "duration": "Southern loop c. 4.1 km (~1 h 20 min); northern loop c. 3.3 km (~1 h); both together c. 8 km",
+  "access": "Bergö is reached by the free road ferry Bergö–Bredskär (c. 20 min). Fires only in the grill hut.",
+  "parking_notes": [
+   "Free parking by the ferry landing on Bergö (OSM way 720261375); official start Bergövägen 47"
+  ]
+ },
+ "majors-naturstig": {
+  "desc": "Loop over Majorsbacken, a forested hill with exposed rock outcrops beside Strandvägen south of Malax centre. The shortest 1.2 km loop is the rockiest, with wooden stairs on the steepest spots; the 2.2 km loop runs further south along the hillside, and both combine into the full 3.4 km round. There is a rest place with log tables. Maintained by Öjna byaförening.",
+  "highlights": [
+   "rocky hill terrain",
+   "stairs on rock outcrops",
+   "rest place with log tables"
+  ],
+  "parking_notes": [
+   "Large parking area at the trailhead, 6 km south of Malax centre (OSM way 846468237)"
+  ]
+ },
+ "pixne-naturstig": {
+  "desc": "Village nature trail starting from the centre of Malax and heading north-east into the forest between Pixne and Lillpixne. It is made of three sections that can be combined into rounds of 1.8, 3.1, 3.4 or 4.5 km; the outer part is a loop on forest paths and a forest road, while the return leg follows a sand road and the edge of the village. Built and maintained by Pixne allaktivitetsförening.",
+  "highlights": [
+   "forest paths close to Malax centre"
+  ],
+  "parking_notes": [
+   "No dedicated trailhead parking: the start is on the light-traffic path between Klockarisvägen and Klockarisgränd (Klockarisvägen 14, 62.94374,21.58371). Nearest public parking is at the Malax sports ground c. 600 m south (OSM way 589274326)."
+  ]
+ },
+ "aminne-vandringsled": {
+  "desc": "Easy marked path through the forest behind Åminne village, from Mobergsvägen in the north past Träsket down to the river at Dimmornas bro, where there is a grill shelter. Loops can be made by returning along the village roads. The start can be combined with the Kvarken boat museum and Åminne bird tower. Maintained by Åminne-Tuv allaktivitetsförening.",
+  "highlights": [
+   "grill shelter at Dimmornas bro",
+   "Åminne bird tower nearby",
+   "Kvarken boat museum nearby"
+  ],
+  "duration": "Marked path 2.0 km one way; 4.1 km round returning along Åminnevägen and Mobergsvägen; 5.1 km round from Åminne Folkpark",
+  "parking_notes": [
+   "'Dimmornas bro' grill shelter at the southern end of the trail; roadside parking (no parking area mapped in OSM; point = grill shelter).",
+   "Åminne Folkpark parking (OSM way 1270416168); 5.1 km round. The Kvarken boat museum with bird tower and grill place (Åminnevägen 427) is also recommended; no parking at the northern end (Mobergsvägen 520)."
+  ]
+ },
+ "kajane-naturstig": {
+  "desc": "Trail from the Kajane camp area beside a large mire near Lillträsket and Lisansjön. Duckboards lead 0.8 km across the open bog (Träskmossen) to the small lake Lillträsket, where there is a lean-to; the path then continues around and back to the camp (3.0 km), with a 0.6 km spur to the larger lake Lisansjön. Information signs present the area's animal and plant life. The camp area has a sauna, overnight cabin (fee) and barbecue shelters. Maintained by Yrkesakademin i Österbotten.",
+  "highlights": [
+   "duckboards across open bog",
+   "Lillträsket lean-to",
+   "Lisansjön lake",
+   "information signs on flora and fauna"
+  ],
+  "duration": "Boardwalk to Lillträsket lean-to 0.8 km one way; full loop 3.0 km; spur to Lisansjön 0.6 km",
+  "access": "According to malax.fi (2024) only the boardwalk to Lillträsket is currently in usable condition; other parts of the loop may be very hard to pass.",
+  "parking_notes": [
+   "Parking at Kajane camp area (OSM node 5663614388). Turn off national road 8 onto Kajane skogsväg (4.2 km north of the Petalax junction), drive 1.2 km, turn right, 1.4 km, turn left into the area."
+  ]
+ },
+ "velkmossa-vandringsled": {
+  "desc": "Old forest track through the wilderness between Petalax (Malax) and Velkmossa (Närpes), mostly on the Malax side. It runs through forest and bog edges past Nojärvsträsket, a shallow, overgrown wilderness lake with reed beds that is a good breeding site for many bird species; a short spur leads to a bird tower on its shore. Another side path leads to Kackurmossen bog, and the topographic map shows several prehistoric cairns (fornlämningar) near the route. Maintained by Metsähallitus (Forststyrelsen).",
+  "highlights": [
+   "Nojärvsträsk bird tower",
+   "overgrown wilderness lake",
+   "Kackurmossen bog",
+   "cairns near the route"
+  ],
+  "duration": "4.5 km one way between Viitala and Velkmoss village hall, 9 km there and back; bird-tower spur c. 0.4 km",
+  "parking_notes": [
+   "Northern start near the Bjurnäsvägen–Vargmossa skogsväg junction (OSM parking way 855992099, info board). Lipas address of the nearby Nojärvsträsk bird tower: Bjurnäsvägen 525.",
+   "APPROXIMATE: Velkmoss village hall (byagård) with parking, c. 0.5 km east of the southern trail end; location estimated from the PDF map."
+  ]
+ },
+ "mamrestigen-storsjostigen": {
+  "desc": "Historic connecting path between the forest villages of Storsjö in Malax and Mamrelund in Petalax. It crosses a low-lying forest landscape with bogs and ditched peatland (e.g. Gorrmossen) and small rocky rises; near Storsjö the map marks prehistoric cairns (fornlämningar). Maintained by Petalax hembygdsförening, Malax museiförening and private landowners.",
+  "highlights": [
+   "old village path",
+   "bogs and forest",
+   "prehistoric cairns near Storsjö"
+  ],
+  "duration": "c. 3.5–4 km one way, 8 km there and back",
+  "parking_notes": [
+   "Western start at Mamrelund (point = Lipas trail start)",
+   "Eastern start at Storsjön (point = Lipas trail end)"
+  ]
+ },
+ "jarnaldersleden": {
+  "desc": "Short loop through an archaeologically interesting area with Iron Age cairns (gravrösen) and cup stones, from a settlement dated to about 200–700 AD; one is described as 'the most beautiful cup stone in Finland'. The meadow and forest vegetation is rich. At the start there is an open chalet hut (fäbodstuga) with archaeological information and a summer cowshed with an agricultural exhibition. Officially open May–September; maintained by Malax museiförening.",
+  "highlights": [
+   "Iron Age cairns",
+   "cup stones",
+   "rich flora",
+   "fäbod cottage with exhibition"
+  ],
+  "season": "Officially open May–September",
+  "parking_notes": [
+   "Trailhead parking by Storsjövägen (malax.fi gives Storsjövägen 446); 8.5 km south of Malax church. Point = Lipas/OSM route start."
+  ]
+ },
+ "fabodstigen-molapne": {
+  "desc": "Cultural-history path through the forest at Pappersbruket (Bränno) in Molapne, where the people of Malax kept their summer pasture chalets (fäbodar). Signs mark the sites of 15 former herdmaids' cottages, mostly only foundations and hearth remains today; one restored cottage and cowshed are on site. Officially open May–September; maintained by Malax museiförening.",
+  "highlights": [
+   "15 historic fäbod chalet sites",
+   "restored cottage and cowshed"
+  ],
+  "duration": "c. 1 km one way",
+  "season": "Officially open May–September",
+  "parking_notes": [
+   "Roadside at the start (map board and brochure box). From road 8 at Långåminne drive 1800 m towards Malax, turn left and follow the road 2100 m to Molapne."
+  ]
+ },
+ "rajavuori-luontopolku": {
+  "desc": "Loop from the Rajavuori wilderness and hiking centre over Rajavuori, the highest ground in Laihia (80–90 m above sea level), through forest. About 700 m north-west of the yard stands an 8 m lookout tower with wide views; further on are the Rajavuori double lean-to (c. 1.5 km) and the Kaunissaari lean-to (c. 3.1 km), both with fireplaces and firewood delivered a few times a year. The loop is the northern start of the long-distance Kurjen kierros (Crane Trail) towards Levaneva. The centre (rentable, saunas) has a dry toilet and a lean-to in the yard.",
+  "highlights": [
+   "8 m lookout tower",
+   "highest point of Laihia",
+   "two lean-tos",
+   "start of Kurjen kierros"
+  ],
+  "access": "Fires forbidden during forest fire warnings.",
+  "parking_notes": [
+   "Yard of Rajavuori erä- ja vaelluskeskus, c. 12 km south of Kylänpää (junction of Tampereentie and Jurvantie). No parking area mapped in OSM; point = trail start/info board (Lipas, OSM node 6665225403). Lipas gives the address as Laihiantie 50."
+  ]
+ },
+ "kurjen-kierros-rajavuori-levaneva": {
+  "desc": "Long-distance section of the Kurjen kierros (Crane Trail) from the Rajavuori hiking centre to the Levaneva Mire Reserve on the Laihia–Kurikka border. After the forested Rajavuori area the trail crosses road 687 and the Kyrössuo bog north of the Kivi- ja Levalampi reservoir and joins the Levaneva trail. Levaneva is a large, open raised-bog landscape; the route crosses it on long duckboards and detours through forest islets and wooded mire edges. At Maalarinmaa there is a half-kota lean-to, a dry toilet and a bird tower over the mire, popular for watching bog-nesting birds. Near Peräkylä is the Särkinen open wilderness hut with tent area.",
+  "highlights": [
+   "Levaneva Mire Reserve",
+   "long duckboards over open bog",
+   "Maalarinmaa bird tower",
+   "Särkinen wilderness hut",
+   "Kyrössuo bog"
+  ],
+  "duration": "Maalarinmaa parking to bird tower 0.6 km; Rajavuori–Maalarinmaa c. 14 km; Rajavuori–Peräkylä c. 24 km one way. The Levaneva trail itself (Peräkylä–Maalarinmaa and on) is 13.6 km one way / 27 km out and back per luontoon.fi. The whole Kurjen kierros continues to Pässilä and Kalajaisjärvi (Ilmajoki), c. 30–50 km.",
+  "access": "Linear route: arrange transport or walk out and back. Levaneva is a state nature reserve (Metsähallitus): stay on the marked trail.",
+  "season": "Duckboards can be slippery in wet weather. Fires forbidden during forest fire warnings.",
+  "parking_notes": [
+   "Northern start at Rajavuori hiking centre (see Rajavuori nature trail).",
+   "Maalarinmaa parking: from E12 at Kylänpää take road 687 south 14 km, turn left towards the Kivi- ja Levalampi reservoir (signposted Kurjen kierros). Point = end of Allastie in OSM, where the 0.6 km path to Maalarinmaa starts; no parking area mapped in OSM. The storymap says this parking is on the Kurikka side.",
+   "Peräkylä parking, southern access to Levaneva (OSM way 722679361); outside Laihia."
+  ]
+ },
+ "allisen-luontopolku": {
+  "desc": "Village nature trail in Jakkula maintained by Jakkulan kyläyhdistys. Info signs along the way present the local nature. At 0.7 km a viewing platform has been built on top of a large glacial erratic boulder; at 1.5 km is the well-equipped Haarrineva lean-to on the edge of the Haarrineva bog, with a fireplace, firewood shed and an outdoor toilet nearby. The path ends at prehistoric cairn graves (röykkiöhaudat) 1.9 km from the start.",
+  "highlights": [
+   "viewing platform on a glacial erratic",
+   "Haarrineva lean-to",
+   "prehistoric cairn graves"
+  ],
+  "duration": "Viewpoint 0.7 km, Haarrineva lean-to 1.5 km, cairn graves 1.9 km; 3.8 km there and back",
+  "parking_notes": [
+   "Trailhead with info board (OSM node 6495253774; Lipas 'Merkkikiven opastuspiste' at Allisentie 191). No parking area mapped in OSM; the Jakkula shooting range (Allisentie 165) is next to it. Point = trailhead board."
+  ]
+ },
  "isokyro-lymmyys-nature-trail": {
   "desc": "A short educational loop on the sandy Hietakangas heath beside Palhojaistentie. The path crosses several forest types, from dry pine heath (kuiva kangasmetsä) to spruce and birch stands and the edge of a mire; information boards along the way present the local trees, berries (bilberry, lingonberry), animals such as squirrel, elk and wood ants, and bogs. It suits families with small children. The walk ends at a roofed kota and a log lean-to by the parking area.",
   "highlights": [

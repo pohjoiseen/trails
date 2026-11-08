@@ -1201,6 +1201,527 @@
   ]
  },
  {
+  "id": "bergo-vandringsled",
+  "municipality": "malax",
+  "area": "Bergö (Granön)",
+  "name": {
+   "fi": "Bergöön vaellusreitti",
+   "sv": "Bergö vandringsled",
+   "en": "Bergö Hiking Trail"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   3.5,
+   8.0
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.94795,
+    "lon": 21.17554,
+    "address": "Bergövägen 47, 66220 Bergö, Malax"
+   }
+  ],
+  "facilities": [
+   "kota",
+   "toilet",
+   "duckboards",
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "file": "data-src/geometry/files/bergo-vandringsled.geojson"
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
+   "https://www.google.com/maps/d/viewer?mid=1UwTxCQpr0Mwttukj4-N6-VxXw2V2rkIF",
+   "https://www.malax.fi/assets/Sidor/1/112/Bergo-vandringsled.jpg",
+   "https://www.bergö.fi/besok-bergo/",
+   "https://www.vaasa.fi/en/naturetrail"
+  ]
+ },
+ {
+  "id": "majors-naturstig",
+  "municipality": "malax",
+  "area": "Majors / Öjna (Malax)",
+  "name": {
+   "fi": "Majorsin luontopolku",
+   "sv": "Majors naturstig",
+   "en": "Majors Nature Trail"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   1.2,
+   3.4
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.90951,
+    "lon": 21.45529,
+    "address": "Strandvägen 2118, 66100 Malax"
+   }
+  ],
+  "facilities": [
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    603624
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
+   "https://www.malax.fi/assets/Sidor/1/112/Majors-naturstig-karta.pdf",
+   "https://www.luontoon.fi/en/trails/majorsin-luontopolku-maalahti-603624-en"
+  ]
+ },
+ {
+  "id": "pixne-naturstig",
+  "municipality": "malax",
+  "area": "Pixne (Malax centre)",
+  "name": {
+   "fi": "Pixnen luontopolku",
+   "sv": "Pixne naturstig",
+   "en": "Pixne Nature Trail"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   1.8,
+   4.5
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.93844,
+    "lon": 21.58365,
+    "address": "Idrottsvägen 2, 66100 Malax"
+   }
+  ],
+  "facilities": [
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    603637
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
+   "https://www.malax.fi/assets/Sidor/1/112/Pixne-naturstig.pdf",
+   "https://www.luontoon.fi/en/trails/pixnen-luontopolku-maalahti-603637-en"
+  ]
+ },
+ {
+  "id": "aminne-vandringsled",
+  "municipality": "malax",
+  "area": "Åminne",
+  "name": {
+   "fi": "Åminnen vaellusreitti",
+   "sv": "Åminne vandringsled",
+   "en": "Åminne Hiking Trail"
+  },
+  "local": "sv",
+  "kind": "loop+linear",
+  "length_km": [
+   2.0,
+   5.1
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.96164,
+    "lon": 21.51132,
+    "address": "Åminnevägen 251, 66100 Malax"
+   },
+   {
+    "lat": 62.97578,
+    "lon": 21.48496,
+    "address": "Paviljongsvägen 21, 66100 Malax"
+   }
+  ],
+  "facilities": [
+   "fireplace",
+   "tower"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    600552
+   ],
+   "quality": "partial"
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
+   "https://www.malax.fi/assets/Sidor/1/112/Aminne-vandringsled.pdf"
+  ]
+ },
+ {
+  "id": "kajane-naturstig",
+  "municipality": "malax",
+  "area": "Kajane (Petalax)",
+  "name": {
+   "fi": "Kajanen luontopolku",
+   "sv": "Kajane naturstig / Kajane vandringsled",
+   "en": "Kajane Nature Trail"
+  },
+  "local": "sv",
+  "kind": "loop+linear",
+  "length_km": [
+   0.8,
+   3.0
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.78494,
+    "lon": 21.6227,
+    "address": "Kajane skogsväg, Malax (Kajane lägerområde)"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "duckboards",
+   "shelter",
+   "sauna"
+  ],
+  "photos": [],
+  "geometry": {
+   "osm": [
+    "relation/21141037"
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
+   "https://www.malax.fi/assets/Sidor/1/112/Kajane-vandringsled-karta.pdf",
+   "https://www.yrkesakademin.fi/tjanster/kajane-lagercenter",
+   "https://www.vaasa.fi/en/naturetrail"
+  ]
+ },
+ {
+  "id": "velkmossa-vandringsled",
+  "municipality": "malax",
+  "area": "Petalax (Nojärv / Velkmossa)",
+  "name": {
+   "fi": "Velkmossan vaellusreitti",
+   "sv": "Velkmossa vandringsled",
+   "en": "Velkmossa Hiking Trail"
+  },
+  "local": "sv",
+  "kind": "linear",
+  "length_km": [
+   4.5,
+   4.5
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.78451,
+    "lon": 21.39001,
+    "address": "Bjurnäsvägen / Vargmossa skogsväg (Viitala), 66240 Petalax, Malax"
+   },
+   {
+    "lat": 62.7568,
+    "lon": 21.4365,
+    "address": "Ribackvägen 94, Velkmossa, Närpes"
+   }
+  ],
+  "facilities": [
+   "tower",
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "osm": [
+    "way/259617289",
+    "way/259617292",
+    "way/259617290",
+    "way/855992103",
+    "way/256602527",
+    "way/256602556"
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
+   "https://www.malax.fi/assets/Sidor/1/112/Velkmoss.pdf"
+  ]
+ },
+ {
+  "id": "mamrestigen-storsjostigen",
+  "municipality": "malax",
+  "area": "Mamre (Petalax) – Storsjö (Övermalax)",
+  "name": {
+   "fi": "Mamrenpolku / Storsjönpolku",
+   "sv": "Mamrestigen / Storsjöstigen",
+   "en": "Mamre–Storsjö Trail"
+  },
+  "local": "sv",
+  "kind": "linear",
+  "length_km": [
+   4,
+   4
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.85348,
+    "lon": 21.47713,
+    "address": "Mamrevägen 357, 66240 Petalax, Malax"
+   },
+   {
+    "lat": 62.86115,
+    "lon": 21.53902,
+    "address": "Storsjövägen 617, 66140 Övermalax, Malax"
+   }
+  ],
+  "facilities": [],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    619552
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
+   "https://www.malax.fi/assets/Sidor/1/112/Mamrestigen.pdf"
+  ]
+ },
+ {
+  "id": "jarnaldersleden",
+  "municipality": "malax",
+  "area": "Storsjö (Övermalax)",
+  "name": {
+   "fi": "Rautakauden polku",
+   "sv": "Järnåldersleden",
+   "en": "Iron Age Trail"
+  },
+  "local": "sv",
+  "kind": "loop",
+  "length_km": [
+   0.8,
+   1.8
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.87571,
+    "lon": 21.54083,
+    "address": "Storsjövägen 443, 66140 Övermalax, Malax"
+   }
+  ],
+  "facilities": [
+   "hut",
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    619549
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
+   "https://www.malax.fi/assets/Sidor/1/112/jarnaldersleden_broschyr.pdf",
+   "https://www.vaasa.fi/en/naturetrail"
+  ]
+ },
+ {
+  "id": "fabodstigen-molapne",
+  "municipality": "malax",
+  "area": "Molapne (Övermalax)",
+  "name": {
+   "fi": "Karjamajapolku",
+   "sv": "Fäbodstigen",
+   "en": "Chalet Trail in Molapne"
+  },
+  "local": "sv",
+  "kind": "linear",
+  "length_km": [
+   1,
+   1
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.88562,
+    "lon": 21.67769,
+    "address": "Molapnevägen 243, 66140 Övermalax, Malax"
+   }
+  ],
+  "facilities": [
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    619550
+   ]
+  },
+  "borderline": true,
+  "sources": [
+   "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
+   "https://www.malax.fi/assets/Sidor/1/112/Faebodstigenbroschyr.pdf",
+   "https://www.vaasa.fi/en/naturetrail"
+  ]
+ },
+ {
+  "id": "rajavuori-luontopolku",
+  "municipality": "laihia",
+  "area": "Rajavuori (Jakkula, southern Laihia)",
+  "name": {
+   "fi": "Rajavuoren luontopolku",
+   "sv": "Rajavuori naturstig",
+   "en": "Rajavuori Nature Trail"
+  },
+  "local": "fi",
+  "kind": "loop",
+  "length_km": [
+   5.5,
+   5.5
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.80672,
+    "lon": 21.947,
+    "address": "Rajavuorentie 134, 66450 Jakkula, Laihia"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace",
+   "toilet",
+   "tower"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    602566
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://storymaps.arcgis.com/stories/30384603de2941ae956a819ac516080e",
+   "https://laihia.fi/hyvinvointi-ja-vapaa-aika/liikunta/liikuntatilat-ja-alueet/ulkoliikuntapaikat/",
+   "https://www.luontoon.fi/en/trails/rajavuoren-luontopolku-5-km-laihia-602566-en"
+  ]
+ },
+ {
+  "id": "kurjen-kierros-rajavuori-levaneva",
+  "municipality": "laihia",
+  "area": "Rajavuori – Levaneva (Laihia/Kurikka border)",
+  "name": {
+   "fi": "Kurjen kierros: Rajavuori–Levaneva",
+   "sv": "Kurjen kierros (Tranrundan): Rajavuori–Levaneva",
+   "en": "Crane Trail: Rajavuori–Levaneva"
+  },
+  "local": "fi",
+  "kind": "linear",
+  "length_km": [
+   14,
+   24
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.80672,
+    "lon": 21.947,
+    "address": "Rajavuorentie 134, 66450 Jakkula, Laihia"
+   },
+   {
+    "lat": 62.7738,
+    "lon": 22.0343,
+    "address": "Allastie (end), off Laihia–Jurva road 687, Laihia"
+   },
+   {
+    "lat": 62.74697,
+    "lon": 22.1252,
+    "address": "Tainuskyläntie 431, 66350 Kurikka"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "tower",
+   "toilet",
+   "hut",
+   "tent",
+   "duckboards"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    602564,
+    513434
+   ]
+  },
+  "borderline": false,
+  "sources": [
+   "https://storymaps.arcgis.com/stories/30384603de2941ae956a819ac516080e",
+   "https://www.luontoon.fi/en/trails/levaneva-trail-laihia-62475-en",
+   "https://www.luontoon.fi/en/destinations/levaneva-nature-reserve/activities-and-trails/hiking-and-outdoor-recreation",
+   "https://visitseinajoki.fi/?p=19775"
+  ]
+ },
+ {
+  "id": "allisen-luontopolku",
+  "municipality": "laihia",
+  "area": "Jakkula",
+  "name": {
+   "fi": "Allisen luontopolku",
+   "sv": "Allinen naturstig",
+   "en": "Allinen Nature Trail"
+  },
+  "local": "fi",
+  "kind": "linear",
+  "length_km": [
+   1.9,
+   1.9
+  ],
+  "rating": null,
+  "parking": [
+   {
+    "lat": 62.9394,
+    "lon": 22.09117,
+    "address": "Allisentie 161, 66450 Jakkula, Laihia"
+   }
+  ],
+  "facilities": [
+   "laavu",
+   "fireplace",
+   "toilet",
+   "signs"
+  ],
+  "photos": [],
+  "geometry": {
+   "lipas_ids": [
+    514814
+   ],
+   "lipas_parts": {
+    "514814": [
+     0
+    ]
+   }
+  },
+  "borderline": false,
+  "sources": [
+   "https://storymaps.arcgis.com/stories/30384603de2941ae956a819ac516080e",
+   "https://www.luontoon.fi/smn/kiainuh/laihian-patikkareitit-laihia-514814"
+  ]
+ },
+ {
   "id": "isokyro-lymmyys-nature-trail",
   "municipality": "isokyro",
   "area": "Palhojainen (Hietakangas)",
@@ -1254,8 +1775,8 @@
   "local": "fi",
   "kind": "linear",
   "length_km": [
-   7.0,
-   7.0
+   3.5,
+   3.5
   ],
   "rating": null,
   "parking": [
@@ -1350,7 +1871,9 @@
   ],
   "photos": [],
   "geometry": {
-   "file": "data-src/geometry/files/isokyro-vuoressalo.gpx"
+   "lipas_ids": [
+    608301
+   ]
   },
   "borderline": false,
   "sources": [
@@ -1504,7 +2027,9 @@
   ],
   "photos": [],
   "geometry": {
-   "file": "data-src/geometry/files/isokyro-peippoonen.gpx"
+   "lipas_ids": [
+    608306
+   ]
   },
   "borderline": false,
   "sources": [
@@ -1549,7 +2074,9 @@
   ],
   "photos": [],
   "geometry": {
-   "file": "data-src/geometry/files/isokyro-ylipaa-marjamaki.gpx"
+   "lipas_ids": [
+    608308
+   ]
   },
   "borderline": true,
   "sources": [
@@ -2736,8 +3263,8 @@
   "local": "sv",
   "kind": "linear",
   "length_km": [
-   1.8,
-   1.8
+   0.9,
+   0.9
   ],
   "rating": null,
   "parking": [

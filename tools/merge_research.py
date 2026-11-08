@@ -16,6 +16,7 @@ LOCAL_SV = {"korsholm", "malax", "vora"}
 DROP = {
     "vaasa-luontoliikuntareitisto",       # umbrella for urban path network; Pilvilampi and City Bay listed separately
     "vaasa-onkilahti-accessible-trail",   # 220 m boardwalk in a city park
+    "kaarluoman-reitti",                  # partly vanished per Lipas, off the municipal map
 }
 
 # Geometry decisions where a research entry offers several sources. Paths relative to research dir.
@@ -35,10 +36,21 @@ GEOM = {
     "vora-vitmossen": {"lipas_ids": [606566], "lipas_parts": {"606566": [i for i in range(61) if i not in [34, 36, 37] + list(range(43, 61))]}},
     "vora-mickelsorarna-nature-trail": {"file": "vora/dl/mick_geom.json"},
     "vora-rokio-norrvalla-boberget": {"lipas_ids": [606567, 606568]},
+    "bergo-vandringsled": {"file": "malax/dl/bergo.geojson"},  # official Google My Maps tracks (converted from KML)
+    "kajane-naturstig": {"osm": ["relation/21141037"]},
+    "aminne-vandringsled": {"lipas_ids": [600552], "quality": "partial"},
+    "allisen-luontopolku": {"lipas_ids": [514814], "lipas_parts": {"514814": [0]}},
+    "velkmossa-vandringsled": {"osm": ["way/259617289", "way/259617292", "way/259617290", "way/855992103", "way/256602527", "way/256602556"]},
     # official GPX files retrace shared sections; Lipas has the de-duplicated path network
     "isokyro-peippoonen": {"lipas_ids": [608306]},
     "isokyro-ylipaa-marjamaki": {"lipas_ids": [608308]},
     "isokyro-vuoressalo": {"lipas_ids": [608301]},
+}
+# Convention: for linear trails length_km is the one-way distance.
+LENGTH = {
+    "velkmossa-vandringsled": [4.5, 4.5], "mamrestigen-storsjostigen": [4, 4], "fabodstigen-molapne": [1, 1],
+    "allisen-luontopolku": [1.9, 1.9], "isokyro-fatisaari": [3.5, 3.5], "vora-kimo-river-mouth-bird-towers": [0.9, 0.9],
+    "kurjen-kierros-rajavuori-levaneva": [14, 24],
 }
 APPROX = {"vora-komossa-hoppamaki": "komossa", "vora-skidcentrum-trail": "skid", "vora-storberget": "storberget"}
 
@@ -118,7 +130,7 @@ def main():
                 "name": {k: v for k, v in name.items() if k in ("fi", "sv", "en") and v},
                 "local": "sv" if muni in LOCAL_SV else "fi",
                 "kind": t["kind"],
-                "length_km": t["length_km"],
+                "length_km": LENGTH.get(tid, t["length_km"]),
                 "rating": None,
                 "parking": parking,
                 "facilities": facilities(t.get("facilities")),
