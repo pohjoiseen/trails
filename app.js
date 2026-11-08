@@ -90,9 +90,8 @@
   const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 
   function initMap() {
-    map = L.map("map", { zoomControl: false, attributionControl: true, minZoom: 8, maxZoom: 18, zoomSnap: 1, preferCanvas: false })
+    map = L.map("map", { zoomControl: false, attributionControl: true, minZoom: 7, maxZoom: 18, zoomSnap: 1, preferCanvas: false })
       .setView([63.08, 21.75], 9);
-    map.setMaxBounds([[62.3, 20.0], [64.0, 24.0]]);
     L.control.zoom({ position: "bottomright" }).addTo(map);
     map.attributionControl.setPrefix(false);
     map.createPane("tracks"); map.getPane("tracks").style.zIndex = 420;
@@ -105,6 +104,8 @@
     parkLayer = L.layerGroup().addTo(map);
     pinLayer = L.layerGroup().addTo(map);
     map.on("zoomend", updatePins);
+    // keep Leaflet in sync when the map box changes size (sidebar/sheet changes, window resizes)
+    if (window.ResizeObserver) new ResizeObserver(() => map.invalidateSize({ pan: false })).observe($("#map"));
     map.on("click", () => { if (S.selected && isPhone()) setSheet("peek"); });
     setBase(S.base, true);
   }
@@ -260,7 +261,8 @@
   function fitAll() {
     const pts = [];
     visibleTrails().forEach((tr) => { if (tr.bbox) { pts.push(tr.bbox[0], tr.bbox[1]); } });
-    if (pts.length) map.fitBounds(L.latLngBounds(pts), { paddingTopLeft: [30, 60], paddingBottomRight: [60, isPhone() ? sheetPx() + 20 : 30], maxZoom: 14 });
+    const ph = isPhone();
+    if (pts.length) map.fitBounds(L.latLngBounds(pts), { paddingTopLeft: ph ? [8, 8] : [30, 60], paddingBottomRight: ph ? [8, sheetPx() + 4] : [60, 30], maxZoom: 14 });
   }
 
   /* ---------------- filters & list ---------------- */
@@ -469,7 +471,7 @@
   const isPhone = () => window.matchMedia("(max-width: 820px)").matches;
   let sheetState = "half";
   const SHEET = { peek: 0.24, half: 0.5, full: 0.92 };
-  function sheetPx() { return isPhone() ? $("#panel").getBoundingClientRect().height : 0; }
+  function sheetPx() { return isPhone() ? Math.round(SHEET[sheetState] * window.innerHeight) : 0; }
   function setSheet(st) {
     sheetState = st;
     const panel = $("#panel");

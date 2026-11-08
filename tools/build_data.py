@@ -338,8 +338,15 @@ def main():
             "center": center,
             "line": rnd(overview),
         }
+        # Length label: on the track, at the vertex nearest the track's centre, so labels of trails
+        # sharing a car park don't stack on the parking marker.
         if tr.get("pin"):
             item["pin"] = tr["pin"]
+        elif detail:
+            tp = [p for ln in detail for p in ln]
+            cy = sum(p[0] for p in tp) / len(tp); cx = sum(p[1] for p in tp) / len(tp)
+            best = min(tp, key=lambda p: dist_m(p, [cy, cx]))
+            item["pin"] = [round(best[0], 5), round(best[1], 5)]
         index.append(item)
         print("%-34s %6.2f km geom  %s km stated  parts=%d" % (tid, geom_km, tr["length_km"], len(detail)))
     with open(os.path.join(OUT, "trails.json"), "w") as f:
