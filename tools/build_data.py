@@ -252,6 +252,9 @@ def main():
             d = {k: v for k, v in d.items() if k in seen}
             with open(os.path.join(OUT, "text", lang + ".json"), "w") as f:
                 json.dump(d, f, ensure_ascii=False, separators=(",", ":"))
+    for fn in os.listdir(os.path.join(OUT, "tracks")):
+        if fn[:-5] not in seen:
+            os.remove(os.path.join(OUT, "tracks", fn))
     print("trails:", len(index))
 
 
