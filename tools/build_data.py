@@ -271,6 +271,13 @@ def rnd(lines, nd=5):
     return [[[round(p[0], nd), round(p[1], nd)] for p in ln] for ln in lines]
 
 
+def rating(tr):
+    r = tr.get("rating")
+    if r is not None and (not isinstance(r, int) or not 1 <= r <= 5):
+        sys.exit("%s: rating must be null or 1-5, got %r" % (tr["id"], r))
+    return r
+
+
 def main():
     trails = json.load(open(os.path.join(SRC, "trails.json")))
     os.makedirs(os.path.join(OUT, "tracks"), exist_ok=True)
@@ -328,7 +335,7 @@ def main():
             "local": tr.get("local", "fi"),
             "kind": tr["kind"],
             "length_km": tr["length_km"],
-            "rating": tr.get("rating"),
+            "rating": rating(tr),
             "parking": tr.get("parking", []),
             "facilities": tr.get("facilities", []),
             "photos": tr.get("photos", []),

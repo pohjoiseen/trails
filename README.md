@@ -18,8 +18,8 @@ It is plain HTML/JS with Leaflet (`vendor/leaflet.js`, 1.9.4) and has no build s
 | `data/tracks/<id>.json` | Full-detail tracks, loaded when a trail is opened |
 | `data/text/<lang>.json` | Descriptions per language, loaded on demand |
 | `data-src/` | Curated source data: edit this, then rebuild |
-| `photos/` | Trail photos (none yet; see `photos/README.md`) |
 | `tools/` | Build scripts |
+| `tools/editor/` | Local editor for ratings and photos (not part of the site) |
 
 ## Editing trails
 
@@ -30,11 +30,29 @@ Edit `data-src/trails.json` (metadata, parking, geometry recipe, `rating`, `phot
 python3 tools/build_data.py
 ```
 
-- `rating`: `null` or 1–3. The rating filter and sort appear once any trail has a rating.
+- `rating`: `null` or 1–5. The rating filter and sort appear once any trail has a rating.
+- `photos`: `[{"id", "thumb", "src", "date"}, …]`, the photo IDs and URLs from the blog's photo archive (`thumb` is
+  the 375 px thumbnail shown in the strip, `src` the full-size photo shown in the lightbox). Use the editor below rather than editing by hand.
 - `kind`: `loop`, `linear`, `network` or `loop+linear`. `length_km` is `[min, max]`.
 - `geometry`: any mix of `lipas_ids` (with optional `lipas_parts`), `osm` (`way/…`, `relation/…`), `file` (GeoJSON or GPX under
   `data-src/geometry/files/`), `waypoints` (`[[lat, lon], …]`), and `quality` (`exact`, `approx`, `partial` or `none`).
   Raw downloads are cached in `data-src/geometry/`.
+
+## Ratings and photos editor
+
+```bash
+python3 tools/editor/editor.py
+```
+
+Then open http://127.0.0.1:8765/. Trails are on the left: pick one, set its rating (click the stars or press 0–5), drag
+its photos to reorder them, × removes one. The right side browses the photo archive in a copy of the pohjoiseen blog
+database by folder (or search folders by name): click a photo to add or remove it, ⤢ or double-click for full screen
+(←/→ to move, Space to add or remove), or drag it into the trail at a given position. **Save & rebuild** (Ctrl+S)
+writes `data-src/trails.json` (only `rating` and `photos`) and runs `tools/build_data.py`.
+
+The database is taken from `$POHJOISEEN_DB`, otherwise the newest `pohjoiseen*.db` at the repository root (git-ignored).
+It is opened read-only. `PORT` changes the port. The editor only listens on localhost and has no HTML file of its own,
+so GitHub Pages has no page to show for it.
 
 ## Base map
 

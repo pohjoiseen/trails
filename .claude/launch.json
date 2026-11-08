@@ -1,0 +1,25 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "trail-editor",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "tools/editor/editor.py"
+      ],
+      "port": 8765
+    },
+    {
+      "name": "site",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "8766",
+        "--bind",
+        "127.0.0.1"
+      ],
+      "port": 8766
+    }
+  ]
+}

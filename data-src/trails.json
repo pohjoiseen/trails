@@ -12,7 +12,7 @@
    4.5,
    5.9
   ],
-  "rating": null,
+  "rating": 4,
   "parking": [
    {
     "lat": 63.07002,
@@ -26,7 +26,32 @@
    "signs",
    "duckboards"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 16865,
+    "thumb": "https://i.pohjoiseen.fi/35988f29a207de2d5c6930db890914be14e0470d/20230410-DSC_0034.t.jpg",
+    "src": "https://i.pohjoiseen.fi/35988f29a207de2d5c6930db890914be14e0470d/20230410-DSC_0034.jpg",
+    "date": "2023-04-10"
+   },
+   {
+    "id": 16867,
+    "thumb": "https://i.pohjoiseen.fi/ea3ffd68dc960c984750768e8f55a09229076e5d/20230410-DSC_0068.t.jpg",
+    "src": "https://i.pohjoiseen.fi/ea3ffd68dc960c984750768e8f55a09229076e5d/20230410-DSC_0068.jpg",
+    "date": "2023-04-10"
+   },
+   {
+    "id": 2465,
+    "thumb": "https://i.pohjoiseen.fi/67e187f5f0e385d2217dfb2680bc9087e19792be/20171226-DSC_3810.t.jpg",
+    "src": "https://i.pohjoiseen.fi/67e187f5f0e385d2217dfb2680bc9087e19792be/20171226-DSC_3810.jpg",
+    "date": "2017-12-26"
+   },
+   {
+    "id": 3964,
+    "thumb": "https://i.pohjoiseen.fi/3ef75f97dec72f62730e0e703fe64429a4b4c9bc/20240317-DSC_0134.t.jpg",
+    "src": "https://i.pohjoiseen.fi/3ef75f97dec72f62730e0e703fe64429a4b4c9bc/20240317-DSC_0134.jpg",
+    "date": "2024-03-17"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     512199
@@ -58,7 +83,7 @@
    3.6,
    4.9
   ],
-  "rating": null,
+  "rating": 4,
   "parking": [
    {
     "lat": 63.0628,
@@ -72,7 +97,38 @@
    "duckboards",
    "tower"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 13490,
+    "thumb": "https://i.pohjoiseen.fi/388b5a369b12bcce4c2028db57385589b8eefa56/20230913-DSC_0041.t.jpg",
+    "src": "https://i.pohjoiseen.fi/388b5a369b12bcce4c2028db57385589b8eefa56/20230913-DSC_0041.jpg",
+    "date": "2023-09-13"
+   },
+   {
+    "id": 13460,
+    "thumb": "https://i.pohjoiseen.fi/eab9495d7472deb3078a78f25a45005cccf9a6dd/20230913-DSC_0052.t.jpg",
+    "src": "https://i.pohjoiseen.fi/eab9495d7472deb3078a78f25a45005cccf9a6dd/20230913-DSC_0052.jpg",
+    "date": "2023-09-13"
+   },
+   {
+    "id": 13471,
+    "thumb": "https://i.pohjoiseen.fi/e66fdb6507a47c8af9a2796caf48b0e648d4f6ef/20230913-DSC_0090.t.jpg",
+    "src": "https://i.pohjoiseen.fi/e66fdb6507a47c8af9a2796caf48b0e648d4f6ef/20230913-DSC_0090.jpg",
+    "date": "2023-09-13"
+   },
+   {
+    "id": 13485,
+    "thumb": "https://i.pohjoiseen.fi/616855f1eb8e7dd9a04faf17497a64d80a17cb1b/20230913-DSC_0023.t.jpg",
+    "src": "https://i.pohjoiseen.fi/616855f1eb8e7dd9a04faf17497a64d80a17cb1b/20230913-DSC_0023.jpg",
+    "date": "2023-09-13"
+   },
+   {
+    "id": 13486,
+    "thumb": "https://i.pohjoiseen.fi/e56e6ac1b106881f3bcfcef1bce282fd28650ada/20230913-DSC_0027.t.jpg",
+    "src": "https://i.pohjoiseen.fi/e56e6ac1b106881f3bcfcef1bce282fd28650ada/20230913-DSC_0027.jpg",
+    "date": "2023-09-13"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     528076
@@ -119,7 +175,20 @@
    "hut",
    "signs"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 7760,
+    "thumb": "https://i.pohjoiseen.fi/fb445ff1ad5c07a6f25b74b033db3c2f5e3b9bf0/20180805-DSC_2884.t.jpg",
+    "src": "https://i.pohjoiseen.fi/fb445ff1ad5c07a6f25b74b033db3c2f5e3b9bf0/20180805-DSC_2884.jpg",
+    "date": "2018-08-05"
+   },
+   {
+    "id": 2045,
+    "thumb": "https://i.pohjoiseen.fi/50d1e6d6c1bb0c944ec912e208fda4ef4d32e22b/20170507-DSC_4522.t.jpg",
+    "src": "https://i.pohjoiseen.fi/50d1e6d6c1bb0c944ec912e208fda4ef4d32e22b/20170507-DSC_4522.jpg",
+    "date": "2017-05-07"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     509577
@@ -153,7 +222,7 @@
    3,
    12
   ],
-  "rating": null,
+  "rating": 3,
   "parking": [
    {
     "lat": 63.09644,
@@ -178,7 +247,38 @@
    "hut",
    "signs"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 3986,
+    "thumb": "https://i.pohjoiseen.fi/4ff6ed5a3981d03d84be9e4b35b3d0b224911b4e/20180414-DSC_6361.t.jpg",
+    "src": "https://i.pohjoiseen.fi/4ff6ed5a3981d03d84be9e4b35b3d0b224911b4e/20180414-DSC_6361.jpg",
+    "date": "2018-04-14"
+   },
+   {
+    "id": 3992,
+    "thumb": "https://i.pohjoiseen.fi/5d57f36700a205bfb8697349b94dd76a33dc26e3/20180414-DSC_6377.t.jpg",
+    "src": "https://i.pohjoiseen.fi/5d57f36700a205bfb8697349b94dd76a33dc26e3/20180414-DSC_6377.jpg",
+    "date": "2018-04-14"
+   },
+   {
+    "id": 4032,
+    "thumb": "https://i.pohjoiseen.fi/a189d467b26a07c21de3b726592bd9b95e418cd3/20180414-DSC_6425.t.jpg",
+    "src": "https://i.pohjoiseen.fi/a189d467b26a07c21de3b726592bd9b95e418cd3/20180414-DSC_6425.jpg",
+    "date": "2018-04-14"
+   },
+   {
+    "id": 4063,
+    "thumb": "https://i.pohjoiseen.fi/4feb12c66107fd208204a83853a1eef08ba109b0/20180414-DSC_6456.t.jpg",
+    "src": "https://i.pohjoiseen.fi/4feb12c66107fd208204a83853a1eef08ba109b0/20180414-DSC_6456.jpg",
+    "date": "2018-04-14"
+   },
+   {
+    "id": 4056,
+    "thumb": "https://i.pohjoiseen.fi/9f38f749140b02ed6df6f1d9a4e3b94c57292767/20180414-DSC_6449.t.jpg",
+    "src": "https://i.pohjoiseen.fi/9f38f749140b02ed6df6f1d9a4e3b94c57292767/20180414-DSC_6449.jpg",
+    "date": "2018-04-14"
+   }
+  ],
   "geometry": {
    "file": "data-src/geometry/files/vaasa-pilvilampi-network.geojson"
   },
@@ -211,7 +311,7 @@
    7,
    10
   ],
-  "rating": null,
+  "rating": 3,
   "parking": [
    {
     "lat": 63.09099,
@@ -225,7 +325,44 @@
    "accessible",
    "swimming"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 11977,
+    "thumb": "https://i.pohjoiseen.fi/3d44d447cdba831cee5386a8f4d02cf776664258/20240326-DSC_0162.t.jpg",
+    "src": "https://i.pohjoiseen.fi/3d44d447cdba831cee5386a8f4d02cf776664258/20240326-DSC_0162.jpg",
+    "date": "2024-03-26"
+   },
+   {
+    "id": 11991,
+    "thumb": "https://i.pohjoiseen.fi/702c39d20dfed34899b3bd9c4874c2deee343cd5/20240326-DSC_0180.t.jpg",
+    "src": "https://i.pohjoiseen.fi/702c39d20dfed34899b3bd9c4874c2deee343cd5/20240326-DSC_0180.jpg",
+    "date": "2024-03-26"
+   },
+   {
+    "id": 71200,
+    "thumb": "https://i.pohjoiseen.fi/b966ce4e1d613264dc12eec8ef15db6e251916b5/20240714-DSC_0108.t.jpg",
+    "src": "https://i.pohjoiseen.fi/b966ce4e1d613264dc12eec8ef15db6e251916b5/20240714-DSC_0108.jpg",
+    "date": "2024-07-14"
+   },
+   {
+    "id": 15610,
+    "thumb": "https://i.pohjoiseen.fi/a25bc25e6a7b373c2340310d11b373c0f59ca834/20230702-DSC_0164.t.jpg",
+    "src": "https://i.pohjoiseen.fi/a25bc25e6a7b373c2340310d11b373c0f59ca834/20230702-DSC_0164.jpg",
+    "date": "2023-07-02"
+   },
+   {
+    "id": 15654,
+    "thumb": "https://i.pohjoiseen.fi/22487b1182c2c66a26c756ebd31c828bc001d024/20230702-DSC_0110.t.jpg",
+    "src": "https://i.pohjoiseen.fi/22487b1182c2c66a26c756ebd31c828bc001d024/20230702-DSC_0110.jpg",
+    "date": "2023-07-02"
+   },
+   {
+    "id": 15620,
+    "thumb": "https://i.pohjoiseen.fi/86a46d6e7f2e0b580bc1b70464dc70798ea0c761/20230702-DSC_0013.t.jpg",
+    "src": "https://i.pohjoiseen.fi/86a46d6e7f2e0b580bc1b70464dc70798ea0c761/20230702-DSC_0013.jpg",
+    "date": "2023-07-02"
+   }
+  ],
   "geometry": {
    "osm": [
     "relation/17438737"
@@ -329,7 +466,20 @@
    "toilet",
    "signs"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 13376,
+    "thumb": "https://i.pohjoiseen.fi/77e685f429984496bb1c58441e5ccad6fc131fa1/20230916-DSC_0092.t.jpg",
+    "src": "https://i.pohjoiseen.fi/77e685f429984496bb1c58441e5ccad6fc131fa1/20230916-DSC_0092.jpg",
+    "date": "2023-09-16"
+   },
+   {
+    "id": 13374,
+    "thumb": "https://i.pohjoiseen.fi/56b6edb2a8f6e5ffd9799f52dd21884081f4282a/20230916-DSC_0088.t.jpg",
+    "src": "https://i.pohjoiseen.fi/56b6edb2a8f6e5ffd9799f52dd21884081f4282a/20230916-DSC_0088.jpg",
+    "date": "2023-09-16"
+   }
+  ],
   "geometry": {
    "file": "data-src/geometry/files/vahakyro-kruutari-mestoosplassi.geojson",
    "dedupe_tol": 30
@@ -360,7 +510,7 @@
    14,
    21
   ],
-  "rating": null,
+  "rating": 2,
   "parking": [
    {
     "lat": 63.07759,
@@ -373,7 +523,26 @@
    "kota",
    "fireplace"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 13395,
+    "thumb": "https://i.pohjoiseen.fi/5ceda12dcfc9073b13285a0f976cb5ace27cf347/20230916-DSC_0137.t.jpg",
+    "src": "https://i.pohjoiseen.fi/5ceda12dcfc9073b13285a0f976cb5ace27cf347/20230916-DSC_0137.jpg",
+    "date": "2023-09-16"
+   },
+   {
+    "id": 13382,
+    "thumb": "https://i.pohjoiseen.fi/80468e930a11d46ebad88a44cbc3478f0e2f7489/20230916-DSC_0104.t.jpg",
+    "src": "https://i.pohjoiseen.fi/80468e930a11d46ebad88a44cbc3478f0e2f7489/20230916-DSC_0104.jpg",
+    "date": "2023-09-16"
+   },
+   {
+    "id": 13383,
+    "thumb": "https://i.pohjoiseen.fi/23c85c7d4ed7f009af8e5696afc647306142753d/20230916-DSC_0108.t.jpg",
+    "src": "https://i.pohjoiseen.fi/23c85c7d4ed7f009af8e5696afc647306142753d/20230916-DSC_0108.jpg",
+    "date": "2023-09-16"
+   }
+  ],
   "geometry": {
    "file": "data-src/geometry/files/vahakyro-saarenpaa-mullola.geojson",
    "dedupe_tol": 30
@@ -405,7 +574,7 @@
    7.8,
    10.1
   ],
-  "rating": null,
+  "rating": 1,
   "parking": [
    {
     "lat": 62.99464,
@@ -424,7 +593,38 @@
    "toilet",
    "signs"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 75646,
+    "thumb": "https://i.pohjoiseen.fi/4172166a24d3f0c48c76eab12eefa60a8813bc41/20250323-DSC_0011.t.jpg",
+    "src": "https://i.pohjoiseen.fi/4172166a24d3f0c48c76eab12eefa60a8813bc41/20250323-DSC_0011.jpg",
+    "date": "2025-03-23"
+   },
+   {
+    "id": 75652,
+    "thumb": "https://i.pohjoiseen.fi/ce411cb45117730a1607854b99f6a67046f34209/20250323-DSC_0019.t.jpg",
+    "src": "https://i.pohjoiseen.fi/ce411cb45117730a1607854b99f6a67046f34209/20250323-DSC_0019.jpg",
+    "date": "2025-03-23"
+   },
+   {
+    "id": 75669,
+    "thumb": "https://i.pohjoiseen.fi/5480f2bacdc62b1661b684d24e19257c49917037/20250323-DSC_0054-2-Pano.t.jpg",
+    "src": "https://i.pohjoiseen.fi/5480f2bacdc62b1661b684d24e19257c49917037/20250323-DSC_0054-2-Pano.jpg",
+    "date": "2025-03-23"
+   },
+   {
+    "id": 75678,
+    "thumb": "https://i.pohjoiseen.fi/37be802a730b878ea6dac6307444a15ae5b61fbd/20250323-DSC_0071-2.t.jpg",
+    "src": "https://i.pohjoiseen.fi/37be802a730b878ea6dac6307444a15ae5b61fbd/20250323-DSC_0071-2.jpg",
+    "date": "2025-03-23"
+   },
+   {
+    "id": 75666,
+    "thumb": "https://i.pohjoiseen.fi/b328630442ac604f98a4bbdc3186a99544ae3fc0/20250323-DSC_0040.t.jpg",
+    "src": "https://i.pohjoiseen.fi/b328630442ac604f98a4bbdc3186a99544ae3fc0/20250323-DSC_0040.jpg",
+    "date": "2025-03-23"
+   }
+  ],
   "geometry": {
    "file": "data-src/geometry/files/vahakyro-petulian-patikka.geojson",
    "dedupe_tol": 30
@@ -454,7 +654,7 @@
    1.2,
    1.2
   ],
-  "rating": null,
+  "rating": 1,
   "parking": [
    {
     "lat": 63.07827,
@@ -539,7 +739,7 @@
    3.4,
    12
   ],
-  "rating": null,
+  "rating": 5,
   "parking": [
    {
     "lat": 63.35957,
@@ -561,7 +761,26 @@
    "duckboards",
    "cafe"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 69979,
+    "thumb": "https://i.pohjoiseen.fi/bb6dc837abaf89c81d6923e43385e053a1b5eb6f/20240623-DJI_0332.t.jpg",
+    "src": "https://i.pohjoiseen.fi/bb6dc837abaf89c81d6923e43385e053a1b5eb6f/20240623-DJI_0332.jpg",
+    "date": "2024-06-23"
+   },
+   {
+    "id": 69972,
+    "thumb": "https://i.pohjoiseen.fi/49320f0357de656c425024cc952a4235ad12602d/20240622-DSC_0315.t.jpg",
+    "src": "https://i.pohjoiseen.fi/49320f0357de656c425024cc952a4235ad12602d/20240622-DSC_0315.jpg",
+    "date": "2024-06-22"
+   },
+   {
+    "id": 70007,
+    "thumb": "https://i.pohjoiseen.fi/8573fe7bb3efb0e1562ce2189c4f678ec1b6b1f2/20240622-DSC_0298.t.jpg",
+    "src": "https://i.pohjoiseen.fi/8573fe7bb3efb0e1562ce2189c4f678ec1b6b1f2/20240622-DSC_0298.jpg",
+    "date": "2024-06-22"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     515798,
@@ -594,7 +813,7 @@
    3.8,
    4.2
   ],
-  "rating": null,
+  "rating": 5,
   "parking": [
    {
     "lat": 63.35957,
@@ -609,7 +828,38 @@
    "signs",
    "cafe"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 4153,
+    "thumb": "https://i.pohjoiseen.fi/a380d1924c40d97891d330b76ea3b7f8cc2234a9/20180426-DSC_6779.t.jpg",
+    "src": "https://i.pohjoiseen.fi/a380d1924c40d97891d330b76ea3b7f8cc2234a9/20180426-DSC_6779.jpg",
+    "date": "2018-04-26"
+   },
+   {
+    "id": 7768,
+    "thumb": "https://i.pohjoiseen.fi/ea99020c7b0d7fc5555167d5ab28271c2363bb44/20180805-DSC_2933.t.jpg",
+    "src": "https://i.pohjoiseen.fi/ea99020c7b0d7fc5555167d5ab28271c2363bb44/20180805-DSC_2933.jpg",
+    "date": "2018-08-05"
+   },
+   {
+    "id": 2022,
+    "thumb": "https://i.pohjoiseen.fi/046ac9eee474978237bd0469408b2492ab4cc012/20170507-DSC_4485.t.jpg",
+    "src": "https://i.pohjoiseen.fi/046ac9eee474978237bd0469408b2492ab4cc012/20170507-DSC_4485.jpg",
+    "date": "2017-05-07"
+   },
+   {
+    "id": 2015,
+    "thumb": "https://i.pohjoiseen.fi/6237d60640fe074be84e2bdbc548b33ea8863e82/20170507-DSC_4478.t.jpg",
+    "src": "https://i.pohjoiseen.fi/6237d60640fe074be84e2bdbc548b33ea8863e82/20170507-DSC_4478.jpg",
+    "date": "2017-05-07"
+   },
+   {
+    "id": 6507,
+    "thumb": "https://i.pohjoiseen.fi/840397567ae57ebeab1d614180eb4ccfbedc2bad/20180610-DSC_0441.t.jpg",
+    "src": "https://i.pohjoiseen.fi/840397567ae57ebeab1d614180eb4ccfbedc2bad/20180610-DSC_0441.jpg",
+    "date": "2018-06-10"
+   }
+  ],
   "geometry": {
    "file": "data-src/geometry/files/bodvattnet-runt.geojson"
   },
@@ -639,7 +889,7 @@
    2.5,
    2.5
   ],
-  "rating": null,
+  "rating": 5,
   "parking": [
    {
     "lat": 63.36774,
@@ -648,7 +898,32 @@
    }
   ],
   "facilities": [],
-  "photos": [],
+  "photos": [
+   {
+    "id": 19005,
+    "thumb": "https://i.pohjoiseen.fi/568ea408828511fcc9d351e86de760d7c1f82e00/20221206-DSC_0079.t.jpg",
+    "src": "https://i.pohjoiseen.fi/568ea408828511fcc9d351e86de760d7c1f82e00/20221206-DSC_0079.jpg",
+    "date": "2022-12-06"
+   },
+   {
+    "id": 18989,
+    "thumb": "https://i.pohjoiseen.fi/027fa877d7994741e5ca6da9d2b26600de6e9bba/20221206-DSC_0039.t.jpg",
+    "src": "https://i.pohjoiseen.fi/027fa877d7994741e5ca6da9d2b26600de6e9bba/20221206-DSC_0039.jpg",
+    "date": "2022-12-06"
+   },
+   {
+    "id": 19017,
+    "thumb": "https://i.pohjoiseen.fi/52b6810272ba19e69817a625d5ba2af247639787/20221206-DSC_0106.t.jpg",
+    "src": "https://i.pohjoiseen.fi/52b6810272ba19e69817a625d5ba2af247639787/20221206-DSC_0106.jpg",
+    "date": "2022-12-06"
+   },
+   {
+    "id": 18984,
+    "thumb": "https://i.pohjoiseen.fi/8a09b578839f1eacf50b52387eeb3a78b2a57902/20221206-DSC_0032.t.jpg",
+    "src": "https://i.pohjoiseen.fi/8a09b578839f1eacf50b52387eeb3a78b2a57902/20221206-DSC_0032.jpg",
+    "date": "2022-12-06"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     515777
@@ -679,7 +954,7 @@
    0.5,
    0.5
   ],
-  "rating": null,
+  "rating": 2,
   "parking": [
    {
     "lat": 63.30426,
@@ -691,7 +966,26 @@
    "signs",
    "cafe"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 11451,
+    "thumb": "https://i.pohjoiseen.fi/8dbbf8c2d40f06d1c8e36de687adf08d2a7ca395/20190620-DSC_0037.t.jpg",
+    "src": "https://i.pohjoiseen.fi/8dbbf8c2d40f06d1c8e36de687adf08d2a7ca395/20190620-DSC_0037.jpg",
+    "date": "2019-06-20"
+   },
+   {
+    "id": 11459,
+    "thumb": "https://i.pohjoiseen.fi/8651f0221cf9471cc27199f6feb0a27cf79798a3/20190620-DSC_0048.t.jpg",
+    "src": "https://i.pohjoiseen.fi/8651f0221cf9471cc27199f6feb0a27cf79798a3/20190620-DSC_0048.jpg",
+    "date": "2019-06-20"
+   },
+   {
+    "id": 2037,
+    "thumb": "https://i.pohjoiseen.fi/bf2249bf3ecb2285a84abf9cc8877781773b91e0/20170507-DSC_4500.t.jpg",
+    "src": "https://i.pohjoiseen.fi/bf2249bf3ecb2285a84abf9cc8877781773b91e0/20170507-DSC_4500.jpg",
+    "date": "2017-05-07"
+   }
+  ],
   "geometry": {
    "osm": [
     "relation/21307229"
@@ -722,7 +1016,7 @@
    0.8,
    2.6
   ],
-  "rating": null,
+  "rating": 4,
   "parking": [
    {
     "lat": 63.31803,
@@ -736,7 +1030,32 @@
    "toilet",
    "tent"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 79066,
+    "thumb": "https://i.pohjoiseen.fi/9c8a0d667a3292afc9b0f29082d47f8f6a65be1a/20250511-DSC_0029.t.jpg",
+    "src": "https://i.pohjoiseen.fi/9c8a0d667a3292afc9b0f29082d47f8f6a65be1a/20250511-DSC_0029.jpg",
+    "date": "2025-05-11"
+   },
+   {
+    "id": 79055,
+    "thumb": "https://i.pohjoiseen.fi/e0a171e74cf259b24ff693c2b9f67af4d491026b/20250511-DSC_0016.t.jpg",
+    "src": "https://i.pohjoiseen.fi/e0a171e74cf259b24ff693c2b9f67af4d491026b/20250511-DSC_0016.jpg",
+    "date": "2025-05-11"
+   },
+   {
+    "id": 79088,
+    "thumb": "https://i.pohjoiseen.fi/6c0ae88062493d8936d43e0fcc2fc37eb56adc1b/20250511-DSC_0062.t.jpg",
+    "src": "https://i.pohjoiseen.fi/6c0ae88062493d8936d43e0fcc2fc37eb56adc1b/20250511-DSC_0062.jpg",
+    "date": "2025-05-11"
+   },
+   {
+    "id": 79057,
+    "thumb": "https://i.pohjoiseen.fi/6c0cf9db84ce2c2a078b98ddb4093d2aebc448eb/20250511-DSC_0019.t.jpg",
+    "src": "https://i.pohjoiseen.fi/6c0cf9db84ce2c2a078b98ddb4093d2aebc448eb/20250511-DSC_0019.jpg",
+    "date": "2025-05-11"
+   }
+  ],
   "geometry": {
    "file": "data-src/geometry/files/vargis-trails.geojson"
   },
@@ -765,7 +1084,7 @@
    1.5,
    3.4
   ],
-  "rating": null,
+  "rating": 5,
   "parking": [
    {
     "lat": 63.16405,
@@ -786,7 +1105,32 @@
    "hut",
    "accessible"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 2885,
+    "thumb": "https://i.pohjoiseen.fi/c1a9fb12f93777a31f6b69eb950ae88d42332a52/20180120-DSC_4547.t.jpg",
+    "src": "https://i.pohjoiseen.fi/c1a9fb12f93777a31f6b69eb950ae88d42332a52/20180120-DSC_4547.jpg",
+    "date": "2018-01-20"
+   },
+   {
+    "id": 2809,
+    "thumb": "https://i.pohjoiseen.fi/bb1e8b45834a52d4031fc2539b97d6799800d481/20180120-DSC_4571.t.jpg",
+    "src": "https://i.pohjoiseen.fi/bb1e8b45834a52d4031fc2539b97d6799800d481/20180120-DSC_4571.jpg",
+    "date": "2018-01-20"
+   },
+   {
+    "id": 2842,
+    "thumb": "https://i.pohjoiseen.fi/593cdc20e02f4cdf0be837a9d2e9172811fc751a/20180120-DSC_4497.t.jpg",
+    "src": "https://i.pohjoiseen.fi/593cdc20e02f4cdf0be837a9d2e9172811fc751a/20180120-DSC_4497.jpg",
+    "date": "2018-01-20"
+   },
+   {
+    "id": 6510,
+    "thumb": "https://i.pohjoiseen.fi/54723eb030a4155e6a356b671d2f934d9701c534/20180610-DSC_0455.t.jpg",
+    "src": "https://i.pohjoiseen.fi/54723eb030a4155e6a356b671d2f934d9701c534/20180610-DSC_0455.jpg",
+    "date": "2018-06-10"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     515795
@@ -819,14 +1163,45 @@
    2.5,
    3
   ],
-  "rating": null,
+  "rating": 5,
   "parking": [],
   "facilities": [
    "toilet",
    "fireplace",
    "signs"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 81398,
+    "thumb": "https://i.pohjoiseen.fi/bb2b8604be941e2bf70f57527d847814a2abb59a/20250701-DSC_0617.t.jpg",
+    "src": "https://i.pohjoiseen.fi/bb2b8604be941e2bf70f57527d847814a2abb59a/20250701-DSC_0617.jpg",
+    "date": "2025-07-01"
+   },
+   {
+    "id": 81420,
+    "thumb": "https://i.pohjoiseen.fi/325418f87f3c8cbbb8c034f827da4b0c016c09e9/20250701-DSC_0642.t.jpg",
+    "src": "https://i.pohjoiseen.fi/325418f87f3c8cbbb8c034f827da4b0c016c09e9/20250701-DSC_0642.jpg",
+    "date": "2025-07-01"
+   },
+   {
+    "id": 81439,
+    "thumb": "https://i.pohjoiseen.fi/0ad572c8942d0db86821161ffaca42d0502e8a5c/20250701-DSC_0662.t.jpg",
+    "src": "https://i.pohjoiseen.fi/0ad572c8942d0db86821161ffaca42d0502e8a5c/20250701-DSC_0662.jpg",
+    "date": "2025-07-01"
+   },
+   {
+    "id": 81339,
+    "thumb": "https://i.pohjoiseen.fi/20c22a73ca85b9f09855bcf0186327db78da9fcb/20250701-DJI_0455.t.jpg",
+    "src": "https://i.pohjoiseen.fi/20c22a73ca85b9f09855bcf0186327db78da9fcb/20250701-DJI_0455.jpg",
+    "date": "2025-07-01"
+   },
+   {
+    "id": 81462,
+    "thumb": "https://i.pohjoiseen.fi/e613c8ff6fd377a6f11d3692392b3c575efbf787/20250701-DSC_0691.t.jpg",
+    "src": "https://i.pohjoiseen.fi/e613c8ff6fd377a6f11d3692392b3c575efbf787/20250701-DSC_0691.jpg",
+    "date": "2025-07-01"
+   }
+  ],
   "geometry": {
    "file": "data-src/geometry/files/valsorarna-nature-trail.geojson"
   },
@@ -857,7 +1232,7 @@
    1.8,
    12
   ],
-  "rating": null,
+  "rating": 4,
   "parking": [
    {
     "lat": 63.20821,
@@ -875,7 +1250,26 @@
    "fireplace",
    "duckboards"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 15045,
+    "thumb": "https://i.pohjoiseen.fi/e8e3d92a28d3c644fc6027eb57462839f122d6e7/20230723-DSC_0380.t.jpg",
+    "src": "https://i.pohjoiseen.fi/e8e3d92a28d3c644fc6027eb57462839f122d6e7/20230723-DSC_0380.jpg",
+    "date": "2023-07-23"
+   },
+   {
+    "id": 12109,
+    "thumb": "https://i.pohjoiseen.fi/41b04335202e454e148d9f363dcff018a0a5c491/20231111-DSC_0074.t.jpg",
+    "src": "https://i.pohjoiseen.fi/41b04335202e454e148d9f363dcff018a0a5c491/20231111-DSC_0074.jpg",
+    "date": "2023-11-11"
+   },
+   {
+    "id": 12100,
+    "thumb": "https://i.pohjoiseen.fi/6b0c9de16092172a8269e9f149a7a4357826ade4/20231111-DSC_0048.t.jpg",
+    "src": "https://i.pohjoiseen.fi/6b0c9de16092172a8269e9f149a7a4357826ade4/20231111-DSC_0048.jpg",
+    "date": "2023-11-11"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     602406
@@ -908,7 +1302,7 @@
    6.4,
    12.5
   ],
-  "rating": null,
+  "rating": 4,
   "parking": [
    {
     "lat": 63.15194,
@@ -920,7 +1314,38 @@
    "laavu",
    "fireplace"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 911,
+    "thumb": "https://i.pohjoiseen.fi/bd6b2cbaaeac31ae94570059253b9ca704dedbee/20180728-DSC_2791.t.jpg",
+    "src": "https://i.pohjoiseen.fi/bd6b2cbaaeac31ae94570059253b9ca704dedbee/20180728-DSC_2791.jpg",
+    "date": "2018-07-28"
+   },
+   {
+    "id": 947,
+    "thumb": "https://i.pohjoiseen.fi/21db17a2cbf274d582a67272638482cf19521568/20180728-DSC_2832.t.jpg",
+    "src": "https://i.pohjoiseen.fi/21db17a2cbf274d582a67272638482cf19521568/20180728-DSC_2832.jpg",
+    "date": "2018-07-28"
+   },
+   {
+    "id": 944,
+    "thumb": "https://i.pohjoiseen.fi/8d9270e2d1c7c73629a95e36043b4d33e23417ee/20180728-DSC_2829.t.jpg",
+    "src": "https://i.pohjoiseen.fi/8d9270e2d1c7c73629a95e36043b4d33e23417ee/20180728-DSC_2829.jpg",
+    "date": "2018-07-28"
+   },
+   {
+    "id": 18508,
+    "thumb": "https://i.pohjoiseen.fi/f34244a91bcd99b8f61431d2c7a31b3465808b21/20230218-DSC_0229.t.jpg",
+    "src": "https://i.pohjoiseen.fi/f34244a91bcd99b8f61431d2c7a31b3465808b21/20230218-DSC_0229.jpg",
+    "date": "2023-02-18"
+   },
+   {
+    "id": 18544,
+    "thumb": "https://i.pohjoiseen.fi/faea152a792259161c82c182097d3e1e13b4b5b4/20230218-DSC_0130.t.jpg",
+    "src": "https://i.pohjoiseen.fi/faea152a792259161c82c182097d3e1e13b4b5b4/20230218-DSC_0130.jpg",
+    "date": "2023-02-18"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     602471
@@ -951,7 +1376,7 @@
    2,
    6.6
   ],
-  "rating": null,
+  "rating": 3,
   "parking": [
    {
     "lat": 63.01454,
@@ -963,7 +1388,38 @@
    "fireplace",
    "toilet"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 5993,
+    "thumb": "https://i.pohjoiseen.fi/726152c3afcb075be40371376ca9eaa484d865e9/20180520-DSC_9615.t.jpg",
+    "src": "https://i.pohjoiseen.fi/726152c3afcb075be40371376ca9eaa484d865e9/20180520-DSC_9615.jpg",
+    "date": "2018-05-20"
+   },
+   {
+    "id": 6011,
+    "thumb": "https://i.pohjoiseen.fi/b8acffc4840b5b191774ba83c07db85f03a6b87f/20180520-DSC_9642.t.jpg",
+    "src": "https://i.pohjoiseen.fi/b8acffc4840b5b191774ba83c07db85f03a6b87f/20180520-DSC_9642.jpg",
+    "date": "2018-05-20"
+   },
+   {
+    "id": 6025,
+    "thumb": "https://i.pohjoiseen.fi/64b1a45ea8fa14fdb63a6d6e3c613b4fa5ad9ed8/20180520-DSC_9673.t.jpg",
+    "src": "https://i.pohjoiseen.fi/64b1a45ea8fa14fdb63a6d6e3c613b4fa5ad9ed8/20180520-DSC_9673.jpg",
+    "date": "2018-05-20"
+   },
+   {
+    "id": 6033,
+    "thumb": "https://i.pohjoiseen.fi/5cadc74ea877adfd0120bd1b5d93263271fa6424/20180520-DSC_9683.t.jpg",
+    "src": "https://i.pohjoiseen.fi/5cadc74ea877adfd0120bd1b5d93263271fa6424/20180520-DSC_9683.jpg",
+    "date": "2018-05-20"
+   },
+   {
+    "id": 6048,
+    "thumb": "https://i.pohjoiseen.fi/9a4fea63b58a50c49fe1bf2f27369845dea5d48e/20180520-DSC_9713.t.jpg",
+    "src": "https://i.pohjoiseen.fi/9a4fea63b58a50c49fe1bf2f27369845dea5d48e/20180520-DSC_9713.jpg",
+    "date": "2018-05-20"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     515794
@@ -1035,7 +1491,7 @@
    2.6,
    9
   ],
-  "rating": null,
+  "rating": 2,
   "parking": [
    {
     "lat": 63.171,
@@ -1056,7 +1512,32 @@
   "facilities": [
    "fireplace"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 66822,
+    "thumb": "https://i.pohjoiseen.fi/8770844259c865717d3e773484dbd3efee6348ab/20240421-DSC_0037.t.jpg",
+    "src": "https://i.pohjoiseen.fi/8770844259c865717d3e773484dbd3efee6348ab/20240421-DSC_0037.jpg",
+    "date": "2024-04-21"
+   },
+   {
+    "id": 66834,
+    "thumb": "https://i.pohjoiseen.fi/9b7b1d811b44fac4861cd60d9612b5597aad2cb7/20240421-DSC_0005.t.jpg",
+    "src": "https://i.pohjoiseen.fi/9b7b1d811b44fac4861cd60d9612b5597aad2cb7/20240421-DSC_0005.jpg",
+    "date": "2024-04-21"
+   },
+   {
+    "id": 66845,
+    "thumb": "https://i.pohjoiseen.fi/4110221e1cfea2d8c80dc7062625d04be93aad82/20240421-DSC_0017.t.jpg",
+    "src": "https://i.pohjoiseen.fi/4110221e1cfea2d8c80dc7062625d04be93aad82/20240421-DSC_0017.jpg",
+    "date": "2024-04-21"
+   },
+   {
+    "id": 66831,
+    "thumb": "https://i.pohjoiseen.fi/0f4d89ef4aaef0c22f1b1ca848554888a2bc9062/20240421-DSC_0049.t.jpg",
+    "src": "https://i.pohjoiseen.fi/0f4d89ef4aaef0c22f1b1ca848554888a2bc9062/20240421-DSC_0049.jpg",
+    "date": "2024-04-21"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     617746,
@@ -1089,7 +1570,7 @@
    2.1,
    2.85
   ],
-  "rating": null,
+  "rating": 2,
   "parking": [
    {
     "lat": 63.01981,
@@ -1131,7 +1612,7 @@
    1.6,
    3.4
   ],
-  "rating": null,
+  "rating": 2,
   "parking": [
    {
     "lat": 63.23999,
@@ -1142,7 +1623,26 @@
   "facilities": [
    "fireplace"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 423,
+    "thumb": "https://i.pohjoiseen.fi/ff14002ce633242429c0a60971c34a9a8637285f/20230726-DSC_0459.t.jpg",
+    "src": "https://i.pohjoiseen.fi/ff14002ce633242429c0a60971c34a9a8637285f/20230726-DSC_0459.jpg",
+    "date": "2023-07-26"
+   },
+   {
+    "id": 416,
+    "thumb": "https://i.pohjoiseen.fi/1bf71567e3f68b2ecbeb97ea0f9ff3e74ec465d2/20230726-DSC_0428.t.jpg",
+    "src": "https://i.pohjoiseen.fi/1bf71567e3f68b2ecbeb97ea0f9ff3e74ec465d2/20230726-DSC_0428.jpg",
+    "date": "2023-07-26"
+   },
+   {
+    "id": 429,
+    "thumb": "https://i.pohjoiseen.fi/3c1e86f06d5afe50c1d80e75465afc2855f4db74/20230726-DSC_0484.t.jpg",
+    "src": "https://i.pohjoiseen.fi/3c1e86f06d5afe50c1d80e75465afc2855f4db74/20230726-DSC_0484.jpg",
+    "date": "2023-07-26"
+   }
+  ],
   "geometry": {
    "osm": [
     "relation/20258146",
@@ -1176,7 +1676,7 @@
    0.6,
    12.5
   ],
-  "rating": null,
+  "rating": 3,
   "parking": [
    {
     "lat": 63.24249,
@@ -1194,7 +1694,32 @@
    "duckboards",
    "accessible"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 16771,
+    "thumb": "https://i.pohjoiseen.fi/98fea52dacf1a1f18bad17834f4d751b0bbd591b/20230423-DSC_0013.t.jpg",
+    "src": "https://i.pohjoiseen.fi/98fea52dacf1a1f18bad17834f4d751b0bbd591b/20230423-DSC_0013.jpg",
+    "date": "2023-04-23"
+   },
+   {
+    "id": 16788,
+    "thumb": "https://i.pohjoiseen.fi/8ccbf042d4c403657955432b5036f5d2234bccc2/20230423-DSC_0038.t.jpg",
+    "src": "https://i.pohjoiseen.fi/8ccbf042d4c403657955432b5036f5d2234bccc2/20230423-DSC_0038.jpg",
+    "date": "2023-04-23"
+   },
+   {
+    "id": 16762,
+    "thumb": "https://i.pohjoiseen.fi/2cd2e21e732c389e8f39977910bfdf014e79f093/20230423-DSC_0052.t.jpg",
+    "src": "https://i.pohjoiseen.fi/2cd2e21e732c389e8f39977910bfdf014e79f093/20230423-DSC_0052.jpg",
+    "date": "2023-04-23"
+   },
+   {
+    "id": 16772,
+    "thumb": "https://i.pohjoiseen.fi/d775bc8d2d14cc802cd05bb50d494c3b8b309530/20230423-DSC_0014.t.jpg",
+    "src": "https://i.pohjoiseen.fi/d775bc8d2d14cc802cd05bb50d494c3b8b309530/20230423-DSC_0014.jpg",
+    "date": "2023-04-23"
+   }
+  ],
   "geometry": {
    "osm": [
     "relation/13324856"
@@ -1270,7 +1795,7 @@
    5.1,
    5.1
   ],
-  "rating": null,
+  "rating": 3,
   "parking": [
    {
     "lat": 63.24494,
@@ -1282,7 +1807,38 @@
    "laavu",
    "fireplace"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 85938,
+    "thumb": "https://i.pohjoiseen.fi/5f237a9d6b78bd7b433cac2faa1762a9820ba015/20251101-DSC_0069.t.jpg",
+    "src": "https://i.pohjoiseen.fi/5f237a9d6b78bd7b433cac2faa1762a9820ba015/20251101-DSC_0069.jpg",
+    "date": "2025-11-01"
+   },
+   {
+    "id": 85929,
+    "thumb": "https://i.pohjoiseen.fi/ac8d065673672ef17a12d96f320f38e8c06966cc/20251101-DSC_0057.t.jpg",
+    "src": "https://i.pohjoiseen.fi/ac8d065673672ef17a12d96f320f38e8c06966cc/20251101-DSC_0057.jpg",
+    "date": "2025-11-01"
+   },
+   {
+    "id": 85915,
+    "thumb": "https://i.pohjoiseen.fi/6abdebde9f9bd10abccf50b5560f833ff40e1a8c/20251101-DSC_0038.t.jpg",
+    "src": "https://i.pohjoiseen.fi/6abdebde9f9bd10abccf50b5560f833ff40e1a8c/20251101-DSC_0038.jpg",
+    "date": "2025-11-01"
+   },
+   {
+    "id": 85898,
+    "thumb": "https://i.pohjoiseen.fi/871a478c90f380412e6dbd30ca79cb3dc1dcfa3d/20251101-DSC_0021.t.jpg",
+    "src": "https://i.pohjoiseen.fi/871a478c90f380412e6dbd30ca79cb3dc1dcfa3d/20251101-DSC_0021.jpg",
+    "date": "2025-11-01"
+   },
+   {
+    "id": 85910,
+    "thumb": "https://i.pohjoiseen.fi/132b91d6121d520d101a5d21ff4800fe1b32daad/20251101-DSC_0033.t.jpg",
+    "src": "https://i.pohjoiseen.fi/132b91d6121d520d101a5d21ff4800fe1b32daad/20251101-DSC_0033.jpg",
+    "date": "2025-11-01"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     610301
@@ -1312,7 +1868,7 @@
    3.5,
    8.0
   ],
-  "rating": null,
+  "rating": 2,
   "parking": [
    {
     "lat": 62.94795,
@@ -1326,7 +1882,20 @@
    "duckboards",
    "signs"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 17027,
+    "thumb": "https://i.pohjoiseen.fi/41ac381048e89694c4dc307870e1705d66e5d7a7/20230401-DJI_0144.t.jpg",
+    "src": "https://i.pohjoiseen.fi/41ac381048e89694c4dc307870e1705d66e5d7a7/20230401-DJI_0144.jpg",
+    "date": "2023-04-01"
+   },
+   {
+    "id": 17104,
+    "thumb": "https://i.pohjoiseen.fi/f8f736a336a3e909549928f5468e4cfc298092d8/20230401-DSC_0097.t.jpg",
+    "src": "https://i.pohjoiseen.fi/f8f736a336a3e909549928f5468e4cfc298092d8/20230401-DSC_0097.jpg",
+    "date": "2023-04-01"
+   }
+  ],
   "geometry": {
    "file": "data-src/geometry/files/bergo-vandringsled.geojson"
   },
@@ -1489,7 +2058,7 @@
    0.8,
    3.0
   ],
-  "rating": null,
+  "rating": 1,
   "parking": [
    {
     "lat": 62.78494,
@@ -1503,7 +2072,26 @@
    "shelter",
    "sauna"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 790,
+    "thumb": "https://i.pohjoiseen.fi/82717e5ea2450141813aac0d1069bdbb22683340/20171203-DSC_2966.t.jpg",
+    "src": "https://i.pohjoiseen.fi/82717e5ea2450141813aac0d1069bdbb22683340/20171203-DSC_2966.jpg",
+    "date": "2017-12-03"
+   },
+   {
+    "id": 798,
+    "thumb": "https://i.pohjoiseen.fi/c2fab82ef9ef374050f3acfcf29f050cf571b046/20171203-DSC_2974.t.jpg",
+    "src": "https://i.pohjoiseen.fi/c2fab82ef9ef374050f3acfcf29f050cf571b046/20171203-DSC_2974.jpg",
+    "date": "2017-12-03"
+   },
+   {
+    "id": 794,
+    "thumb": "https://i.pohjoiseen.fi/23561e38d94b4c7360f677772590bf429dd93c0c/20171203-DSC_2970.t.jpg",
+    "src": "https://i.pohjoiseen.fi/23561e38d94b4c7360f677772590bf429dd93c0c/20171203-DSC_2970.jpg",
+    "date": "2017-12-03"
+   }
+  ],
   "geometry": {
    "osm": [
     "relation/21141037"
@@ -1632,7 +2220,7 @@
    0.8,
    1.8
   ],
-  "rating": null,
+  "rating": 3,
   "parking": [
    {
     "lat": 62.87571,
@@ -1644,7 +2232,38 @@
    "hut",
    "signs"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 72878,
+    "thumb": "https://i.pohjoiseen.fi/4ab3b365e7789dbafa9a6eb7a506cd5da73eabd5/20240824-DSC_0106.t.jpg",
+    "src": "https://i.pohjoiseen.fi/4ab3b365e7789dbafa9a6eb7a506cd5da73eabd5/20240824-DSC_0106.jpg",
+    "date": "2024-08-24"
+   },
+   {
+    "id": 72887,
+    "thumb": "https://i.pohjoiseen.fi/edf483b5391c9225048bb6ebece5bcdb7883124b/20240824-DSC_0123.t.jpg",
+    "src": "https://i.pohjoiseen.fi/edf483b5391c9225048bb6ebece5bcdb7883124b/20240824-DSC_0123.jpg",
+    "date": "2024-08-24"
+   },
+   {
+    "id": 73097,
+    "thumb": "https://i.pohjoiseen.fi/e1270825072335376ff97cfb2017e883eb6d5f4f/20240824-DSC_0013.t.jpg",
+    "src": "https://i.pohjoiseen.fi/e1270825072335376ff97cfb2017e883eb6d5f4f/20240824-DSC_0013.jpg",
+    "date": "2024-08-24"
+   },
+   {
+    "id": 72864,
+    "thumb": "https://i.pohjoiseen.fi/7c6299817576ede04fb5e4df5f4c32369eb0ad76/20240824-DSC_0062.t.jpg",
+    "src": "https://i.pohjoiseen.fi/7c6299817576ede04fb5e4df5f4c32369eb0ad76/20240824-DSC_0062.jpg",
+    "date": "2024-08-24"
+   },
+   {
+    "id": 73090,
+    "thumb": "https://i.pohjoiseen.fi/8a8a7ca995b30442b9c9754546495b00bbefc390/20240824-DSC_0005.t.jpg",
+    "src": "https://i.pohjoiseen.fi/8a8a7ca995b30442b9c9754546495b00bbefc390/20240824-DSC_0005.jpg",
+    "date": "2024-08-24"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     619549
@@ -1763,7 +2382,7 @@
    14,
    24
   ],
-  "rating": null,
+  "rating": 4,
   "parking": [
    {
     "lat": 62.80672,
@@ -1789,7 +2408,32 @@
    "tent",
    "duckboards"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 82626,
+    "thumb": "https://i.pohjoiseen.fi/6661359088db6216018b08d1da9a6ed4a5681f07/20250726-DSC_0228.t.jpg",
+    "src": "https://i.pohjoiseen.fi/6661359088db6216018b08d1da9a6ed4a5681f07/20250726-DSC_0228.jpg",
+    "date": "2025-07-26"
+   },
+   {
+    "id": 82622,
+    "thumb": "https://i.pohjoiseen.fi/1d5bd90847cbc1c86033a19cafc159aa434f1a0a/20250726-DSC_0222.t.jpg",
+    "src": "https://i.pohjoiseen.fi/1d5bd90847cbc1c86033a19cafc159aa434f1a0a/20250726-DSC_0222.jpg",
+    "date": "2025-07-26"
+   },
+   {
+    "id": 82632,
+    "thumb": "https://i.pohjoiseen.fi/b8415f14893881a59250f81a39a93420a4389f28/20250726-DSC_0268.t.jpg",
+    "src": "https://i.pohjoiseen.fi/b8415f14893881a59250f81a39a93420a4389f28/20250726-DSC_0268.jpg",
+    "date": "2025-07-26"
+   },
+   {
+    "id": 82612,
+    "thumb": "https://i.pohjoiseen.fi/18b30ae3ec5fba1b90b1429ebc59ce070acf2e66/20250726-DSC_0206.t.jpg",
+    "src": "https://i.pohjoiseen.fi/18b30ae3ec5fba1b90b1429ebc59ce070acf2e66/20250726-DSC_0206.jpg",
+    "date": "2025-07-26"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     602564,
@@ -2001,7 +2645,7 @@
    2.0,
    4.5
   ],
-  "rating": null,
+  "rating": 2,
   "parking": [
    {
     "lat": 62.97973,
@@ -2013,7 +2657,32 @@
    "laavu",
    "fireplace"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 85989,
+    "thumb": "https://i.pohjoiseen.fi/3735add9a893affa80fad9380eb6055f899b765a/20251108-DSC_0011.t.jpg",
+    "src": "https://i.pohjoiseen.fi/3735add9a893affa80fad9380eb6055f899b765a/20251108-DSC_0011.jpg",
+    "date": "2025-11-08"
+   },
+   {
+    "id": 85981,
+    "thumb": "https://i.pohjoiseen.fi/4e2ec44680aab0f192fbd254827d66e1e069ddea/20251108-DSC_0021.t.jpg",
+    "src": "https://i.pohjoiseen.fi/4e2ec44680aab0f192fbd254827d66e1e069ddea/20251108-DSC_0021.jpg",
+    "date": "2025-11-08"
+   },
+   {
+    "id": 85971,
+    "thumb": "https://i.pohjoiseen.fi/17702aab55f4dca91f86c0b049a271aa57de06d8/20251108-DSC_0035.t.jpg",
+    "src": "https://i.pohjoiseen.fi/17702aab55f4dca91f86c0b049a271aa57de06d8/20251108-DSC_0035.jpg",
+    "date": "2025-11-08"
+   },
+   {
+    "id": 85985,
+    "thumb": "https://i.pohjoiseen.fi/bacefb33ebd1af6972e31b44697d74609839ea58/20251108-DSC_0017.t.jpg",
+    "src": "https://i.pohjoiseen.fi/bacefb33ebd1af6972e31b44697d74609839ea58/20251108-DSC_0017.jpg",
+    "date": "2025-11-08"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     608301
@@ -2058,7 +2727,26 @@
    "duckboards",
    "swimming"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 13418,
+    "thumb": "https://i.pohjoiseen.fi/bcb3825bc0d4a6d729cda346113047afbc651a73/20230916-DSC_0197.t.jpg",
+    "src": "https://i.pohjoiseen.fi/bcb3825bc0d4a6d729cda346113047afbc651a73/20230916-DSC_0197.jpg",
+    "date": "2023-09-16"
+   },
+   {
+    "id": 13420,
+    "thumb": "https://i.pohjoiseen.fi/b0b040ac8d17e0cda1e569a952718d64948050bd/20230916-DSC_0201.t.jpg",
+    "src": "https://i.pohjoiseen.fi/b0b040ac8d17e0cda1e569a952718d64948050bd/20230916-DSC_0201.jpg",
+    "date": "2023-09-16"
+   },
+   {
+    "id": 13427,
+    "thumb": "https://i.pohjoiseen.fi/6f6cdde19136515dc2de9d7669ef8aa17d67fb07/20230916-DSC_0227.t.jpg",
+    "src": "https://i.pohjoiseen.fi/6f6cdde19136515dc2de9d7669ef8aa17d67fb07/20230916-DSC_0227.jpg",
+    "date": "2023-09-16"
+   }
+  ],
   "geometry": {
    "file": "data-src/geometry/files/isokyro-orisberg-kotilammi.gpx"
   },
@@ -2213,7 +2901,7 @@
    1.0,
    5.0
   ],
-  "rating": null,
+  "rating": 1,
   "parking": [
    {
     "lat": 62.97295,
@@ -2231,7 +2919,26 @@
    "laavu",
    "fireplace"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 85962,
+    "thumb": "https://i.pohjoiseen.fi/c2422d7a30e532b43f59a07f0b1a405e7b886be9/20251108-DSC_0046.t.jpg",
+    "src": "https://i.pohjoiseen.fi/c2422d7a30e532b43f59a07f0b1a405e7b886be9/20251108-DSC_0046.jpg",
+    "date": "2025-11-08"
+   },
+   {
+    "id": 85960,
+    "thumb": "https://i.pohjoiseen.fi/5b9c1933e842d463444c49bca4f654634a8f47f1/20251108-DSC_0048.t.jpg",
+    "src": "https://i.pohjoiseen.fi/5b9c1933e842d463444c49bca4f654634a8f47f1/20251108-DSC_0048.jpg",
+    "date": "2025-11-08"
+   },
+   {
+    "id": 85958,
+    "thumb": "https://i.pohjoiseen.fi/2ad16ed41cbc46cc91fbb11dc9b5aeb22606475c/20251108-DSC_0050.t.jpg",
+    "src": "https://i.pohjoiseen.fi/2ad16ed41cbc46cc91fbb11dc9b5aeb22606475c/20251108-DSC_0050.jpg",
+    "date": "2025-11-08"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     608308
@@ -2403,7 +3110,7 @@
    3.6,
    4.0
   ],
-  "rating": null,
+  "rating": 3,
   "parking": [
    {
     "lat": 63.2319,
@@ -2417,7 +3124,32 @@
    "toilet",
    "signs"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 79125,
+    "thumb": "https://i.pohjoiseen.fi/1f5560446dbb54e5757a594b0d1ed761e0d28f97/20250601-DSC_0029.t.jpg",
+    "src": "https://i.pohjoiseen.fi/1f5560446dbb54e5757a594b0d1ed761e0d28f97/20250601-DSC_0029.jpg",
+    "date": "2025-06-01"
+   },
+   {
+    "id": 79128,
+    "thumb": "https://i.pohjoiseen.fi/648f84d4e6f5bcce4fb315a3a7ddb4edd44b44f7/20250601-DSC_0032.t.jpg",
+    "src": "https://i.pohjoiseen.fi/648f84d4e6f5bcce4fb315a3a7ddb4edd44b44f7/20250601-DSC_0032.jpg",
+    "date": "2025-06-01"
+   },
+   {
+    "id": 79118,
+    "thumb": "https://i.pohjoiseen.fi/2bda6b3d8cf8cd0dd8a0c423df3359dcae47d07a/20250601-DSC_0022.t.jpg",
+    "src": "https://i.pohjoiseen.fi/2bda6b3d8cf8cd0dd8a0c423df3359dcae47d07a/20250601-DSC_0022.jpg",
+    "date": "2025-06-01"
+   },
+   {
+    "id": 79119,
+    "thumb": "https://i.pohjoiseen.fi/08870c65357aec73e5605effaa25ca84553b8a3f/20250601-DSC_0023.t.jpg",
+    "src": "https://i.pohjoiseen.fi/08870c65357aec73e5605effaa25ca84553b8a3f/20250601-DSC_0023.jpg",
+    "date": "2025-06-01"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     602106
@@ -2536,7 +3268,7 @@
    2.5,
    4.8
   ],
-  "rating": null,
+  "rating": 2,
   "parking": [
    {
     "lat": 63.20025,
@@ -2548,7 +3280,20 @@
    "tower",
    "laavu"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 15680,
+    "thumb": "https://i.pohjoiseen.fi/b88c23086f06127fe89e04d9de2b6d77c34ee40f/20230701-DSC_0010.t.jpg",
+    "src": "https://i.pohjoiseen.fi/b88c23086f06127fe89e04d9de2b6d77c34ee40f/20230701-DSC_0010.jpg",
+    "date": "2023-07-01"
+   },
+   {
+    "id": 15685,
+    "thumb": "https://i.pohjoiseen.fi/082872998f1cdc63816e86b0592a500e9db22865/20230701-DSC_0015.t.jpg",
+    "src": "https://i.pohjoiseen.fi/082872998f1cdc63816e86b0592a500e9db22865/20230701-DSC_0015.jpg",
+    "date": "2023-07-01"
+   }
+  ],
   "geometry": {
    "waypoints": [
     [
@@ -3078,7 +3823,7 @@
    2.9,
    4.5
   ],
-  "rating": null,
+  "rating": 3,
   "parking": [
    {
     "lat": 63.18856,
@@ -3090,7 +3835,32 @@
    "fireplace",
    "laavu"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 79993,
+    "thumb": "https://i.pohjoiseen.fi/246df33ea7274c0e298c65f4b4c84c1ac12344f1/20250628-DSC_0012.t.jpg",
+    "src": "https://i.pohjoiseen.fi/246df33ea7274c0e298c65f4b4c84c1ac12344f1/20250628-DSC_0012.jpg",
+    "date": "2025-06-28"
+   },
+   {
+    "id": 80000,
+    "thumb": "https://i.pohjoiseen.fi/ee58de22facb2f2121d2174ce9cf69b9dc07c038/20250628-DSC_0035.t.jpg",
+    "src": "https://i.pohjoiseen.fi/ee58de22facb2f2121d2174ce9cf69b9dc07c038/20250628-DSC_0035.jpg",
+    "date": "2025-06-28"
+   },
+   {
+    "id": 80005,
+    "thumb": "https://i.pohjoiseen.fi/7ae1e5068adcf8424e5fe5676df8d8d7a02aa6f7/20250628-DSC_0040.t.jpg",
+    "src": "https://i.pohjoiseen.fi/7ae1e5068adcf8424e5fe5676df8d8d7a02aa6f7/20250628-DSC_0040.jpg",
+    "date": "2025-06-28"
+   },
+   {
+    "id": 80019,
+    "thumb": "https://i.pohjoiseen.fi/8a76e61f9bddad0fca43281764736e67825ed5f6/20250628-DSC_0058.t.jpg",
+    "src": "https://i.pohjoiseen.fi/8a76e61f9bddad0fca43281764736e67825ed5f6/20250628-DSC_0058.jpg",
+    "date": "2025-06-28"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     606566
@@ -3168,7 +3938,7 @@
    3.0,
    10.8
   ],
-  "rating": null,
+  "rating": 4,
   "parking": [
    {
     "lat": 63.33749,
@@ -3187,7 +3957,44 @@
    "toilet",
    "tent"
   ],
-  "photos": [],
+  "photos": [
+   {
+    "id": 74289,
+    "thumb": "https://i.pohjoiseen.fi/9d471bb9311aa103f701c9da2e70e1aa4be8f3e4/20240928-DSC_0048.t.jpg",
+    "src": "https://i.pohjoiseen.fi/9d471bb9311aa103f701c9da2e70e1aa4be8f3e4/20240928-DSC_0048.jpg",
+    "date": "2024-09-28"
+   },
+   {
+    "id": 74286,
+    "thumb": "https://i.pohjoiseen.fi/7839a035e83449dee45cee4ebc19abda49976d58/20240928-DSC_0040.t.jpg",
+    "src": "https://i.pohjoiseen.fi/7839a035e83449dee45cee4ebc19abda49976d58/20240928-DSC_0040.jpg",
+    "date": "2024-09-28"
+   },
+   {
+    "id": 74267,
+    "thumb": "https://i.pohjoiseen.fi/1140b9d0f99669a79ac1df20f09c022d51a7c5d7/20240928-DSC_0086.t.jpg",
+    "src": "https://i.pohjoiseen.fi/1140b9d0f99669a79ac1df20f09c022d51a7c5d7/20240928-DSC_0086.jpg",
+    "date": "2024-09-28"
+   },
+   {
+    "id": 74250,
+    "thumb": "https://i.pohjoiseen.fi/4f94d5193cf4f64e2965f43b733a559e7d559212/20240928-DSC_0054.t.jpg",
+    "src": "https://i.pohjoiseen.fi/4f94d5193cf4f64e2965f43b733a559e7d559212/20240928-DSC_0054.jpg",
+    "date": "2024-09-28"
+   },
+   {
+    "id": 2710,
+    "thumb": "https://i.pohjoiseen.fi/a02e81a1d43d216cdcbcba907f0b21af7469778e/20180113-DSC_4253.t.jpg",
+    "src": "https://i.pohjoiseen.fi/a02e81a1d43d216cdcbcba907f0b21af7469778e/20180113-DSC_4253.jpg",
+    "date": "2018-01-13"
+   },
+   {
+    "id": 2742,
+    "thumb": "https://i.pohjoiseen.fi/df30fed3a2170aa6ed30f1e3c12b839fc2226238/20180113-DSC_4328.t.jpg",
+    "src": "https://i.pohjoiseen.fi/df30fed3a2170aa6ed30f1e3c12b839fc2226238/20180113-DSC_4328.jpg",
+    "date": "2018-01-13"
+   }
+  ],
   "geometry": {
    "lipas_ids": [
     525376

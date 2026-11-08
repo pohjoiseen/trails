@@ -40,8 +40,8 @@
   };
   const stars = (n, showEmpty) => {
     if (!n && !showEmpty) return "";
-    let h = '<span class="stars" title="' + esc(t("rating")) + (n ? ": " + n + "/3" : "") + '">';
-    for (let i = 1; i <= 3; i++) h += '<span class="' + (i <= n ? "" : "off") + '">' + ICON.star + "</span>";
+    let h = '<span class="stars" title="' + esc(t("rating")) + (n ? ": " + n + "/5" : "") + '">';
+    for (let i = 1; i <= 5; i++) h += '<span class="' + (i <= n ? "" : "off") + '">' + ICON.star + "</span>";
     return h + "</span>";
   };
 
@@ -326,7 +326,7 @@
       ["loop", "linear", "network"].map((k) => chip("kind", k, t("kind_" + k), f.kind === k, ICON[k])).join("") + "</div></div>";
     if (hasRatings()) {
       h += '<div class="frow"><span class="flabel">' + esc(t("rating")) + "</span><div class=\"chips\">" + chip("rating", "", t("anyRating"), !f.rating) +
-        [2, 3].map((n) => chip("rating", n, n === 3 ? "" : "+", f.rating === n, stars(n))).join("") + "</div></div>";
+        [3, 4, 5].map((n) => chip("rating", n, n === 5 ? "" : "+", f.rating === n, stars(n))).join("") + "</div></div>";
     }
     $("#filters").innerHTML = h;
   }
@@ -438,10 +438,16 @@
   }
   function renderLightbox() {
     const el = $("#lightbox"); const ps = lb.tr.photos; const p = ps[lb.i];
-    const cap = [photoCaption(p), p.date, p.credit].filter(Boolean).join(" · ");
-    el.innerHTML = '<img src="' + esc(p.src) + '" alt="' + esc(photoCaption(p)) + '"><div class="cap">' + esc(cap) + " (" + (lb.i + 1) + "/" + ps.length + ")</div>" +
+    const cap = [photoCaption(p), p.date].filter(Boolean).join(" · ");
+    // Show the (cached) thumbnail stretched at once, swap in the full-size photo when it has loaded.
+    el.innerHTML = '<img src="' + esc(p.thumb || p.src) + '" alt="' + esc(photoCaption(p)) + '"><div class="cap">' + esc(cap) + " (" + (lb.i + 1) + "/" + ps.length + ")</div>" +
       '<button class="lb x" aria-label="' + esc(t("close")) + '">' + ICON.x + "</button>" +
       (ps.length > 1 ? '<button class="lb pv" aria-label="' + esc(t("prev")) + '">' + ICON.back + '</button><button class="lb nx" aria-label="' + esc(t("next")) + '">' + ICON.next + "</button>" : "");
+    if (p.thumb && p.src !== p.thumb) {
+      const full = new Image(), cur = lb;
+      full.onload = () => { if (lb === cur && lb.i === cur.i && ps[lb.i] === p) { const im = $("img", el); if (im) im.src = p.src; } };
+      full.src = p.src;
+    }
   }
   function closeLightbox() { $("#lightbox").hidden = true; $("#lightbox").innerHTML = ""; lb = null; }
   $("#lightbox").addEventListener("click", (e) => {
