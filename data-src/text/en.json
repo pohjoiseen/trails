@@ -8,10 +8,10 @@
    "rocky pine forest",
    "duckboards"
   ],
-  "duration": "2.5–3 h on foot (official). 4.5 km loop; about 5.7–5.9 km incl. the ~0.6 km approach from the parking each way.",
+  "duration": "2.5–3 h on foot. 4.5 km loop; about 5.7–5.9 km including the ~0.6 km approach from the parking each way.",
   "season": "No winter maintenance.",
   "parking_notes": [
-   "Parking on Myrgrundintie (road 6741); walk ~300 m along the gravel road Öjenintie until a small bridge and info boards on the left."
+   "Parking on Myrgrundintie (road 6741); walk ~300 m along the gravel road Öjenintie to a small bridge and info boards on the left."
   ]
  },
  "vaasa-riso-trail": {
@@ -22,8 +22,8 @@
    "reedbed estuary",
    "bird migration"
   ],
-  "network_note": "~3.6 km gravel-road loop with spur paths to the Ryövärinkari/Rövarskäret bird tower (~350 m duckboard path) and the Risö viewing platform; official length 4.9 km.",
-  "season": "No winter maintenance. Ryövärinkari bird tower out of use since 23 Oct 2025 (Lipas 74041); platform (Lipas 528217) active. Duckboards may flood at high water.",
+  "network_note": "~3.6 km gravel-road loop with spur paths to the Ryövärinkari (Rövarskäret) bird tower (~350 m duckboard path) and the Risö viewing platform; about 4.9 km with the spurs.",
+  "season": "No winter maintenance. Ryövärinkari bird tower closed since 23 Oct 2025 (rot damage); the viewing platform is open. Duckboards may flood at high water.",
   "parking_notes": [
    "Risö parking area at the end of Ampujantie, south of the motorway."
   ]
@@ -38,9 +38,9 @@
    "Stone Age site",
    "Öjbergsmossen bog"
   ],
-  "duration": "at least 1.5 h (brochure); shorter 2 km yellow-marked variant from Markenintie",
+  "duration": "At least 1.5 h; shorter 2 km yellow-marked variant from Markenintie.",
   "parking_notes": [
-   "Öjberget winter sports centre / stadium area; trail starts at the large info board by the ski lodge (city lists Öjbergintie 98)."
+   "Öjberget winter sports centre / stadium area; the trail starts at the large info board by the ski lodge."
   ]
  },
  "vaasa-pilvilampi-network": {
@@ -53,12 +53,12 @@
    "viewpoints",
    "archaeological site"
   ],
-  "network_note": "~41 km of marked nature-trail paths and forest roads (city GIS) over an ~800 ha area (~4 x 4 km) around Pilvilampi lake; part of the 70 km Vaasa luontoliikuntareitistö. Sensible rounds: lake loop ~3–5 km; longer rounds via Kivijärvi and Pilvimaja ~10–12 km.",
-  "season": "Ski tracks in winter (Vaasan Latu); winter fatbike trail 22 km (Lipas 617556).",
+  "network_note": "Extensive network of marked paths and forest roads over an ~800 ha area (~4 × 4 km) around Pilvilampi lake, linked to Vaasa's 70 km outdoor trail system. Sensible rounds: lake loop ~3–5 km; longer rounds via Kivijärvi and Pilvimaja ~10–12 km.",
+  "season": "Ski tracks in winter (Vaasan Latu); 22 km winter fatbike trail.",
   "parking_notes": [
-   "Pilvilampi parking on the west shore (city lists both Kappelinmäentie 215 and 240). Second lot nearby at 63.09662,21.74094.",
-   "'Latuparkki' / Gädda ski-track parking, NW trailhead.",
-   "South trailhead by the forest road; position from Lipas start point, approximate."
+   "Main Pilvilampi parking on the west shore (Kappelinmäentie); a second lot lies nearby.",
+   "Gädda ski-track parking ('Latuparkki') at the north-west trailhead.",
+   "South trailhead by the forest road; exact parking spot uncertain."
   ]
  },
  "vaasa-city-bay-trail": {
@@ -73,7 +73,7 @@
   ],
   "duration": "Kalaranta–Majakkakivi 7 km; continues ~3 km to Risö (one way). First section of a planned ~30 km round of the Southern City Bay.",
   "parking_notes": [
-   "Start at Kalaranta (city centre shore); public parking also at Hietalahti and Suvilahti (P on the official map). East end connects to Risö parking (Ampujantie)."
+   "Start at Kalaranta on the city-centre shore; public parking also at Hietalahti and Suvilahti, and the east end connects to Risö parking (Ampujantie)."
   ]
  },
  "vahakyro-ojaniemi-hyyria": {
@@ -86,7 +86,7 @@
    "Kylymä helevetti hiding place",
    "Vainionperä spring"
   ],
-  "network_note": "7 colour-coded routes from two trailheads: Children's trail 2.1, Palolampi 2.1, Palanusenkallio 1.4, Hyyriä 4.4, Marjamäki 11.7 (from Hyyriäntie 105); Kylymä helevetti round 2.7 (from Kaitaja parking, Hyyriäntie 478). ~22.6 km of route lines in total.",
+  "network_note": "Colour-coded routes of 1.4–11.7 km from two trailheads. From Hyyriäntie 105: Children's trail 2.1 km, Palolampi 2.1 km, Palanusenkallio 1.4 km, Hyyriä 4.4 km and Marjamäki 11.7 km. From Kaitaja parking (Hyyriäntie 478): Kylymä helevetti round 2.7 km.",
   "season": "No winter maintenance. Mountain biking allowed (partly very hard).",
   "parking_notes": [
    "Main trailhead, room for 8 cars, info board.",
@@ -101,7 +101,7 @@
    "springs",
    "field landscape and migrating birds"
   ],
-  "network_note": "5 loop and linear routes (2.6–8.4 km): from Kruutarinmaja – Kruutari loop 2.6, Klapurintönkkä path 3–8.4 (linear to Perkiöntie), Heininniemenmäki loop 6.2; from Mestoosplassi – Niisneva loop 3.4, Koirasaari route 7.4. ~21.5 km of route lines.",
+  "network_note": "5 loop and linear routes of 2.6–8.4 km from two trailheads. From Kruutarinmaja: Kruutari loop 2.6 km, Klapurintönkkä path 3–8.4 km (linear to Perkiöntie), Heininniemenmäki loop 6.2 km. From Mestoosplassi: Niisneva loop 3.4 km, Koirasaari route 7.4 km.",
   "season": "No winter maintenance. Signposted links to Ojaniemi–Hyyriä network.",
   "parking_notes": [
    "Kruutarinmaja (Kruutari house), info board.",
@@ -162,9 +162,9 @@
    "Ristimäki Iron Age cairn",
    "forest hill"
   ],
-  "season": "Not yet described on the city's Finnish route page (2025-26); signposting status uncertain.",
+  "season": "Newer route; signposting may still be incomplete.",
   "parking_notes": [
-   "'Korkiavuoren kierros' parking in city GIS."
+   "Trailhead parking off Kalsilantie; exact spot uncertain."
   ]
  },
  "bjorko-panike-trail": {
@@ -177,12 +177,13 @@
    "grazing sheep",
    "old hay barns"
   ],
-  "duration": "One-way lengths: mainland section Svedjehamn–Långgrund pier 3.4 km (7 km return, with a small loop near Långgrund); Svedjehamn–Rotörskatan via the islands c. 12 km. Can be done as a c. 15 km round trip back to Svedjehamn via the southern (wet) branch. luontoon.fi total incl. all branches and the Vargis trails: 23.7 km (2 days).",
-  "access": "Mainland part (Svedjehamn–Långgrund) walkable from the car park. Small ferry (lossi) from Långgrund pier to Stora Segelsören. Between Rotörskatan and Vargis/Panike a boat transfer must be booked (Björköby boat transport, e.g. Ove Kaarto +358 50 530 8062).",
+  "duration": "One way: mainland section Svedjehamn–Långgrund pier 3.4 km (7 km return, with a small loop near Långgrund); Svedjehamn–Rotörskatan via the islands c. 12 km. Can be done as a c. 15 km round trip back to Svedjehamn via the southern (wet) branch. With all branches and the Vargis trails on Panike about 23 km (2 days).",
+  "warning": "The islands are reached on a small unmanned cable ferry from Långgrund pier to Stora Segelsören that hikers operate themselves (age 15+, electronic ID required); in 2026 it ran 10–18 daily 15 Jun–16 Aug and at weekends 2 May–14 Jun and 17 Aug–27 Sep, and not at all in strong wind or very low water, so if it is not running turn back at Långgrund and be back at the ferry before 18:00. Continuing from Rotörskatan to Vargis on Panike needs a boat booked in advance (e.g. Ove Kaarto, +358 50 530 8062); without one you must walk back to Svedjehamn.",
+  "access": "Start at Svedjehamn in Björköby; the mainland section to Långgrund pier needs no crossing.",
   "season": "No winter maintenance. Sheep grazing June–October. Mosquitoes in summer; stony and wet terrain.",
   "parking_notes": [
-   "Svedjehamn parking (fee: 2 EUR/4 h, 4 EUR/24 h per OSM)",
-   "Vargis parking at the Panike end (barrier, unlocked)"
+   "Svedjehamn parking (fee: 2 EUR/4 h, 4 EUR/24 h).",
+   "Vargis parking at the Panike end, behind an unlocked barrier (close it after you)."
   ]
  },
  "bodvattnet-runt": {
@@ -212,7 +213,7 @@
   "duration": "5 km return (out-and-back to the harbour sauna at Finnhamnen).",
   "season": "No maintainer; path partly overgrown.",
   "parking_notes": [
-   "Vikarskat fishing harbour (Google: Björköby fiskehamn)"
+   "Vikarskat fishing harbour (Björköby fiskehamn)."
   ]
  },
  "kikanberget": {
@@ -223,7 +224,7 @@
   ],
   "duration": "About 1 km return.",
   "parking_notes": [
-   "Café Compass parking"
+   "Café Compass parking."
   ]
  },
  "vargis-trails": {
@@ -237,7 +238,7 @@
   ],
   "season": "No winter maintenance.",
   "parking_notes": [
-   "Vargis parking; last stretch of Vargisvägen is a private road behind an unlocked barrier (close it after you)"
+   "Vargis parking; the last stretch of Vargisvägen is a private road behind an unlocked barrier (close it after you)."
   ]
  },
  "sommaro-nature-trails": {
@@ -252,8 +253,8 @@
   "duration": "Ängesholm loop 1.5 km; Hålören accessible route 2.2 km (out-and-back with 0.8 km loop); linear branch to Sommarösund beach c. 3.4 km one-way (c. 7 km return). Whole network c. 5–8 km.",
   "season": "No winter maintenance.",
   "parking_notes": [
-   "Public car park at the end of the road near the Sommarö guard hut (an adjacent OSM parking node is private)",
-   "Alternative start at Södra Vallgrund (Sommarösund) beach, approx. from Lipas"
+   "Public car park at the end of the road near the Sommarö guard hut; the neighbouring lot is private.",
+   "Alternative start at Sommarösund beach (Södra Vallgrund); exact parking spot uncertain."
   ]
  },
  "valsorarna-nature-trail": {
@@ -266,7 +267,8 @@
    "fishing huts"
   ],
   "duration": "About 6 km return.",
-  "access": "Reachable only by boat (own boat, water taxi or summer excursion boats, e.g. from Björköby/Vaasa). No road access or parking.",
+  "warning": "Valsörarna can only be reached by boat across open sea: your own boat, a water taxi or a summer excursion boat (e.g. from Björköby or Vaasa), arranged in advance. There is no scheduled return service, so agree the pick-up time before you go and allow for wind, which can cancel boat trips.",
+  "access": "No road access or parking; the islands lie c. 15 km offshore from Björköby. The path runs from the Ebbskär harbour to the lighthouse on Storskär.",
   "season": "Landing ban 1 May–31 July (nesting season) except harbours and the nature trail. No winter maintenance."
  },
  "iskmo-jungsund-trail": {
@@ -281,8 +283,8 @@
   "duration": "Jungsund–Strömssund 2 km, Strömssund–Hallonnäs 2 km, Hallonnäs–Björnhällorna 2.3 km; Hallonnäsrundan loop 1.8 km, Björnhällsrundan loop 4 km; whole trail 12 km. Må bra-stigen (wellbeing path, blue hearts) = two loops from Hallonnäs, 4 km.",
   "season": "Moose hunting in autumn.",
   "parking_notes": [
-   "Hallonnäs P1 (main for the short loops)",
-   "Jungsund sports field (southern start)"
+   "Hallonnäs P1, main parking for the short loops.",
+   "Jungsund sports field, southern start."
   ]
  },
  "kunileden": {
@@ -294,18 +296,18 @@
   ],
   "duration": "Northern loop 6.4 km, southern loop 7.9 km (from rest stop 1), whole trail 12.5 km.",
   "parking_notes": [
-   "Info board at trailhead"
+   "Trailhead with info board."
   ]
  },
  "stundars-trails": {
-  "desc": "Marked trails starting from the Stundars open-air museum in Solf, running through forest and field edges west of the museum toward the low-lying farmland near Söderfjärden. The longer 6.6 km route passes a dam and the pumping-station museum; a bird tower at the pumping station (Lipas 621352) overlooks the fields and wetlands. A shorter 2 km loop is also signed. Info boards along the way.",
+  "desc": "Marked trails starting from the Stundars open-air museum in Solf, running through forest and field edges west of the museum toward the low-lying farmland near Söderfjärden. The longer 6.6 km route passes a dam and the pumping-station museum; a bird tower at the pumping station overlooks the fields and wetlands. A shorter 2 km loop is also signed. Info boards along the way.",
   "highlights": [
    "bird tower at pumping station",
    "Stundars open-air museum",
    "dam"
   ],
   "parking_notes": [
-   "Stundars museum parking"
+   "Stundars museum parking."
   ]
  },
  "skatila-trail": {
@@ -315,7 +317,7 @@
   ],
   "duration": "9 km return to Storhälleberget.",
   "parking_notes": [
-   "Skatila sports field / sports cabin (coords from Lipas; no parking mapped in OSM)"
+   "Skatila sports field / sports cabin; exact parking spot uncertain."
   ]
  },
  "malsorleden": {
@@ -326,11 +328,11 @@
    "Moomin figures",
    "night-walk loop"
   ],
-  "duration": "Whole trail c. 9 km; shorter loops possible (Lipas parts 2.6 km and 5.2 km loops + 0.9 km spur).",
+  "duration": "Whole trail c. 9 km; shorter options are a 2.6 km and a 5.2 km loop plus a 0.9 km spur.",
   "parking_notes": [
-   "Small car park (3 cars)",
+   "Small car park (3 cars).",
    "",
-   ""
+   "North parking; location approximate."
   ]
  },
  "tolby-kyrkstigen": {
@@ -342,7 +344,7 @@
   ],
   "duration": "2.1 km to the grill site at Västernäset; +750 m to the pumping station; return by road through Vikby makes a 3.6 km round.",
   "parking_notes": [
-   "No parking mapped in OSM; roadside near start"
+   "No dedicated parking; park at the roadside near the start."
   ]
  },
  "karikaleden": {
@@ -351,9 +353,9 @@
    "13 m wooden observation tower",
    "bedrock pine forest"
   ],
-  "duration": "1.7 km return (official length).",
+  "duration": "1.7 km return.",
   "parking_notes": [
-   "Österhankmo beach"
+   "Österhankmo beach."
   ]
  },
  "petsmo-trail": {
@@ -367,8 +369,8 @@
   "duration": "From Start 1 (day care): whole trail 12.5 km, Södra Rundan 7.5 km. From Start 2 (Vikminnevägen): whole trail 11 km, Norra Rundan 7.3 km, Särkiträsk 0.3 km, Rudträsk-rundan 0.7 km.",
   "season": "Hunting 20.8–28.2; dogs on leash.",
   "parking_notes": [
-   "Start 2",
-   "Start 1, Petsmo day care"
+   "Start 2 (Vikminnevägen).",
+   "Start 1 at Petsmo day care."
   ]
  },
  "soderfjarden-trail": {
@@ -380,7 +382,7 @@
   ],
   "duration": "Loops: Östra slingan 4.7 km, Västra slingan 5.1 km, Hela slingan 8.2 km; linear Skogsvägen 5.6 km from Malax-Söderfjärdsvägen to Väster-Solf.",
   "parking_notes": [
-   "Gravel car park with map board (OSM); address from Söderfjärden HF"
+   "Gravel car park with map board."
   ]
  },
  "ojskatsleden": {
@@ -391,7 +393,7 @@
   ],
   "duration": "10.2 km return.",
   "parking_notes": [
-   "Harbour by Kalkmagasinet; turn at Österhankmovägen 900, walk 100 m back and 100 m north along the road to the start (63.24543, 21.92588)"
+   "Harbour parking by Kalkmagasinet (turn at Österhankmovägen 900); walk 100 m back and 100 m north along the road to the start."
   ]
  },
  "bergo-vandringsled": {
@@ -404,9 +406,10 @@
    "archipelago forest"
   ],
   "duration": "Southern loop c. 4.1 km (~1 h 20 min); northern loop c. 3.3 km (~1 h); both together c. 8 km",
-  "access": "Bergö is reached by the free road ferry Bergö–Bredskär (c. 20 min). Fires only in the grill hut.",
+  "warning": "Bergö is an island reached only by the free road ferry from Bredskär (crossing c. 20 min). The ferry runs to a timetable, so check the return departures before you set out to avoid being stuck on the island.",
+  "access": "The trailhead is at Bergövägen 47 on Granön, in the north of the island. Fires are allowed only in the grill hut.",
   "parking_notes": [
-   "Free parking by the ferry landing on Bergö (OSM way 720261375); official start Bergövägen 47"
+   "Free parking by the ferry landing on Bergö; the trail starts at Bergövägen 47."
   ]
  },
  "majors-naturstig": {
@@ -417,20 +420,20 @@
    "rest place with log tables"
   ],
   "parking_notes": [
-   "Large parking area at the trailhead, 6 km south of Malax centre (OSM way 846468237)"
+   "Large parking area at the trailhead, 6 km south of Malax centre."
   ]
  },
  "pixne-naturstig": {
-  "desc": "Village nature trail starting from the centre of Malax and heading north-east into the forest between Pixne and Lillpixne. It is made of three sections that can be combined into rounds of 1.8, 3.1, 3.4 or 4.5 km; the outer part is a loop on forest paths and a forest road, while the return leg follows a sand road and the edge of the village. Built and maintained by Pixne allaktivitetsförening.",
+  "desc": "Nature trail starting from the centre of Malax and heading north-east into the forest between Pixne and Lillpixne. It is made of three sections that can be combined into rounds of 1.8, 3.1, 3.4 or 4.5 km; the outer part is a loop on forest paths and a forest road, while the return leg follows a sand road and the edge of the village. Built and maintained by Pixne allaktivitetsförening.",
   "highlights": [
    "forest paths close to Malax centre"
   ],
   "parking_notes": [
-   "No dedicated trailhead parking: the start is on the light-traffic path between Klockarisvägen and Klockarisgränd (Klockarisvägen 14, 62.94374,21.58371). Nearest public parking is at the Malax sports ground c. 600 m south (OSM way 589274326)."
+   "No trailhead parking: park at the Malax sports ground and walk c. 600 m north to the start on the light-traffic path by Klockarisvägen 14."
   ]
  },
  "aminne-vandringsled": {
-  "desc": "Easy marked path through the forest behind Åminne village, from Mobergsvägen in the north past Träsket down to the river at Dimmornas bro, where there is a grill shelter. Loops can be made by returning along the village roads. The start can be combined with the Kvarken boat museum and Åminne bird tower. Maintained by Åminne-Tuv allaktivitetsförening.",
+  "desc": "Easy marked path through the forest behind Åminne village, from Mobergsvägen in the north past the Träsket area (a drained former lake bed, now forest with ditches) down to the river at Dimmornas bro, where there is a grill shelter. Loops can be made by returning along the village roads. The start can be combined with the Kvarken boat museum and Åminne bird tower. Maintained by Åminne-Tuv allaktivitetsförening.",
   "highlights": [
    "grill shelter at Dimmornas bro",
    "Åminne bird tower nearby",
@@ -438,8 +441,8 @@
   ],
   "duration": "Marked path 2.0 km one way; 4.1 km round returning along Åminnevägen and Mobergsvägen; 5.1 km round from Åminne Folkpark",
   "parking_notes": [
-   "'Dimmornas bro' grill shelter at the southern end of the trail; roadside parking (no parking area mapped in OSM; point = grill shelter).",
-   "Åminne Folkpark parking (OSM way 1270416168); 5.1 km round. The Kvarken boat museum with bird tower and grill place (Åminnevägen 427) is also recommended; no parking at the northern end (Mobergsvägen 520)."
+   "Roadside parking at the Dimmornas bro grill shelter, southern end of the trail; exact spot uncertain.",
+   "Åminne Folkpark parking, start of the 5.1 km round; there is no parking at the northern end (Mobergsvägen)."
   ]
  },
  "kajane-naturstig": {
@@ -451,13 +454,13 @@
    "information signs on flora and fauna"
   ],
   "duration": "Boardwalk to Lillträsket lean-to 0.8 km one way; full loop 3.0 km; spur to Lisansjön 0.6 km",
-  "access": "According to malax.fi (2024) only the boardwalk to Lillträsket is currently in usable condition; other parts of the loop may be very hard to pass.",
+  "access": "In 2024 only the boardwalk to Lillträsket was in usable condition; other parts of the loop may be very hard to pass.",
   "parking_notes": [
-   "Parking at Kajane camp area (OSM node 5663614388). Turn off national road 8 onto Kajane skogsväg (4.2 km north of the Petalax junction), drive 1.2 km, turn right, 1.4 km, turn left into the area."
+   "Kajane camp area: from national road 8 take Kajane skogsväg (4.2 km north of the Petalax junction), drive 1.2 km, turn right, 1.4 km, then left into the area."
   ]
  },
  "velkmossa-vandringsled": {
-  "desc": "Old forest track through the wilderness between Petalax (Malax) and Velkmossa (Närpes), mostly on the Malax side. It runs through forest and bog edges past Nojärvsträsket, a shallow, overgrown wilderness lake with reed beds that is a good breeding site for many bird species; a short spur leads to a bird tower on its shore. Another side path leads to Kackurmossen bog, and the topographic map shows several prehistoric cairns (fornlämningar) near the route. Maintained by Metsähallitus (Forststyrelsen).",
+  "desc": "Old forest track through the wilderness between Petalax (Malax) and Velkmossa (Närpes), mostly on the Malax side. It runs through forest and bog edges past Nojärvsträsket, a shallow, overgrown wilderness lake with reed beds that is a good breeding site for many bird species; a short spur leads to a bird tower on its shore. Another side path leads to Kackurmossen bog, and several prehistoric cairns lie near the route. Maintained by Metsähallitus (Forststyrelsen).",
   "highlights": [
    "Nojärvsträsk bird tower",
    "overgrown wilderness lake",
@@ -466,12 +469,12 @@
   ],
   "duration": "4.5 km one way between Viitala and Velkmoss village hall, 9 km there and back; bird-tower spur c. 0.4 km",
   "parking_notes": [
-   "Northern start near the Bjurnäsvägen–Vargmossa skogsväg junction (OSM parking way 855992099, info board). Lipas address of the nearby Nojärvsträsk bird tower: Bjurnäsvägen 525.",
-   "APPROXIMATE: Velkmoss village hall (byagård) with parking, c. 0.5 km east of the southern trail end; location estimated from the PDF map."
+   "Northern start with info board near the Bjurnäsvägen–Vargmossa skogsväg junction.",
+   "Velkmoss village hall (byagård), c. 0.5 km east of the southern trail end; location approximate."
   ]
  },
  "mamrestigen-storsjostigen": {
-  "desc": "Historic connecting path between the forest villages of Storsjö in Malax and Mamrelund in Petalax. It crosses a low-lying forest landscape with bogs and ditched peatland (e.g. Gorrmossen) and small rocky rises; near Storsjö the map marks prehistoric cairns (fornlämningar). Maintained by Petalax hembygdsförening, Malax museiförening and private landowners.",
+  "desc": "Historic connecting path between the forest villages of Storsjö in Malax and Mamrelund in Petalax. It crosses a low-lying forest landscape with bogs and ditched peatland (e.g. Gorrmossen) and small rocky rises; there are prehistoric cairns near Storsjö. Maintained by Petalax hembygdsförening, Malax museiförening and private landowners.",
   "highlights": [
    "old village path",
    "bogs and forest",
@@ -479,33 +482,33 @@
   ],
   "duration": "c. 3.5–4 km one way, 8 km there and back",
   "parking_notes": [
-   "Western start at Mamrelund (point = Lipas trail start)",
-   "Eastern start at Storsjön (point = Lipas trail end)"
+   "Western start at Mamrelund; exact parking spot uncertain.",
+   "Eastern start at Storsjön; exact parking spot uncertain."
   ]
  },
  "jarnaldersleden": {
-  "desc": "Short loop through an archaeologically interesting area with Iron Age cairns (gravrösen) and cup stones, from a settlement dated to about 200–700 AD; one is described as 'the most beautiful cup stone in Finland'. The meadow and forest vegetation is rich. At the start there is an open chalet hut (fäbodstuga) with archaeological information and a summer cowshed with an agricultural exhibition. Officially open May–September; maintained by Malax museiförening.",
+  "desc": "Short loop through an archaeologically interesting area with Iron Age cairns (gravrösen) and cup stones, from a settlement dated to about 200–700 AD; one is said to be 'the most beautiful cup stone in Finland'. The meadow and forest vegetation is rich. At the start there is an open chalet hut (fäbodstuga) with archaeological information and a summer cowshed with an agricultural exhibition. Maintained by Malax museiförening.",
   "highlights": [
    "Iron Age cairns",
    "cup stones",
    "rich flora",
    "fäbod cottage with exhibition"
   ],
-  "season": "Officially open May–September",
+  "season": "Open May–September.",
   "parking_notes": [
-   "Trailhead parking by Storsjövägen (malax.fi gives Storsjövägen 446); 8.5 km south of Malax church. Point = Lipas/OSM route start."
+   "Trailhead parking by Storsjövägen, 8.5 km south of Malax church."
   ]
  },
  "fabodstigen-molapne": {
-  "desc": "Cultural-history path through the forest at Pappersbruket (Bränno) in Molapne, where the people of Malax kept their summer pasture chalets (fäbodar). Signs mark the sites of 15 former herdmaids' cottages, mostly only foundations and hearth remains today; one restored cottage and cowshed are on site. Officially open May–September; maintained by Malax museiförening.",
+  "desc": "Cultural-history path through the forest at Pappersbruket (Bränno) in Molapne, where the people of Malax kept their summer pasture chalets (fäbodar). Signs mark the sites of 15 former herdmaids' cottages, mostly only foundations and hearth remains today; one restored cottage and cowshed are on site. Maintained by Malax museiförening.",
   "highlights": [
    "15 historic fäbod chalet sites",
    "restored cottage and cowshed"
   ],
   "duration": "c. 1 km one way",
-  "season": "Officially open May–September",
+  "season": "Open May–September.",
   "parking_notes": [
-   "Roadside at the start (map board and brochure box). From road 8 at Långåminne drive 1800 m towards Malax, turn left and follow the road 2100 m to Molapne."
+   "Roadside parking at the start (map board): from road 8 at Långåminne drive 1.8 km towards Malax, turn left and follow the road 2.1 km to Molapne."
   ]
  },
  "rajavuori-luontopolku": {
@@ -518,7 +521,7 @@
   ],
   "access": "Fires forbidden during forest fire warnings.",
   "parking_notes": [
-   "Yard of Rajavuori erä- ja vaelluskeskus, c. 12 km south of Kylänpää (junction of Tampereentie and Jurvantie). No parking area mapped in OSM; point = trail start/info board (Lipas, OSM node 6665225403). Lipas gives the address as Laihiantie 50."
+   "Yard of the Rajavuori hiking centre, c. 12 km south of Kylänpää; the trail starts at the info board."
   ]
  },
  "kurjen-kierros-rajavuori-levaneva": {
@@ -530,17 +533,17 @@
    "Särkinen wilderness hut",
    "Kyrössuo bog"
   ],
-  "duration": "Maalarinmaa parking to bird tower 0.6 km; Rajavuori–Maalarinmaa c. 14 km; Rajavuori–Peräkylä c. 24 km one way. The Levaneva trail itself (Peräkylä–Maalarinmaa and on) is 13.6 km one way / 27 km out and back per luontoon.fi. The whole Kurjen kierros continues to Pässilä and Kalajaisjärvi (Ilmajoki), c. 30–50 km.",
+  "duration": "Maalarinmaa parking to bird tower 0.6 km; Rajavuori–Maalarinmaa c. 14 km; Rajavuori–Peräkylä c. 24 km one way. The Levaneva trail itself (Peräkylä–Maalarinmaa and on) is 13.6 km one way. The whole Kurjen kierros continues to Pässilä and Kalajaisjärvi (Ilmajoki), c. 30–50 km.",
   "access": "Linear route: arrange transport or walk out and back. Levaneva is a state nature reserve (Metsähallitus): stay on the marked trail.",
   "season": "Duckboards can be slippery in wet weather. Fires forbidden during forest fire warnings.",
   "parking_notes": [
-   "Northern start at Rajavuori hiking centre (see Rajavuori nature trail).",
-   "Maalarinmaa parking: from E12 at Kylänpää take road 687 south 14 km, turn left towards the Kivi- ja Levalampi reservoir (signposted Kurjen kierros). Point = end of Allastie in OSM, where the 0.6 km path to Maalarinmaa starts; no parking area mapped in OSM. The storymap says this parking is on the Kurikka side.",
-   "Peräkylä parking, southern access to Levaneva (OSM way 722679361); outside Laihia."
+   "Northern start at the Rajavuori hiking centre.",
+   "Maalarinmaa parking on the Kurikka side: from road 687 turn towards the Kivi- ja Levalampi reservoir (signposted Kurjen kierros); exact spot uncertain.",
+   "Peräkylä parking, southern access to Levaneva (Kurikka)."
   ]
  },
  "allisen-luontopolku": {
-  "desc": "Village nature trail in Jakkula maintained by Jakkulan kyläyhdistys. Info signs along the way present the local nature. At 0.7 km a viewing platform has been built on top of a large glacial erratic boulder; at 1.5 km is the well-equipped Haarrineva lean-to on the edge of the Haarrineva bog, with a fireplace, firewood shed and an outdoor toilet nearby. The path ends at prehistoric cairn graves (röykkiöhaudat) 1.9 km from the start.",
+  "desc": "Village trail in Jakkula maintained by Jakkulan kyläyhdistys. Info signs along the way present the local nature. At 0.7 km a viewing platform has been built on top of a large glacial erratic boulder; at 1.5 km is the well-equipped Haarrineva lean-to on the edge of the Haarrineva bog, with a fireplace, firewood shed and an outdoor toilet nearby. The path ends at prehistoric cairn graves (röykkiöhaudat) 1.9 km from the start.",
   "highlights": [
    "viewing platform on a glacial erratic",
    "Haarrineva lean-to",
@@ -548,7 +551,7 @@
   ],
   "duration": "Viewpoint 0.7 km, Haarrineva lean-to 1.5 km, cairn graves 1.9 km; 3.8 km there and back",
   "parking_notes": [
-   "Trailhead with info board (OSM node 6495253774; Lipas 'Merkkikiven opastuspiste' at Allisentie 191). No parking area mapped in OSM; the Jakkula shooting range (Allisentie 165) is next to it. Point = trailhead board."
+   "Trailhead with info board on Allisentie, next to the Jakkula shooting range."
   ]
  },
  "isokyro-lymmyys-nature-trail": {
@@ -560,7 +563,7 @@
   ],
   "duration": "15-30 min",
   "parking_notes": [
-   "Gravel road turns off Palhojaistentie at no. 260 to the kota parking area (OSM node 14143188867)."
+   "Gravel road off Palhojaistentie at no. 260 to the kota parking area."
   ]
  },
  "isokyro-fatisaari": {
@@ -573,7 +576,7 @@
   ],
   "duration": "1.5-2 h there and back (3.5 km each way)",
   "parking_notes": [
-   "Follow Marjoniementie to Tuurala hunting lodge, then the narrow road to the right to its end (OSM parking node 13140457979). The municipality asks not to park in the hunting lodge yard (older Lipas text says the opposite)."
+   "Follow Marjoniementie to Tuurala hunting lodge, then the narrow road to the right to its end; do not park in the hunting lodge yard."
   ]
  },
  "isokyro-ruusupuro-rookki": {
@@ -586,11 +589,11 @@
   ],
   "duration": "1.5-2 h",
   "parking_notes": [
-   "Ruusupuro swimming beach parking (OSM node 12964065310); signposted trail start."
+   "Ruusupuro swimming beach parking; signposted trail start."
   ]
  },
  "isokyro-vuoressalo": {
-  "desc": "Vuoressalo is a bedrock hill rising from the flat fields of the Kyrönjoki valley. Two loops lead up onto its open, lichen-white rock outcrops with wide views. Among the rocks are curious stone formations whose human origin has long been debated: the base map marks a 'pakouuni' (refuge oven), said to be a low wall built by peasants in the Club War, where a natural cleft forms a vault about 2 m high. A lean-to lies at the south end, reached by a short spur from the red-and-white marked path. One of the 'Tarinapolku' mobile-game stories is located here.",
+  "desc": "Vuoressalo is a bedrock hill rising from the flat fields of the Kyrönjoki valley. Two loops lead up onto its open, lichen-white rock outcrops with wide views. Among the rocks are curious stone formations whose human origin has long been debated, among them a 'pakouuni' (refuge oven), said to be a low wall built by peasants in the Club War, where a natural cleft forms a vault about 2 m high. A lean-to lies at the south end, reached by a short spur from the red-and-white marked path. One of the 'Tarinapolku' mobile-game stories is located here.",
   "highlights": [
    "lichen-covered rock outcrops",
    "viewpoint",
@@ -599,7 +602,7 @@
   ],
   "duration": "45 min-1 h per loop",
   "parking_notes": [
-   "Parking area is on the opposite side of the road from the trail start (OSM node 13140501561); do not park on the road."
+   "Parking area across the road from the trail start; do not park on the road."
   ]
  },
  "isokyro-orisberg-kotilammi": {
@@ -612,7 +615,7 @@
   ],
   "duration": "2.5-3 h; shorter option: walk to the Kotilammi kota and back the same way",
   "parking_notes": [
-   "Parking on Åbergintie (OSM node 540237484), start at the Orisberg church bell tower; loop signed anticlockwise. During summer camps at the camp centre paint marks begin at its southernmost cabin - join the trail directly from Åbergintie."
+   "Parking on Åbergintie; start at the Orisberg church bell tower (during summer camps, join the trail directly from Åbergintie rather than at the camp centre)."
   ]
  },
  "isokyro-tuomaanmaki": {
@@ -626,7 +629,7 @@
   ],
   "duration": "about 1 h",
   "parking_notes": [
-   "Park only in the parking area and do not block the trail entrance (OSM node 4111599951). Lipas gives Ventäläntie 760."
+   "Park only in the parking area and do not block the trail entrance."
   ]
  },
  "isokyro-lapinmaki": {
@@ -637,7 +640,7 @@
   ],
   "duration": "30-45 min",
   "parking_notes": [
-   "Parking at the end of Pohjantie next to the Lapinmäki playground (coordinates = GPX start; no OSM parking mapped)."
+   "Parking at the end of Pohjantie next to the Lapinmäki playground."
   ]
  },
  "isokyro-peippoonen": {
@@ -647,11 +650,11 @@
    "fire site",
    "kota"
   ],
-  "network_note": "Nature trail loop (~3 km, walk clockwise) plus the Kylkkälä sawdust exercise track, an old exercise track and informal paths; the GPX covering all paths is 6.5 km.",
+  "network_note": "Nature trail loop (~3 km, walk clockwise) plus the Kylkkälä sawdust exercise track, an old exercise track and informal paths; about 6.5 km if you walk every path.",
   "duration": "3 km loop about 45 min",
   "season": "Many ticks in summer; exercise track is a ski track in winter.",
   "parking_notes": [
-   "Parking by the Peippoonen disc golf course / Kylkkälä exercise track (OSM node 1824719452), left just after the playground. The nature trail starts across the road ~200 m up the pedestrian way; it returns near the parking."
+   "Parking by the disc golf course / Kylkkälä exercise track, left just after the playground; the nature trail starts ~200 m up the pedestrian way across the road."
   ]
  },
  "isokyro-ylipaa-marjamaki": {
@@ -661,12 +664,12 @@
    "two lean-tos on Marjamäki",
    "steep climbs"
   ],
-  "network_note": "Several loops of 1-5 km (exercise tracks 1.4, 2, 3 and 5 km plus paths) on Marjamäki hill; ~6.5-7 km of paths in all (Lipas 6.9 km), GPX walking everything 13.8 km.",
+  "network_note": "Several loops of 1–5 km (exercise tracks of 1.4, 2, 3 and 5 km plus paths) on Marjamäki hill; about 7 km of paths in all.",
   "duration": "5 km loop about 1 h",
   "season": "In winter the tracks are groomed ski tracks - no walking on them.",
   "parking_notes": [
-   "Ylipää youth association (Nuorisoseura) parking (OSM node 343530377).",
-   "Alternative start beside Lukkuhaka camping area; coordinates approximate (~300 m), from the camping address."
+   "Ylipää youth association hall (Nuorisoseura) parking.",
+   "Alternative start beside the Lukkuhaka camping area; exact spot approximate."
   ]
  },
  "vora-andkil": {
@@ -678,18 +681,18 @@
   ],
   "duration": "short loop ~30 min, long loop 2.5-3 h",
   "parking_notes": [
-   "Start point given in the municipal brochure (63°06'09.9\"N 22°14'31.2\"E) at the end of Kondivorvägen near Nybo; no parking area mapped in OSM - roadside parking at the start sign."
+   "Roadside parking by the start sign at the end of Kondivorvägen near Nybo."
   ]
  },
  "vora-arvidsstigen-vernersstigen": {
-  "desc": "Two short loops in the small hilly woods behind the Rasmusgården farm museum, over low moraine knolls (about 20 m a.s.l.) with mixed forest. The paths are easy and passable with a pushchair; in summer fairy-tale figures and toy animals line the trails, making them popular with families. Rasmusgården also has the Verner Rasmus museum, a petting farm and a café in summer.",
+  "desc": "Two short loops in the small hilly woods behind the Rasmusgården farm museum at Rasmusbacken, over low moraine knolls (about 20 m a.s.l.) with mixed forest. The paths are easy and passable with a pushchair; in summer fairy-tale figures and toy animals line the trails, making them popular with families.\n\nRasmusbacken was the home of the Rasmus siblings. Verner Rasmus (1901–1988), a farmer, amateur musician and collector, built up the collection now shown in the Verner Rasmus museum; his brother Arvid left part of his property to the foundation that runs the site, whose home farm Arvidsgården dates from 1913. A petting farm and a café are open in summer.",
   "highlights": [
    "fairy-tale figures (summer)",
    "Rasmusgården farm museum"
   ],
   "duration": "20-30 min each",
   "parking_notes": [
-   "Rasmusgården parking (OSM node 14097523706); trails start behind the outbuilding at Arvidsgården."
+   "Rasmusgården parking; the trails start behind the outbuilding at Arvidsgården."
   ]
  },
  "vora-coronastigen-keskis": {
@@ -700,7 +703,7 @@
    "grill site"
   ],
   "parking_notes": [
-   "Keskis UF (youth association hall) parking (OSM node 14097608311)."
+   "Keskis UF (youth association hall) parking."
   ]
  },
  "vora-herrgardsleden-tottesund": {
@@ -712,7 +715,7 @@
    "information boards"
   ],
   "parking_notes": [
-   "Parking at Tottesund manor next to the information board (map symbol); coordinates approximate (~50 m), no parking mapped in OSM."
+   "Parking at Tottesund manor next to the information board; exact spot approximate."
   ]
  },
  "vora-kimo-bruk-trails": {
@@ -723,7 +726,7 @@
    "stone labyrinth"
   ],
   "parking_notes": [
-   "Start at Kimo Bruk; the municipality says to park up by the road. Coordinates = ironworks museum (OSM way 844455425); exact parking spot not verified."
+   "Start at Kimo Bruk; park up by the road (exact spot uncertain)."
   ]
  },
  "vora-kinnkangleden": {
@@ -734,7 +737,7 @@
    "near Oravais 1808 battlefield"
   ],
   "parking_notes": [
-   "Start point from Lipas; no parking area mapped in OSM."
+   "Start at the eastern edge of Oravais village (Kimovägen); exact parking spot uncertain."
   ]
  },
  "vora-komossa-hoppamaki": {
@@ -746,7 +749,7 @@
   ],
   "duration": "Hoppamäki 2.5 km out-and-back; Auras 3.8 km; Haaplund 4.8 km",
   "parking_notes": [
-   "Start coordinates from the municipal brochure (63°12'00.9\"N 22°33'15.0\"E), signposted from Brännarsvägen; lean-to at the start (OSM way 710481708)."
+   "Signposted from Brännarsvägen; parking by the lean-to at the start."
   ]
  },
  "vora-kovik": {
@@ -756,7 +759,7 @@
    "hilly rocky forest"
   ],
   "parking_notes": [
-   "Parking per the trail board (N63°13.139' E22°18.520'), OSM node 11993259312; signposted from Vöråvägen."
+   "Parking by the trail board, signposted from Vöråvägen."
   ]
  },
  "vora-lotlax": {
@@ -766,7 +769,7 @@
    "forest ponds"
   ],
   "parking_notes": [
-   "Lotlax bygård (village hall); start coordinates from the municipal brochure; signposted from Lotlaxvägen."
+   "Lotlax village hall (bygård), signposted from Lotlaxvägen."
   ]
  },
  "vora-rokio-norrvalla-boberget": {
@@ -780,7 +783,7 @@
   ],
   "network_note": "Norrvalla-Boberget-Norrvalla 7.1 km with shortcuts A 1.6, B 3.0, C 4.7 km; from Boberget a 4.5 km link continues to the Vitmossen ancient houses (Norrvalla-Vitmossen-Norrvalla 16.1 km; >20 km with the Vitmossen loops).",
   "parking_notes": [
-   "Norrvalla sports and conference centre parking (OSM way 1370480681); start signposted at Norrvalla. Several forest-road access points along Rökiö forest road."
+   "Norrvalla sports and conference centre parking, with the start signposted; more access points along the Rökiö forest road."
   ]
  },
  "vora-storberget": {
@@ -790,7 +793,7 @@
    "rocky hill amid farmland"
   ],
   "parking_notes": [
-   "Large parking at the Storberget info map; coordinates approximate (~150 m), estimated from the municipal map relative to the Rejpeltvägen/Rösslevägen junction."
+   "Large parking by the Storberget info map; exact spot approximate."
   ]
  },
  "vora-tyrstigen": {
@@ -800,7 +803,7 @@
    "Klemetsgårdarna heritage farm"
   ],
   "parking_notes": [
-   "Klemetsgårdarna museum parking (OSM way 958642848)."
+   "Klemetsgårdarna museum parking."
   ]
  },
  "vora-vitmossen": {
@@ -812,7 +815,7 @@
    "bog views"
   ],
   "parking_notes": [
-   "Start at the reconstructed ancient houses (brochure coordinates 63°11'18.8\"N 22°20'56.6\"E); no parking mapped in OSM."
+   "Start at the reconstructed ancient houses; exact parking spot uncertain."
   ]
  },
  "vora-vastero": {
@@ -824,11 +827,11 @@
    "S/S Equity Jäger memorial",
    "day-use huts"
   ],
-  "duration": "whole trail ~10 km one way incl. side branches (luontoon: 10.8 km, ~6 h)",
+  "duration": "Whole trail ~10–11 km one way including side branches (about 6 h).",
   "season": "Not maintained in winter.",
   "parking_notes": [
-   "Southern parking and info board (OSM node 7276189865; brochure start 63°20'15.5\"N 21°57'38.7\"E), signposted from Skatavägen.",
-   "Middle parking and info board (OSM way 712480027) near the S/S Equity memorial."
+   "Southern parking and info board at the end of Söderskatavägen, signposted from Skatavägen.",
+   "Middle parking and info board near the S/S Equity memorial (Storsandviken)."
   ]
  },
  "vora-skidcentrum-trail": {
@@ -841,7 +844,7 @@
   ],
   "duration": "blue loop 5 km (lean-to at 1.3 km); red extension 2.5 km (rest stop at 2.4 km, Stupet viewpoint at 3 km)",
   "parking_notes": [
-   "Ski centre parking at the foot of the slalom slope (OSM node 321437811)."
+   "Ski centre parking at the foot of the slalom slope."
   ]
  },
  "vora-mickelsorarna-nature-trail": {
@@ -852,11 +855,12 @@
    "observation tower (summer)",
    "nature station"
   ],
-  "duration": "luontoon.fi suggests about 2 h incl. stops",
-  "access": "Reachable by boat only (own boat, or summer day cruises to Kummelskär from Stråkaviken).",
+  "duration": "About 2 h including stops.",
+  "warning": "Kummelskär can only be reached by boat: your own boat (nearest harbour by car is Köklot in Korsholm, ~20 km by sea) or the summer day cruise on M/S Filifjonkan from Stråkaviken in Maxmo (departs 10:00, back about 17:00; booking required, tel. 0500 869 385). The cruise is the only scheduled way back, so be at the harbour on time.",
+  "access": "No road access; the trail starts at the nature station harbour on Kummelskär.",
   "season": "Bird nesting season 1.5-15.7: stay on marked trails. Nature hut, tower and café open in summer only.",
   "parking_notes": [
-   "Trailhead at the nature station harbour on Kummelskär (start of the luontoon.fi track). Nearest harbours reachable by car: Köklot (Korsholm, ~20 km by boat); summer day cruises by M/S Filifjonkan from Stråkaviken (Vörå/Maxmo)."
+   "Park at the departure harbour: Stråkaviken (Maxmo) for the day cruise, or Köklot (Korsholm) for own boats."
   ]
  },
  "vora-kimo-river-mouth-bird-towers": {
@@ -867,7 +871,7 @@
   ],
   "duration": "~0.9 km each way",
   "parking_notes": [
-   "Approximate: where the forest track to the towers leaves Karlebyvägen, near the Pärtstugan museum; no parking mapped in OSM."
+   "Where the forest track to the towers leaves Karlebyvägen, near the Pärtstugan museum; exact spot approximate."
   ]
  }
 }
