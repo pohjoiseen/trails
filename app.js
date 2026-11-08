@@ -10,8 +10,16 @@
     get(k, d) { try { const v = localStorage.getItem("vat:" + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
     set(k, v) { try { localStorage.setItem("vat:" + k, JSON.stringify(v)); } catch (e) { /* storage unavailable */ } }
   };
+  // A language picked earlier wins; otherwise the first browser language we support, else English.
+  function initialLang() {
+    const saved = store.get("lang", null);
+    if (I.langs.includes(saved)) return saved;
+    const prefs = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ""];
+    for (const l of prefs) { const code = String(l).toLowerCase().split("-")[0]; if (I.langs.includes(code)) return code; }
+    return "en";
+  }
   const S = {
-    lang: I.langs.includes(store.get("lang", "en")) ? store.get("lang", "en") : "en",
+    lang: initialLang(),
     trails: [],
     byId: {},
     text: {},          // lang -> {id: {...}}
