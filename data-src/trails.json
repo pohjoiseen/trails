@@ -1,0 +1,5 @@
+[
+ {"id":"pilvilampi","municipality":"vaasa","area":"Pilvilampi","name":{"fi":"Pilvilammen polut","sv":"Pilvilampi stigar"},"local":"fi","kind":"network","length_km":[2,15],"parking":[{"lat":63.0435,"lon":21.7418,"address":"Kappelinmäentie 245, 65370 Vaasa"}],"facilities":["laavu","fireplace"],"geometry":{"lipas_ids":[512194]},"sources":["https://www.vaasa.fi"]},
+ {"id":"bodvattnet","municipality":"korsholm","area":"Björköby","name":{"fi":"Bodvattnetin kierros","sv":"Bodvattnet runt"},"local":"sv","kind":"loop","length_km":[4,4],"parking":[{"lat":63.4655,"lon":21.1645,"address":"Svedjehamn, 65870 Björköby"}],"facilities":["tower","toilet","accessible"],"geometry":{"lipas_ids":[602251]},"sources":[]},
+ {"id":"rokio","municipality":"vora","area":"Rökiö","name":{"fi":"Rökiön vaellusreitti","sv":"Rökiö vandringsled"},"local":"sv","kind":"loop","length_km":[6.7,6.7],"rating":3,"parking":[{"lat":63.1,"lon":22.3,"address":"Vöråvägen 305, 66600 Vörå"}],"geometry":{"lipas_ids":[606567]},"sources":[]}
+]
