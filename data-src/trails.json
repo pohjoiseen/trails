@@ -156,9 +156,9 @@
   "rating": null,
   "parking": [
    {
-    "lat": 63.09539,
-    "lon": 21.7442,
-    "address": "Kappelinmäentie 240, 65370 Vaasa"
+    "lat": 63.09644,
+    "lon": 21.74117,
+    "address": "Kappelinmäentie, 65370 Vaasa"
    },
    {
     "lat": 63.10573,
@@ -228,8 +228,7 @@
   "photos": [],
   "geometry": {
    "osm": [
-    "relation/17438737",
-    "relation/20708928"
+    "relation/17438737"
    ],
    "file": "data-src/geometry/files/vaasa-city-bay-riso.geojson"
   },
@@ -3040,7 +3039,17 @@
   "geometry": {
    "lipas_ids": [
     620864
-   ]
+   ],
+   "lipas_parts": {
+    "620864": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ]
+   }
   },
   "borderline": false,
   "sources": [

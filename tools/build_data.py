@@ -139,7 +139,7 @@ def merge_chains(lines, tol=8.0):
     return lines
 
 
-def dedupe(lines, tol=12.0, step=4.0, min_run=25.0):
+def dedupe(lines, tol=15.0, step=4.0, min_run=50.0):
     """Remove stretches that retrace already-drawn path (out-and-back sections, overlapping
     segments from several sources, near-parallel duplicates within `tol` metres).
     Lines are processed longest first; each kept run is joined to the path that covers its ends."""
@@ -301,7 +301,9 @@ def main():
             lines += wp if wp and isinstance(wp[0][0], list) else [wp]
         lines = merge_chains(lines)
         if not g.get("keep_duplicates"):
-            lines = merge_chains(dedupe(lines, tol=g.get("dedupe_tol", 12.0), min_run=max(25.0, 2 * g.get("dedupe_tol", 12.0))), tol=1.0)
+            lines = merge_chains(dedupe(lines, tol=g.get("dedupe_tol", 15.0), min_run=max(50.0, 2 * g.get("dedupe_tol", 15.0))), tol=1.0)
+        if len(lines) > 1:
+            lines = [ln for ln in lines if length_km([ln]) >= 0.04] or lines  # drop tiny leftovers
         lines = snap_ends(lines)
         lines = [ln for ln in lines if len(ln) >= 2]
         detail = [dp(ln, 1.5) for ln in lines]

@@ -59,6 +59,8 @@
   /* One name per trail: name.local, or a fi/sv form of the place name when viewing in that language. */
   const primaryName = (tr) => tr.name[S.lang] || tr.name.local;
   const hasWarning = (tr) => { const x = textFor(tr); return !!(x && x.warning); };
+  /* Escape text and turn bare https:// URLs into links */
+  const rich = (s) => esc(s).replace(/https?:\/\/[^\s<>"]+?(?=[.,;:!?)]*(\s|$))/g, (u) => '<a href="' + u + '" target="_blank" rel="noopener">' + u.replace(/^https?:\/\//, "").replace(/\/$/, "") + "</a>");
   const textFor = (tr) => {
     const own = S.text[S.lang] && S.text[S.lang][tr.id];
     if (own && own.desc) return { ...own, fallback: false };
@@ -105,6 +107,7 @@
     parkLayer = L.layerGroup().addTo(map);
     pinLayer = L.layerGroup().addTo(map);
     map.on("zoomend", updatePins);
+    map.on("movestart", () => { if (!progMove && S.selected) userMoved = true; });
     // keep Leaflet in sync when the map box changes size (sidebar/sheet changes, window resizes)
     if (window.ResizeObserver) new ResizeObserver(() => map.invalidateSize({ pan: false })).observe($("#map"));
     map.on("click", () => { if (S.selected && isPhone()) setSheet("peek"); });
@@ -252,12 +255,15 @@
     });
     if (fit) fitTrail(tr, segs);
   }
+  /* Map view to restore on "All trails", unless the user moved the map meanwhile */
+  let savedView = null, userMoved = false, progMove = false;
+  function progFit(fn) { progMove = true; map.once("moveend", () => setTimeout(() => { progMove = false; }, 0)); fn(); }
   function fitTrail(tr, segs) {
     const pts = [].concat(...(segs || tr.line || []));
     (tr.parking || []).forEach((p) => pts.push([p.lat, p.lon]));
     if (!pts.length) return;
     const b = L.latLngBounds(pts);
-    map.fitBounds(b, { paddingTopLeft: [30, 60], paddingBottomRight: [60, isPhone() ? sheetPx() + 30 : 40], maxZoom: 15.5 });
+    progFit(() => map.fitBounds(b, { paddingTopLeft: [30, 60], paddingBottomRight: [60, isPhone() ? sheetPx() + 30 : 40], maxZoom: 15.5 }));
   }
   function fitAll() {
     const pts = [];
@@ -366,7 +372,7 @@
   }
   function renderDetail(tr) {
     const tx = textFor(tr) || {};
-    const desc = (tx.desc || "").split(/\n\s*\n/).filter(Boolean).map((p) => "<p>" + esc(p) + "</p>").join("");
+    const desc = (tx.desc || "").split(/\n\s*\n/).filter(Boolean).map((p) => "<p>" + rich(p) + "</p>").join("");
     let h = '<button class="btn back" id="back">' + ICON.back + esc(t("back")) + "</button>";
     h += '<div class="dh"><h2>' + esc(primaryName(tr)) + "</h2>" + 
       '<div class="where">' + esc(muniName(tr.municipality)) + (tr.area ? " · " + esc(tr.area) : "") + " " + (tr.rating ? stars(tr.rating) : '<span class="stars" style="color:var(--muted);font-size:.78rem">' + esc(t("notRated")) + "</span>") + "</div></div>";
@@ -377,25 +383,25 @@
       h += '<div class="sec"><h3>' + esc(t("photos")) + '</h3><div class="gallery">' +
         tr.photos.map((p, i) => '<button data-photo="' + i + '" aria-label="' + esc(photoCaption(p) || t("photos")) + '"><img loading="lazy" src="' + esc(p.thumb || p.src) + '" alt="' + esc(photoCaption(p)) + '"></button>').join("") + "</div></div>";
     }
-    if (tx.warning) h += '<div class="warn" role="note">' + ICON.boat + "<div><b>" + esc(t("boatNeeded")) + "</b><p>" + esc(tx.warning) + "</p></div></div>";
+    if (tx.warning) h += '<div class="warn" role="note">' + ICON.boat + "<div><b>" + esc(t("boatNeeded")) + "</b><p>" + rich(tx.warning) + "</p></div></div>";
     if (tx.fallback) h += '<div class="note">' + esc(t("fallbackText")) + "</div>";
     if (desc) h += '<div class="desc">' + desc + "</div>";
-    if (tx.network_note) h += '<div class="sec"><h3>' + esc(t(tr.kind === "network" ? "networkExtent" : "routeOptions")) + "</h3><p>" + esc(tx.network_note) + "</p></div>";
-    if (tx.duration) h += '<div class="note">' + esc(tx.duration) + "</div>";
+    if (tx.network_note) h += '<div class="sec"><h3>' + esc(t(tr.kind === "network" ? "networkExtent" : "routeOptions")) + "</h3><p>" + rich(tx.network_note) + "</p></div>";
+    if (tx.duration) h += '<div class="note">' + rich(tx.duration) + "</div>";
     if (tr.geom_quality === "approx") h += '<div class="note">' + esc(t("approxTrack")) + "</div>";
     if (tr.geom_quality === "none") h += '<div class="note">' + esc(t("noTrack")) + "</div>";
     if (tr.geom_quality === "partial") h += '<div class="note">' + esc(t("partialTrack")) + "</div>";
-    if (tx.highlights && tx.highlights.length) h += '<div class="sec"><h3>' + esc(t("highlights")) + "</h3><ul>" + tx.highlights.map((x) => "<li>" + esc(x) + "</li>").join("") + "</ul></div>";
+    if (tx.highlights && tx.highlights.length) h += '<div class="sec"><h3>' + esc(t("highlights")) + "</h3><ul>" + tx.highlights.map((x) => "<li>" + rich(x) + "</li>").join("") + "</ul></div>";
     if (tr.facilities && tr.facilities.length) h += '<div class="sec"><h3>' + esc(t("facilities")) + '</h3><div class="tags">' + tr.facilities.map((f) => '<span class="tag">' + esc((I.facilities[f] && (I.facilities[f][S.lang] || I.facilities[f].en)) || f) + "</span>").join("") + "</div></div>";
-    if (tx.access) h += '<div class="sec"><h3>' + esc(t("access")) + "</h3><p style=\"margin:0\">" + esc(tx.access) + "</p></div>";
-    if (tx.season) h += '<div class="sec"><h3>' + esc(t("season")) + "</h3><p style=\"margin:0\">" + esc(tx.season) + "</p></div>";
+    if (tx.access) h += '<div class="sec"><h3>' + esc(t("access")) + "</h3><p style=\"margin:0\">" + rich(tx.access) + "</p></div>";
+    if (tx.season) h += '<div class="sec"><h3>' + esc(t("season")) + "</h3><p style=\"margin:0\">" + rich(tx.season) + "</p></div>";
     if (tr.parking && tr.parking.length) {
       h += '<div class="sec"><h3>' + esc(t("parking")) + '</h3><div class="park">' + tr.parking.map((p, i) => {
         const note = tx.parking_notes && tx.parking_notes[i];
         const g = "https://www.google.com/maps/dir/?api=1&destination=" + p.lat + "," + p.lon;
         const o = "https://www.openstreetmap.org/?mlat=" + p.lat + "&mlon=" + p.lon + "#map=16/" + p.lat + "/" + p.lon;
         return '<div class="p"><button class="pi" data-park="' + i + '" aria-label="' + esc(t("parking")) + '">P</button><div>' +
-          '<div class="pa">' + esc(p.address || "") + "</div>" + (note ? '<div class="pn">' + esc(note) + "</div>" : "") +
+          '<div class="pa">' + esc(p.address || "") + "</div>" + (note ? '<div class="pn">' + rich(note) + "</div>" : "") +
           '<div class="coords">' + p.lat.toFixed(5) + ", " + p.lon.toFixed(5) + "</div>" +
           '<div class="links"><a class="btn" href="' + g + '" target="_blank" rel="noopener">' + esc(t("directions")) + '</a><a class="btn" href="' + o + '" target="_blank" rel="noopener">' + esc(t("openOsm")) + "</a></div></div></div>";
       }).join("") + "</div></div>";
@@ -445,7 +451,7 @@
   function select(id, opts = {}) {
     const prev = S.selected;
     if (id && !S.byId[id]) id = null;
-    if (!prev && id) listScroll = $("#scroll").scrollTop;
+    if (!prev && id) { listScroll = $("#scroll").scrollTop; savedView = { c: map.getCenter(), z: map.getZoom() }; userMoved = false; }
     S.selected = id;
     if (prev && pinRefs[prev]) pinRefs[prev].setIcon(pinIcon(S.byId[prev], false));
     if (id && pinRefs[id]) pinRefs[id].setIcon(pinIcon(S.byId[id], true));
@@ -463,6 +469,8 @@
       $("#panel").classList.remove("detail-mode");
       $("#scroll").scrollTop = listScroll;
       drawSelection(null);
+      if (savedView && !userMoved) progFit(() => map.setView(savedView.c, savedView.z));
+      savedView = null;
       if (location.hash) history.replaceState(null, "", location.pathname + location.search);
     }
   }
