@@ -8,10 +8,10 @@
    "hällmarkstallskog",
    "spänger"
   ],
-  "duration": "2.5–3 h till fots (officiellt). 4.5 km lång slinga; ca 5.7–5.9 km inklusive den ca 0.6 km långa anslutningen från parkeringen åt vardera hållet.",
+  "duration": "2.5–3 h till fots. 4.5 km lång slinga; ca 5.7–5.9 km inklusive den ca 0.6 km långa anslutningen från parkeringen åt vardera hållet.",
   "season": "Inget vinterunderhåll.",
   "parking_notes": [
-   "Parkering vid Myrgrundintie (väg 6741); gå ca 300 m längs grusvägen Öjenintie tills en liten bro och infotavlor syns till vänster."
+   "Parkering vid Myrgrundintie (väg 6741); gå ca 300 m längs grusvägen Öjenintie till en liten bro och infotavlor till vänster."
   ]
  },
  "vaasa-riso-trail": {
@@ -22,8 +22,8 @@
    "vassbevuxen åmynning",
    "fågelflyttning"
   ],
-  "network_note": "Ca 3.6 km lång grusvägsslinga med stickspår till fågeltornet på Rövarskäret/Ryövärinkari (ca 350 m spångad stig) och utsiktsplattformen vid Risö; officiell längd 4.9 km.",
-  "season": "Inget vinterunderhåll. Fågeltornet på Rövarskäret ur bruk sedan 23.10.2025 (Lipas 74041); plattformen (Lipas 528217) i bruk. Spängerna kan översvämmas vid högvatten.",
+  "network_note": "Ca 3.6 km lång grusvägsslinga med stickspår till fågeltornet på Rövarskäret (Ryövärinkari) (ca 350 m spångad stig) och utsiktsplattformen vid Risö; ca 4.9 km med stickspåren.",
+  "season": "Inget vinterunderhåll. Fågeltornet på Rövarskäret stängt sedan 23.10.2025 (rötskador); utsiktsplattformen är öppen. Spängerna kan översvämmas vid högvatten.",
   "parking_notes": [
    "Risö parkeringsplats i slutet av Ampujantie, söder om motorvägen."
   ]
@@ -38,9 +38,9 @@
    "stenåldersboplats",
    "Öjbergsmossen"
   ],
-  "duration": "minst 1.5 h (enligt broschyren); kortare 2 km lång gulmärkt variant från Markenintie",
+  "duration": "Minst 1.5 h; kortare 2 km lång gulmärkt variant från Markenintie.",
   "parking_notes": [
-   "Öjbergets vintersportcentrum/stadionområdet; stigen börjar vid den stora infotavlan intill skidstugan (staden anger Öjbergintie 98)."
+   "Öjbergets vintersportcentrum/stadionområdet; stigen börjar vid den stora infotavlan intill skidstugan."
   ]
  },
  "vaasa-pilvilampi-network": {
@@ -53,12 +53,12 @@
    "utsiktsplatser",
    "fornlämning"
   ],
-  "network_note": "Ca 41 km märkta naturstigar och skogsvägar (stadens GIS) på ett ca 800 ha stort område (ca 4 x 4 km) runt Molnträsket; en del av Vasa stads 70 km långa ledsystem för naturmotion (Vaasan luontoliikuntareitistö). Lämpliga rundor: runt träsket ca 3–5 km; längre rundor via Kivijärvi och Pilvimaja ca 10–12 km.",
-  "season": "Skidspår vintertid (Vaasan Latu); 22 km lång vinterled för fatbike (Lipas 617556).",
+  "network_note": "Omfattande nät av märkta stigar och skogsvägar på ett ca 800 ha stort område (ca 4 × 4 km) runt Molnträsket, anslutet till Vasa stads 70 km långa ledsystem för naturmotion. Lämpliga rundor: runt träsket ca 3–5 km; längre rundor via Kivijärvi och Pilvimaja ca 10–12 km.",
+  "season": "Skidspår vintertid (Vaasan Latu); 22 km lång vinterled för fatbike.",
   "parking_notes": [
-   "Molnträskets parkering på västra stranden (staden anger både Kappelinmäentie 215 och 240). En andra parkering i närheten vid 63.09662,21.74094.",
-   "”Latuparkki”/skidspårsparkeringen vid Gädda, startpunkt i nordväst.",
-   "Södra startpunkten vid skogsvägen; läget enligt Lipas startpunkt, ungefärligt."
+   "Molnträskets huvudparkering på västra stranden (Kappelinmäentie); en andra parkering finns i närheten.",
+   "Skidspårsparkeringen vid Gädda (”Latuparkki”) vid startpunkten i nordväst.",
+   "Södra startpunkten vid skogsvägen; exakt parkeringsplats osäker."
   ]
  },
  "vaasa-city-bay-trail": {
@@ -73,7 +73,7 @@
   ],
   "duration": "Fiskstranden–Majakkakivi 7 km; fortsätter ca 3 km till Risö (enkel väg). Första etappen av en planerad ca 30 km lång runda kring Södra stadsfjärden.",
   "parking_notes": [
-   "Start vid Fiskstranden (Kalaranta, stranden i centrum); allmän parkering också i Sandviken och Sunnanvik (P på den officiella kartan). Östra änden ansluter till Risö parkering (Ampujantie)."
+   "Start vid Fiskstranden (Kalaranta) på stranden i centrum; allmän parkering också i Sandviken och Sunnanvik, och östra änden ansluter till Risö parkering (Ampujantie)."
   ]
  },
  "vahakyro-ojaniemi-hyyria": {
@@ -86,7 +86,7 @@
    "gömstället Kylymä helevetti",
    "Vainionperä källa"
   ],
-  "network_note": "7 färgkodade leder från två startpunkter: Barnstigen 2.1, Palolampi 2.1, Palanusenkallio 1.4, Hyyriä 4.4, Marjamäki 11.7 (från Hyyriäntie 105); Kylymä helevetti-rundan 2.7 (från Kaitaja parkering, Hyyriäntie 478). Sammanlagt ca 22.6 km ledlinjer.",
+  "network_note": "Färgkodade leder på 1.4–11.7 km från två startpunkter. Från Hyyriäntie 105: Barnstigen 2.1 km, Palolampi 2.1 km, Palanusenkallio 1.4 km, Hyyriä 4.4 km och Marjamäki 11.7 km. Från Kaitaja parkering (Hyyriäntie 478): Kylymä helevetti-rundan 2.7 km.",
   "season": "Inget vinterunderhåll. Terrängcykling tillåten (delvis mycket krävande).",
   "parking_notes": [
    "Huvudstartpunkt, plats för 8 bilar, infotavla.",
@@ -101,7 +101,7 @@
    "källor",
    "åkerlandskap och flyttfåglar"
   ],
-  "network_note": "5 slingor och linjära leder (2.6–8.4 km): från Kruutarinmaja – Kruutarislingan 2.6, Klapurintönkkästigen 3–8.4 (linjär till Perkiöntie), Heininniemenmäkislingan 6.2; från Mestoosplassi – Niisnevaslingan 3.4, Koirasaarileden 7.4. Ca 21.5 km ledlinjer.",
+  "network_note": "5 slingor och linjära leder på 2.6–8.4 km från två startpunkter. Från Kruutarinmaja: Kruutarislingan 2.6 km, Klapurintönkkästigen 3–8.4 km (linjär till Perkiöntie), Heininniemenmäkislingan 6.2 km. Från Mestoosplassi: Niisnevaslingan 3.4 km, Koirasaarileden 7.4 km.",
   "season": "Inget vinterunderhåll. Skyltade förbindelser till ledsystemet Ojaniemi–Hyyriä.",
   "parking_notes": [
    "Kruutarinmaja (Kruutarihuset), infotavla.",
@@ -162,9 +162,9 @@
    "järnåldersröset på Ristimäki",
    "skogsklädd kulle"
   ],
-  "season": "Ännu inte beskriven på stadens finskspråkiga ledsida (2025-26); oklart hur skyltningen ser ut.",
+  "season": "Nyare led; skyltningen kan ännu vara ofullständig.",
   "parking_notes": [
-   "Parkeringen ”Korkiavuoren kierros” i stadens GIS."
+   "Parkering vid startpunkten invid Kalsilantie; exakt plats osäker."
   ]
  },
  "bjorko-panike-trail": {
@@ -177,12 +177,13 @@
    "betande får",
    "gamla höladugårdar"
   ],
-  "duration": "Längder enkel väg: fastlandsdelen Svedjehamn–bryggan vid Långgrund 3.4 km (7 km tur och retur, med en liten slinga nära Långgrund); Svedjehamn–Rotörskatan via öarna ca 12 km. Kan gås som en ca 15 km lång runda tillbaka till Svedjehamn via den södra (blöta) grenen. Enligt luontoon.fi sammanlagt 23.7 km (2 dagar) inklusive alla grenar och Vargisstigarna.",
-  "access": "Fastlandsdelen (Svedjehamn–Långgrund) kan gås från parkeringen. Liten färja (linfärja) från bryggan vid Långgrund till Stora Segelsören. Mellan Rotörskatan och Vargis/Panike måste båtskjuts beställas (båttransport i Björköby, t.ex. Ove Kaarto +358 50 530 8062).",
+  "duration": "Enkel väg: fastlandsdelen Svedjehamn–bryggan vid Långgrund 3.4 km (7 km tur och retur, med en liten slinga nära Långgrund); Svedjehamn–Rotörskatan via öarna ca 12 km. Kan gås som en ca 15 km lång runda tillbaka till Svedjehamn via den södra (blöta) grenen. Med alla grenar och Vargisstigarna på Panike ca 23 km (2 dagar).",
+  "warning": "Till öarna kommer man med en liten obemannad linfärja från bryggan vid Långgrund till Stora Segelsören som vandrarna själva sköter (från 15 år, elektronisk identifiering krävs); år 2026 gick den kl. 10–18 dagligen 15.6–16.8 och veckosluten 2.5–14.6 och 17.8–27.9, men inte alls i hård vind eller vid mycket lågt vatten. Om den inte går, vänd tillbaka vid Långgrund, och var tillbaka vid färjan före kl. 18. För att fortsätta från Rotörskatan till Vargis på Panike behövs båtskjuts som beställs på förhand (t.ex. Ove Kaarto, +358 50 530 8062); utan den måste man gå tillbaka till Svedjehamn.",
+  "access": "Start vid Svedjehamn i Björköby; fastlandsdelen till bryggan vid Långgrund kräver ingen överfart.",
   "season": "Inget vinterunderhåll. Fårbete juni–oktober. Mygg sommartid; stenig och blöt terräng.",
   "parking_notes": [
-   "Svedjehamn parkering (avgift: 2 EUR/4 h, 4 EUR/24 h enligt OSM)",
-   "Vargis parkering vid Panikeänden (bom, olåst)"
+   "Svedjehamn parkering (avgift: 2 EUR/4 h, 4 EUR/24 h).",
+   "Vargis parkering vid Panikeänden, bakom en olåst bom (stäng den efter dig)."
   ]
  },
  "bodvattnet-runt": {
@@ -212,7 +213,7 @@
   "duration": "5 km tur och retur (fram och tillbaka till hamnbastun i Finnhamnen).",
   "season": "Ingen ansvarig för underhållet; stigen är delvis igenvuxen.",
   "parking_notes": [
-   "Vikarskat fiskehamn (Google: Björköby fiskehamn)"
+   "Vikarskat fiskehamn (Björköby fiskehamn)."
   ]
  },
  "kikanberget": {
@@ -223,7 +224,7 @@
   ],
   "duration": "Ca 1 km tur och retur.",
   "parking_notes": [
-   "Café Compass parkering"
+   "Café Compass parkering."
   ]
  },
  "vargis-trails": {
@@ -237,7 +238,7 @@
   ],
   "season": "Inget vinterunderhåll.",
   "parking_notes": [
-   "Vargis parkering; sista biten av Vargisvägen är privat väg bakom en olåst bom (stäng den efter dig)"
+   "Vargis parkering; sista biten av Vargisvägen är privat väg bakom en olåst bom (stäng den efter dig)."
   ]
  },
  "sommaro-nature-trails": {
@@ -252,8 +253,8 @@
   "duration": "Ängesholmsslingan 1.5 km; Hålörens tillgängliga led 2.2 km (fram och tillbaka med en 0.8 km lång slinga); linjär gren till Sommarösunds badstrand ca 3.4 km enkel väg (ca 7 km tur och retur). Hela ledsystemet ca 5–8 km.",
   "season": "Inget vinterunderhåll.",
   "parking_notes": [
-   "Allmän parkering vid vägens slut nära vaktstugan på Sommarö (en intilliggande parkeringspunkt i OSM är privat)",
-   "Alternativ start vid badstranden i Södra Vallgrund (Sommarösund), ungefärligt läge enligt Lipas"
+   "Allmän parkering vid vägens slut nära vaktstugan på Sommarö; den intilliggande parkeringen är privat.",
+   "Alternativ start vid badstranden i Sommarösund (Södra Vallgrund); exakt parkeringsplats osäker."
   ]
  },
  "valsorarna-nature-trail": {
@@ -266,7 +267,8 @@
    "fiskebodar"
   ],
   "duration": "Ca 6 km tur och retur.",
-  "access": "Kan nås endast med båt (egen båt, sjötaxi eller utfärdsbåtar sommartid, t.ex. från Björköby/Vasa). Ingen väg och ingen parkering.",
+  "warning": "Till Valsörarna kommer man endast med båt över öppet hav: egen båt, sjötaxi eller utfärdsbåt sommartid (t.ex. från Björköby eller Vasa), som ordnas på förhand. Det finns ingen reguljär returtrafik, så kom överens om tiden för hämtning innan du åker och räkna med att vind kan ställa in båtturer.",
+  "access": "Ingen väg och ingen parkering; öarna ligger ca 15 km ut till havs från Björköby. Stigen går från hamnen på Ebbskär till fyren på Storskär.",
   "season": "Landstigningsförbud 1.5–31.7 (häckningstid) utom i hamnarna och på naturstigen. Inget vinterunderhåll."
  },
  "iskmo-jungsund-trail": {
@@ -281,8 +283,8 @@
   "duration": "Jungsund–Strömssund 2 km, Strömssund–Hallonnäs 2 km, Hallonnäs–Björnhällorna 2.3 km; Hallonnäsrundan 1.8 km, Björnhällsrundan 4 km; hela leden 12 km. Må bra-stigen (blå hjärtan) = två slingor från Hallonnäs, 4 km.",
   "season": "Älgjakt på hösten.",
   "parking_notes": [
-   "Hallonnäs P1 (huvudparkering för de korta slingorna)",
-   "Jungsunds idrottsplan (södra starten)"
+   "Hallonnäs P1, huvudparkering för de korta slingorna.",
+   "Jungsunds idrottsplan, södra starten."
   ]
  },
  "kunileden": {
@@ -294,18 +296,18 @@
   ],
   "duration": "Norra slingan 6.4 km, södra slingan 7.9 km (från rastplats 1), hela leden 12.5 km.",
   "parking_notes": [
-   "Infotavla vid startpunkten"
+   "Startpunkt med infotavla."
   ]
  },
  "stundars-trails": {
-  "desc": "Märkta stigar som börjar vid friluftsmuseet Stundars i Solf och går genom skog och åkerkanter väster om museet mot de lågt liggande åkrarna vid Söderfjärden. Den längre leden på 6.6 km går förbi en damm och pumpstationsmuseet; ett fågeltorn vid pumpstationen (Lipas 621352) blickar ut över åkrar och våtmarker. Det finns också en kortare skyltad slinga på 2 km. Infotavlor längs vägen.",
+  "desc": "Märkta stigar som börjar vid friluftsmuseet Stundars i Solf och går genom skog och åkerkanter väster om museet mot de lågt liggande åkrarna vid Söderfjärden. Den längre leden på 6.6 km går förbi en damm och pumpstationsmuseet; ett fågeltorn vid pumpstationen blickar ut över åkrar och våtmarker. Det finns också en kortare skyltad slinga på 2 km. Infotavlor längs vägen.",
   "highlights": [
    "fågeltornet vid pumpstationen",
    "friluftsmuseet Stundars",
    "damm"
   ],
   "parking_notes": [
-   "Stundars museiparkering"
+   "Stundars museiparkering."
   ]
  },
  "skatila-trail": {
@@ -315,7 +317,7 @@
   ],
   "duration": "9 km tur och retur till Storhälleberget.",
   "parking_notes": [
-   "Skatila idrottsplan/idrottsstuga (koordinater från Lipas; ingen parkering utmärkt i OSM)"
+   "Skatila idrottsplan/idrottsstuga; exakt parkeringsplats osäker."
   ]
  },
  "malsorleden": {
@@ -326,11 +328,11 @@
    "muminfigurer",
    "slinga för kvällspromenader i mörker"
   ],
-  "duration": "Hela leden ca 9 km; kortare slingor möjliga (enligt Lipas slingor på 2.6 km och 5.2 km + 0.9 km stickspår).",
+  "duration": "Hela leden ca 9 km; kortare alternativ är en slinga på 2.6 km och en på 5.2 km samt ett stickspår på 0.9 km.",
   "parking_notes": [
-   "Liten parkering (3 bilar)",
+   "Liten parkering (3 bilar).",
    "",
-   ""
+   "Norra parkeringen; ungefärligt läge."
   ]
  },
  "tolby-kyrkstigen": {
@@ -342,7 +344,7 @@
   ],
   "duration": "2.1 km till grillplatsen på Västernäset; +750 m till pumpstationen; tillbaka längs vägen genom Vikby blir en runda på 3.6 km.",
   "parking_notes": [
-   "Ingen parkering utmärkt i OSM; vid vägkanten nära starten"
+   "Ingen egen parkering; parkera vid vägkanten nära starten."
   ]
  },
  "karikaleden": {
@@ -351,9 +353,9 @@
    "13 m högt utsiktstorn av trä",
    "hällmarkstallskog"
   ],
-  "duration": "1.7 km tur och retur (officiell längd).",
+  "duration": "1.7 km tur och retur.",
   "parking_notes": [
-   "Österhankmo badstrand"
+   "Österhankmo badstrand."
   ]
  },
  "petsmo-trail": {
@@ -367,8 +369,8 @@
   "duration": "Från Start 1 (daghemmet): hela leden 12.5 km, Södra Rundan 7.5 km. Från Start 2 (Vikminnevägen): hela leden 11 km, Norra Rundan 7.3 km, Särkiträsk 0.3 km, Rudträsk-rundan 0.7 km.",
   "season": "Jakt 20.8–28.2; hundar i koppel.",
   "parking_notes": [
-   "Start 2",
-   "Start 1, Petsmo daghem"
+   "Start 2 (Vikminnevägen).",
+   "Start 1 vid Petsmo daghem."
   ]
  },
  "soderfjarden-trail": {
@@ -380,7 +382,7 @@
   ],
   "duration": "Slingor: Östra slingan 4.7 km, Västra slingan 5.1 km, Hela slingan 8.2 km; linjära Skogsvägen 5.6 km från Malax-Söderfjärdsvägen till Väster-Solf.",
   "parking_notes": [
-   "Grusparkering med karttavla (OSM); adress från Söderfjärden HF"
+   "Grusparkering med karttavla."
   ]
  },
  "ojskatsleden": {
@@ -391,7 +393,7 @@
   ],
   "duration": "10.2 km tur och retur.",
   "parking_notes": [
-   "Hamnen vid Kalkmagasinet; sväng av vid Österhankmovägen 900, gå 100 m tillbaka och 100 m norrut längs vägen till starten (63.24543, 21.92588)"
+   "Hamnparkeringen vid Kalkmagasinet (sväng av vid Österhankmovägen 900); gå 100 m tillbaka och 100 m norrut längs vägen till starten."
   ]
  },
  "bergo-vandringsled": {
@@ -404,9 +406,10 @@
    "skärgårdsskog"
   ],
   "duration": "Södra slingan ca 4.1 km (ca 1 h 20 min); norra slingan ca 3.3 km (ca 1 h); båda tillsammans ca 8 km",
-  "access": "Till Bergö kommer man med den avgiftsfria landsvägsfärjan Bergö–Bredskär (ca 20 min). Eld får göras endast i grillkåtan.",
+  "warning": "Bergö är en ö som nås endast med den avgiftsfria landsvägsfärjan från Bredskär (överfarten tar ca 20 min). Färjan går enligt tidtabell, så kontrollera avgångarna tillbaka innan du ger dig iväg så att du inte blir kvar på ön.",
+  "access": "Startpunkten ligger vid Bergövägen 47 på Granön, på norra delen av ön. Eld får göras endast i grillkåtan.",
   "parking_notes": [
-   "Avgiftsfri parkering vid färjfästet på Bergö (OSM-väg 720261375); officiell start Bergövägen 47"
+   "Avgiftsfri parkering vid färjfästet på Bergö; leden börjar vid Bergövägen 47."
   ]
  },
  "majors-naturstig": {
@@ -417,20 +420,20 @@
    "rastplats med stockbord"
   ],
   "parking_notes": [
-   "Stor parkering vid startpunkten, 6 km söder om Malax centrum (OSM-väg 846468237)"
+   "Stor parkering vid startpunkten, 6 km söder om Malax centrum."
   ]
  },
  "pixne-naturstig": {
-  "desc": "Byns naturstig börjar i Malax centrum och går mot nordost in i skogen mellan Pixne och Lillpixne. Den består av tre delar som kan kombineras till rundor på 1.8, 3.1, 3.4 eller 4.5 km; den yttre delen är en slinga på skogsstigar och en skogsväg, medan tillbakavägen följer en sandväg och bykanten. Byggd och skött av Pixne allaktivitetsförening.",
+  "desc": "Naturstigen börjar i Malax centrum och går mot nordost in i skogen mellan Pixne och Lillpixne. Den består av tre delar som kan kombineras till rundor på 1.8, 3.1, 3.4 eller 4.5 km; den yttre delen är en slinga på skogsstigar och en skogsväg, medan tillbakavägen följer en sandväg och bykanten. Byggd och skött av Pixne allaktivitetsförening.",
   "highlights": [
    "skogsstigar nära Malax centrum"
   ],
   "parking_notes": [
-   "Ingen egen parkering vid startpunkten: starten ligger på gång- och cykelvägen mellan Klockarisvägen och Klockarisgränd (Klockarisvägen 14, 62.94374,21.58371). Närmaste allmänna parkering finns vid Malax idrottsplan ca 600 m söderut (OSM-väg 589274326)."
+   "Ingen parkering vid startpunkten: parkera vid Malax idrottsplan och gå ca 600 m norrut till starten på gång- och cykelvägen vid Klockarisvägen 14."
   ]
  },
  "aminne-vandringsled": {
-  "desc": "Lättgången märkt stig genom skogen bakom Åminne by, från Mobergsvägen i norr förbi Träsket ner till ån vid Dimmornas bro, där det finns ett grillskydd. Man kan gå runt genom att återvända längs byvägarna. Starten kan kombineras med Kvarkens båtmuseum och fågeltornet i Åminne. Sköts av Åminne-Tuv allaktivitetsförening.",
+  "desc": "Lättgången märkt stig genom skogen bakom Åminne by, från Mobergsvägen i norr förbi Träsket (en utdikad före detta sjöbotten, i dag skog med diken) ner till ån vid Dimmornas bro, där det finns ett grillskydd. Man kan gå runt genom att återvända längs byvägarna. Starten kan kombineras med Kvarkens båtmuseum och fågeltornet i Åminne. Sköts av Åminne-Tuv allaktivitetsförening.",
   "highlights": [
    "grillskyddet vid Dimmornas bro",
    "fågeltornet i Åminne i närheten",
@@ -438,8 +441,8 @@
   ],
   "duration": "Märkt stig 2.0 km enkel väg; 4.1 km lång runda tillbaka längs Åminnevägen och Mobergsvägen; 5.1 km lång runda från Åminne Folkpark",
   "parking_notes": [
-   "Grillskyddet ”Dimmornas bro” i ledens södra ände; parkering vid vägkanten (ingen parkering utmärkt i OSM; punkten = grillskyddet).",
-   "Åminne Folkparks parkering (OSM-väg 1270416168); 5.1 km lång runda. Kvarkens båtmuseum med fågeltorn och grillplats (Åminnevägen 427) rekommenderas också; ingen parkering i norra änden (Mobergsvägen 520)."
+   "Parkering vid vägkanten vid grillskyddet Dimmornas bro i ledens södra ände; exakt plats osäker.",
+   "Åminne Folkparks parkering, start för den 5.1 km långa rundan; ingen parkering i norra änden (Mobergsvägen)."
   ]
  },
  "kajane-naturstig": {
@@ -451,13 +454,13 @@
    "infoskyltar om flora och fauna"
   ],
   "duration": "Spängerna till vindskyddet vid Lillträsket 0.8 km enkel väg; hela slingan 3.0 km; stickspår till Lisansjön 0.6 km",
-  "access": "Enligt malax.fi (2024) är för närvarande bara spängerna till Lillträsket i användbart skick; andra delar av slingan kan vara mycket svårframkomliga.",
+  "access": "År 2024 var bara spängerna till Lillträsket i användbart skick; andra delar av slingan kan vara mycket svårframkomliga.",
   "parking_notes": [
-   "Parkering vid Kajane lägerområde (OSM-punkt 5663614388). Sväng av från riksväg 8 in på Kajane skogsväg (4.2 km norr om Petalaxkorsningen), kör 1.2 km, sväng till höger, 1.4 km, sväng till vänster in på området."
+   "Kajane lägerområde: ta av från riksväg 8 in på Kajane skogsväg (4.2 km norr om Petalaxkorsningen), kör 1.2 km, sväng till höger, 1.4 km, sedan till vänster in på området."
   ]
  },
  "velkmossa-vandringsled": {
-  "desc": "Gammal skogsväg genom ödemarken mellan Petalax (Malax) och Velkmossa (Närpes), mest på Malaxsidan. Den går genom skog och myrkanter förbi Nojärvsträsket, ett grunt, igenväxande ödemarksträsk med vassar som är en god häckningsplats för många fågelarter; ett kort stickspår leder till ett fågeltorn på stranden. En annan sidostig leder till Kackurmossen, och terrängkartan visar flera förhistoriska rösen (fornlämningar) nära leden. Sköts av Forststyrelsen.",
+  "desc": "Gammal skogsväg genom ödemarken mellan Petalax (Malax) och Velkmossa (Närpes), mest på Malaxsidan. Den går genom skog och myrkanter förbi Nojärvsträsket, ett grunt, igenväxande ödemarksträsk med vassar som är en god häckningsplats för många fågelarter; ett kort stickspår leder till ett fågeltorn på stranden. En annan sidostig leder till Kackurmossen, och flera förhistoriska rösen ligger nära leden. Sköts av Forststyrelsen.",
   "highlights": [
    "fågeltornet vid Nojärvsträsk",
    "igenväxande ödemarksträsk",
@@ -466,12 +469,12 @@
   ],
   "duration": "4.5 km enkel väg mellan Viitala och Velkmoss byagård, 9 km tur och retur; stickspåret till fågeltornet ca 0.4 km",
   "parking_notes": [
-   "Norra starten nära korsningen Bjurnäsvägen–Vargmossa skogsväg (OSM-parkeringsväg 855992099, infotavla). Lipas adress för fågeltornet vid Nojärvsträsk i närheten: Bjurnäsvägen 525.",
-   "UNGEFÄRLIGT: Velkmoss byagård med parkering, ca 0.5 km öster om ledens södra ände; läget uppskattat från PDF-kartan."
+   "Norra starten med infotavla nära korsningen Bjurnäsvägen–Vargmossa skogsväg.",
+   "Velkmoss byagård, ca 0.5 km öster om ledens södra ände; ungefärligt läge."
   ]
  },
  "mamrestigen-storsjostigen": {
-  "desc": "Historisk förbindelsestig mellan skogsbyarna Storsjö i Malax och Mamrelund i Petalax. Den går genom ett lågt liggande skogslandskap med mossar och dikad torvmark (t.ex. Gorrmossen) och små bergiga höjder; nära Storsjö anger kartan förhistoriska rösen (fornlämningar). Sköts av Petalax hembygdsförening, Malax museiförening och privata markägare.",
+  "desc": "Historisk förbindelsestig mellan skogsbyarna Storsjö i Malax och Mamrelund i Petalax. Den går genom ett lågt liggande skogslandskap med mossar och dikad torvmark (t.ex. Gorrmossen) och små bergiga höjder; nära Storsjö finns förhistoriska rösen. Sköts av Petalax hembygdsförening, Malax museiförening och privata markägare.",
   "highlights": [
    "gammal bystig",
    "mossar och skog",
@@ -479,33 +482,33 @@
   ],
   "duration": "ca 3.5–4 km enkel väg, 8 km tur och retur",
   "parking_notes": [
-   "Västra starten vid Mamrelund (punkten = ledens start enligt Lipas)",
-   "Östra starten vid Storsjön (punkten = ledens slut enligt Lipas)"
+   "Västra starten vid Mamrelund; exakt parkeringsplats osäker.",
+   "Östra starten vid Storsjön; exakt parkeringsplats osäker."
   ]
  },
  "jarnaldersleden": {
-  "desc": "Kort slinga genom ett arkeologiskt intressant område med gravrösen och skålgropsstenar från järnåldern, från en boplats som daterats till ca 200–700 e.Kr.; en av dem beskrivs som ”Finlands vackraste skålgropssten”. Äng- och skogsvegetationen är rik. Vid starten finns en öppen fäbodstuga med arkeologisk information och en sommarladugård med en jordbruksutställning. Officiellt öppen maj–september; sköts av Malax museiförening.",
+  "desc": "Kort slinga genom ett arkeologiskt intressant område med gravrösen och skålgropsstenar från järnåldern, från en boplats som daterats till ca 200–700 e.Kr.; en av dem sägs vara ”Finlands vackraste skålgropssten”. Äng- och skogsvegetationen är rik. Vid starten finns en öppen fäbodstuga med arkeologisk information och en sommarladugård med en jordbruksutställning. Sköts av Malax museiförening.",
   "highlights": [
    "gravrösen från järnåldern",
    "skålgropsstenar",
    "rik flora",
    "fäbodstuga med utställning"
   ],
-  "season": "Officiellt öppen maj–september",
+  "season": "Öppen maj–september.",
   "parking_notes": [
-   "Parkering vid startpunkten intill Storsjövägen (malax.fi anger Storsjövägen 446); 8.5 km söder om Malax kyrka. Punkten = ledens start enligt Lipas/OSM."
+   "Parkering vid startpunkten intill Storsjövägen, 8.5 km söder om Malax kyrka."
   ]
  },
  "fabodstigen-molapne": {
-  "desc": "Kulturhistorisk stig genom skogen vid Pappersbruket (Bränno) i Molapne, där malaxborna hade sina fäbodar. Skyltar märker ut platserna för 15 forna vallstugor, i dag mest bara grunder och spisrester; en restaurerad stuga och ladugård finns på platsen. Officiellt öppen maj–september; sköts av Malax museiförening.",
+  "desc": "Kulturhistorisk stig genom skogen vid Pappersbruket (Bränno) i Molapne, där malaxborna hade sina fäbodar. Skyltar märker ut platserna för 15 forna vallstugor, i dag mest bara grunder och spisrester; en restaurerad stuga och ladugård finns på platsen. Sköts av Malax museiförening.",
   "highlights": [
    "platserna för 15 historiska fäbodar",
    "restaurerad stuga och ladugård"
   ],
   "duration": "ca 1 km enkel väg",
-  "season": "Officiellt öppen maj–september",
+  "season": "Öppen maj–september.",
   "parking_notes": [
-   "Vid vägkanten vid starten (karttavla och broschyrlåda). Från väg 8 vid Långåminne kör 1800 m mot Malax, sväng till vänster och följ vägen 2100 m till Molapne."
+   "Parkering vid vägkanten vid starten (karttavla): från väg 8 vid Långåminne kör 1.8 km mot Malax, sväng till vänster och följ vägen 2.1 km till Molapne."
   ]
  },
  "rajavuori-luontopolku": {
@@ -518,7 +521,7 @@
   ],
   "access": "Eld förbjuden när varning för skogsbrand råder.",
   "parking_notes": [
-   "Gården vid Rajavuori erä- ja vaelluskeskus, ca 12 km söder om Kylänpää (korsningen mellan Tampereentie och Jurvantie). Ingen parkering utmärkt i OSM; punkten = ledens start/infotavla (Lipas, OSM-punkt 6665225403). Lipas anger adressen Laihiantie 50."
+   "Gården vid Rajavuori vandringscentrum, ca 12 km söder om Kylänpää; leden börjar vid infotavlan."
   ]
  },
  "kurjen-kierros-rajavuori-levaneva": {
@@ -530,17 +533,17 @@
    "ödemarksstugan Särkinen",
    "mossen Kyrössuo"
   ],
-  "duration": "Maalarinmaa parkering till fågeltornet 0.6 km; Rajavuori–Maalarinmaa ca 14 km; Rajavuori–Peräkylä ca 24 km enkel väg. Själva Levanevaleden (Peräkylä–Maalarinmaa och vidare) är 13.6 km enkel väg / 27 km fram och tillbaka enligt luontoon.fi. Hela Kurjen kierros fortsätter till Pässilä och Kalajaisjärvi (Ilmola), ca 30–50 km.",
+  "duration": "Maalarinmaa parkering till fågeltornet 0.6 km; Rajavuori–Maalarinmaa ca 14 km; Rajavuori–Peräkylä ca 24 km enkel väg. Själva Levanevaleden (Peräkylä–Maalarinmaa och vidare) är 13.6 km enkel väg. Hela Kurjen kierros fortsätter till Pässilä och Kalajaisjärvi (Ilmola), ca 30–50 km.",
   "access": "Linjär led: ordna skjuts eller gå fram och tillbaka. Levaneva är ett statligt naturskyddsområde (Forststyrelsen): håll dig på den märkta leden.",
   "season": "Spängerna kan vara hala i vått väder. Eld förbjuden när varning för skogsbrand råder.",
   "parking_notes": [
-   "Norra starten vid Rajavuori vandringscentrum (se Rajavuori naturstig).",
-   "Maalarinmaa parkering: från E12 vid Kylänpää ta väg 687 söderut 14 km, sväng till vänster mot reservoaren Kivi- ja Levalampi (skyltat Kurjen kierros). Punkten = slutet av Allastie i OSM, där den 0.6 km långa stigen till Maalarinmaa börjar; ingen parkering utmärkt i OSM. Enligt storymappen ligger parkeringen på Kurikkasidan.",
-   "Peräkylä parkering, södra infarten till Levaneva (OSM-väg 722679361); utanför Laihela."
+   "Norra starten vid Rajavuori vandringscentrum.",
+   "Maalarinmaa parkering på Kurikkasidan: från väg 687 sväng mot reservoaren Kivi- ja Levalampi (skyltat Kurjen kierros); exakt plats osäker.",
+   "Peräkylä parkering, södra infarten till Levaneva (Kurikka)."
   ]
  },
  "allisen-luontopolku": {
-  "desc": "Byns naturstig i Jakkula, skött av Jakkulan kyläyhdistys. Infoskyltar längs vägen berättar om traktens natur. Vid 0.7 km har en utsiktsplattform byggts uppe på ett stort flyttblock; vid 1.5 km finns det välutrustade Haarrineva vindskydd i kanten av mossen Haarrineva, med eldstad, vedlider och utedass i närheten. Stigen slutar vid förhistoriska rösegravar (röykkiöhaudat) 1.9 km från starten.",
+  "desc": "Bystig i Jakkula, skött av Jakkulan kyläyhdistys. Infoskyltar längs vägen berättar om traktens natur. Vid 0.7 km har en utsiktsplattform byggts uppe på ett stort flyttblock; vid 1.5 km finns det välutrustade Haarrineva vindskydd i kanten av mossen Haarrineva, med eldstad, vedlider och utedass i närheten. Stigen slutar vid förhistoriska rösegravar (röykkiöhaudat) 1.9 km från starten.",
   "highlights": [
    "utsiktsplattform på ett flyttblock",
    "Haarrineva vindskydd",
@@ -548,7 +551,7 @@
   ],
   "duration": "Utsiktsplatsen 0.7 km, Haarrineva vindskydd 1.5 km, rösegravarna 1.9 km; 3.8 km tur och retur",
   "parking_notes": [
-   "Startpunkt med infotavla (OSM-punkt 6495253774; Lipas ”Merkkikiven opastuspiste” vid Allisentie 191). Ingen parkering utmärkt i OSM; Jakkula skjutbana (Allisentie 165) ligger intill. Punkten = infotavlan vid starten."
+   "Startpunkt med infotavla vid Allisentie, intill Jakkula skjutbana."
   ]
  },
  "isokyro-lymmyys-nature-trail": {
@@ -560,7 +563,7 @@
   ],
   "duration": "15-30 min",
   "parking_notes": [
-   "En grusväg tar av från Palhojaistentie vid nr 260 till kåtans parkering (OSM-punkt 14143188867)."
+   "En grusväg tar av från Palhojaistentie vid nr 260 till kåtans parkering."
   ]
  },
  "isokyro-fatisaari": {
@@ -573,7 +576,7 @@
   ],
   "duration": "1.5-2 h tur och retur (3.5 km enkel väg)",
   "parking_notes": [
-   "Följ Marjoniementie till Tuurala jaktstuga och sedan den smala vägen till höger till dess slut (OSM-parkeringspunkt 13140457979). Kommunen ber att man inte parkerar på jaktstugans gård (en äldre Lipastext säger motsatsen)."
+   "Följ Marjoniementie till Tuurala jaktstuga och sedan den smala vägen till höger till dess slut; parkera inte på jaktstugans gård."
   ]
  },
  "isokyro-ruusupuro-rookki": {
@@ -586,11 +589,11 @@
   ],
   "duration": "1.5-2 h",
   "parking_notes": [
-   "Parkeringen vid Ruusupuro badstrand (OSM-punkt 12964065310); skyltad start."
+   "Parkeringen vid Ruusupuro badstrand; skyltad start."
   ]
  },
  "isokyro-vuoressalo": {
-  "desc": "Vuoressalo är ett berg som reser sig ur de flacka åkrarna i Kyro älvdal. Två slingor leder upp på de öppna, lavvita berghällarna med vid utsikt. Bland klipporna finns märkliga stenformationer vars mänskliga ursprung länge har diskuterats: grundkartan anger en ”pakouuni” (flyktugn), enligt traditionen en låg mur som bönderna byggde under klubbekriget, där en naturlig klyfta bildar ett ca 2 m högt valv. Ett vindskydd finns i södra änden, dit ett kort stickspår leder från den rödvitt märkta stigen. En av berättelserna i mobilspelet ”Tarinapolku” utspelar sig här.",
+  "desc": "Vuoressalo är ett berg som reser sig ur de flacka åkrarna i Kyro älvdal. Två slingor leder upp på de öppna, lavvita berghällarna med vid utsikt. Bland klipporna finns märkliga stenformationer vars mänskliga ursprung länge har diskuterats, bland dem en ”pakouuni” (flyktugn), enligt traditionen en låg mur som bönderna byggde under klubbekriget, där en naturlig klyfta bildar ett ca 2 m högt valv. Ett vindskydd finns i södra änden, dit ett kort stickspår leder från den rödvitt märkta stigen. En av berättelserna i mobilspelet ”Tarinapolku” utspelar sig här.",
   "highlights": [
    "lavklädda berghällar",
    "utsiktsplats",
@@ -599,7 +602,7 @@
   ],
   "duration": "45 min-1 h per slinga",
   "parking_notes": [
-   "Parkeringen ligger på motsatt sida av vägen från starten (OSM-punkt 13140501561); parkera inte på vägen."
+   "Parkeringen ligger på andra sidan vägen från starten; parkera inte på vägen."
   ]
  },
  "isokyro-orisberg-kotilammi": {
@@ -612,7 +615,7 @@
   ],
   "duration": "2.5-3 h; kortare alternativ: gå till kåtan vid Kotilammi och tillbaka samma väg",
   "parking_notes": [
-   "Parkering vid Åbergintie (OSM-punkt 540237484), start vid klockstapeln vid Orisbergs kyrka; slingan är skyltad motsols. Under sommarlägren vid lägergården börjar färgmarkeringarna vid dess sydligaste stuga – gå in på leden direkt från Åbergintie."
+   "Parkering vid Åbergintie; start vid klockstapeln vid Orisbergs kyrka (under sommarlägren, gå in på leden direkt från Åbergintie i stället för vid lägergården)."
   ]
  },
  "isokyro-tuomaanmaki": {
@@ -626,7 +629,7 @@
   ],
   "duration": "ca 1 h",
   "parking_notes": [
-   "Parkera endast på parkeringsplatsen och blockera inte ingången till leden (OSM-punkt 4111599951). Lipas anger Ventäläntie 760."
+   "Parkera endast på parkeringsplatsen och blockera inte ingången till leden."
   ]
  },
  "isokyro-lapinmaki": {
@@ -637,7 +640,7 @@
   ],
   "duration": "30-45 min",
   "parking_notes": [
-   "Parkering i slutet av Pohjantie intill Lapinmäki lekpark (koordinater = GPX-start; ingen parkering utmärkt i OSM)."
+   "Parkering i slutet av Pohjantie intill Lapinmäki lekpark."
   ]
  },
  "isokyro-peippoonen": {
@@ -647,11 +650,11 @@
    "eldplats",
    "kåta"
   ],
-  "network_note": "Naturstigsslinga (ca 3 km, gå medsols) plus Kylkkälä motionsbana med sågspån, en gammal motionsbana och upptrampade stigar; GPX-spåret som täcker alla stigar är 6.5 km.",
+  "network_note": "Naturstigsslinga (ca 3 km, gå medsols) plus Kylkkälä motionsbana med sågspån, en gammal motionsbana och upptrampade stigar; ca 6.5 km om man går alla stigar.",
   "duration": "3 km lång slinga ca 45 min",
   "season": "Många fästingar sommartid; motionsbanan är skidspår vintertid.",
   "parking_notes": [
-   "Parkering vid Peippoonen discgolfbana/Kylkkälä motionsbana (OSM-punkt 1824719452), till vänster strax efter lekparken. Naturstigen börjar på andra sidan vägen ca 200 m längre upp längs gångvägen; den slutar nära parkeringen."
+   "Parkering vid discgolfbanan/Kylkkälä motionsbana, till vänster strax efter lekparken; naturstigen börjar ca 200 m längre upp längs gångvägen på andra sidan vägen."
   ]
  },
  "isokyro-ylipaa-marjamaki": {
@@ -661,12 +664,12 @@
    "två vindskydd på Marjamäki",
    "branta stigningar"
   ],
-  "network_note": "Flera slingor på 1-5 km (motionsbanor på 1.4, 2, 3 och 5 km plus stigar) på Marjamäki; sammanlagt ca 6.5-7 km stigar (Lipas 6.9 km), GPX-spåret som går alla 13.8 km.",
+  "network_note": "Flera slingor på 1–5 km (motionsbanor på 1.4, 2, 3 och 5 km plus stigar) på Marjamäki; sammanlagt ca 7 km stigar.",
   "duration": "5 km lång slinga ca 1 h",
   "season": "Vintertid är banorna preparerade skidspår – gå inte på dem.",
   "parking_notes": [
-   "Ylipää ungdomsförenings (Nuorisoseura) parkering (OSM-punkt 343530377).",
-   "Alternativ start intill Lukkuhaka campingområde; ungefärliga koordinater (ca 300 m), utgående från campingens adress."
+   "Parkeringen vid Ylipää ungdomsförenings lokal (Nuorisoseura).",
+   "Alternativ start intill Lukkuhaka campingområde; ungefärligt läge."
   ]
  },
  "vora-andkil": {
@@ -678,18 +681,18 @@
   ],
   "duration": "kort slinga ca 30 min, lång slinga 2.5-3 h",
   "parking_notes": [
-   "Startpunkt enligt kommunens broschyr (63°06'09.9\"N 22°14'31.2\"E) i slutet av Kondivorvägen nära Nybo; ingen parkering utmärkt i OSM – parkera vid vägkanten vid startskylten."
+   "Parkering vid vägkanten vid startskylten i slutet av Kondivorvägen nära Nybo."
   ]
  },
  "vora-arvidsstigen-vernersstigen": {
-  "desc": "Två korta slingor i den lilla kuperade skogen bakom hembygdsgården Rasmusgården, över låga moränkullar (ca 20 m ö.h.) med blandskog. Stigarna är lättgångna och går att ta sig fram på med barnvagn; på sommaren kantas stigarna av sagofigurer och leksaksdjur, vilket gör dem populära bland barnfamiljer. På Rasmusgården finns också Verner Rasmus-museet, ett husdjurstun och sommarcafé.",
+  "desc": "Två korta slingor i den lilla kuperade skogen bakom hembygdsgården Rasmusgården på Rasmusbacken, över låga moränkullar (ca 20 m ö.h.) med blandskog. Stigarna är lättgångna och går att ta sig fram på med barnvagn; på sommaren kantas stigarna av sagofigurer och leksaksdjur, vilket gör dem populära bland barnfamiljer.\n\nRasmusbacken var syskonen Rasmus hem. Verner Rasmus (1901–1988), lantbrukare, amatörmusiker och samlare, byggde upp den samling som i dag visas i Verner Rasmus-museet; hans bror Arvid testamenterade en del av sin egendom till stiftelsen som driver platsen, och dess hemgård Arvidsgården är från 1913. Ett husdjurstun och ett café håller öppet sommartid.",
   "highlights": [
    "sagofigurer (sommartid)",
    "hembygdsgården Rasmusgården"
   ],
   "duration": "20-30 min vardera",
   "parking_notes": [
-   "Rasmusgårdens parkering (OSM-punkt 14097523706); stigarna börjar bakom uthuset vid Arvidsgården."
+   "Rasmusgårdens parkering; stigarna börjar bakom uthuset vid Arvidsgården."
   ]
  },
  "vora-coronastigen-keskis": {
@@ -700,7 +703,7 @@
    "grillplats"
   ],
   "parking_notes": [
-   "Keskis UF:s (ungdomsföreningens lokal) parkering (OSM-punkt 14097608311)."
+   "Keskis UF:s (ungdomsföreningens lokal) parkering."
   ]
  },
  "vora-herrgardsleden-tottesund": {
@@ -712,7 +715,7 @@
    "infotavlor"
   ],
   "parking_notes": [
-   "Parkering vid Tottesund herrgård intill infotavlan (kartsymbol); ungefärliga koordinater (ca 50 m), ingen parkering utmärkt i OSM."
+   "Parkering vid Tottesund herrgård intill infotavlan; ungefärligt läge."
   ]
  },
  "vora-kimo-bruk-trails": {
@@ -723,7 +726,7 @@
    "stenlabyrint"
   ],
   "parking_notes": [
-   "Start vid Kimo bruk; kommunen säger att man ska parkera uppe vid vägen. Koordinater = bruksmuseet (OSM-väg 844455425); exakt parkeringsplats inte kontrollerad."
+   "Start vid Kimo bruk; parkera uppe vid vägen (exakt plats osäker)."
   ]
  },
  "vora-kinnkangleden": {
@@ -734,7 +737,7 @@
    "nära slagfältet vid Oravais 1808"
   ],
   "parking_notes": [
-   "Startpunkt från Lipas; ingen parkering utmärkt i OSM."
+   "Start i östra kanten av Oravais by (Kimovägen); exakt parkeringsplats osäker."
   ]
  },
  "vora-komossa-hoppamaki": {
@@ -746,7 +749,7 @@
   ],
   "duration": "Hoppamäki 2.5 km fram och tillbaka; Auras 3.8 km; Haaplund 4.8 km",
   "parking_notes": [
-   "Startkoordinater enligt kommunens broschyr (63°12'00.9\"N 22°33'15.0\"E), skyltat från Brännarsvägen; vindskydd vid starten (OSM-väg 710481708)."
+   "Skyltat från Brännarsvägen; parkering vid vindskyddet vid starten."
   ]
  },
  "vora-kovik": {
@@ -756,7 +759,7 @@
    "kuperad, bergig skog"
   ],
   "parking_notes": [
-   "Parkering enligt ledtavlan (N63°13.139' E22°18.520'), OSM-punkt 11993259312; skyltat från Vöråvägen."
+   "Parkering vid ledtavlan, skyltat från Vöråvägen."
   ]
  },
  "vora-lotlax": {
@@ -766,7 +769,7 @@
    "skogsgölar"
   ],
   "parking_notes": [
-   "Lotlax bygård; startkoordinater enligt kommunens broschyr; skyltat från Lotlaxvägen."
+   "Lotlax bygård, skyltat från Lotlaxvägen."
   ]
  },
  "vora-rokio-norrvalla-boberget": {
@@ -780,7 +783,7 @@
   ],
   "network_note": "Norrvalla-Boberget-Norrvalla 7.1 km med genvägarna A 1.6, B 3.0, C 4.7 km; från Boberget fortsätter en 4.5 km lång förbindelseled till fornhusen vid Vitmossen (Norrvalla-Vitmossen-Norrvalla 16.1 km; >20 km med slingorna vid Vitmossen).",
   "parking_notes": [
-   "Parkeringen vid Norrvalla idrotts- och kurscenter (OSM-väg 1370480681); starten skyltad vid Norrvalla. Flera anslutningar från skogsvägar längs Rökiö skogsväg."
+   "Parkeringen vid Norrvalla idrotts- och kurscenter, där starten är skyltad; fler anslutningar längs Rökiö skogsväg."
   ]
  },
  "vora-storberget": {
@@ -790,7 +793,7 @@
    "bergig kulle mitt i odlingsmarken"
   ],
   "parking_notes": [
-   "Stor parkering vid Storbergets infokarta; ungefärliga koordinater (ca 150 m), uppskattade från kommunens karta utgående från korsningen Rejpeltvägen/Rösslevägen."
+   "Stor parkering vid Storbergets infokarta; ungefärligt läge."
   ]
  },
  "vora-tyrstigen": {
@@ -800,7 +803,7 @@
    "hembygdsgården Klemetsgårdarna"
   ],
   "parking_notes": [
-   "Klemetsgårdarnas museiparkering (OSM-väg 958642848)."
+   "Klemetsgårdarnas museiparkering."
   ]
  },
  "vora-vitmossen": {
@@ -812,7 +815,7 @@
    "utsikt över mossen"
   ],
   "parking_notes": [
-   "Start vid de rekonstruerade fornhusen (broschyrens koordinater 63°11'18.8\"N 22°20'56.6\"E); ingen parkering utmärkt i OSM."
+   "Start vid de rekonstruerade fornhusen; exakt parkeringsplats osäker."
   ]
  },
  "vora-vastero": {
@@ -824,11 +827,11 @@
    "jägarminnesmärket för S/S Equity",
    "dagstugor"
   ],
-  "duration": "hela leden ca 10 km enkel väg inklusive sidogrenar (luontoon: 10.8 km, ca 6 h)",
+  "duration": "Hela leden ca 10–11 km enkel väg inklusive sidogrenar (ca 6 h).",
   "season": "Underhålls inte vintertid.",
   "parking_notes": [
-   "Södra parkeringen och infotavla (OSM-punkt 7276189865; broschyrens start 63°20'15.5\"N 21°57'38.7\"E), skyltat från Skatavägen.",
-   "Mellersta parkeringen och infotavla (OSM-väg 712480027) nära minnesmärket för S/S Equity."
+   "Södra parkeringen och infotavla i slutet av Söderskatavägen, skyltat från Skatavägen.",
+   "Mellersta parkeringen och infotavla nära minnesmärket för S/S Equity (Storsandviken)."
   ]
  },
  "vora-skidcentrum-trail": {
@@ -841,7 +844,7 @@
   ],
   "duration": "blå slingan 5 km (vindskydd vid 1.3 km); röda förlängningen 2.5 km (rastplats vid 2.4 km, utsiktsplatsen Stupet vid 3 km)",
   "parking_notes": [
-   "Skidcentrets parkering vid foten av slalombacken (OSM-punkt 321437811)."
+   "Skidcentrets parkering vid foten av slalombacken."
   ]
  },
  "vora-mickelsorarna-nature-trail": {
@@ -852,11 +855,12 @@
    "utsiktstorn (sommartid)",
    "naturstation"
   ],
-  "duration": "luontoon.fi föreslår ca 2 h inklusive pauser",
-  "access": "Kan nås endast med båt (egen båt eller dagskryssningar sommartid till Kummelskär från Stråkaviken).",
+  "duration": "Ca 2 h inklusive pauser.",
+  "warning": "Till Kummelskär kommer man endast med båt: egen båt (närmaste hamn som nås med bil är Köklot i Korsholm, ca 20 km sjövägen) eller dagskryssningen sommartid med M/S Filifjonkan från Stråkaviken i Maxmo (avgång kl. 10, tillbaka ca kl. 17; förhandsbokning krävs, tfn 0500 869 385). Kryssningen är det enda reguljära sättet att komma tillbaka, så var i hamnen i tid.",
+  "access": "Ingen väg; leden börjar vid naturstationens hamn på Kummelskär.",
   "season": "Fåglarnas häckningstid 1.5-15.7: håll dig på de märkta stigarna. Naturstugan, tornet och caféet är öppna endast sommartid.",
   "parking_notes": [
-   "Startpunkt vid naturstationens hamn på Kummelskär (början av luontoon.fi-spåret). Närmaste hamnar som nås med bil: Köklot (Korsholm, ca 20 km med båt); dagskryssningar sommartid med M/S Filifjonkan från Stråkaviken (Vörå/Maxmo)."
+   "Parkera vid avgångshamnen: Stråkaviken (Maxmo) för dagskryssningen eller Köklot (Korsholm) för egen båt."
   ]
  },
  "vora-kimo-river-mouth-bird-towers": {
@@ -867,7 +871,7 @@
   ],
   "duration": "ca 0.9 km enkel väg",
   "parking_notes": [
-   "Ungefärligt: där skogsbilvägen till tornen tar av från Karlebyvägen, nära museet Pärtstugan; ingen parkering utmärkt i OSM."
+   "Där skogsbilvägen till tornen tar av från Karlebyvägen, nära museet Pärtstugan; ungefärligt läge."
   ]
  }
 }
