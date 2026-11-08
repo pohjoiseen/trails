@@ -4,9 +4,7 @@
   "municipality": "vaasa",
   "area": "Sundom / Öjen",
   "name": {
-   "fi": "Öjenin luontopolku",
-   "sv": "Öjen naturstig",
-   "en": "Öjen Nature Trail"
+   "local": "Öjen"
   },
   "local": "fi",
   "kind": "loop",
@@ -40,6 +38,11 @@
    "https://www.luontoon.fi/fi/reitit/ojen-luontopolku-vaasa-34912",
    "https://www.vaasa.fi/asu-ja-ela/vapaa-aika/luontovaasa/retkeilykohteet/luontokohteet/ojen/",
    "https://api.lipas.fi/v2/sports-sites/512199"
+  ],
+  "aka": [
+   "Öjenin luontopolku",
+   "Öjen naturstig",
+   "Öjen Nature Trail"
   ]
  },
  {
@@ -47,9 +50,7 @@
   "municipality": "vaasa",
   "area": "Risö / Eteläinen Kaupunginselkä",
   "name": {
-   "fi": "Risön reitti (Risön luontopolku)",
-   "sv": "Risö naturstig",
-   "en": "Risö Nature Trail"
+   "local": "Risö"
   },
   "local": "fi",
   "kind": "loop+linear",
@@ -84,6 +85,11 @@
    "https://www.vaasa.fi/asu-ja-ela/vapaa-aika/luontovaasa/retkeilykohteet/luontokohteet/etelainen-kaupunginselka/",
    "https://api.lipas.fi/v2/sports-sites/528076",
    "https://api.lipas.fi/v2/sports-sites/74041"
+  ],
+  "aka": [
+   "Risön reitti (Risön luontopolku)",
+   "Risö naturstig",
+   "Risö Nature Trail"
   ]
  },
  {
@@ -91,9 +97,7 @@
   "municipality": "vaasa",
   "area": "Sundom / Öjberget",
   "name": {
-   "fi": "Öjbergetin luontopolku",
-   "sv": "Öjbergets naturstig",
-   "en": "Öjberget Nature Trail"
+   "local": "Öjberget"
   },
   "local": "fi",
   "kind": "loop",
@@ -128,6 +132,11 @@
    "https://www.vaasa.fi/asu-ja-ela/vapaa-aika/luontovaasa/retkeilykohteet/luontokohteet/ojberget/",
    "https://www.luontoon.fi/fi/reitit/ojbergetin-luontopolku-vaasa-509577",
    "https://api.lipas.fi/v2/sports-sites/509577"
+  ],
+  "aka": [
+   "Öjbergetin luontopolku",
+   "Öjbergets naturstig",
+   "Öjberget Nature Trail"
   ]
  },
  {
@@ -135,9 +144,8 @@
   "municipality": "vaasa",
   "area": "Pilvilampi / Höstvesi",
   "name": {
-   "fi": "Pilvilammen polut (Pilvilammen ulkoilu- ja virkistysalue)",
-   "sv": "Molnträskets stigar",
-   "en": "Pilvilampi trail network"
+   "local": "Pilvilampi",
+   "sv": "Molnträsket"
   },
   "local": "fi",
   "kind": "network",
@@ -182,6 +190,11 @@
    "https://issuu.com/graafisetpalvelut_vaasa/docs/pilvilampiesite_netti",
    "https://www.luontoon.fi/fi/reitit/pilvilammen-polut-vaasa-512194",
    "https://www.arcgis.com/apps/mapviewer/index.html?webmap=67839ee063c04e6aa2af21ad991ba510"
+  ],
+  "aka": [
+   "Pilvilammen polut (Pilvilammen ulkoilu- ja virkistysalue)",
+   "Molnträskets stigar",
+   "Pilvilampi trail network"
   ]
  },
  {
@@ -189,9 +202,8 @@
   "municipality": "vaasa",
   "area": "Kalaranta – Suvilahti – Vanha Vaasa",
   "name": {
-   "fi": "Kaupunginselän reitti (Eteläisen kaupunginselän ulkoilureitti)",
-   "sv": "Stadsfjärdsleden",
-   "en": "City Bay Trail"
+   "local": "Kaupunginselän reitti",
+   "sv": "Stadsfjärdsleden"
   },
   "local": "fi",
   "kind": "linear",
@@ -224,6 +236,11 @@
    "https://www.vaasa.fi/ajankohtaista/etelaisen-kaupunginselan-reitin-ensimmainen-osuus-valmistui-avajaisia-vietetaan-majakkakivella-1-6/",
    "https://www.vaasa.fi/uploads/2022/05/7e03d575-kaupunginselka_kartta.jpg",
    "https://api.lipas.fi/v2/sports-sites/528766"
+  ],
+  "aka": [
+   "Kaupunginselän reitti (Eteläisen kaupunginselän ulkoilureitti)",
+   "Stadsfjärdsleden",
+   "City Bay Trail"
   ]
  },
  {
@@ -231,9 +248,7 @@
   "municipality": "vaasa",
   "area": "Vähäkyrö (Ojaniemi, Hyyriä)",
   "name": {
-   "fi": "Ojaniemi–Hyyriän patikkareitistö",
-   "sv": "Nätverket av vandringsleder mellan Ojaniemi och Hyyriä",
-   "en": "Ojaniemi–Hyyriä hiking trails"
+   "local": "Ojaniemi–Hyyriä"
   },
   "local": "fi",
   "kind": "network",
@@ -271,6 +286,11 @@
    "https://www.vaasa.fi/sv/se-och-upplev/sevardheter-och-besoksmal/upptack-lillkyro/vandringslederna-i-lillkyro/",
    "https://services1.arcgis.com/plmcGSi1EuZUrOaf/arcgis/rest/services/patikkareitit/FeatureServer/2",
    "https://api.lipas.fi/v2/sports-sites/514810"
+  ],
+  "aka": [
+   "Ojaniemi–Hyyriän patikkareitistö",
+   "Nätverket av vandringsleder mellan Ojaniemi och Hyyriä",
+   "Ojaniemi–Hyyriä hiking trails"
   ]
  },
  {
@@ -278,9 +298,7 @@
   "municipality": "vaasa",
   "area": "Vähäkyrö (Selkämäki, Haarajoki)",
   "name": {
-   "fi": "Patikkareitistö Kruutarista Mestoosplassille",
-   "sv": "Nätverket av vandringsleder från Kruutari till Mestoosplassi",
-   "en": "Kruutari–Mestoosplassi hiking trails"
+   "local": "Kruutari–Mestoosplassi"
   },
   "local": "fi",
   "kind": "network",
@@ -317,6 +335,11 @@
    "https://www.vaasa.fi/sv/se-och-upplev/sevardheter-och-besoksmal/upptack-lillkyro/vandringslederna-i-lillkyro/",
    "https://services1.arcgis.com/plmcGSi1EuZUrOaf/arcgis/rest/services/patikkareitit/FeatureServer/2",
    "https://api.lipas.fi/v2/sports-sites/514812"
+  ],
+  "aka": [
+   "Patikkareitistö Kruutarista Mestoosplassille",
+   "Nätverket av vandringsleder från Kruutari till Mestoosplassi",
+   "Kruutari–Mestoosplassi hiking trails"
   ]
  },
  {
@@ -324,9 +347,7 @@
   "municipality": "vaasa",
   "area": "Vähäkyrö (Saarenpää, Mullola)",
   "name": {
-   "fi": "Saarenpää–Mullolan polkureitti",
-   "sv": "Stigen mellan Saarenpää och Mullola",
-   "en": "Saarenpää–Mullola heritage trail"
+   "local": "Saarenpää–Mullola"
   },
   "local": "fi",
   "kind": "loop",
@@ -358,6 +379,11 @@
    "https://services1.arcgis.com/plmcGSi1EuZUrOaf/arcgis/rest/services/patikkareitit/FeatureServer/2",
    "https://api.lipas.fi/v2/sports-sites/514809",
    "https://api.lipas.fi/v2/sports-sites/528202"
+  ],
+  "aka": [
+   "Saarenpää–Mullolan polkureitti",
+   "Stigen mellan Saarenpää och Mullola",
+   "Saarenpää–Mullola heritage trail"
   ]
  },
  {
@@ -365,9 +391,7 @@
   "municipality": "vaasa",
   "area": "Vähäkyrö (Tervajoki, Aittoomäki)",
   "name": {
-   "fi": "Petulian patikka",
-   "sv": "Vandringsleden Petulian patikka",
-   "en": "Petulia Trail"
+   "local": "Petulian patikka"
   },
   "local": "fi",
   "kind": "loop+linear",
@@ -403,6 +427,11 @@
    "https://www.vaasa.fi/koe-ja-nae/nahtavyydet-ja-kayntikohteet/koe-vahakyro/vahankyron-patikkareitit/",
    "https://www.vaasa.fi/sv/se-och-upplev/sevardheter-och-besoksmal/upptack-lillkyro/vandringslederna-i-lillkyro/",
    "https://services1.arcgis.com/plmcGSi1EuZUrOaf/arcgis/rest/services/patikkareitit/FeatureServer/2"
+  ],
+  "aka": [
+   "Petulian patikka",
+   "Vandringsleden Petulian patikka",
+   "Petulia Trail"
   ]
  },
  {
@@ -410,9 +439,7 @@
   "municipality": "vaasa",
   "area": "Vähäkyrö (Merikaarto, Kolkki)",
   "name": {
-   "fi": "Kolkin luontopolku",
-   "sv": "Kolkki naturstig",
-   "en": "Kolkki Nature Trail"
+   "local": "Kolkki"
   },
   "local": "fi",
   "kind": "loop",
@@ -443,6 +470,11 @@
   "sources": [
    "https://www.vaasa.fi/koe-ja-nae/nahtavyydet-ja-kayntikohteet/koe-vahakyro/vahankyron-patikkareitit/",
    "https://api.lipas.fi/v2/sports-sites/619880"
+  ],
+  "aka": [
+   "Kolkin luontopolku",
+   "Kolkki naturstig",
+   "Kolkki Nature Trail"
   ]
  },
  {
@@ -450,9 +482,7 @@
   "municipality": "vaasa",
   "area": "Vähäkyrö (Hiiripelto, Korkiavuori)",
   "name": {
-   "fi": "Korkiavuoren luontopolut (Korkiavuoren kierros)",
-   "sv": "Naturstigarna i Korkiavuori",
-   "en": "Korkiavuori nature trail"
+   "local": "Korkiavuori"
   },
   "local": "fi",
   "kind": "loop",
@@ -481,6 +511,11 @@
    "https://www.vaasa.fi/en/vahakyro-hiking-routes/",
    "https://services1.arcgis.com/plmcGSi1EuZUrOaf/arcgis/rest/services/patikkareitit/FeatureServer/2",
    "https://services1.arcgis.com/plmcGSi1EuZUrOaf/arcgis/rest/services/Patikkareitteihin_liittyvät_kohteet/FeatureServer/3"
+  ],
+  "aka": [
+   "Korkiavuoren luontopolut (Korkiavuoren kierros)",
+   "Naturstigarna i Korkiavuori",
+   "Korkiavuori nature trail"
   ]
  },
  {
@@ -488,9 +523,7 @@
   "municipality": "korsholm",
   "area": "Björköby",
   "name": {
-   "fi": "Björkö–Paniken vaellusreitti",
-   "sv": "Björkö–Panike vandringsled",
-   "en": "Björkö–Panike Hiking Trail"
+   "local": "Björkö–Panike"
   },
   "local": "sv",
   "kind": "loop+linear",
@@ -533,6 +566,11 @@
    "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/bjorkobyn-paniken-vaellusreitti",
    "https://www.luontoon.fi/fi/reitit/bjorko-panike-vaellusreitti-mustasaari-23858",
    "https://www.openstreetmap.org/relation/20657818"
+  ],
+  "aka": [
+   "Björkö–Paniken vaellusreitti",
+   "Björkö–Panike vandringsled",
+   "Björkö–Panike Hiking Trail"
   ]
  },
  {
@@ -540,9 +578,7 @@
   "municipality": "korsholm",
   "area": "Björköby (Svedjehamn)",
   "name": {
-   "fi": "Bodvattnetin kierros",
-   "sv": "Bodvattnet runt",
-   "en": "Bodvattnet Trail"
+   "local": "Bodvattnet runt"
   },
   "local": "sv",
   "kind": "loop",
@@ -575,6 +611,11 @@
    "https://www.luontoon.fi/fi/reitit/bodvattnet-runt-mustasaari-62410",
    "https://www.luontoon.fi/fi/reitit/bodvattnet-vaativa-esteeton-reitti-mustasaari-195841",
    "https://julkaisut.metsa.fi/assets/pdf/lp/Esitteet/kvarken_bodvattnetsve.pdf"
+  ],
+  "aka": [
+   "Bodvattnetin kierros",
+   "Bodvattnet runt",
+   "Bodvattnet Trail"
   ]
  },
  {
@@ -582,9 +623,7 @@
   "municipality": "korsholm",
   "area": "Björköby (Vikarskat)",
   "name": {
-   "fi": "Vikarskat–Hamnbastun vaellusreitti",
-   "sv": "Vikarskat–Hamnbastun vandringsled",
-   "en": "Vikarskat–Hamnbastun Trail"
+   "local": "Vikarskat–Hamnbastun"
   },
   "local": "sv",
   "kind": "linear",
@@ -612,6 +651,11 @@
    "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/vikarskat",
    "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/vikarskat",
    "https://www.openstreetmap.org/relation/4016547"
+  ],
+  "aka": [
+   "Vikarskat–Hamnbastun vaellusreitti",
+   "Vikarskat–Hamnbastun vandringsled",
+   "Vikarskat–Hamnbastun Trail"
   ]
  },
  {
@@ -619,9 +663,7 @@
   "municipality": "korsholm",
   "area": "Klobbskat (Replot)",
   "name": {
-   "fi": "Kikanbergetin polku",
-   "sv": "Kikanberget",
-   "en": "Kikanberget Trail"
+   "local": "Kikanberget"
   },
   "local": "sv",
   "kind": "linear",
@@ -652,6 +694,11 @@
    "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/kikanberget",
    "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/kikanberget",
    "https://www.openstreetmap.org/relation/21307229"
+  ],
+  "aka": [
+   "Kikanbergetin polku",
+   "Kikanberget",
+   "Kikanberget Trail"
   ]
  },
  {
@@ -659,9 +706,7 @@
   "municipality": "korsholm",
   "area": "Panike (Replot)",
   "name": {
-   "fi": "Vargiksen luontopolut (Wargin kierto, Hirvipolku)",
-   "sv": "Vargis naturstigar (Wargrundan, Älgrundan)",
-   "en": "Vargis Nature Trails"
+   "local": "Vargis"
   },
   "local": "sv",
   "kind": "loop",
@@ -692,6 +737,11 @@
    "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/vargis-vandringsleder",
    "https://www.luontoon.fi/fi/reitit/vargis-kesaretkeilyreitti-mustasaari-127042",
    "https://korsholm.fi/wp-content/uploads/2025/05/kvarken_vargisfinsveeng.pdf"
+  ],
+  "aka": [
+   "Vargiksen luontopolut (Wargin kierto, Hirvipolku)",
+   "Vargis naturstigar (Wargrundan, Älgrundan)",
+   "Vargis Nature Trails"
   ]
  },
  {
@@ -699,9 +749,7 @@
   "municipality": "korsholm",
   "area": "Södra Vallgrund (Sommarö)",
   "name": {
-   "fi": "Sommarön luontopolut",
-   "sv": "Sommarö naturstigar",
-   "en": "Sommarö Nature Trails"
+   "local": "Sommarö"
   },
   "local": "sv",
   "kind": "loop+linear",
@@ -742,6 +790,11 @@
    "https://www.luontoon.fi/fi/reitit/sommaron-luontopolku-mustasaari-61409",
    "https://www.luontoon.fi/fi/reitit/sommaro-vaativa-esteeton-reitti-mustasaari-61414",
    "https://korsholm.fi/kommun/turism/sevardheter/fort-sommaro"
+  ],
+  "aka": [
+   "Sommarön luontopolut",
+   "Sommarö naturstigar",
+   "Sommarö Nature Trails"
   ]
  },
  {
@@ -749,9 +802,8 @@
   "municipality": "korsholm",
   "area": "Valsörarna (outer archipelago, Björköby)",
   "name": {
-   "fi": "Valassaarten luontopolku",
-   "sv": "Valsörarnas naturstig (Kärleksstigen)",
-   "en": "Valsörarna Nature Trail"
+   "local": "Valsörarna",
+   "fi": "Valassaaret"
   },
   "local": "sv",
   "kind": "linear",
@@ -777,6 +829,11 @@
    "https://www.luontoon.fi/fi/reitit/valassaarten-luontopolku-mustasaari-515793",
    "https://korsholm.fi/kommun/turism/sevardheter/valsorarna",
    "https://julkaisut.metsa.fi/assets/pdf/lp/Esitteet/Valassaarten-kartta.pdf"
+  ],
+  "aka": [
+   "Valassaarten luontopolku",
+   "Valsörarnas naturstig (Kärleksstigen)",
+   "Valsörarna Nature Trail"
   ]
  },
  {
@@ -784,9 +841,7 @@
   "municipality": "korsholm",
   "area": "Iskmo / Jungsund",
   "name": {
-   "fi": "Iskmon–Jungsundin vaellusreitti",
-   "sv": "Iskmo–Jungsund vandringsled",
-   "en": "Iskmo–Jungsund Hiking Trail"
+   "local": "Iskmo–Jungsund"
   },
   "local": "sv",
   "kind": "loop+linear",
@@ -825,6 +880,11 @@
    "https://iskmosunden.fi/vandringsled/",
    "https://iskmosunden.fi/wp-content/uploads/2016/04/ijv_vandringsled_a4_2016.pdf",
    "https://iskmosunden.fi/2026/10/13/valkommen-till-invigningen-av-utsiktstornet-17-10-tervetuloa-nakoalatornin-avajaisiin-17-10/"
+  ],
+  "aka": [
+   "Iskmon–Jungsundin vaellusreitti",
+   "Iskmo–Jungsund vandringsled",
+   "Iskmo–Jungsund Hiking Trail"
   ]
  },
  {
@@ -832,9 +892,7 @@
   "municipality": "korsholm",
   "area": "Kuni",
   "name": {
-   "fi": "Kunin vaellusreitti",
-   "sv": "Kunileden",
-   "en": "Kuni Hiking Trail"
+   "local": "Kunileden"
   },
   "local": "sv",
   "kind": "loop",
@@ -865,6 +923,11 @@
    "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/kunileden",
    "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/kunin-vaellusreitti",
    "https://korsholm.fi/wp-content/uploads/2021/07/Karta-vandring-Kunileden-2019-scaled.jpg"
+  ],
+  "aka": [
+   "Kunin vaellusreitti",
+   "Kunileden",
+   "Kuni Hiking Trail"
   ]
  },
  {
@@ -872,9 +935,7 @@
   "municipality": "korsholm",
   "area": "Solf",
   "name": {
-   "fi": "Stundarsin vaellusreitit",
-   "sv": "Stundars vandringsleder",
-   "en": "Stundars Trails"
+   "local": "Stundars"
   },
   "local": "sv",
   "kind": "loop",
@@ -905,6 +966,11 @@
    "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/stundars-vandringsleder",
    "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/stundarsin-vaellusreitit",
    "https://www.openstreetmap.org/relation/20164286"
+  ],
+  "aka": [
+   "Stundarsin vaellusreitit",
+   "Stundars vandringsleder",
+   "Stundars Trails"
   ]
  },
  {
@@ -912,9 +978,7 @@
   "municipality": "korsholm",
   "area": "Skatila (Veikars)",
   "name": {
-   "fi": "Skatilan vaellusreitti",
-   "sv": "Skatila vandringsled",
-   "en": "Skatila Hiking Trail"
+   "local": "Skatila"
   },
   "local": "sv",
   "kind": "linear",
@@ -943,6 +1007,11 @@
   "sources": [
    "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/skatila-vandringsled",
    "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/skatilan-vaellusreitti"
+  ],
+  "aka": [
+   "Skatilan vaellusreitti",
+   "Skatila vandringsled",
+   "Skatila Hiking Trail"
   ]
  },
  {
@@ -950,9 +1019,7 @@
   "municipality": "korsholm",
   "area": "Kuni (Mälsor)",
   "name": {
-   "fi": "Mälsorin vaellusreitti",
-   "sv": "Mälsorleden",
-   "en": "Mälsor Trail"
+   "local": "Mälsorleden"
   },
   "local": "sv",
   "kind": "loop",
@@ -994,6 +1061,11 @@
    "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/malsorleden",
    "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/malsorin-vaellusreitti",
    "https://korsholm.fi/wp-content/uploads/2025/08/Malsorleden-nya.pdf"
+  ],
+  "aka": [
+   "Mälsorin vaellusreitti",
+   "Mälsorleden",
+   "Mälsor Trail"
   ]
  },
  {
@@ -1001,9 +1073,7 @@
   "municipality": "korsholm",
   "area": "Tölby",
   "name": {
-   "fi": "Tölbyn kirkkopolku",
-   "sv": "Kyrkstigen (Tölby)",
-   "en": "Tölby Church Path"
+   "local": "Kyrkstigen (Tölby)"
   },
   "local": "sv",
   "kind": "linear",
@@ -1033,6 +1103,11 @@
    "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/kyrkstigen",
    "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/kyrkstigen",
    "https://korsholm.fi/wp-content/uploads/2025/09/Kyrkstigen-482x681.jpg"
+  ],
+  "aka": [
+   "Tölbyn kirkkopolku",
+   "Kyrkstigen (Tölby)",
+   "Tölby Church Path"
   ]
  },
  {
@@ -1040,9 +1115,7 @@
   "municipality": "korsholm",
   "area": "Österhankmo",
   "name": {
-   "fi": "Karikan reitti",
-   "sv": "Karikaleden",
-   "en": "Karika Trail"
+   "local": "Karikaleden"
   },
   "local": "sv",
   "kind": "linear",
@@ -1071,6 +1144,11 @@
   "sources": [
    "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/karikaleden",
    "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/karikaleden"
+  ],
+  "aka": [
+   "Karikan reitti",
+   "Karikaleden",
+   "Karika Trail"
   ]
  },
  {
@@ -1078,9 +1156,7 @@
   "municipality": "korsholm",
   "area": "Petsmo",
   "name": {
-   "fi": "Petsmon vaellusreitti",
-   "sv": "Petsmo vandringsled",
-   "en": "Petsmo Hiking Trail"
+   "local": "Petsmo"
   },
   "local": "sv",
   "kind": "loop+linear",
@@ -1117,6 +1193,11 @@
    "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/petsmo-vandringsled",
    "https://petsmovandringsled.fi/",
    "https://petsmovandringsled.fi/wp-content/uploads/2022/09/HEMSIDESKARTA-SV-TRIPPEL.pdf"
+  ],
+  "aka": [
+   "Petsmon vaellusreitti",
+   "Petsmo vandringsled",
+   "Petsmo Hiking Trail"
   ]
  },
  {
@@ -1124,9 +1205,7 @@
   "municipality": "korsholm",
   "area": "Solf (Söderfjärden)",
   "name": {
-   "fi": "Söderfjärdenin vaellusreitti",
-   "sv": "Söderfjärdens vandringsled",
-   "en": "Söderfjärden Hiking Trail"
+   "local": "Söderfjärden"
   },
   "local": "sv",
   "kind": "loop+linear",
@@ -1159,6 +1238,11 @@
    "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/soderfjardens-vandringsled",
    "https://www.soderfjardenhf.fi/vandringsled/",
    "https://www.openstreetmap.org/relation/20300533"
+  ],
+  "aka": [
+   "Söderfjärdenin vaellusreitti",
+   "Söderfjärdens vandringsled",
+   "Söderfjärden Hiking Trail"
   ]
  },
  {
@@ -1166,9 +1250,7 @@
   "municipality": "korsholm",
   "area": "Österhankmo",
   "name": {
-   "fi": "Öjskatsleden",
-   "sv": "Öjskatsleden",
-   "en": "Öjskat Trail"
+   "local": "Öjskatsleden"
   },
   "local": "sv",
   "kind": "linear",
@@ -1198,6 +1280,11 @@
   "sources": [
    "https://korsholm.fi/valfard/fritidsverksamhet/naturstigar-och-friluftsleder/ojskatsleden",
    "https://mustasaari.fi/hyvinvointi/vapaa-aikatoiminta/luonto-ja-ulkoilureitit/ojskatsleden"
+  ],
+  "aka": [
+   "Öjskatsleden",
+   "Öjskatsleden",
+   "Öjskat Trail"
   ]
  },
  {
@@ -1205,9 +1292,7 @@
   "municipality": "malax",
   "area": "Bergö (Granön)",
   "name": {
-   "fi": "Bergöön vaellusreitti",
-   "sv": "Bergö vandringsled",
-   "en": "Bergö Hiking Trail"
+   "local": "Bergö"
   },
   "local": "sv",
   "kind": "loop",
@@ -1240,6 +1325,11 @@
    "https://www.malax.fi/assets/Sidor/1/112/Bergo-vandringsled.jpg",
    "https://www.bergö.fi/besok-bergo/",
    "https://www.vaasa.fi/en/naturetrail"
+  ],
+  "aka": [
+   "Bergöön vaellusreitti",
+   "Bergö vandringsled",
+   "Bergö Hiking Trail"
   ]
  },
  {
@@ -1247,9 +1337,7 @@
   "municipality": "malax",
   "area": "Majors / Öjna (Malax)",
   "name": {
-   "fi": "Majorsin luontopolku",
-   "sv": "Majors naturstig",
-   "en": "Majors Nature Trail"
+   "local": "Majors"
   },
   "local": "sv",
   "kind": "loop",
@@ -1279,6 +1367,11 @@
    "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
    "https://www.malax.fi/assets/Sidor/1/112/Majors-naturstig-karta.pdf",
    "https://www.luontoon.fi/en/trails/majorsin-luontopolku-maalahti-603624-en"
+  ],
+  "aka": [
+   "Majorsin luontopolku",
+   "Majors naturstig",
+   "Majors Nature Trail"
   ]
  },
  {
@@ -1286,9 +1379,7 @@
   "municipality": "malax",
   "area": "Pixne (Malax centre)",
   "name": {
-   "fi": "Pixnen luontopolku",
-   "sv": "Pixne naturstig",
-   "en": "Pixne Nature Trail"
+   "local": "Pixne"
   },
   "local": "sv",
   "kind": "loop",
@@ -1318,6 +1409,11 @@
    "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
    "https://www.malax.fi/assets/Sidor/1/112/Pixne-naturstig.pdf",
    "https://www.luontoon.fi/en/trails/pixnen-luontopolku-maalahti-603637-en"
+  ],
+  "aka": [
+   "Pixnen luontopolku",
+   "Pixne naturstig",
+   "Pixne Nature Trail"
   ]
  },
  {
@@ -1325,9 +1421,7 @@
   "municipality": "malax",
   "area": "Åminne",
   "name": {
-   "fi": "Åminnen vaellusreitti",
-   "sv": "Åminne vandringsled",
-   "en": "Åminne Hiking Trail"
+   "local": "Åminne"
   },
   "local": "sv",
   "kind": "loop+linear",
@@ -1363,6 +1457,11 @@
   "sources": [
    "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
    "https://www.malax.fi/assets/Sidor/1/112/Aminne-vandringsled.pdf"
+  ],
+  "aka": [
+   "Åminnen vaellusreitti",
+   "Åminne vandringsled",
+   "Åminne Hiking Trail"
   ]
  },
  {
@@ -1370,9 +1469,7 @@
   "municipality": "malax",
   "area": "Kajane (Petalax)",
   "name": {
-   "fi": "Kajanen luontopolku",
-   "sv": "Kajane naturstig / Kajane vandringsled",
-   "en": "Kajane Nature Trail"
+   "local": "Kajane"
   },
   "local": "sv",
   "kind": "loop+linear",
@@ -1406,6 +1503,11 @@
    "https://www.malax.fi/assets/Sidor/1/112/Kajane-vandringsled-karta.pdf",
    "https://www.yrkesakademin.fi/tjanster/kajane-lagercenter",
    "https://www.vaasa.fi/en/naturetrail"
+  ],
+  "aka": [
+   "Kajanen luontopolku",
+   "Kajane naturstig / Kajane vandringsled",
+   "Kajane Nature Trail"
   ]
  },
  {
@@ -1413,9 +1515,7 @@
   "municipality": "malax",
   "area": "Petalax (Nojärv / Velkmossa)",
   "name": {
-   "fi": "Velkmossan vaellusreitti",
-   "sv": "Velkmossa vandringsled",
-   "en": "Velkmossa Hiking Trail"
+   "local": "Velkmossa"
   },
   "local": "sv",
   "kind": "linear",
@@ -1455,6 +1555,11 @@
   "sources": [
    "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
    "https://www.malax.fi/assets/Sidor/1/112/Velkmoss.pdf"
+  ],
+  "aka": [
+   "Velkmossan vaellusreitti",
+   "Velkmossa vandringsled",
+   "Velkmossa Hiking Trail"
   ]
  },
  {
@@ -1462,9 +1567,7 @@
   "municipality": "malax",
   "area": "Mamre (Petalax) – Storsjö (Övermalax)",
   "name": {
-   "fi": "Mamrenpolku / Storsjönpolku",
-   "sv": "Mamrestigen / Storsjöstigen",
-   "en": "Mamre–Storsjö Trail"
+   "local": "Mamrestigen / Storsjöstigen"
   },
   "local": "sv",
   "kind": "linear",
@@ -1496,6 +1599,11 @@
   "sources": [
    "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
    "https://www.malax.fi/assets/Sidor/1/112/Mamrestigen.pdf"
+  ],
+  "aka": [
+   "Mamrenpolku / Storsjönpolku",
+   "Mamrestigen / Storsjöstigen",
+   "Mamre–Storsjö Trail"
   ]
  },
  {
@@ -1503,9 +1611,8 @@
   "municipality": "malax",
   "area": "Storsjö (Övermalax)",
   "name": {
-   "fi": "Rautakauden polku",
-   "sv": "Järnåldersleden",
-   "en": "Iron Age Trail"
+   "local": "Järnåldersleden",
+   "fi": "Rautakauden polku"
   },
   "local": "sv",
   "kind": "loop",
@@ -1536,6 +1643,11 @@
    "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
    "https://www.malax.fi/assets/Sidor/1/112/jarnaldersleden_broschyr.pdf",
    "https://www.vaasa.fi/en/naturetrail"
+  ],
+  "aka": [
+   "Rautakauden polku",
+   "Järnåldersleden",
+   "Iron Age Trail"
   ]
  },
  {
@@ -1543,9 +1655,8 @@
   "municipality": "malax",
   "area": "Molapne (Övermalax)",
   "name": {
-   "fi": "Karjamajapolku",
-   "sv": "Fäbodstigen",
-   "en": "Chalet Trail in Molapne"
+   "local": "Fäbodstigen",
+   "fi": "Karjamajapolku"
   },
   "local": "sv",
   "kind": "linear",
@@ -1575,6 +1686,11 @@
    "https://www.malax.fi/fritid-och-kultur/idrott-motion-och-friluftsliv/friluftsliv-och-motion/vandringsleder-och-naturstigar",
    "https://www.malax.fi/assets/Sidor/1/112/Faebodstigenbroschyr.pdf",
    "https://www.vaasa.fi/en/naturetrail"
+  ],
+  "aka": [
+   "Karjamajapolku",
+   "Fäbodstigen",
+   "Chalet Trail in Molapne"
   ]
  },
  {
@@ -1582,9 +1698,7 @@
   "municipality": "laihia",
   "area": "Rajavuori (Jakkula, southern Laihia)",
   "name": {
-   "fi": "Rajavuoren luontopolku",
-   "sv": "Rajavuori naturstig",
-   "en": "Rajavuori Nature Trail"
+   "local": "Rajavuori"
   },
   "local": "fi",
   "kind": "loop",
@@ -1617,6 +1731,11 @@
    "https://storymaps.arcgis.com/stories/30384603de2941ae956a819ac516080e",
    "https://laihia.fi/hyvinvointi-ja-vapaa-aika/liikunta/liikuntatilat-ja-alueet/ulkoliikuntapaikat/",
    "https://www.luontoon.fi/en/trails/rajavuoren-luontopolku-5-km-laihia-602566-en"
+  ],
+  "aka": [
+   "Rajavuoren luontopolku",
+   "Rajavuori naturstig",
+   "Rajavuori Nature Trail"
   ]
  },
  {
@@ -1624,9 +1743,7 @@
   "municipality": "laihia",
   "area": "Rajavuori – Levaneva (Laihia/Kurikka border)",
   "name": {
-   "fi": "Kurjen kierros: Rajavuori–Levaneva",
-   "sv": "Kurjen kierros (Tranrundan): Rajavuori–Levaneva",
-   "en": "Crane Trail: Rajavuori–Levaneva"
+   "local": "Kurjen kierros (Rajavuori–Levaneva)"
   },
   "local": "fi",
   "kind": "linear",
@@ -1673,6 +1790,11 @@
    "https://www.luontoon.fi/en/trails/levaneva-trail-laihia-62475-en",
    "https://www.luontoon.fi/en/destinations/levaneva-nature-reserve/activities-and-trails/hiking-and-outdoor-recreation",
    "https://visitseinajoki.fi/?p=19775"
+  ],
+  "aka": [
+   "Kurjen kierros: Rajavuori–Levaneva",
+   "Kurjen kierros (Tranrundan): Rajavuori–Levaneva",
+   "Crane Trail: Rajavuori–Levaneva"
   ]
  },
  {
@@ -1680,9 +1802,7 @@
   "municipality": "laihia",
   "area": "Jakkula",
   "name": {
-   "fi": "Allisen luontopolku",
-   "sv": "Allinen naturstig",
-   "en": "Allinen Nature Trail"
+   "local": "Allinen"
   },
   "local": "fi",
   "kind": "linear",
@@ -1719,6 +1839,11 @@
   "sources": [
    "https://storymaps.arcgis.com/stories/30384603de2941ae956a819ac516080e",
    "https://www.luontoon.fi/smn/kiainuh/laihian-patikkareitit-laihia-514814"
+  ],
+  "aka": [
+   "Allisen luontopolku",
+   "Allinen naturstig",
+   "Allinen Nature Trail"
   ]
  },
  {
@@ -1726,9 +1851,7 @@
   "municipality": "isokyro",
   "area": "Palhojainen (Hietakangas)",
   "name": {
-   "fi": "Lymmyysen luontopolku",
-   "sv": "Lymmyys naturstig",
-   "en": "Lymmyys Nature Trail"
+   "local": "Lymmyys"
   },
   "local": "fi",
   "kind": "loop",
@@ -1761,6 +1884,11 @@
    "https://api.lipas.fi/v2/sports-sites/608299",
    "https://api.lipas.fi/v2/sports-sites/608391",
    "https://api.lipas.fi/v2/sports-sites/514771"
+  ],
+  "aka": [
+   "Lymmyysen luontopolku",
+   "Lymmyys naturstig",
+   "Lymmyys Nature Trail"
   ]
  },
  {
@@ -1768,9 +1896,7 @@
   "municipality": "isokyro",
   "area": "Tulisalo / Lehmäjoki",
   "name": {
-   "fi": "Fatisaaren patikkareitti",
-   "sv": "Fatisaari vandringsled",
-   "en": "Fatisaari Hiking Trail"
+   "local": "Fatisaari"
   },
   "local": "fi",
   "kind": "linear",
@@ -1801,6 +1927,11 @@
    "https://isokyro.fi/tiedostopankki/3516/Fatisaari-7-0.GPX",
    "https://api.lipas.fi/v2/sports-sites/608298",
    "https://api.lipas.fi/v2/sports-sites/514776"
+  ],
+  "aka": [
+   "Fatisaaren patikkareitti",
+   "Fatisaari vandringsled",
+   "Fatisaari Hiking Trail"
   ]
  },
  {
@@ -1808,9 +1939,7 @@
   "municipality": "isokyro",
   "area": "Ruusupuro / Lehmäjoki",
   "name": {
-   "fi": "Ruusupuro-Röökin patikkareitti",
-   "sv": "Ruusupuro-Röökki vandringsled",
-   "en": "Ruusupuro-Röökki Hiking Trail"
+   "local": "Ruusupuro–Röökki"
   },
   "local": "fi",
   "kind": "loop",
@@ -1840,6 +1969,11 @@
    "https://isokyro.fi/hyvinvointi-ja-vapaa-aika/vapaa-aika/liikuntapalvelut/luontoreitit/patikkareitisto/",
    "https://isokyro.fi/tiedostopankki/3527/Ruusupuro-Rookki-5-0.GPX",
    "https://api.lipas.fi/v2/sports-sites/608300"
+  ],
+  "aka": [
+   "Ruusupuro-Röökin patikkareitti",
+   "Ruusupuro-Röökki vandringsled",
+   "Ruusupuro-Röökki Hiking Trail"
   ]
  },
  {
@@ -1847,9 +1981,7 @@
   "municipality": "isokyro",
   "area": "Kuivila",
   "name": {
-   "fi": "Vuoressalon patikkareitit",
-   "sv": "Vuoressalo vandringsleder",
-   "en": "Vuoressalo Hiking Trails"
+   "local": "Vuoressalo"
   },
   "local": "fi",
   "kind": "loop",
@@ -1880,6 +2012,11 @@
    "https://isokyro.fi/hyvinvointi-ja-vapaa-aika/vapaa-aika/liikuntapalvelut/luontoreitit/patikkareitisto/",
    "https://isokyro.fi/tiedostopankki/3522/Vuoressalo-2-4.GPX",
    "https://api.lipas.fi/v2/sports-sites/608301"
+  ],
+  "aka": [
+   "Vuoressalon patikkareitit",
+   "Vuoressalo vandringsleder",
+   "Vuoressalo Hiking Trails"
   ]
  },
  {
@@ -1887,9 +2024,7 @@
   "municipality": "isokyro",
   "area": "Orisberg",
   "name": {
-   "fi": "Orisbergin patikkareitti",
-   "sv": "Orisbergs vandringsled",
-   "en": "Orisberg Hiking Trail (Kotilammi loop)"
+   "local": "Orisberg"
   },
   "local": "fi",
   "kind": "loop",
@@ -1920,6 +2055,11 @@
    "https://isokyro.fi/hyvinvointi-ja-vapaa-aika/vapaa-aika/liikuntapalvelut/luontoreitit/patikkareitisto/",
    "https://isokyro.fi/tiedostopankki/3515/Orisberg-11-4.GPX",
    "https://api.lipas.fi/v2/sports-sites/608302"
+  ],
+  "aka": [
+   "Orisbergin patikkareitti",
+   "Orisbergs vandringsled",
+   "Orisberg Hiking Trail (Kotilammi loop)"
   ]
  },
  {
@@ -1927,9 +2067,7 @@
   "municipality": "isokyro",
   "area": "Tuomaanmäki / Ventälä",
   "name": {
-   "fi": "Tuomaanmäen patikkareitti",
-   "sv": "Tuomaanmäki vandringsled",
-   "en": "Tuomaanmäki Hiking Trail"
+   "local": "Tuomaanmäki"
   },
   "local": "fi",
   "kind": "loop",
@@ -1961,6 +2099,11 @@
    "https://api.lipas.fi/v2/sports-sites/608305",
    "https://api.lipas.fi/v2/sports-sites/514773",
    "https://api.lipas.fi/v2/sports-sites/514774"
+  ],
+  "aka": [
+   "Tuomaanmäen patikkareitti",
+   "Tuomaanmäki vandringsled",
+   "Tuomaanmäki Hiking Trail"
   ]
  },
  {
@@ -1968,9 +2111,7 @@
   "municipality": "isokyro",
   "area": "Isokyrö centre (Lapinmäki)",
   "name": {
-   "fi": "Lapinmäen patikkareitti",
-   "sv": "Lapinmäki vandringsled",
-   "en": "Lapinmäki Hiking Trail"
+   "local": "Lapinmäki"
   },
   "local": "fi",
   "kind": "loop+linear",
@@ -1996,6 +2137,11 @@
    "https://isokyro.fi/hyvinvointi-ja-vapaa-aika/vapaa-aika/liikuntapalvelut/luontoreitit/patikkareitisto/",
    "https://isokyro.fi/tiedostopankki/3521/Lapinmaki-2-3.GPX",
    "https://api.lipas.fi/v2/sports-sites/608304"
+  ],
+  "aka": [
+   "Lapinmäen patikkareitti",
+   "Lapinmäki vandringsled",
+   "Lapinmäki Hiking Trail"
   ]
  },
  {
@@ -2003,9 +2149,7 @@
   "municipality": "isokyro",
   "area": "Peippoonen / Kylkkälä",
   "name": {
-   "fi": "Peippoosen patikkareitit",
-   "sv": "Peippoonen vandringsleder",
-   "en": "Peippoonen Trails"
+   "local": "Peippoonen"
   },
   "local": "fi",
   "kind": "network",
@@ -2037,6 +2181,11 @@
    "https://isokyro.fi/tiedostopankki/3524/Peippoonen-3-0.GPX",
    "https://api.lipas.fi/v2/sports-sites/608306",
    "https://api.lipas.fi/v2/sports-sites/608392"
+  ],
+  "aka": [
+   "Peippoosen patikkareitit",
+   "Peippoonen vandringsleder",
+   "Peippoonen Trails"
   ]
  },
  {
@@ -2044,9 +2193,7 @@
   "municipality": "isokyro",
   "area": "Ylipää / Valtaala",
   "name": {
-   "fi": "Ylipään ulkoilureitit (Marjamäki)",
-   "sv": "Ylipää friluftsleder (Marjamäki)",
-   "en": "Ylipää Outdoor Trails and Marjamäki Tower"
+   "local": "Ylipää (Marjamäki)"
   },
   "local": "fi",
   "kind": "network",
@@ -2086,6 +2233,11 @@
    "https://api.lipas.fi/v2/sports-sites/514767",
    "https://api.lipas.fi/v2/sports-sites/608389",
    "https://api.lipas.fi/v2/sports-sites/514768"
+  ],
+  "aka": [
+   "Ylipään ulkoilureitit (Marjamäki)",
+   "Ylipää friluftsleder (Marjamäki)",
+   "Ylipää Outdoor Trails and Marjamäki Tower"
   ]
  },
  {
@@ -2093,9 +2245,7 @@
   "municipality": "vora",
   "area": "Andkil (Rejpelt)",
   "name": {
-   "fi": "Andkilin vaellusreitti",
-   "sv": "Andkil vandringsled",
-   "en": "Andkil Hiking Trail"
+   "local": "Andkil"
   },
   "local": "sv",
   "kind": "loop",
@@ -2127,6 +2277,11 @@
    "https://api.lipas.fi/v2/sports-sites/606386",
    "https://www.openstreetmap.org/relation/21123759",
    "https://www.openstreetmap.org/relation/21123760"
+  ],
+  "aka": [
+   "Andkilin vaellusreitti",
+   "Andkil vandringsled",
+   "Andkil Hiking Trail"
   ]
  },
  {
@@ -2134,9 +2289,7 @@
   "municipality": "vora",
   "area": "Rasmusbacken (Koskeby)",
   "name": {
-   "fi": "Arvidinpolku ja Vernerinpolku",
-   "sv": "Arvidsstigen och Vernersstigen",
-   "en": "Arvid and Verner Trails (Rasmusbacken)"
+   "local": "Arvidsstigen och Vernersstigen"
   },
   "local": "sv",
   "kind": "loop",
@@ -2172,6 +2325,11 @@
    "https://api.lipas.fi/v2/sports-sites/606415",
    "https://www.openstreetmap.org/relation/21232723",
    "https://www.openstreetmap.org/relation/21232724"
+  ],
+  "aka": [
+   "Arvidinpolku ja Vernerinpolku",
+   "Arvidsstigen och Vernersstigen",
+   "Arvid and Verner Trails (Rasmusbacken)"
   ]
  },
  {
@@ -2179,9 +2337,8 @@
   "municipality": "vora",
   "area": "Keskis (Komossa)",
   "name": {
-   "fi": "Koronapolku",
-   "sv": "Coronastigen",
-   "en": "Corona Trail (Keskis)"
+   "local": "Coronastigen",
+   "fi": "Koronapolku"
   },
   "local": "sv",
   "kind": "loop+linear",
@@ -2214,6 +2371,11 @@
    "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
    "https://api.lipas.fi/v2/sports-sites/606414",
    "https://www.openstreetmap.org/relation/21232921"
+  ],
+  "aka": [
+   "Koronapolku",
+   "Coronastigen",
+   "Corona Trail (Keskis)"
   ]
  },
  {
@@ -2221,9 +2383,7 @@
   "municipality": "vora",
   "area": "Tottesund (Maxmo)",
   "name": {
-   "fi": "Herraskartanon vaellusreitti",
-   "sv": "Herrgårdsleden",
-   "en": "Manor Trail (Tottesund)"
+   "local": "Herrgårdsleden (Tottesund)"
   },
   "local": "sv",
   "kind": "loop",
@@ -2259,6 +2419,11 @@
    "https://maxmohf.sou.fi/sv/herrgarden/herrgardsleden/",
    "https://api.lipas.fi/v2/sports-sites/602106",
    "https://www.openstreetmap.org/relation/21358544"
+  ],
+  "aka": [
+   "Herraskartanon vaellusreitti",
+   "Herrgårdsleden",
+   "Manor Trail (Tottesund)"
   ]
  },
  {
@@ -2266,9 +2431,7 @@
   "municipality": "vora",
   "area": "Kimo (Oravais)",
   "name": {
-   "fi": "Kimon vaellusreitit",
-   "sv": "Kimo vandringsleder",
-   "en": "Kimo Ironworks Trails"
+   "local": "Kimo bruk"
   },
   "local": "sv",
   "kind": "loop",
@@ -2299,6 +2462,11 @@
    "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
    "https://www.kimobruk.fi/naturstig-och-jungfrudans",
    "https://api.lipas.fi/v2/sports-sites/523811"
+  ],
+  "aka": [
+   "Kimon vaellusreitit",
+   "Kimo vandringsleder",
+   "Kimo Ironworks Trails"
   ]
  },
  {
@@ -2306,9 +2474,7 @@
   "municipality": "vora",
   "area": "Oravais",
   "name": {
-   "fi": "Kinnkangleden",
-   "sv": "Kinnkangleden",
-   "en": "Kinnkang Trail"
+   "local": "Kinnkangleden"
   },
   "local": "sv",
   "kind": "loop+linear",
@@ -2338,6 +2504,11 @@
    "https://www.vora.fi/assets/Sidor/1/129/Kinnkangelden-karta.jpg",
    "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
    "https://api.lipas.fi/v2/sports-sites/608854"
+  ],
+  "aka": [
+   "Kinnkangleden",
+   "Kinnkangleden",
+   "Kinnkang Trail"
   ]
  },
  {
@@ -2345,9 +2516,7 @@
   "municipality": "vora",
   "area": "Komossa",
   "name": {
-   "fi": "Komossan vaellusreitti (Hoppamäki)",
-   "sv": "Komossa vandringsled (Hoppamäki)",
-   "en": "Komossa Hiking Trail and Hoppamäki Tower"
+   "local": "Komossa (Hoppamäki)"
   },
   "local": "sv",
   "kind": "loop+linear",
@@ -2578,6 +2747,11 @@
    "https://www.vora.fi/assets/KOMOSSA-VANDRINGSLED_pdf-2.pdf",
    "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
    "https://api.lipas.fi/v2/sports-sites/621421"
+  ],
+  "aka": [
+   "Komossan vaellusreitti (Hoppamäki)",
+   "Komossa vandringsled (Hoppamäki)",
+   "Komossa Hiking Trail and Hoppamäki Tower"
   ]
  },
  {
@@ -2585,9 +2759,7 @@
   "municipality": "vora",
   "area": "Kovik",
   "name": {
-   "fi": "Kovikin vaellusreitti",
-   "sv": "Kovik vandringsled",
-   "en": "Kovik Hiking Trail"
+   "local": "Kovik"
   },
   "local": "sv",
   "kind": "loop",
@@ -2617,6 +2789,11 @@
    "https://www.vora.fi/assets/Kovik-vandringsled.webp",
    "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
    "https://api.lipas.fi/v2/sports-sites/620863"
+  ],
+  "aka": [
+   "Kovikin vaellusreitti",
+   "Kovik vandringsled",
+   "Kovik Hiking Trail"
   ]
  },
  {
@@ -2624,9 +2801,7 @@
   "municipality": "vora",
   "area": "Lotlax",
   "name": {
-   "fi": "Lotlaxin vaellusreitti",
-   "sv": "Lotlax vandringsled",
-   "en": "Lotlax Hiking Trail"
+   "local": "Lotlax"
   },
   "local": "sv",
   "kind": "loop+linear",
@@ -2656,6 +2831,11 @@
    "https://lotlax.fi/sv/vandringsleden/",
    "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
    "https://api.lipas.fi/v2/sports-sites/606412"
+  ],
+  "aka": [
+   "Lotlaxin vaellusreitti",
+   "Lotlax vandringsled",
+   "Lotlax Hiking Trail"
   ]
  },
  {
@@ -2663,9 +2843,7 @@
   "municipality": "vora",
   "area": "Rökiö (Norrvalla)",
   "name": {
-   "fi": "Rökiön vaellusreitit (Norrvalla-Boberget)",
-   "sv": "Rökiö vandringsleder (Norrvalla-Boberget)",
-   "en": "Rökiö Trails (Norrvalla-Boberget)"
+   "local": "Rökiö (Norrvalla–Boberget)"
   },
   "local": "sv",
   "kind": "network",
@@ -2703,6 +2881,11 @@
    "https://api.lipas.fi/v2/sports-sites/606568",
    "https://www.openstreetmap.org/relation/20632021",
    "https://www.openstreetmap.org/relation/20632022"
+  ],
+  "aka": [
+   "Rökiön vaellusreitit (Norrvalla-Boberget)",
+   "Rökiö vandringsleder (Norrvalla-Boberget)",
+   "Rökiö Trails (Norrvalla-Boberget)"
   ]
  },
  {
@@ -2710,9 +2893,7 @@
   "municipality": "vora",
   "area": "Rejpelt",
   "name": {
-   "fi": "Storbergetin vaellusreitti",
-   "sv": "Storbergets vandringsled",
-   "en": "Storberget Trail"
+   "local": "Storberget"
   },
   "local": "sv",
   "kind": "loop",
@@ -2811,6 +2992,11 @@
    "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
    "https://www.vora.fi/assets/Sidor/1/129/Storbergets-vandringsled.png",
    "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf"
+  ],
+  "aka": [
+   "Storbergetin vaellusreitti",
+   "Storbergets vandringsled",
+   "Storberget Trail"
   ]
  },
  {
@@ -2818,9 +3004,7 @@
   "municipality": "vora",
   "area": "Kärklax (Maxmo)",
   "name": {
-   "fi": "Tyrstigen-polku",
-   "sv": "Tyrstigen",
-   "en": "Tyr Trail"
+   "local": "Tyrstigen"
   },
   "local": "sv",
   "kind": "loop+linear",
@@ -2852,6 +3036,11 @@
    "https://www.vora.fi/assets/Sidor/1/129/Tyrstigen-karta.webp",
    "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
    "https://api.lipas.fi/v2/sports-sites/620864"
+  ],
+  "aka": [
+   "Tyrstigen-polku",
+   "Tyrstigen",
+   "Tyr Trail"
   ]
  },
  {
@@ -2859,9 +3048,7 @@
   "municipality": "vora",
   "area": "Tuckor",
   "name": {
-   "fi": "Vitmossenin vaellusreitti",
-   "sv": "Vitmossens vandringsled",
-   "en": "Vitmossen Trail (Bronze Age settlement)"
+   "local": "Vitmossen"
   },
   "local": "sv",
   "kind": "loop",
@@ -2939,6 +3126,11 @@
    "https://www.vora.fi/assets/Sidor/1/129/Norrvalla-Boberget-Lasor-Vitmossen_Vandringsled.pdf",
    "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
    "https://api.lipas.fi/v2/sports-sites/606566"
+  ],
+  "aka": [
+   "Vitmossenin vaellusreitti",
+   "Vitmossens vandringsled",
+   "Vitmossen Trail (Bronze Age settlement)"
   ]
  },
  {
@@ -2946,9 +3138,7 @@
   "municipality": "vora",
   "area": "Västerö (Maxmo)",
   "name": {
-   "fi": "Västerön vaellusreitti",
-   "sv": "Västerö vandringsled",
-   "en": "Västerö Hiking Trail"
+   "local": "Västerö"
   },
   "local": "sv",
   "kind": "linear",
@@ -2989,6 +3179,11 @@
    "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
    "https://www.luontoon.fi/en/trails/vastero-hiking-trail-voyri-63614-en",
    "https://api.lipas.fi/v2/sports-sites/525376"
+  ],
+  "aka": [
+   "Västerön vaellusreitti",
+   "Västerö vandringsled",
+   "Västerö Hiking Trail"
   ]
  },
  {
@@ -2996,9 +3191,8 @@
   "municipality": "vora",
   "area": "Koskeby (Vörå ski centre)",
   "name": {
-   "fi": "Vöyrin hiihtokeskuksen vaellusreitti",
-   "sv": "Vörå skidcentrums vandringsled",
-   "en": "Vörå Ski Centre Hiking Trail"
+   "local": "Vörå skidcentrum",
+   "fi": "Vöyrin hiihtokeskus"
   },
   "local": "sv",
   "kind": "loop",
@@ -3206,6 +3400,11 @@
    "https://www.vora.fi/fi/palvelut/liikunta-ja-urheilu/vaellusreitit/",
    "https://www.vora.fi/assets/Vandringsleden-vid-skidcentrum.pdf",
    "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf"
+  ],
+  "aka": [
+   "Vöyrin hiihtokeskuksen vaellusreitti",
+   "Vörå skidcentrums vandringsled",
+   "Vörå Ski Centre Hiking Trail"
   ]
  },
  {
@@ -3213,9 +3412,8 @@
   "municipality": "vora",
   "area": "Mickelsörarna (Kummelskär)",
   "name": {
-   "fi": "Mikkelinsaarten luontopolku",
-   "sv": "Mickelsörarnas naturstig",
-   "en": "Mickelsörarna Nature Trail"
+   "local": "Mickelsörarna",
+   "fi": "Mikkelinsaaret"
   },
   "local": "sv",
   "kind": "loop+linear",
@@ -3249,6 +3447,11 @@
    "https://www.vora.fi/en/visitvora/activities/worldheritagesite/",
    "https://www.vora.fi/assets/Sidor/1/445/18_6_2026-Vora-kartbroschyr.pdf",
    "https://classic.nationalparks.fi/kvarken/islands/mickelsorarna"
+  ],
+  "aka": [
+   "Mikkelinsaarten luontopolku",
+   "Mickelsörarnas naturstig",
+   "Mickelsörarna Nature Trail"
   ]
  },
  {
@@ -3256,9 +3459,8 @@
   "municipality": "vora",
   "area": "Oravais fabrik (Kimo river mouth)",
   "name": {
-   "fi": "Kimojokisuun lintutornit",
-   "sv": "Kimo å mynnings fågeltorn",
-   "en": "Kimo River Mouth Bird Towers"
+   "local": "Kimo å mynning",
+   "fi": "Kimojokisuu"
   },
   "local": "sv",
   "kind": "linear",
@@ -3289,6 +3491,11 @@
    "https://api.lipas.fi/v2/sports-sites/621422",
    "https://api.lipas.fi/v2/sports-sites/621423",
    "https://www.openstreetmap.org/way/118873476"
+  ],
+  "aka": [
+   "Kimojokisuun lintutornit",
+   "Kimo å mynnings fågeltorn",
+   "Kimo River Mouth Bird Towers"
   ]
  }
 ]

@@ -32,6 +32,7 @@
     linear: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="2.8" cy="8" r="1.6"/><circle cx="13.2" cy="8" r="1.6"/><path d="M4.6 8h6.8"/></svg>',
     network: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="3" cy="3.5" r="1.4"/><circle cx="13" cy="4" r="1.4"/><circle cx="8" cy="8.5" r="1.4"/><circle cx="3.5" cy="13" r="1.4"/><circle cx="12.5" cy="12.5" r="1.4"/><path d="M4.2 4.4 6.9 7.5M11.8 5 9.1 7.6M7 9.5l-2.4 2.5M9.1 9.5l2.3 2.2M4.4 3.6h7.2"/></svg>',
     "loop+linear": '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="10.5" cy="8" r="3.6"/><circle cx="2.2" cy="8" r="1.4"/><path d="M3.6 8h3.3"/></svg>',
+    boat: '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 10.5h12l-1.8 2.8H3.8z"/><path d="M8 2.5v8M8 3l4 6H8"/><path d="M1.5 15c1.2 0 1.2-.7 2.4-.7s1.2.7 2.4.7 1.2-.7 2.4-.7 1.2.7 2.4.7 1.2-.7 2.4-.7"/></svg>',
     star: '<svg viewBox="0 0 16 16" fill="currentColor"><path d="m8 1.2 2.1 4.3 4.7.7-3.4 3.3.8 4.7L8 12l-4.2 2.2.8-4.7L1.2 6.2l4.7-.7z"/></svg>',
     back: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>',
     x: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>',
@@ -55,17 +56,9 @@
     return a === b || b == null ? fmtNum(a) : fmtNum(a) + "–" + fmtNum(b);
   };
   const kindHtml = (k) => '<span class="kind">' + (ICON[k] || "") + esc(t("kind_" + k)) + "</span>";
-  const localName = (tr) => tr.name[tr.local] || tr.name.fi || tr.name.sv || tr.name.en;
-  /* Primary name: the local-language name for en/ru; the viewer's language when fi/sv. */
-  const primaryName = (tr) => {
-    if (S.lang === "fi" || S.lang === "sv") return tr.name[S.lang] || localName(tr);
-    return localName(tr);
-  };
-  const altName = (tr) => {
-    const p = primaryName(tr);
-    const others = ["fi", "sv"].map((l) => tr.name[l]).filter((n) => n && n !== p);
-    return others[0] || "";
-  };
+  /* One name per trail: name.local, or a fi/sv form of the place name when viewing in that language. */
+  const primaryName = (tr) => tr.name[S.lang] || tr.name.local;
+  const hasWarning = (tr) => { const x = textFor(tr); return !!(x && x.warning); };
   const textFor = (tr) => {
     const own = S.text[S.lang] && S.text[S.lang][tr.id];
     if (own && own.desc) return { ...own, fallback: false };
@@ -103,6 +96,7 @@
     L.control.zoom({ position: "bottomright" }).addTo(map);
     map.attributionControl.setPrefix(false);
     map.createPane("tracks"); map.getPane("tracks").style.zIndex = 420;
+    map.createPane("selcase"); map.getPane("selcase").style.zIndex = 435;
     map.createPane("sel"); map.getPane("sel").style.zIndex = 440;
     map.createPane("pins"); map.getPane("pins").style.zIndex = 620;
     trackLayer = L.layerGroup().addTo(map);
@@ -217,7 +211,8 @@
     S.trails.forEach((tr) => {
       const on = vis.has(tr.id) || tr.id === S.selected;
       const pinOn = on && tr.id !== S.selected;
-      (lineRefs[tr.id] || []).forEach((pl) => { if (on && !trackLayer.hasLayer(pl)) trackLayer.addLayer(pl); if (!on && trackLayer.hasLayer(pl)) trackLayer.removeLayer(pl); });
+      const lineOn = on && tr.id !== S.selected; // the selected trail is drawn from its detailed track instead
+      (lineRefs[tr.id] || []).forEach((pl) => { if (lineOn && !trackLayer.hasLayer(pl)) trackLayer.addLayer(pl); if (!lineOn && trackLayer.hasLayer(pl)) trackLayer.removeLayer(pl); });
       const m = pinRefs[tr.id];
       if (m) { if (pinOn && !pinLayer.hasLayer(m)) pinLayer.addLayer(m); if (!pinOn && pinLayer.hasLayer(m)) pinLayer.removeLayer(m); }
     });
@@ -245,7 +240,7 @@
     const segs = (detail && detail.lines) || tr.line || [];
     const dash = tr.geom_quality === "approx" ? "8 7" : null;
     segs.forEach((seg) => {
-      selCaseLayer.addLayer(L.polyline(seg, { pane: "sel", color: css("--track-case"), weight: 7, opacity: 1, lineCap: "round", lineJoin: "round", interactive: false }));
+      selCaseLayer.addLayer(L.polyline(seg, { pane: "selcase", color: css("--track-case"), weight: 7, opacity: 1, lineCap: "round", lineJoin: "round", interactive: false }));
       selLayer.addLayer(L.polyline(seg, { pane: "sel", color: css("--track"), weight: 4, opacity: 1, dashArray: dash, lineCap: "round", lineJoin: "round", interactive: false }));
     });
     (tr.parking || []).forEach((p, i) => {
@@ -280,7 +275,7 @@
     if (f.rating && !((tr.rating || 0) >= f.rating)) return false;
     if (f.q) {
       const txt = textFor(tr);
-      const hay = [tr.name.fi, tr.name.sv, tr.name.en, tr.area, muniName(tr.municipality), txt && txt.desc].join(" ").toLowerCase();
+      const hay = [tr.name.local, tr.name.fi, tr.name.sv, ...(tr.aka || []), tr.area, muniName(tr.municipality), txt && txt.desc].join(" ").toLowerCase();
       if (!f.q.toLowerCase().split(/\s+/).every((w) => hay.includes(w))) return false;
     }
     return true;
@@ -345,11 +340,10 @@
       return;
     }
     $("#list").innerHTML = vis.map((tr) => {
-      const alt = altName(tr);
       return '<li class="card" data-id="' + tr.id + '" tabindex="0">' +
-        '<div class="nm">' + esc(primaryName(tr)) + (alt ? " <small>" + esc(alt) + "</small>" : "") + "</div>" +
+        '<div class="nm">' + esc(primaryName(tr)) + "</div>" +
         '<div class="len"><b>' + fmtLen(tr) + "<small>" + esc(t("km")) + "</small></b>" + kindHtml(tr.kind) + "</div>" +
-        '<div class="meta"><span>' + esc(muniName(tr.municipality)) + (tr.area && tr.area !== muniName(tr.municipality) ? " · " + esc(tr.area) : "") + "</span>" + stars(tr.rating) + "</div>" +
+        '<div class="meta">' + (hasWarning(tr) ? '<span class="boat" title="' + esc(t("boatNeeded")) + '">' + ICON.boat + esc(t("boatNeeded")) + "</span>" : "") + "<span>" + esc(muniName(tr.municipality)) + (tr.area && tr.area !== muniName(tr.municipality) ? " · " + esc(tr.area) : "") + "</span>" + stars(tr.rating) + "</div>" +
         "</li>";
     }).join("");
   }
@@ -369,10 +363,9 @@
   }
   function renderDetail(tr) {
     const tx = textFor(tr) || {};
-    const alt = altName(tr);
     const desc = (tx.desc || "").split(/\n\s*\n/).filter(Boolean).map((p) => "<p>" + esc(p) + "</p>").join("");
     let h = '<button class="btn back" id="back">' + ICON.back + esc(t("back")) + "</button>";
-    h += '<div class="dh"><h2>' + esc(primaryName(tr)) + "</h2>" + (alt ? '<div class="alt">' + esc(alt) + "</div>" : "") +
+    h += '<div class="dh"><h2>' + esc(primaryName(tr)) + "</h2>" + 
       '<div class="where">' + esc(muniName(tr.municipality)) + (tr.area ? " · " + esc(tr.area) : "") + " " + (tr.rating ? stars(tr.rating) : '<span class="stars" style="color:var(--muted);font-size:.78rem">' + esc(t("notRated")) + "</span>") + "</div></div>";
     h += '<div class="facts"><div class="big"><b>' + fmtLen(tr) + "<small>" + esc(t("km")) + "</small></b><span>" + esc(t("length")) + (tr.kind === "linear" ? ", " + esc(t("oneWay")) : "") + "</span></div>" +
       '<div class="kd">' + kindHtml(tr.kind) + "<p>" + esc(t("kindLong_" + tr.kind)) + "</p>" +
@@ -381,6 +374,7 @@
       h += '<div class="sec"><h3>' + esc(t("photos")) + '</h3><div class="gallery">' +
         tr.photos.map((p, i) => '<button data-photo="' + i + '" aria-label="' + esc(photoCaption(p) || t("photos")) + '"><img loading="lazy" src="' + esc(p.thumb || p.src) + '" alt="' + esc(photoCaption(p)) + '"></button>').join("") + "</div></div>";
     }
+    if (tx.warning) h += '<div class="warn" role="note">' + ICON.boat + "<div><b>" + esc(t("boatNeeded")) + "</b><p>" + esc(tx.warning) + "</p></div></div>";
     if (tx.fallback) h += '<div class="note">' + esc(t("fallbackText")) + "</div>";
     if (desc) h += '<div class="desc">' + desc + "</div>";
     if (tx.network_note) h += '<div class="sec"><h3>' + esc(t(tr.kind === "network" ? "networkExtent" : "routeOptions")) + "</h3><p>" + esc(tx.network_note) + "</p></div>";

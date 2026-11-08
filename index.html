@@ -56,7 +56,7 @@ button { cursor: pointer; }
 :focus-visible { outline: 2px solid var(--primary-hi); outline-offset: 1px; }
 .leaflet-interactive:focus, .leaflet-marker-icon:focus { outline: none; }
 .link { color: var(--primary-hi); }
-.app { position: relative; height: 100%; display: grid; grid-template-columns: var(--panel-w) 1fr; }
+.app { position: relative; height: 100%; display: grid; grid-template-columns: var(--panel-w) 1fr; grid-template-rows: minmax(0, 1fr); }
 #map { height: 100%; width: 100%; grid-column: 2; background: var(--soft); }
 .maplibregl-canvas { position: absolute; left: 0; top: 0; }
 .leaflet-gl-layer { z-index: 200; }
@@ -133,6 +133,12 @@ button { cursor: pointer; }
 .facts .kd p { margin: 0; font-size: 13px; color: var(--muted); line-height: 1.4; }
 .desc p { margin: 0 0 .7em; max-width: 65ch; }
 .desc p:last-child { margin-bottom: 0; }
+.warn { display: grid; grid-template-columns: 22px 1fr; gap: 10px; background: var(--primary-soft); border: 1px solid var(--primary-hi); border-left: 5px solid var(--primary); border-radius: var(--r); padding: 8px 12px; }
+.warn svg { width: 22px; height: 22px; color: var(--primary-hi); margin-top: 2px; }
+.warn b { font-family: var(--f-head); font-weight: 500; font-size: 16px; color: var(--primary-hi); }
+.warn p { margin: 2px 0 0; }
+.boat { display: inline-flex; align-items: center; gap: 3px; color: var(--primary-hi); font-weight: 600; }
+.boat svg { width: 14px; height: 14px; }
 .note { font-size: 13px; color: var(--muted); background: var(--soft); border-left: 3px solid var(--shade); padding: 6px 10px; }
 .sec h3 { margin: 0 0 4px; font-size: 17px; color: var(--primary-hi); }
 .sec ul { margin: 0; padding-left: 1.2em; }

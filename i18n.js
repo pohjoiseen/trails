@@ -49,6 +49,7 @@ window.I18N = {
       partialTrack: "Map shows only part of the network.",
       tilesBlocked: "Map tiles can\u2019t load in this preview.",
       openFull: "Open the full map",
+      boatNeeded: "Boat or ferry needed",
       noTrack: "No track available yet. See the source map linked below.",
       fallbackText: "This description is not yet translated; showing English.",
       season: "Season",
@@ -119,6 +120,7 @@ window.I18N = {
       partialTrack: "Kartalla näkyy vain osa reitistöstä.",
       tilesBlocked: "Karttatiilet eivät lataudu tässä esikatselussa.",
       openFull: "Avaa koko kartta",
+      boatNeeded: "Tarvitaan vene tai lautta",
       noTrack: "Reittiviivaa ei vielä ole. Katso alla linkitetty lähdekartta.",
       fallbackText: "Kuvausta ei ole vielä käännetty; näytetään englanniksi.",
       season: "Kausi",
@@ -189,6 +191,7 @@ window.I18N = {
       partialTrack: "Kartan visar bara en del av nätverket.",
       tilesBlocked: "Kartbilderna kan inte laddas i den här förhandsvisningen.",
       openFull: "Öppna hela kartan",
+      boatNeeded: "Båt eller färja behövs",
       noTrack: "Ingen ledlinje ännu. Se källkartan som länkas nedan.",
       fallbackText: "Beskrivningen är inte översatt ännu; visas på engelska.",
       season: "Säsong",
@@ -215,7 +218,7 @@ window.I18N = {
     },
     ru: {
       title: "Тропы в окрестностях Ваасы",
-      tagline: "Природные и туристические тропы в Ваасе, Корсхольме, Малаксе, Лайхиа, Изокюрё и Вёрё",
+      tagline: "Природные и туристические тропы в Ваасе, Корсхольме, Малаксе, Лайхия, Исокюрё и Вёро",
       search: "Поиск троп и мест",
       municipality: "Муниципалитет",
       allMunis: "Все",
@@ -259,6 +262,7 @@ window.I18N = {
       partialTrack: "На карте показана только часть сети троп.",
       tilesBlocked: "В этом предпросмотре тайлы карты не загружаются.",
       openFull: "Открыть полную карту",
+      boatNeeded: "Нужна лодка или паром",
       noTrack: "Трека пока нет. См. карту по ссылке в источниках.",
       fallbackText: "Описание ещё не переведено; показано на английском.",
       season: "Сезон",
@@ -288,9 +292,9 @@ window.I18N = {
     vaasa: { en: "Vaasa", fi: "Vaasa", sv: "Vasa", ru: "Вааса" },
     korsholm: { en: "Korsholm", fi: "Mustasaari", sv: "Korsholm", ru: "Корсхольм" },
     malax: { en: "Malax", fi: "Maalahti", sv: "Malax", ru: "Малакс" },
-    laihia: { en: "Laihia", fi: "Laihia", sv: "Laihela", ru: "Лайхиа" },
-    isokyro: { en: "Isokyrö", fi: "Isokyrö", sv: "Storkyro", ru: "Изокюрё" },
-    vora: { en: "Vörå", fi: "Vöyri", sv: "Vörå", ru: "Вёрё" }
+    laihia: { en: "Laihia", fi: "Laihia", sv: "Laihela", ru: "Лайхия" },
+    isokyro: { en: "Isokyrö", fi: "Isokyrö", sv: "Storkyro", ru: "Исокюрё" },
+    vora: { en: "Vörå", fi: "Vöyri", sv: "Vörå", ru: "Вёро" }
   },
   facilities: {
     laavu: { en: "Lean-to", fi: "Laavu", sv: "Vindskydd", ru: "Навес (лааву)" },

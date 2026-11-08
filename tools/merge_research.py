@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""One-off: merge research/<muni>/trails.json files into data-src/trails.json + data-src/text/en.json.
+"""One-off (already applied; data-src/ has since been edited by hand, so do NOT re-run): merge research/<muni>/trails.json files into data-src/trails.json + data-src/text/en.json.
 
 Kept for reference: data-src/ is the source of truth after the initial import and is edited by hand.
 Usage: merge_research.py <research-dir>

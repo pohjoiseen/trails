@@ -199,6 +199,41 @@ def dedupe(lines, tol=12.0, step=4.0, min_run=25.0):
     return out
 
 
+def snap_ends(lines, tol=30.0):
+    """Close small gaps: extend each free line end to the nearest point on another line within `tol` m."""
+    if len(lines) < 2:
+        return lines
+    lat0 = lines[0][0][0]
+    kx, ky = math.cos(math.radians(lat0)) * 111320, 110570
+    XY = [[(p[1] * kx, p[0] * ky) for p in ln] for ln in lines]
+
+    def nearest(px, py, skip):
+        best = None
+        for j, ln in enumerate(XY):
+            if j == skip:
+                continue
+            for (ax, ay), (bx, by) in zip(ln, ln[1:]):
+                dx, dy = bx - ax, by - ay
+                L2 = dx * dx + dy * dy
+                tt = 0 if L2 == 0 else max(0, min(1, ((px - ax) * dx + (py - ay) * dy) / L2))
+                qx, qy = ax + tt * dx, ay + tt * dy
+                d = math.hypot(qx - px, qy - py)
+                if best is None or d < best[0]:
+                    best = (d, qx, qy)
+        return best
+    out = [ln[:] for ln in lines]
+    for i, ln in enumerate(XY):
+        for end in (0, -1):
+            b = nearest(*ln[end], i)
+            if b and 0.5 < b[0] <= tol:
+                pt = [b[2] / ky, b[1] / kx]
+                if end == 0:
+                    out[i].insert(0, pt)
+                else:
+                    out[i].append(pt)
+    return out
+
+
 def dp(points, eps):
     """Douglas-Peucker in local metres."""
     if len(points) < 3:
@@ -267,6 +302,7 @@ def main():
         lines = merge_chains(lines)
         if not g.get("keep_duplicates"):
             lines = merge_chains(dedupe(lines), tol=1.0)
+        lines = snap_ends(lines)
         lines = [ln for ln in lines if len(ln) >= 2]
         detail = [dp(ln, 1.5) for ln in lines]
         overview = [dp(ln, 12) for ln in lines]
@@ -286,6 +322,7 @@ def main():
             "municipality": tr["municipality"],
             "area": tr.get("area"),
             "name": tr["name"],
+            "aka": tr.get("aka", []),
             "local": tr.get("local", "fi"),
             "kind": tr["kind"],
             "length_km": tr["length_km"],
