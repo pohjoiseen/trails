@@ -394,6 +394,163 @@
    "Satama Kalkmagasinetin luona; käänny kohdasta Österhankmovägen 900, kävele 100 m takaisin ja 100 m tietä pitkin pohjoiseen lähtöpaikalle (63.24543, 21.92588)"
   ]
  },
+ "bergo-vandringsled": {
+  "desc": "Kahdeksikon muotoinen reitti Granönillä Bergön saaren pohjoisosassa Merenkurkun saaristossa. Polku kulkee saaren kauneimman metsän halki pienten järvien (Kalvskärs träsk) ja kalliopaljastumien ohi; pohjoinen kierros ylittää Storfurusanin, entisenä soranottopaikkana käytetyn harjun. Märimmillä kohdilla on pitkospuut. Matkan varrella on taukopaikkoja, opastetauluja ja paikallisen taiteilijan Lars-Göran Söderholmin puisia lintu- ja eläinveistoksia sekä grillikota ”Adolf” kuivakäymälöineen. Avattu 2006 ja merkitty uudelleen 2018–19; ylläpitäjä Bergö Öråd.",
+  "highlights": [
+   "Adolf-grillikota",
+   "Kalvskärs träskin taukopaikka",
+   "Storfurusanin harju",
+   "puiset lintuveistokset",
+   "saariston metsä"
+  ],
+  "duration": "Eteläinen kierros n. 4,1 km (noin 1 h 20 min); pohjoinen kierros n. 3,3 km (noin 1 h); molemmat yhdessä n. 8 km",
+  "access": "Bergöhön pääsee maksuttomalla maantielautalla Bergö–Bredskär (n. 20 min). Tulenteko vain grillikodassa.",
+  "parking_notes": [
+   "Maksuton pysäköinti lauttarannan vieressä Bergössä (OSM-viiva 720261375); virallinen lähtöpaikka Bergövägen 47"
+  ]
+ },
+ "majors-naturstig": {
+  "desc": "Kierros Majorsbackenilla, metsäisellä mäellä, jolla on paljaita kalliopaljastumia Strandvägenin varrella Maalahden keskustan eteläpuolella. Lyhin, 1,2 km:n kierros on kallioisin, ja jyrkimmissä kohdissa on puuportaat; 2,2 km:n kierros kulkee etelämpänä rinnettä pitkin, ja yhdessä ne muodostavat koko 3,4 km:n lenkin. Varrella on taukopaikka hirsipöytineen. Ylläpitäjä Öjna byaförening.",
+  "highlights": [
+   "kallioinen mäkimaasto",
+   "portaat kalliopaljastumilla",
+   "taukopaikka hirsipöytineen"
+  ],
+  "parking_notes": [
+   "Iso pysäköintialue reitin lähtöpaikalla, 6 km Maalahden keskustasta etelään (OSM-viiva 846468237)"
+  ]
+ },
+ "pixne-naturstig": {
+  "desc": "Kylän luontopolku, joka lähtee Maalahden keskustasta ja suuntaa koilliseen Pixnen ja Lillpixnen väliseen metsään. Polku koostuu kolmesta osuudesta, joista voi koota 1,8, 3,1, 3,4 tai 4,5 km:n lenkkejä; ulompi osa on metsäpolkuja ja metsätietä kiertävä lenkki, kun taas paluuosuus kulkee hiekkatietä ja kylän laitaa pitkin. Rakentanut ja ylläpitää Pixne allaktivitetsförening.",
+  "highlights": [
+   "metsäpolkuja lähellä Maalahden keskustaa"
+  ],
+  "parking_notes": [
+   "Ei omaa pysäköintipaikkaa: lähtö on Klockarisvägenin ja Klockarisgrändin välisellä kevyen liikenteen väylällä (Klockarisvägen 14, 62.94374,21.58371). Lähin yleinen pysäköinti on Maalahden urheilukentällä n. 600 m etelään (OSM-viiva 589274326)."
+  ]
+ },
+ "aminne-vandringsled": {
+  "desc": "Helppo merkitty polku Åminnen kylän takametsässä pohjoisen Mobergsvägeniltä Träsketin ohi alas joelle Dimmornas brolle, jossa on grillikatos. Kierroksen saa palaamalla kyläteitä pitkin. Lähdön voi yhdistää Merenkurkun venemuseoon ja Åminnen lintutorniin. Ylläpitäjä Åminne-Tuv allaktivitetsförening.",
+  "highlights": [
+   "grillikatos Dimmornas brolla",
+   "Åminnen lintutorni lähellä",
+   "Merenkurkun venemuseo lähellä"
+  ],
+  "duration": "Merkitty polku 2,0 km yhteen suuntaan; 4,1 km:n kierros paluu Åminnevägeniä ja Mobergsvägeniä pitkin; 5,1 km:n kierros Åminne Folkparkista",
+  "parking_notes": [
+   "Dimmornas bron grillikatos reitin eteläpäässä; tienvarsipysäköinti (OSM:ssä ei merkittyä pysäköintialuetta; piste = grillikatos).",
+   "Åminne Folkparkin pysäköintipaikka (OSM-viiva 1270416168); 5,1 km:n kierros. Myös Merenkurkun venemuseo lintutorneineen ja grillipaikkoineen (Åminnevägen 427) on suositeltava; pohjoispäässä (Mobergsvägen 520) ei ole pysäköintiä."
+  ]
+ },
+ "kajane-naturstig": {
+  "desc": "Polku Kajanen leirialueelta laajan suon reunalta Lillträsketin ja Lisansjönin lähellä. Pitkospuut johtavat 0,8 km avosuon (Träskmossen) poikki pienelle Lillträsket-järvelle, jonka rannalla on laavu; sieltä polku jatkaa kiertäen takaisin leirialueelle (3,0 km), ja 0,6 km:n sivupolku vie isommalle Lisansjönille. Opastetaulut esittelevät alueen eläin- ja kasvilajistoa. Leirialueella on sauna, yöpymismökki (maksullinen) ja grillikatoksia. Ylläpitäjä Yrkesakademin i Österbotten.",
+  "highlights": [
+   "pitkospuut avosuon poikki",
+   "Lillträsketin laavu",
+   "Lisansjön",
+   "kasvi- ja eläinlajiston opastetaulut"
+  ],
+  "duration": "Pitkospuut Lillträsketin laavulle 0,8 km yhteen suuntaan; koko kierros 3,0 km; sivupolku Lisansjönille 0,6 km",
+  "access": "Malax.fi:n mukaan (2024) vain pitkospuuosuus Lillträsketille on tällä hetkellä käyttökunnossa; kierroksen muut osat voivat olla hyvin vaikeakulkuisia.",
+  "parking_notes": [
+   "Pysäköinti Kajanen leirialueella (OSM-piste 5663614388). Käänny valtatieltä 8 Kajane skogsväg -tielle (4,2 km Petolahden risteyksestä pohjoiseen), aja 1,2 km, käänny oikealle, 1,4 km, ja käänny vasemmalle alueelle."
+  ]
+ },
+ "velkmossa-vandringsled": {
+  "desc": "Vanha metsäura erämaan halki Petolahden (Maalahti) ja Velkmossan (Närpiö) välillä, enimmäkseen Maalahden puolella. Ura kulkee metsän ja suonreunojen läpi Nojärvsträsketin ohi; se on matala, umpeenkasvava erämaajärvi ruovikkoineen ja monen lintulajin hyvä pesimäpaikka. Lyhyt sivupolku johtaa järven rannan lintutornille. Toinen sivupolku vie Kackurmossenin suolle, ja maastokartassa on reitin lähellä useita esihistoriallisia röykkiöitä (fornlämningar). Ylläpitäjä Metsähallitus.",
+  "highlights": [
+   "Nojärvsträskin lintutorni",
+   "umpeenkasvava erämaajärvi",
+   "Kackurmossenin suo",
+   "röykkiöitä reitin lähellä"
+  ],
+  "duration": "4,5 km yhteen suuntaan Viitalan ja Velkmossin kylätalon välillä, 9 km edestakaisin; sivupolku lintutornille n. 0,4 km",
+  "parking_notes": [
+   "Pohjoinen lähtöpaikka Bjurnäsvägenin ja Vargmossa skogsvägin risteyksen lähellä (OSM-pysäköintiviiva 855992099, opastetaulu). Läheisen Nojärvsträskin lintutornin Lipas-osoite: Bjurnäsvägen 525.",
+   "LIKIMÄÄRÄINEN: Velkmossin kylätalo (byagård) pysäköintipaikkoineen, n. 0,5 km reitin eteläpäästä itään; sijainti arvioitu PDF-kartasta."
+  ]
+ },
+ "mamrestigen-storsjostigen": {
+  "desc": "Historiallinen yhdyspolku Maalahden Storsjön ja Petolahden Mamrelundin metsäkylien välillä. Polku kulkee matalan metsämaiseman halki, jossa on soita ja ojitettuja turvemaita (esim. Gorrmossen) sekä pieniä kalliokohoumia; Storsjön lähellä kartassa on merkitty esihistoriallisia röykkiöitä (fornlämningar). Ylläpitäjät Petalax hembygdsförening, Malax museiförening ja yksityiset maanomistajat.",
+  "highlights": [
+   "vanha kyläpolku",
+   "suot ja metsä",
+   "esihistorialliset röykkiöt Storsjön lähellä"
+  ],
+  "duration": "n. 3,5–4 km yhteen suuntaan, 8 km edestakaisin",
+  "parking_notes": [
+   "Läntinen lähtöpaikka Mamrelundissa (piste = Lipaksen reitin alku)",
+   "Itäinen lähtöpaikka Storsjönillä (piste = Lipaksen reitin loppu)"
+  ]
+ },
+ "jarnaldersleden": {
+  "desc": "Lyhyt kierros arkeologisesti kiinnostavalla alueella, jossa on rautakautisia hautaröykkiöitä (gravrösen) ja kuppikiviä noin vuosilta 200–700 jKr. ajoitetulta asuinpaikalta; yhtä niistä kuvataan ”Suomen kauneimmaksi kuppikiveksi”. Niitty- ja metsäkasvillisuus on rehevää. Lähtöpaikalla on avoin karjamajan tupa (fäbodstuga) arkeologisine tietoineen sekä kesänavetta, jossa on maatalousnäyttely. Virallisesti avoinna touko–syyskuussa; ylläpitäjä Malax museiförening.",
+  "highlights": [
+   "rautakautiset röykkiöt",
+   "kuppikivet",
+   "rehevä kasvillisuus",
+   "karjamajan tupa ja näyttely"
+  ],
+  "season": "Virallisesti avoinna touko–syyskuussa",
+  "parking_notes": [
+   "Lähtöpaikan pysäköinti Storsjövägenin varressa (malax.fi:n osoite Storsjövägen 446); 8,5 km Maalahden kirkolta etelään. Piste = Lipaksen/OSM:n reitin alku."
+  ]
+ },
+ "fabodstigen-molapne": {
+  "desc": "Kulttuurihistoriallinen polku Molapnen Pappersbruketin (Brännon) metsässä, jossa maalahtelaisilla oli kesäiset karjamajansa (fäbodar). Kyltit osoittavat 15 entisen karjapiian majan paikat, joista on nykyään jäljellä lähinnä kivijalkoja ja tulisijojen jäänteitä; paikalla on yksi entisöity maja ja navetta. Virallisesti avoinna touko–syyskuussa; ylläpitäjä Malax museiförening.",
+  "highlights": [
+   "15 historiallista karjamajan paikkaa",
+   "entisöity maja ja navetta"
+  ],
+  "duration": "n. 1 km yhteen suuntaan",
+  "season": "Virallisesti avoinna touko–syyskuussa",
+  "parking_notes": [
+   "Tienvarsi lähtöpaikalla (karttataulu ja esitelaatikko). Tieltä 8 Långåminnessa aja 1800 m Maalahden suuntaan, käänny vasemmalle ja seuraa tietä 2100 m Molapneen."
+  ]
+ },
+ "rajavuori-luontopolku": {
+  "desc": "Kierros Rajavuoren erä- ja vaelluskeskukselta metsän halki Rajavuorelle, Laihian korkeimmalle maalle (80–90 m merenpinnan yläpuolella). Noin 700 m pihasta luoteeseen seisoo 8-metrinen näkötorni, josta avautuvat laajat näkymät; kauempana ovat Rajavuoren kaksoislaavu (n. 1,5 km) ja Kaunissaaren laavu (n. 3,1 km), kummassakin tulisija, ja polttopuita tuodaan muutaman kerran vuodessa. Kierros on Levanevalle suuntaavan pitkän Kurjen kierroksen pohjoinen lähtöpaikka. Keskuksen (vuokrattavissa, saunat) pihassa on kuivakäymälä ja laavu.",
+  "highlights": [
+   "8 m:n näkötorni",
+   "Laihian korkein kohta",
+   "kaksi laavua",
+   "Kurjen kierroksen lähtöpaikka"
+  ],
+  "access": "Tulenteko kielletty metsäpalovaroituksen aikana.",
+  "parking_notes": [
+   "Rajavuoren erä- ja vaelluskeskuksen piha, n. 12 km Kylänpäästä (Tampereentien ja Jurvantien risteys) etelään. OSM:ssä ei merkittyä pysäköintialuetta; piste = reitin alku/opastetaulu (Lipas, OSM-piste 6665225403). Lipaksen osoite Laihiantie 50."
+  ]
+ },
+ "kurjen-kierros-rajavuori-levaneva": {
+  "desc": "Kurjen kierroksen pitkä osuus Rajavuoren vaelluskeskukselta Levanevan soidensuojelualueelle Laihian ja Kurikan rajalle. Metsäisen Rajavuoren alueen jälkeen reitti ylittää tien 687 ja Kyrössuon Kivi- ja Levalammen altaan pohjoispuolella ja yhtyy Levanevan reittiin. Levaneva on laaja, avoin keidassuomaisema; reitti ylittää sen pitkiä pitkospuita pitkin ja kiertelee metsäsaarekkeiden ja puustoisten suonreunojen kautta. Maalarinmaalla on puolikota, kuivakäymälä ja suolle avautuva lintutorni, joka on suosittu suolintujen tarkkailupaikka. Peräkylän lähellä on Särkisen autiotupa telttailualueineen.",
+  "highlights": [
+   "Levanevan soidensuojelualue",
+   "pitkät pitkospuut avosuon yli",
+   "Maalarinmaan lintutorni",
+   "Särkisen autiotupa",
+   "Kyrössuo"
+  ],
+  "duration": "Maalarinmaan pysäköintipaikalta lintutornille 0,6 km; Rajavuori–Maalarinmaa n. 14 km; Rajavuori–Peräkylä n. 24 km yhteen suuntaan. Itse Levanevan reitti (Peräkylä–Maalarinmaa ja edelleen) on luontoon.fi:n mukaan 13,6 km yhteen suuntaan / 27 km edestakaisin. Koko Kurjen kierros jatkuu Pässilään ja Kalajaisjärvelle (Ilmajoki), n. 30–50 km.",
+  "access": "Yhdensuuntainen reitti: järjestä kuljetus tai kulje edestakaisin. Levaneva on valtion luonnonsuojelualue (Metsähallitus): pysy merkityllä reitillä.",
+  "season": "Pitkospuut voivat olla märällä säällä liukkaita. Tulenteko kielletty metsäpalovaroituksen aikana.",
+  "parking_notes": [
+   "Pohjoinen lähtöpaikka Rajavuoren vaelluskeskuksella (ks. Rajavuoren luontopolku).",
+   "Maalarinmaan pysäköinti: E12-tieltä Kylänpäästä tietä 687 etelään 14 km, käänny vasemmalle kohti Kivi- ja Levalammen allasta (viitoitus Kurjen kierros). Piste = Allastien pää OSM:ssä, josta 0,6 km:n polku Maalarinmaalle alkaa; OSM:ssä ei merkittyä pysäköintialuetta. Tarinakartan mukaan pysäköintipaikka on Kurikan puolella.",
+   "Peräkylän pysäköintipaikka, Levanevan eteläinen sisäänkäynti (OSM-viiva 722679361); Laihian ulkopuolella."
+  ]
+ },
+ "allisen-luontopolku": {
+  "desc": "Jakkulan kylän luontopolku, jota ylläpitää Jakkulan kyläyhdistys. Matkan varrella opastetaulut esittelevät paikallista luontoa. 0,7 km:n kohdalla ison siirtolohkareen päälle on rakennettu näkötasanne; 1,5 km:n kohdalla Haarrinevan suon laidalla on hyvin varusteltu Haarrinevan laavu, jossa on tulisija, puuvaja ja lähellä ulkokäymälä. Polku päättyy esihistoriallisille röykkiöhaudoille 1,9 km:n päässä lähtöpaikasta.",
+  "highlights": [
+   "näkötasanne siirtolohkareen päällä",
+   "Haarrinevan laavu",
+   "esihistorialliset röykkiöhaudat"
+  ],
+  "duration": "Näköalapaikka 0,7 km, Haarrinevan laavu 1,5 km, röykkiöhaudat 1,9 km; 3,8 km edestakaisin",
+  "parking_notes": [
+   "Lähtöpaikka opastetauluineen (OSM-piste 6495253774; Lipaksen ”Merkkikiven opastuspiste”, Allisentie 191). OSM:ssä ei merkittyä pysäköintialuetta; vieressä on Jakkulan ampumarata (Allisentie 165). Piste = lähtöpaikan taulu."
+  ]
+ },
  "isokyro-lymmyys-nature-trail": {
   "desc": "Lyhyt opetuksellinen luontopolku Palhojaistentien varren hiekkaisella Hietakankaalla. Polku kulkee useiden metsätyyppien läpi kuivasta mäntykankaasta kuusi- ja koivumetsiin ja suon reunaan. Varrella olevat opastetaulut esittelevät alueen puita, marjoja (mustikka, puolukka), eläimiä kuten oravaa, hirveä ja kekomuurahaisia sekä soita. Polku sopii hyvin pienten lasten perheille. Kävely päättyy pysäköintialueen viereen katettuun kotaan ja hirsilaavuun.",
   "highlights": [
