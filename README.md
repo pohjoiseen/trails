@@ -38,7 +38,7 @@ python3 tools/build_data.py
 
 ## Base map
 
-OpenFreeMap vector tiles (OpenStreetMap data, no API key, drawn with MapLibre GL so they stay sharp on high-DPI screens; MapLibre is loaded only for this layer), with classic OSM raster tiles as an alternative. More base layers (e.g. a Maanmittauslaitos topographic map, which needs an API key) can be added to `BASES` in `app.js`; a layer switcher appears once there is more than one.
+OpenFreeMap vector tiles (OpenStreetMap data, no API key, drawn with MapLibre GL so they stay sharp on high-DPI screens; MapLibre is loaded only for this layer), with classic OSM raster tiles and the Maanmittauslaitos topographic map (open WMTS API, key in `app.js`) as alternatives. Base layers are defined in `BASES` in `app.js`.
 
 ## Track clean-up
 

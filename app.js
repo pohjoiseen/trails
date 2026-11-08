@@ -118,8 +118,8 @@
      button appears automatically once there is more than one. */
   const BASES = {
     vector: { key: "layer_vector", make: makeVector },
-    osm: { key: "layer_osm", make: () => L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>' }) }
-    // mml: { key: "layer_mml", make: () => L.tileLayer("https://avoin-karttakuva.maanmittauslaitos.fi/avoin/wmts/1.0.0/maastokartta/default/WGS84_Pseudo-Mercator/{z}/{y}/{x}.png?api-key=YOUR_KEY", { maxZoom: 16, attribution: "&copy; Maanmittauslaitos" }) }
+    osm: { key: "layer_osm", make: () => L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>' }) },
+    mml: { key: "layer_mml", make: () => L.tileLayer("https://avoin-karttakuva.maanmittauslaitos.fi/avoin/wmts/1.0.0/maastokartta/default/WGS84_Pseudo-Mercator/{z}/{y}/{x}.png?api-key=27e77bfc-266a-4406-afe0-f7e827c11be3", { maxNativeZoom: 16, maxZoom: 19, attribution: '&copy; <a href="https://www.maanmittauslaitos.fi/avoindata" target="_blank" rel="noopener">Maanmittauslaitos</a>' }) }
   };
 
   /* OpenFreeMap vector tiles (OSM data, no key), drawn by MapLibre GL: sharp on high-DPI screens.
@@ -166,6 +166,9 @@
     if (!initial) store.set("base", key);
     if (baseLayer) map.removeLayer(baseLayer);
     baseLayer = BASES[key].make().addTo(map);
+    const prevBase = document.documentElement.dataset.base;
+    document.documentElement.dataset.base = key; // lets CSS pick a track colour that contrasts with this map
+    if (!initial && prevBase !== key) restyle();
     probeTiles(baseLayer);
     renderLayerMenu();
   }
@@ -411,7 +414,7 @@
     dv.innerHTML = '<div class="detail">' + h + "</div>";
   }
   $("#detailview").addEventListener("click", (e) => {
-    if (e.target.closest("#back")) { select(null); return; }
+    if (e.target.closest("#back")) { if (pushedEntry) history.back(); else select(null); return; }
     const pk = e.target.closest("[data-park]");
     if (pk) { const p = S.byId[S.selected].parking[+pk.dataset.park]; map.setView([p.lat, p.lon], Math.max(map.getZoom(), 15)); if (isPhone()) setSheet("peek"); return; }
     const ph = e.target.closest("[data-photo]");
@@ -463,7 +466,11 @@
       $("#panel").classList.add("detail-mode");
       if (isPhone() && sheetState === "peek") setSheet("half");
       drawSelection(S.byId[id], opts.fit !== false);
-      if (location.hash !== "#" + id) history.replaceState(null, "", "#" + id);
+      if (location.hash !== "#" + id) {
+        // opening a trail from the list adds a history entry, so the browser's Back returns to the list
+        if (!prev && !opts.fromHash) { pushedEntry = true; location.hash = id; }
+        else history.replaceState(null, "", "#" + id);
+      }
     } else {
       $("#detailview").hidden = true; $("#listview").hidden = false;
       $("#panel").classList.remove("detail-mode");
@@ -471,10 +478,12 @@
       drawSelection(null);
       if (savedView && !userMoved) progFit(() => map.setView(savedView.c, savedView.z));
       savedView = null;
+      pushedEntry = false;
       if (location.hash) history.replaceState(null, "", location.pathname + location.search);
     }
   }
-  window.addEventListener("hashchange", () => { const id = location.hash.slice(1); if (id !== (S.selected || "")) select(id || null, { fit: true }); });
+  let pushedEntry = false;
+  window.addEventListener("hashchange", () => { const id = location.hash.slice(1); if (id !== (S.selected || "")) select(id || null, { fit: true, fromHash: true }); });
 
   /* ---------------- phone bottom sheet ---------------- */
   const isPhone = () => window.matchMedia("(max-width: 820px)").matches;
