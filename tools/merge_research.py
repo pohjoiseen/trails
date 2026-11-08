@@ -35,6 +35,10 @@ GEOM = {
     "vora-vitmossen": {"lipas_ids": [606566], "lipas_parts": {"606566": [i for i in range(61) if i not in [34, 36, 37] + list(range(43, 61))]}},
     "vora-mickelsorarna-nature-trail": {"file": "vora/dl/mick_geom.json"},
     "vora-rokio-norrvalla-boberget": {"lipas_ids": [606567, 606568]},
+    # official GPX files retrace shared sections; Lipas has the de-duplicated path network
+    "isokyro-peippoonen": {"lipas_ids": [608306]},
+    "isokyro-ylipaa-marjamaki": {"lipas_ids": [608308]},
+    "isokyro-vuoressalo": {"lipas_ids": [608301]},
 }
 APPROX = {"vora-komossa-hoppamaki": "komossa", "vora-skidcentrum-trail": "skid", "vora-storberget": "storberget"}
 
