@@ -301,7 +301,7 @@ def main():
             lines += wp if wp and isinstance(wp[0][0], list) else [wp]
         lines = merge_chains(lines)
         if not g.get("keep_duplicates"):
-            lines = merge_chains(dedupe(lines), tol=1.0)
+            lines = merge_chains(dedupe(lines, tol=g.get("dedupe_tol", 12.0), min_run=max(25.0, 2 * g.get("dedupe_tol", 12.0))), tol=1.0)
         lines = snap_ends(lines)
         lines = [ln for ln in lines if len(ln) >= 2]
         detail = [dp(ln, 1.5) for ln in lines]

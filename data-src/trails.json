@@ -227,7 +227,11 @@
   ],
   "photos": [],
   "geometry": {
-   "file": "data-src/geometry/files/vaasa-city-bay-trail.geojson"
+   "osm": [
+    "relation/17438737",
+    "relation/20708928"
+   ],
+   "file": "data-src/geometry/files/vaasa-city-bay-riso.geojson"
   },
   "borderline": true,
   "sources": [
@@ -278,7 +282,8 @@
   ],
   "photos": [],
   "geometry": {
-   "file": "data-src/geometry/files/vahakyro-ojaniemi-hyyria.geojson"
+   "file": "data-src/geometry/files/vahakyro-ojaniemi-hyyria.geojson",
+   "dedupe_tol": 30
   },
   "borderline": false,
   "sources": [
@@ -327,7 +332,8 @@
   ],
   "photos": [],
   "geometry": {
-   "file": "data-src/geometry/files/vahakyro-kruutari-mestoosplassi.geojson"
+   "file": "data-src/geometry/files/vahakyro-kruutari-mestoosplassi.geojson",
+   "dedupe_tol": 30
   },
   "borderline": false,
   "sources": [
@@ -370,7 +376,8 @@
   ],
   "photos": [],
   "geometry": {
-   "file": "data-src/geometry/files/vahakyro-saarenpaa-mullola.geojson"
+   "file": "data-src/geometry/files/vahakyro-saarenpaa-mullola.geojson",
+   "dedupe_tol": 30
   },
   "borderline": true,
   "sources": [
@@ -420,7 +427,8 @@
   ],
   "photos": [],
   "geometry": {
-   "file": "data-src/geometry/files/vahakyro-petulian-patikka.geojson"
+   "file": "data-src/geometry/files/vahakyro-petulian-patikka.geojson",
+   "dedupe_tol": 30
   },
   "borderline": false,
   "sources": [
@@ -462,8 +470,8 @@
   ],
   "photos": [],
   "geometry": {
-   "lipas_ids": [
-    619880
+   "osm": [
+    "relation/21359143"
    ]
   },
   "borderline": false,
@@ -503,7 +511,8 @@
   ],
   "photos": [],
   "geometry": {
-   "file": "data-src/geometry/files/vahakyro-korkiavuori.geojson"
+   "file": "data-src/geometry/files/vahakyro-korkiavuori.geojson",
+   "dedupe_tol": 30
   },
   "borderline": true,
   "sources": [
@@ -1118,10 +1127,10 @@
    "local": "Karikaleden"
   },
   "local": "sv",
-  "kind": "linear",
+  "kind": "loop+linear",
   "length_km": [
-   0.8,
-   0.8
+   1.6,
+   3.4
   ],
   "rating": null,
   "parking": [
@@ -1136,9 +1145,13 @@
   ],
   "photos": [],
   "geometry": {
-   "lipas_ids": [
-    602657
-   ]
+   "osm": [
+    "relation/20258146",
+    "relation/20258147",
+    "relation/20258148",
+    "relation/20258149"
+   ],
+   "file": "data-src/geometry/files/karikaleden-road.geojson"
   },
   "borderline": false,
   "sources": [

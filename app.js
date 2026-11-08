@@ -93,6 +93,7 @@
     map = L.map("map", { zoomControl: false, attributionControl: true, minZoom: 7, maxZoom: 18, zoomSnap: 1, preferCanvas: false })
       .setView([63.08, 21.75], 9);
     L.control.zoom({ position: "bottomright" }).addTo(map);
+    L.control.scale({ position: "bottomleft", metric: true, imperial: false, maxWidth: 120 }).addTo(map);
     map.attributionControl.setPrefix(false);
     map.createPane("tracks"); map.getPane("tracks").style.zIndex = 420;
     map.createPane("selcase"); map.getPane("selcase").style.zIndex = 435;
