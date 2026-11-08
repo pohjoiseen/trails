@@ -1,3 +1,4 @@
+<!doctype html>
 <meta charset="utf-8">
 <title>Vaasa area trails</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -159,6 +160,8 @@ button { cursor: pointer; }
 .layermenu button[aria-checked="true"] { background: var(--soft); }
 .layermenu .dot { width: 8px; height: 8px; border-radius: 50%; border: 1.5px solid var(--muted); flex: none; }
 .layermenu button[aria-checked="true"] .dot { background: var(--primary); border-color: var(--primary); }
+.tilenote { position: absolute; z-index: 640; top: max(10px, env(safe-area-inset-top, 0px)); left: 50%; transform: translateX(-50%); background: var(--bg); color: var(--ink); border: 1px solid var(--shade); border-bottom-width: 2px; border-radius: var(--r); box-shadow: var(--shadow); padding: 6px 12px; font-size: 13px; max-width: calc(100% - 110px); text-align: center; }
+.tilenote a { color: var(--primary-hi); font-weight: 600; }
 .toast { position: absolute; z-index: 650; left: 50%; transform: translateX(-50%); bottom: max(16px, env(safe-area-inset-bottom, 0px)); background: var(--primary); color: var(--primary-ink); font-size: 13px; padding: 6px 14px; border-radius: var(--r); box-shadow: var(--shadow); max-width: calc(100% - 32px); text-align: center; }
 .leaflet-control-zoom a { background: var(--bg) !important; color: var(--ink) !important; border-color: var(--shade) !important; }
 .leaflet-bar { border: 1px solid var(--shade) !important; box-shadow: var(--shadow) !important; border-radius: var(--r) !important; overflow: hidden; }
@@ -238,9 +241,10 @@ button { cursor: pointer; }
     <button class="mbtn" id="fitbtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
   </div>
   <div class="toast" id="toast" hidden></div>
+  <div class="tilenote" id="tilenote" hidden></div>
 </div>
 <div class="lightbox" id="lightbox" hidden></div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script src="vendor/leaflet.js"></script>
 <script src="i18n.js"></script>
 <script src="app.js"></script>

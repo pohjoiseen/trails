@@ -1,7 +1,10 @@
 # Vaasa area trails
 
 A client-side map of nature and hiking trails in Vaasa (incl. Vähäkyrö), Korsholm, Malax, Laihia, Isokyrö and Vörå.
-It is plain HTML/JS with Leaflet from cdnjs and has no build step for the app itself. It runs from any static host and as a Claude artifact.
+It is plain HTML/JS with Leaflet (`vendor/leaflet.js`, 1.9.4) and has no build step for the app itself.
+
+- Full version, with OpenStreetMap tiles: GitHub Pages, https://pohjoiseen.github.io/trails/ (Settings → Pages → deploy from branch, root folder; `.nojekyll` is included).
+- The same files are published as a Claude artifact. Artifacts block external images, so tiles don't load there; the page then shows a link to the full version.
 
 ## Layout
 

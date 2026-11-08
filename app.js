@@ -122,12 +122,29 @@
     // mml: { key: "layer_mml", make: () => L.tileLayer("https://avoin-karttakuva.maanmittauslaitos.fi/avoin/wmts/1.0.0/maastokartta/default/WGS84_Pseudo-Mercator/{z}/{y}/{x}.png?api-key=YOUR_KEY", { maxZoom: 16, attribution: "&copy; Maanmittauslaitos" }) }
   };
 
+  /* Where the full app is hosted with working tiles (Claude artifacts block external images). */
+  const FULL_URL = "https://pohjoiseen.github.io/trails/";
+  function probeTiles(layer) {
+    let ok = 0, bad = 0, done = false;
+    const fail = () => {
+      if (done || ok) return; done = true;
+      if (location.href.startsWith(FULL_URL)) return;
+      const el = $("#tilenote");
+      el.innerHTML = esc(t("tilesBlocked")) + ' <a href="' + FULL_URL + location.hash + '" target="_blank" rel="noopener">' + esc(t("openFull")) + "</a>";
+      el.hidden = false;
+    };
+    layer.on("tileload", () => { ok++; done = true; });
+    layer.on("tileerror", () => { if (++bad >= 2) fail(); });
+    setTimeout(fail, 6000);
+  }
+
   function setBase(key, initial) {
     if (!BASES[key]) key = Object.keys(BASES)[0];
     S.base = key;
     if (!initial) store.set("base", key);
     if (baseLayer) map.removeLayer(baseLayer);
     baseLayer = BASES[key].make().addTo(map);
+    probeTiles(baseLayer);
     renderLayerMenu();
   }
 
