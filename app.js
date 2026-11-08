@@ -21,7 +21,6 @@
     selected: null,
     hover: null,
     base: store.get("base", "osm"),
-    tilesOk: null
   };
   const t = (k) => (I.strings[S.lang] && I.strings[S.lang][k]) ?? I.strings.en[k] ?? k;
   const tn = (k, n) => { const f = t(k); const form = I.plural(S.lang, n); return (f[form] || f.other).replace("{n}", n); };
@@ -94,7 +93,7 @@
   }
 
   /* ---------------- map ---------------- */
-  let map, trackLayer, pinLayer, parkLayer, selLayer, simpleBase, osmLayer, canvas;
+  let map, trackLayer, pinLayer, parkLayer, selLayer, selCaseLayer, baseLayer;
   const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 
   function initMap() {
@@ -103,13 +102,11 @@
     map.setMaxBounds([[62.3, 20.0], [64.0, 24.0]]);
     L.control.zoom({ position: "bottomright" }).addTo(map);
     map.attributionControl.setPrefix(false);
-    canvas = L.canvas({ padding: 0.3, tolerance: 6 });
-    map.createPane("base"); map.getPane("base").style.zIndex = 250;
-    map.createPane("labels"); map.getPane("labels").style.zIndex = 380; map.getPane("labels").style.pointerEvents = "none";
     map.createPane("tracks"); map.getPane("tracks").style.zIndex = 420;
     map.createPane("sel"); map.getPane("sel").style.zIndex = 440;
     map.createPane("pins"); map.getPane("pins").style.zIndex = 620;
     trackLayer = L.layerGroup().addTo(map);
+    selCaseLayer = L.layerGroup().addTo(map);
     selLayer = L.layerGroup().addTo(map);
     parkLayer = L.layerGroup().addTo(map);
     pinLayer = L.layerGroup().addTo(map);
@@ -118,105 +115,20 @@
     setBase(S.base, true);
   }
 
-  /* Base layers. OSM raster tiles where the host allows them; a self-hosted vector map otherwise
-     (Claude artifacts block external images). Add more raster options to BASES, e.g. MML topo. */
+  /* Base layers. Add more raster options here (e.g. MML topo, needs an API key); the layer
+     button appears automatically once there is more than one. */
   const BASES = {
-    osm: { key: "layer_osm", make: () => L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>' }) },
-    simple: { key: "layer_simple" }
+    osm: { key: "layer_osm", make: () => L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>' }) }
     // mml: { key: "layer_mml", make: () => L.tileLayer("https://avoin-karttakuva.maanmittauslaitos.fi/avoin/wmts/1.0.0/maastokartta/default/WGS84_Pseudo-Mercator/{z}/{y}/{x}.png?api-key=YOUR_KEY", { maxZoom: 16, attribution: "&copy; Maanmittauslaitos" }) }
   };
 
   function setBase(key, initial) {
-    if (!BASES[key]) key = "simple";
-    if (key !== "simple" && S.tilesOk === false) key = "simple";
+    if (!BASES[key]) key = Object.keys(BASES)[0];
     S.base = key;
     if (!initial) store.set("base", key);
-    if (osmLayer) { map.removeLayer(osmLayer); osmLayer = null; }
-    if (key === "simple") { showSimpleBase(true); }
-    else {
-      showSimpleBase(false);
-      osmLayer = BASES[key].make().addTo(map);
-      probeTiles(osmLayer);
-    }
+    if (baseLayer) map.removeLayer(baseLayer);
+    baseLayer = BASES[key].make().addTo(map);
     renderLayerMenu();
-  }
-
-  function probeTiles(layer) {
-    let ok = 0, bad = 0, decided = S.tilesOk != null;
-    layer.on("tileload", () => { ok++; if (!decided) { decided = true; S.tilesOk = true; } });
-    layer.on("tileerror", () => {
-      bad++;
-      if (!decided && bad >= 2 && ok === 0) { decided = true; tilesFailed(); }
-    });
-    setTimeout(() => { if (!decided && ok === 0) { decided = true; tilesFailed(); } }, 6000);
-  }
-  function tilesFailed() {
-    S.tilesOk = false;
-    setBase("simple", true);
-    toast(t("tilesBlocked"));
-  }
-
-  let simpleLoaded = false, simpleLoading = null, placeMarkers = [];
-  async function showSimpleBase(on) {
-    if (!on) { if (simpleBase) map.removeLayer(simpleBase); placeMarkers.forEach((m) => m.remove()); return; }
-    if (!simpleLoaded) {
-      simpleLoading = simpleLoading || buildSimpleBase();
-      await simpleLoading;
-    }
-    if (S.base !== "simple") return;
-    simpleBase.addTo(map);
-    updatePlaces();
-  }
-  async function buildSimpleBase() {
-    simpleBase = L.layerGroup();
-    const files = ["land", "forest", "wetland", "urban", "water", "rivers", "roads", "places"];
-    const data = {};
-    await Promise.all(files.map(async (f) => { try { data[f] = await getJSON("data/basemap/" + f + ".json"); } catch (e) { data[f] = null; } }));
-    Object.keys(data).forEach((k) => { if (data[k] && data[k].f) data[k] = decodeBase(data[k]); });
-    simpleBase._data = data;
-    styleSimpleBase();
-    simpleLoaded = true;
-    map.on("zoomend moveend", updatePlaces);
-  }
-  /* Inverse of compact() in tools/build_basemap.py */
-  function decodeBase(d) {
-    const S = d.s;
-    const dec = (r) => { const out = []; let x = 0, y = 0; for (let i = 0; i < r.length; i += 2) { x += r[i]; y += r[i + 1]; out.push([x / S, y / S]); } return out; };
-    return { type: "FeatureCollection", features: d.f.map((f) => {
-      const rings = f.slice(1).map(dec);
-      const geometry = d.t === "Polygon" ? { type: "Polygon", coordinates: rings } : d.t === "LineString" ? { type: "LineString", coordinates: rings[0] } : { type: "Point", coordinates: rings[0][0] };
-      return { type: "Feature", properties: f[0] || {}, geometry };
-    }) };
-  }
-  function styleSimpleBase() {
-    const d = simpleBase._data; simpleBase.clearLayers();
-    const opt = { pane: "base", renderer: canvas, interactive: false };
-    if (d.land) simpleBase.addLayer(L.geoJSON(d.land, { ...opt, style: { stroke: true, color: css("--map-land"), weight: 0.5, fillColor: css("--map-land"), fillOpacity: 1 } }));
-    if (d.forest) simpleBase.addLayer(L.geoJSON(d.forest, { ...opt, style: { stroke: false, fillColor: css("--map-forest"), fillOpacity: 1 } }));
-    if (d.wetland) simpleBase.addLayer(L.geoJSON(d.wetland, { ...opt, style: { stroke: false, fillColor: css("--map-wetland"), fillOpacity: 1 } }));
-    if (d.urban) simpleBase.addLayer(L.geoJSON(d.urban, { ...opt, style: { stroke: false, fillColor: css("--map-urban"), fillOpacity: 1 } }));
-    if (d.water) simpleBase.addLayer(L.geoJSON(d.water, { ...opt, style: { stroke: false, fillColor: css("--map-lake"), fillOpacity: 1 } }));
-    if (d.rivers) simpleBase.addLayer(L.geoJSON(d.rivers, { ...opt, style: { color: css("--map-lake"), weight: 2.2 } }));
-    if (d.roads) {
-      simpleBase.addLayer(L.geoJSON(d.roads, { ...opt, style: (f) => ({ color: css("--map-road-case"), weight: f.properties.c <= 2 ? 4.5 : 3, opacity: 0.9 }) }));
-      simpleBase.addLayer(L.geoJSON(d.roads, { ...opt, style: (f) => ({ color: f.properties.c <= 2 ? css("--map-road-major") : css("--map-road"), weight: f.properties.c <= 2 ? 3 : 1.6 }) }));
-    }
-    placeMarkers.forEach((m) => m.remove());
-    placeMarkers = (d.places && d.places.features || []).map((f) => {
-      const [lon, lat] = f.geometry.coordinates; const p = f.properties;
-      const cls = p.r <= 1 ? "town" : p.k === "island" ? "island" : "";
-      const m = L.marker([lat, lon], { pane: "labels", interactive: false, keyboard: false, icon: L.divIcon({ className: "", html: '<div class="place ' + cls + '">' + esc(p.n) + "</div>", iconSize: [0, 0] }) });
-      m._minZoom = p.r <= 1 ? 7 : p.r === 2 ? 10 : p.r === 3 ? 12 : 13;
-      return m;
-    });
-  }
-  function updatePlaces() {
-    if (!simpleLoaded || S.base !== "simple") return;
-    const z = map.getZoom(), b = map.getBounds().pad(0.2);
-    placeMarkers.forEach((m) => {
-      const show = z >= m._minZoom && b.contains(m.getLatLng());
-      if (show && !map.hasLayer(m)) m.addTo(map); else if (!show && map.hasLayer(m)) m.remove();
-    });
   }
 
   /* trails on the map */
@@ -259,7 +171,6 @@
   }
   function updatePins() {
     Object.entries(pinRefs).forEach(([id, m]) => m.setIcon(pinIcon(S.byId[id], id === S.selected)));
-    updatePlaces();
   }
   function applyFilterToMap() {
     const vis = new Set(visibleTrails().map((x) => x.id));
@@ -271,26 +182,31 @@
       if (m) { if (pinOn && !pinLayer.hasLayer(m)) pinLayer.addLayer(m); if (!pinOn && pinLayer.hasLayer(m)) pinLayer.removeLayer(m); }
     });
   }
+  function trailStyle(id) {
+    const dim = S.selected && S.selected !== id;
+    return { weight: id === S.hover ? 5 : 3, opacity: id === S.hover ? 1 : dim ? 0.45 : 0.85 };
+  }
+  function restyleTracks() { Object.keys(lineRefs).forEach((id) => lineRefs[id].forEach((pl) => pl.setStyle(trailStyle(id)))); }
   function setHover(id) {
     if (S.hover === id) return;
     const prev = S.hover; S.hover = id;
     [prev, id].forEach((x) => {
       if (!x) return;
-      (lineRefs[x] || []).forEach((pl) => pl.setStyle({ weight: x === id ? 5 : 3, opacity: x === id ? 1 : 0.85 }));
+      (lineRefs[x] || []).forEach((pl) => pl.setStyle(trailStyle(x)));
       const card = document.querySelector('.card[data-id="' + x + '"]');
       if (card) card.classList.toggle("hover", x === id);
     });
   }
   async function drawSelection(tr, fit) {
-    selLayer.clearLayers(); parkLayer.clearLayers();
+    selLayer.clearLayers(); selCaseLayer.clearLayers(); parkLayer.clearLayers();
     if (!tr) return;
     const detail = await loadTrack(tr.id);
     if (S.selected !== tr.id) return;
     const segs = (detail && detail.lines) || tr.line || [];
     const dash = tr.geom_quality === "approx" ? "8 7" : null;
     segs.forEach((seg) => {
-      selLayer.addLayer(L.polyline(seg, { pane: "sel", color: css("--track-case"), weight: 9, opacity: 0.9, lineCap: "round", lineJoin: "round", interactive: false }));
-      selLayer.addLayer(L.polyline(seg, { pane: "sel", color: css("--track"), weight: 5, opacity: 1, dashArray: dash, lineCap: "round", lineJoin: "round", interactive: false }));
+      selCaseLayer.addLayer(L.polyline(seg, { pane: "sel", color: css("--track-case"), weight: 7, opacity: 1, lineCap: "round", lineJoin: "round", interactive: false }));
+      selLayer.addLayer(L.polyline(seg, { pane: "sel", color: css("--track"), weight: 4, opacity: 1, dashArray: dash, lineCap: "round", lineJoin: "round", interactive: false }));
     });
     (tr.parking || []).forEach((p, i) => {
       const m = L.marker([p.lat, p.lon], { pane: "pins", icon: L.divIcon({ className: "", iconSize: [0, 0], html: '<div class="pmark">P</div>' }), zIndexOffset: 1000 });
@@ -415,12 +331,11 @@
     const tx = textFor(tr) || {};
     const alt = altName(tr);
     const desc = (tx.desc || "").split(/\n\s*\n/).filter(Boolean).map((p) => "<p>" + esc(p) + "</p>").join("");
-    let h = '<button class="back" id="back">' + ICON.back + esc(t("back")) + "</button>";
+    let h = '<button class="btn back" id="back">' + ICON.back + esc(t("back")) + "</button>";
     h += '<div class="dh"><h2>' + esc(primaryName(tr)) + "</h2>" + (alt ? '<div class="alt">' + esc(alt) + "</div>" : "") +
       '<div class="where">' + esc(muniName(tr.municipality)) + (tr.area ? " · " + esc(tr.area) : "") + " " + (tr.rating ? stars(tr.rating) : '<span class="stars" style="color:var(--muted);font-size:.78rem">' + esc(t("notRated")) + "</span>") + "</div></div>";
     h += '<div class="facts"><div class="big"><b>' + fmtLen(tr) + "<small>" + esc(t("km")) + "</small></b><span>" + esc(t("length")) + (tr.kind === "linear" ? ", " + esc(t("oneWay")) : "") + "</span></div>" +
       '<div class="kd">' + kindHtml(tr.kind) + "<p>" + esc(t("kindLong_" + tr.kind)) + "</p>" +
-      (tr.kind === "network" && tx.network_note ? "<p><b>" + esc(t("networkExtent")) + ":</b> " + esc(tx.network_note) + "</p>" : "") +
       "</div></div>";
     if (tr.photos && tr.photos.length) {
       h += '<div class="sec"><h3>' + esc(t("photos")) + '</h3><div class="gallery">' +
@@ -428,6 +343,7 @@
     }
     if (tx.fallback) h += '<div class="note">' + esc(t("fallbackText")) + "</div>";
     if (desc) h += '<div class="desc">' + desc + "</div>";
+    if (tx.network_note) h += '<div class="sec"><h3>' + esc(t("networkExtent")) + "</h3><p>" + esc(tx.network_note) + "</p></div>";
     if (tx.duration) h += '<div class="note">' + esc(tx.duration) + "</div>";
     if (tr.geom_quality === "approx") h += '<div class="note">' + esc(t("approxTrack")) + "</div>";
     if (tr.geom_quality === "none") h += '<div class="note">' + esc(t("noTrack")) + "</div>";
@@ -497,6 +413,7 @@
     if (prev && pinRefs[prev]) pinRefs[prev].setIcon(pinIcon(S.byId[prev], false));
     if (id && pinRefs[id]) pinRefs[id].setIcon(pinIcon(S.byId[id], true));
     applyFilterToMap();
+    restyleTracks();
     if (id) {
       renderDetail(S.byId[id]);
       $("#listview").hidden = true; $("#detailview").hidden = false; $("#scroll").scrollTop = 0;
@@ -551,7 +468,8 @@
   function toast(msg) { const el = $("#toast"); el.textContent = msg; el.hidden = false; clearTimeout(toastTimer); toastTimer = setTimeout(() => { el.hidden = true; }, 6000); }
   function renderLayerMenu() {
     const m = $("#layermenu");
-    m.innerHTML = Object.entries(BASES).map(([k, b]) => '<button role="menuitemradio" data-base="' + k + '" aria-checked="' + (S.base === k) + '"' + (k !== "simple" && S.tilesOk === false ? " disabled" : "") + '><span class="dot"></span>' + esc(t(b.key)) + "</button>").join("");
+    m.innerHTML = Object.entries(BASES).map(([k, b]) => '<button role="menuitemradio" data-base="' + k + '" aria-checked="' + (S.base === k) + '"' + '><span class="dot"></span>' + esc(t(b.key)) + "</button>").join("");
+    $("#layerbtn").hidden = Object.keys(BASES).length < 2;
     $("#layerbtn").title = t("layers"); $("#layerbtn").setAttribute("aria-label", t("layers"));
     $("#fitbtn").title = t("fitAll"); $("#fitbtn").setAttribute("aria-label", t("fitAll"));
   }
@@ -569,9 +487,8 @@
     await loadText(S.lang);
     renderStatic(); refresh();
     if (S.selected) renderDetail(S.byId[S.selected]);
-    updatePins(); styleSimpleIfLoaded();
+    updatePins();
   });
-  function styleSimpleIfLoaded() { if (simpleLoaded) { styleSimpleBase(); updatePlaces(); } }
   function renderStatic() {
     document.documentElement.lang = S.lang;
     $("#t-title").textContent = t("title");
@@ -582,9 +499,9 @@
     $("#foot").innerHTML = "<details><summary>" + esc(t("about")) + "</summary><p>" + esc(t("aboutText")) + "</p></details><p>" + esc(t("mapData")) + "</p>";
   }
 
-  /* re-style canvas layers when the theme flips */
+  /* re-style vector layers when the theme flips */
   const mq = window.matchMedia("(prefers-color-scheme: dark)");
-  const restyle = () => { drawTrails(); styleSimpleIfLoaded(); if (S.selected) drawSelection(S.byId[S.selected], false); };
+  const restyle = () => { drawTrails(); if (S.selected) drawSelection(S.byId[S.selected], false); };
   mq.addEventListener && mq.addEventListener("change", restyle);
   new MutationObserver(restyle).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
 

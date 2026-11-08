@@ -139,6 +139,66 @@ def merge_chains(lines, tol=8.0):
     return lines
 
 
+def dedupe(lines, tol=12.0, step=4.0, min_run=25.0):
+    """Remove stretches that retrace already-drawn path (out-and-back sections, overlapping
+    segments from several sources, near-parallel duplicates within `tol` metres).
+    Lines are processed longest first; each kept run is joined to the path that covers its ends."""
+    if not lines:
+        return lines
+    lat0 = sum(p[0] for ln in lines for p in ln) / sum(len(ln) for ln in lines)
+    kx, ky = math.cos(math.radians(lat0)) * 111320, 110570
+    to_xy = lambda p: (p[1] * kx, p[0] * ky)
+    to_ll = lambda x, y: [y / ky, x / kx]
+
+    def densify(ln):
+        out = [to_xy(ln[0])]
+        for a, b in zip(ln, ln[1:]):
+            (x0, y0), (x1, y1) = to_xy(a), to_xy(b)
+            n = max(1, int(math.hypot(x1 - x0, y1 - y0) // step))
+            out += [(x0 + (x1 - x0) * k / n, y0 + (y1 - y0) * k / n) for k in range(1, n + 1)]
+        return out
+    dense = sorted((densify(ln) for ln in lines if len(ln) > 1), key=lambda d: -len(d))
+    grid = {}
+    cell = lambda x, y: (int(x // tol), int(y // tol))
+    out = []
+    for li, pts in enumerate(dense):
+        cum = [0.0]
+        for a, b in zip(pts, pts[1:]):
+            cum.append(cum[-1] + math.hypot(b[0] - a[0], b[1] - a[1]))
+        cover = []
+        for i, (x, y) in enumerate(pts):
+            cx, cy = cell(x, y)
+            best = None
+            for gx in (cx - 1, cx, cx + 1):
+                for gy in (cy - 1, cy, cy + 1):
+                    for (qx, qy, ql, qs) in grid.get((gx, gy), ()):
+                        if ql == li and abs(qs - cum[i]) <= 3 * tol:
+                            continue
+                        d = math.hypot(qx - x, qy - y)
+                        if d <= tol and (best is None or d < best[0]):
+                            best = (d, qx, qy)
+            cover.append(best)
+            grid.setdefault((cx, cy), []).append((x, y, li, cum[i]))
+        i, n = 0, len(pts)
+        while i < n:
+            if cover[i] is not None:
+                i += 1
+                continue
+            j = i
+            while j < n and cover[j] is None:
+                j += 1
+            run = pts[i:j]
+            if i > 0:
+                run = [(cover[i - 1][1], cover[i - 1][2])] + run
+            if j < n:
+                run = run + [(cover[j][1], cover[j][2])]
+            runlen = sum(math.hypot(b[0] - a[0], b[1] - a[1]) for a, b in zip(run, run[1:]))
+            if runlen >= min_run or (i == 0 and j == n):
+                out.append([to_ll(x, y) for x, y in run])
+            i = j
+    return out
+
+
 def dp(points, eps):
     """Douglas-Peucker in local metres."""
     if len(points) < 3:
@@ -205,6 +265,8 @@ def main():
             wp = g["waypoints"]
             lines += wp if wp and isinstance(wp[0][0], list) else [wp]
         lines = merge_chains(lines)
+        if not g.get("keep_duplicates"):
+            lines = merge_chains(dedupe(lines), tol=1.0)
         lines = [ln for ln in lines if len(ln) >= 2]
         detail = [dp(ln, 1.5) for ln in lines]
         overview = [dp(ln, 12) for ln in lines]

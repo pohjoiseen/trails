@@ -8,12 +8,12 @@ It is plain HTML/JS with Leaflet from cdnjs and has no build step for the app it
 | Path | What |
 |---|---|
 | `index.html` | Page shell, styles (Leaflet CSS inlined) |
+| `coat-of-arms.svg` | Vaasa coat of arms (public domain, from Wikimedia Commons) |
 | `app.js` | App logic: map, filters, list, detail, photos, phone bottom sheet |
 | `i18n.js` | UI strings in English, Finnish, Swedish and Russian |
 | `data/trails.json` | Trail index with simplified overview lines (loaded at start) |
 | `data/tracks/<id>.json` | Full-detail tracks, loaded when a trail is opened |
 | `data/text/<lang>.json` | Descriptions per language, loaded on demand |
-| `data/basemap/*.json` | Self-hosted simplified OSM basemap (see below) |
 | `data-src/` | Curated source data: edit this, then rebuild |
 | `photos/` | Trail photos (none yet; see `photos/README.md`) |
 | `tools/` | Build scripts |
@@ -35,17 +35,13 @@ python3 tools/build_data.py
 
 ## Base map
 
-On normal hosting the app uses OpenStreetMap raster tiles. Claude artifacts block images from other hosts, so when tiles fail
-the app switches to a simplified vector map built from OpenStreetMap extracts:
+OpenStreetMap raster tiles. More base layers (e.g. a Maanmittauslaitos topographic map, which needs an API key) can be added to `BASES` in `app.js`; a layer switcher appears once there is more than one.
 
-```bash
-curl -O https://download.openstreetmap.fr/extracts/europe/finland/ostrobothnia-latest.osm.pbf
-curl -O https://download.openstreetmap.fr/extracts/europe/finland/south_ostrobothnia-latest.osm.pbf
-pip install osmium shapely
-python3 tools/build_basemap.py ostrobothnia-latest.osm.pbf south_ostrobothnia-latest.osm.pbf
-```
+## Track clean-up
 
-A Maanmittauslaitos topographic layer can be added in `BASES` in `app.js`; it needs an API key.
+`build_data.py` merges all sources for a trail, removes stretches that retrace already-drawn path
+(out-and-back sections, overlapping routes of a network, near-parallel duplicates within 12 m) and simplifies the result.
+Set `"keep_duplicates": true` in a trail's `geometry` to skip this.
 
 ## Data sources
 
