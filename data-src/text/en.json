@@ -54,6 +54,7 @@
    "archaeological site"
   ],
   "network_note": "Extensive network of marked paths and forest roads over an ~800 ha area (~4 × 4 km) around Pilvilampi lake, linked to Vaasa's 70 km outdoor trail system. Sensible rounds: lake loop ~3–5 km; longer rounds via Kivijärvi and Pilvimaja ~10–12 km.",
+  "access": "Easy to reach by Vaasa city buses (Vaasa local transport, lifts.vaasa.fi).",
   "season": "Ski tracks in winter (Vaasan Latu); 22 km winter fatbike trail.",
   "parking_notes": [
    "Main Pilvilampi parking on the west shore (Kappelinmäentie); a second lot lies nearby.",
@@ -62,7 +63,7 @@
   ]
  },
  "vaasa-city-bay-trail": {
-  "desc": "A mostly accessible shore path following the Eteläinen Kaupunginselkä (Southern City Bay), a 6 km long sea bay narrowing towards the Tuovila/Laihia river delta. It passes Hietalahti and Suvilahti with lush deciduous shore groves (aspens used by flying squirrels, old villa-garden plants), shallow bays and new islets rising through land uplift, then the Old Vaasa canal and Majakkakivi beacon boulder, ending at the Natura 2000 reedbeds near Risö.\n\nSixteen signs present history and nature (bats, moor frog, birds, land uplift). Grebes, ducks, geese and waders gather in migration; thrush nightingales sing in the groves. Rest and campfire sites, beaches and a parallel canoe route.",
+  "desc": "A mostly accessible shore path following the Eteläinen Kaupunginselkä (Southern City Bay), a 6 km long sea bay narrowing towards the Tuovila/Laihia river delta. It goes around the Brage open-air museum and Emäntälahti bay in Hietalahti and Suvilahti, through lush deciduous shore groves (aspens used by flying squirrels, old villa-garden plants), past shallow bays and new islets rising through land uplift, then the Old Vaasa canal and Majakkakivi beacon boulder, ending at the Natura 2000 reedbeds near Risö.\n\nSixteen signs present history and nature (bats, moor frog, birds, land uplift). Grebes, ducks, geese and waders gather in migration; thrush nightingales sing in the groves. Rest and campfire sites, beaches and a parallel canoe route.",
   "highlights": [
    "Southern City Bay shore",
    "land uplift islets",
@@ -72,6 +73,7 @@
    "16 info signs"
   ],
   "duration": "Kalaranta–Majakkakivi 7 km; continues ~3 km to Risö (one way). First section of a planned ~30 km round of the Southern City Bay.",
+  "access": "Easy to reach by Vaasa city buses (Vaasa local transport, lifts.vaasa.fi).",
   "parking_notes": [
    "Start at Kalaranta on the city-centre shore; public parking also at Hietalahti and Suvilahti, and the east end connects to Risö parking (Ampujantie)."
   ]
@@ -142,7 +144,7 @@
   ]
  },
  "vahakyro-kolkki-nature-trail": {
-  "desc": "A short trail by the Kyrönjoki river right next to the Kolkinkoski rapids, using old paths of the former Kolkki sawmill and cloth-mill site and new wood-chip sections. It loops around Kolkki manor (one of Vaasa's oldest buildings), Vartiosaari and Kuljunsaari islands within a nationally significant built cultural environment (RKY), with history boards.\n\nThe Vartiosaari path is rootier and runs close to the river at the southern tip (take care). Vartiosaari lean-to with campfire and fishing spot by the rapids; firewood and fishing permits from Kolkki manor.",
+  "desc": "A short trail by the Kyrönjoki river right next to the Kolkinkoski rapids, using old paths of the former Kolkki sawmill and cloth-mill site and new wood-chip sections. It loops around Kolkki manor (one of Vaasa's oldest buildings), Vartiosaari and Kuljunsaari islands within a nationally significant built cultural environment (RKY), with history boards.\n\nThe Vartiosaari path runs close to the river at the southern tip (take care). Vartiosaari lean-to with campfire and fishing spot by the rapids; firewood and fishing permits from Kolkki manor.",
   "highlights": [
    "Kolkinkoski rapids",
    "Kyrönjoki river",
@@ -348,12 +350,12 @@
   ]
  },
  "karikaleden": {
-  "desc": "Short trail from Österhankmo beach over bare granite bedrock with lichen-covered rock and open pine forest to Karikaberget, where a 13 m wooden observation tower stands by a fireplace.",
+  "desc": "Trail from Österhankmo beach over bare granite bedrock with lichen-covered rock and open pine forest. A red-marked path leads 0.8 km to Karikaberget, where a 13 m wooden observation tower stands by a fireplace. North of the tower a yellow loop (c. 1.2 km) continues through the bedrock pine forest, and blue and green paths lead further east, returning to the start along the forest road – about 3.4 km as a full round. Walk it as an out-and-back to the tower or as a loop.",
   "highlights": [
    "13 m wooden observation tower",
    "bedrock pine forest"
   ],
-  "duration": "1.7 km return.",
+  "duration": "Out and back to the tower 1.6 km; the yellow loop north of the tower adds c. 1.2 km; full round via the eastern paths and the forest road c. 3.4 km.",
   "parking_notes": [
    "Österhankmo beach."
   ]
@@ -525,7 +527,7 @@
   ]
  },
  "kurjen-kierros-rajavuori-levaneva": {
-  "desc": "Long-distance section of the Kurjen kierros (Crane Trail) from the Rajavuori hiking centre to the Levaneva Mire Reserve on the Laihia–Kurikka border. After the forested Rajavuori area the trail crosses road 687 and the Kyrössuo bog north of the Kivi- ja Levalampi reservoir and joins the Levaneva trail. Levaneva is a large, open raised-bog landscape; the route crosses it on long duckboards and detours through forest islets and wooded mire edges. At Maalarinmaa there is a half-kota lean-to, a dry toilet and a bird tower over the mire, popular for watching bog-nesting birds. Near Peräkylä is the Särkinen open wilderness hut with tent area.",
+  "desc": "Essentially the whole Kurjen kierros (Crane Trail) – a linear route despite 'kierros' (round) in its name – from the Rajavuori hiking centre to the Levaneva Mire Reserve on the Laihia–Kurikka border. After the forested Rajavuori area the trail crosses road 687 and the Kyrössuo bog north of the Kivi- ja Levalampi reservoir and joins the Levaneva trail. Levaneva is a large, open raised-bog landscape; the route crosses it on long duckboards and detours through forest islets and wooded mire edges. At Maalarinmaa there is a half-kota lean-to, a dry toilet and a bird tower over the mire, popular for watching bog-nesting birds. Near Peräkylä is the Särkinen open wilderness hut with tent area.",
   "highlights": [
    "Levaneva Mire Reserve",
    "long duckboards over open bog",
@@ -533,7 +535,7 @@
    "Särkinen wilderness hut",
    "Kyrössuo bog"
   ],
-  "duration": "Maalarinmaa parking to bird tower 0.6 km; Rajavuori–Maalarinmaa c. 14 km; Rajavuori–Peräkylä c. 24 km one way. The Levaneva trail itself (Peräkylä–Maalarinmaa and on) is 13.6 km one way. The whole Kurjen kierros continues to Pässilä and Kalajaisjärvi (Ilmajoki), c. 30–50 km.",
+  "duration": "Maalarinmaa parking to bird tower 0.6 km; Rajavuori–Maalarinmaa c. 14 km; Rajavuori–Peräkylä c. 24 km one way. The Levaneva trail itself (Peräkylä–Maalarinmaa and on) is 13.6 km one way. From the southern end, trails continue to Pässilä and Kalajaisjärvi (Ilmajoki), c. 30–50 km in total.",
   "access": "Linear route: arrange transport or walk out and back. Levaneva is a state nature reserve (Metsähallitus): stay on the marked trail.",
   "season": "Duckboards can be slippery in wet weather. Fires forbidden during forest fire warnings.",
   "parking_notes": [
@@ -730,11 +732,11 @@
   ]
  },
  "vora-kinnkangleden": {
-  "desc": "Starting at the eastern edge of Oravais village, a ~2 km loop crosses the forested Skrymlorna-Kuivalainen area; the 5 km option continues east through mixed forest and boulder-strewn moraine ground to the bank of the Kimo river and back. The Oravais battlefield of 1808 and the Lotta Svärd stone lie just south of the start. A bench and table along the route.",
+  "desc": "Starting at the eastern edge of Oravais village, a ~2 km loop crosses the forested Skrymlorna-Kuivalainen area; the 5 km option continues east through mixed forest and boulder-strewn moraine ground to the bank of the Kimo river and back. The 1808 battle of Oravais (Finnish War) is commemorated on Slagfältsvägen: the battle memorial and the Lotta Svärd stone stand about 1.3 km south-west of the start as the crow flies, and the battlefield itself lies about 1.5–2 km away. A bench and table along the route.",
   "highlights": [
    "Kimo river bank",
    "boulder-strewn forest",
-   "near Oravais 1808 battlefield"
+   "Oravais 1808 battlefield c. 1.5 km away"
   ],
   "parking_notes": [
    "Start at the eastern edge of Oravais village (Kimovägen); exact parking spot uncertain."
@@ -856,11 +858,11 @@
    "nature station"
   ],
   "duration": "About 2 h including stops.",
-  "warning": "Kummelskär can only be reached by boat: your own boat (nearest harbour by car is Köklot in Korsholm, ~20 km by sea) or the summer day cruise on M/S Filifjonkan from Stråkaviken in Maxmo (departs 10:00, back about 17:00; booking required, tel. 0500 869 385). The cruise is the only scheduled way back, so be at the harbour on time.",
+  "warning": "Kummelskär can only be reached by boat: your own boat (nearest harbour by car is Köklot in Korsholm, ~20 km by sea) or a summer day cruise. In summer 2026 Vörå municipality arranged day cruises on M/S Filifjonkan (28.6–26.7, from Stråkaviken in Maxmo, 6–12.7 from Abborrgrund on Västerö; departs 10:00, back about 17:00; advance booking). Regular tours have not been run every year and arrangements may change – check the current situation on the Vörå municipality website (https://www.vora.fi/en/visitvora/activities/worldheritagesite/). On a cruise, be at the harbour on time: it is the only scheduled way back.",
   "access": "No road access; the trail starts at the nature station harbour on Kummelskär.",
   "season": "Bird nesting season 1.5-15.7: stay on marked trails. Nature hut, tower and café open in summer only.",
   "parking_notes": [
-   "Park at the departure harbour: Stråkaviken (Maxmo) for the day cruise, or Köklot (Korsholm) for own boats."
+   "Park at the departure harbour: Stråkaviken (Maxmo) for the day cruise (2026), or Köklot (Korsholm) for own boats."
   ]
  },
  "vora-kimo-river-mouth-bird-towers": {

@@ -54,6 +54,7 @@
    "muinaisjäännöskohde"
   ],
   "network_note": "Laaja merkittyjen polkujen ja metsäteiden verkosto noin 800 hehtaarin (noin 4 × 4 km) alueella Pilvilammen ympärillä; yhteydessä Vaasan 70 km:n luontoliikuntareitistöön. Järkeviä lenkkejä: lammen kierros noin 3–5 km; pidemmät kierrokset Kivijärven ja Pilvimajan kautta noin 10–12 km.",
+  "access": "Helppo saavuttaa Vaasan kaupungin linja-autoilla (Vaasan paikallisliikenne, lifts.vaasa.fi).",
   "season": "Talvella hiihtoladut (Vaasan Latu); 22 km:n talvinen läskipyöräreitti.",
   "parking_notes": [
    "Pilvilammen pääpysäköintialue länsirannalla (Kappelinmäentie); toinen pysäköintipaikka on lähellä.",
@@ -62,7 +63,7 @@
   ]
  },
  "vaasa-city-bay-trail": {
-  "desc": "Pääosin esteetön rantapolku Eteläisen Kaupunginselän varrella. Selkä on 6 km pitkä merenlahti, joka kapenee kohti Tuovilan- eli Laihianjoen suistoa. Polku kulkee Hietalahden ja Suvilahden rehevien lehtipuuvaltaisten rantalehtojen läpi (liito-oravien suosimia haapoja, vanhojen huvila-puutarhojen kasveja), matalien lahtien ja maankohoamisen myötä nousevien uusien luotojen ohi, sitten Vanhan Vaasan kanavan ja Majakkakiven kautta ja päättyy Risön lähellä oleviin Natura 2000 -ruovikoihin.\n\nKuusitoista opastetaulua kertoo historiasta ja luonnosta (lepakot, viitasammakko, linnut, maankohoaminen). Muuton aikaan alueelle kerääntyy uikkuja, sorsia, hanhia ja kahlaajia; lehdoissa laulaa satakieli. Varrella on tauko- ja tulentekopaikkoja, uimarantoja sekä rinnakkainen melontareitti.",
+  "desc": "Pääosin esteetön rantapolku Eteläisen Kaupunginselän varrella. Selkä on 6 km pitkä merenlahti, joka kapenee kohti Tuovilan- eli Laihianjoen suistoa. Polku kiertää Hietalahdessa ja Suvilahdessa Bragen ulkomuseon ja Emäntälahden ja kulkee rehevien lehtipuuvaltaisten rantalehtojen läpi (liito-oravien suosimia haapoja, vanhojen huvila-puutarhojen kasveja), matalien lahtien ja maankohoamisen myötä nousevien uusien luotojen ohi, sitten Vanhan Vaasan kanavan ja Majakkakiven kautta ja päättyy Risön lähellä oleviin Natura 2000 -ruovikoihin.\n\nKuusitoista opastetaulua kertoo historiasta ja luonnosta (lepakot, viitasammakko, linnut, maankohoaminen). Muuton aikaan alueelle kerääntyy uikkuja, sorsia, hanhia ja kahlaajia; lehdoissa laulaa satakieli. Varrella on tauko- ja tulentekopaikkoja, uimarantoja sekä rinnakkainen melontareitti.",
   "highlights": [
    "Eteläisen Kaupunginselän ranta",
    "maankohoamisen synnyttämät luodot",
@@ -72,6 +73,7 @@
    "16 opastetaulua"
   ],
   "duration": "Kalaranta–Majakkakivi 7 km; jatkuu noin 3 km Risöön (yhteen suuntaan). Ensimmäinen osuus suunnitellusta noin 30 km:n Eteläisen Kaupunginselän kierroksesta.",
+  "access": "Helppo saavuttaa Vaasan kaupungin linja-autoilla (Vaasan paikallisliikenne, lifts.vaasa.fi).",
   "parking_notes": [
    "Lähtö Kalarannasta keskustan rannalta; yleisiä pysäköintipaikkoja myös Hietalahdessa ja Suvilahdessa, ja itäpää yhtyy Risön pysäköintialueeseen (Ampujantie)."
   ]
@@ -142,7 +144,7 @@
   ]
  },
  "vahakyro-kolkki-nature-trail": {
-  "desc": "Lyhyt polku Kyrönjoen varrella aivan Kolkinkosken vieressä. Reitti hyödyntää entisen Kolkin sahan ja verkatehtaan alueen vanhoja polkuja sekä uusia hakepintaisia osuuksia. Se kiertää Kolkin kartanon (yksi Vaasan vanhimmista rakennuksista), Vartiosaaren ja Kuljunsaaren valtakunnallisesti merkittävässä rakennetussa kulttuuriympäristössä (RKY); varrella on historiatauluja.\n\nVartiosaaren polku on juurakkoisempi ja kulkee saaren eteläkärjessä aivan joen tuntumassa (varovasti). Vartiosaaressa on laavu, nuotiopaikka ja kalapaikka kosken äärellä; polttopuut ja kalastusluvat Kolkin kartanolta.",
+  "desc": "Lyhyt polku Kyrönjoen varrella aivan Kolkinkosken vieressä. Reitti hyödyntää entisen Kolkin sahan ja verkatehtaan alueen vanhoja polkuja sekä uusia hakepintaisia osuuksia. Se kiertää Kolkin kartanon (yksi Vaasan vanhimmista rakennuksista), Vartiosaaren ja Kuljunsaaren valtakunnallisesti merkittävässä rakennetussa kulttuuriympäristössä (RKY); varrella on historiatauluja.\n\nVartiosaaren polku kulkee saaren eteläkärjessä aivan joen tuntumassa (varovasti). Vartiosaaressa on laavu, nuotiopaikka ja kalapaikka kosken äärellä; polttopuut ja kalastusluvat Kolkin kartanolta.",
   "highlights": [
    "Kolkinkoski",
    "Kyrönjoki",
@@ -348,12 +350,12 @@
   ]
  },
  "karikaleden": {
-  "desc": "Lyhyt polku Österhankmon uimarannalta paljaan graniittikallion, jäkälän peittämien kallioiden ja harvan männikön halki Karikabergetille, jossa tulisijan vieressä seisoo 13-metrinen puinen näkötorni.",
+  "desc": "Polku Österhankmon uimarannalta paljaan graniittikallion, jäkälän peittämien kallioiden ja harvan männikön halki. Punaisella merkitty polku vie 0,8 km Karikabergetille, jossa tulisijan vieressä seisoo 13-metrinen puinen näkötorni. Tornin pohjoispuolella kiertää keltainen lenkki (n. 1,2 km) kalliomännikössä, ja siniset ja vihreät polut jatkavat itään, mistä palataan metsätietä pitkin lähtöpaikalle – koko kierros on noin 3,4 km. Reitin voi kulkea edestakaisin tornille tai kierroksena.",
   "highlights": [
    "13 m:n puinen näkötorni",
    "kalliomännikkö"
   ],
-  "duration": "1,7 km edestakaisin.",
+  "duration": "Tornille ja takaisin 1,6 km; tornin pohjoispuolinen keltainen lenkki lisää n. 1,2 km; koko kierros itäisten polkujen ja metsätien kautta n. 3,4 km.",
   "parking_notes": [
    "Österhankmon uimaranta."
   ]
@@ -525,7 +527,7 @@
   ]
  },
  "kurjen-kierros-rajavuori-levaneva": {
-  "desc": "Kurjen kierroksen pitkä osuus Rajavuoren vaelluskeskukselta Levanevan soidensuojelualueelle Laihian ja Kurikan rajalle. Metsäisen Rajavuoren alueen jälkeen reitti ylittää tien 687 ja Kyrössuon Kivi- ja Levalammen altaan pohjoispuolella ja yhtyy Levanevan reittiin. Levaneva on laaja, avoin keidassuomaisema; reitti ylittää sen pitkiä pitkospuita pitkin ja kiertelee metsäsaarekkeiden ja puustoisten suonreunojen kautta. Maalarinmaalla on puolikota, kuivakäymälä ja suolle avautuva lintutorni, joka on suosittu suolintujen tarkkailupaikka. Peräkylän lähellä on Särkisen autiotupa telttailualueineen.",
+  "desc": "Käytännössä koko Kurjen kierros – nimestään huolimatta yhdensuuntainen reitti – Rajavuoren vaelluskeskukselta Levanevan soidensuojelualueelle Laihian ja Kurikan rajalle. Metsäisen Rajavuoren alueen jälkeen reitti ylittää tien 687 ja Kyrössuon Kivi- ja Levalammen altaan pohjoispuolella ja yhtyy Levanevan reittiin. Levaneva on laaja, avoin keidassuomaisema; reitti ylittää sen pitkiä pitkospuita pitkin ja kiertelee metsäsaarekkeiden ja puustoisten suonreunojen kautta. Maalarinmaalla on puolikota, kuivakäymälä ja suolle avautuva lintutorni, joka on suosittu suolintujen tarkkailupaikka. Peräkylän lähellä on Särkisen autiotupa telttailualueineen.",
   "highlights": [
    "Levanevan soidensuojelualue",
    "pitkät pitkospuut avosuon yli",
@@ -533,7 +535,7 @@
    "Särkisen autiotupa",
    "Kyrössuo"
   ],
-  "duration": "Maalarinmaan pysäköintipaikalta lintutornille 0,6 km; Rajavuori–Maalarinmaa n. 14 km; Rajavuori–Peräkylä n. 24 km yhteen suuntaan. Itse Levanevan reitti (Peräkylä–Maalarinmaa ja edelleen) on 13,6 km yhteen suuntaan. Koko Kurjen kierros jatkuu Pässilään ja Kalajaisjärvelle (Ilmajoki), n. 30–50 km.",
+  "duration": "Maalarinmaan pysäköintipaikalta lintutornille 0,6 km; Rajavuori–Maalarinmaa n. 14 km; Rajavuori–Peräkylä n. 24 km yhteen suuntaan. Itse Levanevan reitti (Peräkylä–Maalarinmaa ja edelleen) on 13,6 km yhteen suuntaan. Eteläpäästä reitit jatkuvat Pässilään ja Kalajaisjärvelle (Ilmajoki), yhteensä n. 30–50 km.",
   "access": "Yhdensuuntainen reitti: järjestä kuljetus tai kulje edestakaisin. Levaneva on valtion luonnonsuojelualue (Metsähallitus): pysy merkityllä reitillä.",
   "season": "Pitkospuut voivat olla märällä säällä liukkaita. Tulenteko kielletty metsäpalovaroituksen aikana.",
   "parking_notes": [
@@ -730,11 +732,11 @@
   ]
  },
  "vora-kinnkangleden": {
-  "desc": "Oravaisten kylän itälaidalta lähtevä noin 2 km:n kierros kulkee metsäisen Skrymlorna–Kuivalaisen alueen halki; 5 km:n vaihtoehto jatkaa itään sekametsän ja lohkareisen moreenimaaston läpi Kimojoen rantaan ja takaisin. Oravaisten vuoden 1808 taistelutanner ja Lotta Svärd -kivi ovat aivan lähtöpaikan eteläpuolella. Reitin varrella penkki ja pöytä.",
+  "desc": "Oravaisten kylän itälaidalta lähtevä noin 2 km:n kierros kulkee metsäisen Skrymlorna–Kuivalaisen alueen halki; 5 km:n vaihtoehto jatkaa itään sekametsän ja lohkareisen moreenimaaston läpi Kimojoen rantaan ja takaisin. Vuoden 1808 Oravaisten taistelua (Suomen sota) muistetaan Slagfältsvägenin varrella: taistelun muistomerkki ja Lotta Svärd -kivi ovat linnuntietä noin 1,3 km lähtöpaikasta lounaaseen, ja itse taistelutanner on noin 1,5–2 km:n päässä. Reitin varrella penkki ja pöytä.",
   "highlights": [
    "Kimojoen ranta",
    "lohkareinen metsä",
-   "lähellä Oravaisten 1808 taistelutannerta"
+   "Oravaisten 1808 taistelutanner n. 1,5 km:n päässä"
   ],
   "parking_notes": [
    "Lähtö Oravaisten kylän itälaidalta (Kimovägen); tarkka pysäköintipaikka epävarma."
@@ -856,11 +858,11 @@
    "luontoasema"
   ],
   "duration": "Noin 2 h taukoineen.",
-  "warning": "Kummelskärille pääsee vain veneellä: omalla veneellä (lähin autolla saavutettava satama on Köklot Mustasaaressa, noin 20 km merimatkaa) tai kesäisellä M/S Filifjonkanin päiväristeilyllä Maksamaan Stråkavikenista (lähtö klo 10, paluu noin klo 17; varaus pakollinen, puh. 0500 869 385). Risteily on ainoa aikataulun mukainen paluuyhteys, joten ole satamassa ajoissa.",
+  "warning": "Kummelskärille pääsee vain veneellä: omalla veneellä (lähin autolla saavutettava satama on Köklot Mustasaaressa, noin 20 km merimatkaa) tai kesäisellä päiväristeilyllä. Kesällä 2026 Vöyrin kunta järjesti päiväristeilyjä M/S Filifjonkanilla (28.6.–26.7. Maksamaan Stråkavikenista, 6.–12.7. Västerön Abborrgrundista; lähtö klo 10, paluu noin klo 17; ennakkovaraus). Säännöllisiä retkiä ei ole järjestetty joka vuosi, ja järjestelyt voivat muuttua – tarkista ajantasainen tilanne Vöyrin kunnan sivuilta (https://www.vora.fi/fi/visitvoyri/aktiviteetit/maailmanperintokohde/). Risteily on ainoa aikataulun mukainen paluuyhteys, joten ole satamassa ajoissa.",
   "access": "Ei tieyhteyttä; polku alkaa Kummelskärin luontoaseman satamasta.",
   "season": "Lintujen pesimäaika 1.5.–15.7.: pysy merkityillä poluilla. Luontotupa, torni ja kahvila avoinna vain kesällä.",
   "parking_notes": [
-   "Pysäköi lähtösatamaan: Stråkavikeniin (Maksamaa) päiväristeilyä varten tai Köklotiin (Mustasaari) omalla veneellä liikuttaessa."
+   "Pysäköi lähtösatamaan: Stråkavikeniin (Maksamaa) päiväristeilyä varten (2026) tai Köklotiin (Mustasaari) omalla veneellä liikuttaessa."
   ]
  },
  "vora-kimo-river-mouth-bird-towers": {

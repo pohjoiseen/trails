@@ -54,6 +54,7 @@
    "fornlämning"
   ],
   "network_note": "Omfattande nät av märkta stigar och skogsvägar på ett ca 800 ha stort område (ca 4 × 4 km) runt Molnträsket, anslutet till Vasa stads 70 km långa ledsystem för naturmotion. Lämpliga rundor: runt träsket ca 3–5 km; längre rundor via Kivijärvi och Pilvimaja ca 10–12 km.",
+  "access": "Lätt att nå med Vasa stads bussar (Vasa lokaltrafik, lifts.vaasa.fi).",
   "season": "Skidspår vintertid (Vaasan Latu); 22 km lång vinterled för fatbike.",
   "parking_notes": [
    "Molnträskets huvudparkering på västra stranden (Kappelinmäentie); en andra parkering finns i närheten.",
@@ -62,7 +63,7 @@
   ]
  },
  "vaasa-city-bay-trail": {
-  "desc": "En till största delen tillgänglig strandstig längs Södra stadsfjärden, en 6 km lång havsvik som smalnar av mot deltat vid Toby å/Laihela å. Stigen går förbi Sandviken och Sunnanvik med frodiga lövlundar på stranden (aspar där flygekorren bor, växter från gamla villaträdgårdar), grunda vikar och nya holmar som stiger ur havet med landhöjningen, vidare till Gamla Vasa-kanalen och sjömärkesstenen Majakkakivi, och slutar vid Natura 2000-vassarna nära Risö.\n\nSexton skyltar berättar om historia och natur (fladdermöss, åkergroda, fåglar, landhöjning). Under flyttningen samlas doppingar, änder, gäss och vadare; i lundarna sjunger näktergalen. Rast- och eldplatser, badstränder och en parallell kanotled.",
+  "desc": "En till största delen tillgänglig strandstig längs Södra stadsfjärden, en 6 km lång havsvik som smalnar av mot deltat vid Toby å/Laihela å. Stigen går runt Brages friluftsmuseum och Matmorsviken (Emäntälahti) i Sandviken och Sunnanvik, genom frodiga lövlundar på stranden (aspar där flygekorren bor, växter från gamla villaträdgårdar), förbi grunda vikar och nya holmar som stiger ur havet med landhöjningen, vidare till Gamla Vasa-kanalen och sjömärkesstenen Majakkakivi, och slutar vid Natura 2000-vassarna nära Risö.\n\nSexton skyltar berättar om historia och natur (fladdermöss, åkergroda, fåglar, landhöjning). Under flyttningen samlas doppingar, änder, gäss och vadare; i lundarna sjunger näktergalen. Rast- och eldplatser, badstränder och en parallell kanotled.",
   "highlights": [
    "stranden längs Södra stadsfjärden",
    "landhöjningsholmar",
@@ -72,6 +73,7 @@
    "16 infoskyltar"
   ],
   "duration": "Fiskstranden–Majakkakivi 7 km; fortsätter ca 3 km till Risö (enkel väg). Första etappen av en planerad ca 30 km lång runda kring Södra stadsfjärden.",
+  "access": "Lätt att nå med Vasa stads bussar (Vasa lokaltrafik, lifts.vaasa.fi).",
   "parking_notes": [
    "Start vid Fiskstranden (Kalaranta) på stranden i centrum; allmän parkering också i Sandviken och Sunnanvik, och östra änden ansluter till Risö parkering (Ampujantie)."
   ]
@@ -142,7 +144,7 @@
   ]
  },
  "vahakyro-kolkki-nature-trail": {
-  "desc": "En kort naturstig vid Kyro älv alldeles intill forsen Kolkinkoski, på gamla stigar från det före detta såg- och klädesfabriksområdet i Kolkki och på nya flisbelagda avsnitt. Stigen går runt Kolkki gård (en av Vasas äldsta byggnader) och holmarna Vartiosaari och Kuljunsaari, i en byggd kulturmiljö av riksintresse (RKY), med historietavlor.\n\nStigen på Vartiosaari är mer rotig och går nära älven vid sydspetsen (var försiktig). Vartiosaari vindskydd med eldplats och fiskeplats vid forsen; ved och fiskelov fås från Kolkki gård.",
+  "desc": "En kort naturstig vid Kyro älv alldeles intill forsen Kolkinkoski, på gamla stigar från det före detta såg- och klädesfabriksområdet i Kolkki och på nya flisbelagda avsnitt. Stigen går runt Kolkki gård (en av Vasas äldsta byggnader) och holmarna Vartiosaari och Kuljunsaari, i en byggd kulturmiljö av riksintresse (RKY), med historietavlor.\n\nStigen på Vartiosaari går nära älven vid sydspetsen (var försiktig). Vartiosaari vindskydd med eldplats och fiskeplats vid forsen; ved och fiskelov fås från Kolkki gård.",
   "highlights": [
    "forsen Kolkinkoski",
    "Kyro älv",
@@ -348,12 +350,12 @@
   ]
  },
  "karikaleden": {
-  "desc": "Kort led från Österhankmo badstrand över kal granithäll med lavklädda klippor och gles tallskog till Karikaberget, där ett 13 m högt utsiktstorn av trä står intill en eldstad.",
+  "desc": "Led från Österhankmo badstrand över kal granithäll med lavklädda klippor och gles tallskog. En rödmarkerad stig leder 0.8 km till Karikaberget, där ett 13 m högt utsiktstorn av trä står intill en eldstad. Norr om tornet går en gul slinga (ca 1.2 km) genom hällmarkstallskogen, och blå och gröna stigar fortsätter österut och tillbaka till starten längs skogsvägen – ca 3.4 km som hel runda. Leden kan gås fram och tillbaka till tornet eller som en runda.",
   "highlights": [
    "13 m högt utsiktstorn av trä",
    "hällmarkstallskog"
   ],
-  "duration": "1.7 km tur och retur.",
+  "duration": "Till tornet och tillbaka 1.6 km; den gula slingan norr om tornet lägger till ca 1.2 km; hel runda via de östra stigarna och skogsvägen ca 3.4 km.",
   "parking_notes": [
    "Österhankmo badstrand."
   ]
@@ -525,7 +527,7 @@
   ]
  },
  "kurjen-kierros-rajavuori-levaneva": {
-  "desc": "Fjärrledsavsnitt av Kurjen kierros (Tranrundan) från Rajavuori vandringscentrum till Levaneva myrskyddsområde på gränsen mellan Laihela och Kurikka. Efter det skogklädda Rajavuoriområdet korsar leden väg 687 och mossen Kyrössuo norr om reservoaren Kivi- ja Levalampi och ansluter till Levanevaleden. Levaneva är ett stort, öppet högmosselandskap; leden korsar det på långa spänger och viker av genom skogsholmar och trädbevuxna myrkanter. Vid Maalarinmaa finns ett vindskydd av halvkåtatyp, torrdass och ett fågeltorn över myren, populärt för att se myrfåglar. Nära Peräkylä finns den öppna ödemarksstugan Särkinen med tältplats.",
+  "desc": "I praktiken hela Kurjen kierros (Tranrundan) – en linjär led trots ordet ”kierros” (runda) i namnet – från Rajavuori vandringscentrum till Levaneva myrskyddsområde på gränsen mellan Laihela och Kurikka. Efter det skogklädda Rajavuoriområdet korsar leden väg 687 och mossen Kyrössuo norr om reservoaren Kivi- ja Levalampi och ansluter till Levanevaleden. Levaneva är ett stort, öppet högmosselandskap; leden korsar det på långa spänger och viker av genom skogsholmar och trädbevuxna myrkanter. Vid Maalarinmaa finns ett vindskydd av halvkåtatyp, torrdass och ett fågeltorn över myren, populärt för att se myrfåglar. Nära Peräkylä finns den öppna ödemarksstugan Särkinen med tältplats.",
   "highlights": [
    "Levaneva myrskyddsområde",
    "långa spänger över öppen mosse",
@@ -533,7 +535,7 @@
    "ödemarksstugan Särkinen",
    "mossen Kyrössuo"
   ],
-  "duration": "Maalarinmaa parkering till fågeltornet 0.6 km; Rajavuori–Maalarinmaa ca 14 km; Rajavuori–Peräkylä ca 24 km enkel väg. Själva Levanevaleden (Peräkylä–Maalarinmaa och vidare) är 13.6 km enkel väg. Hela Kurjen kierros fortsätter till Pässilä och Kalajaisjärvi (Ilmola), ca 30–50 km.",
+  "duration": "Maalarinmaa parkering till fågeltornet 0.6 km; Rajavuori–Maalarinmaa ca 14 km; Rajavuori–Peräkylä ca 24 km enkel väg. Själva Levanevaleden (Peräkylä–Maalarinmaa och vidare) är 13.6 km enkel väg. Från södra änden fortsätter leder till Pässilä och Kalajaisjärvi (Ilmola), totalt ca 30–50 km.",
   "access": "Linjär led: ordna skjuts eller gå fram och tillbaka. Levaneva är ett statligt naturskyddsområde (Forststyrelsen): håll dig på den märkta leden.",
   "season": "Spängerna kan vara hala i vått väder. Eld förbjuden när varning för skogsbrand råder.",
   "parking_notes": [
@@ -730,11 +732,11 @@
   ]
  },
  "vora-kinnkangleden": {
-  "desc": "Från den östra kanten av Oravais by går en ca 2 km lång slinga genom det skogklädda området Skrymlorna-Kuivalainen; alternativet på 5 km fortsätter österut genom blandskog och stenbunden moränmark till Kimo ås strand och tillbaka. Slagfältet vid Oravais från 1808 och Lotta Svärd-stenen ligger strax söder om starten. En bänk och ett bord längs leden.",
+  "desc": "Från den östra kanten av Oravais by går en ca 2 km lång slinga genom det skogklädda området Skrymlorna-Kuivalainen; alternativet på 5 km fortsätter österut genom blandskog och stenbunden moränmark till Kimo ås strand och tillbaka. Slaget vid Oravais 1808 (finska kriget) minns längs Slagfältsvägen: minnesmärket över slaget och Lotta Svärd-stenen står ca 1.3 km fågelvägen sydväst om starten, och själva slagfältet ligger ca 1.5–2 km bort. En bänk och ett bord längs leden.",
   "highlights": [
    "stranden vid Kimo å",
    "stenbunden skog",
-   "nära slagfältet vid Oravais 1808"
+   "slagfältet vid Oravais 1808 ca 1.5 km bort"
   ],
   "parking_notes": [
    "Start i östra kanten av Oravais by (Kimovägen); exakt parkeringsplats osäker."
@@ -856,11 +858,11 @@
    "naturstation"
   ],
   "duration": "Ca 2 h inklusive pauser.",
-  "warning": "Till Kummelskär kommer man endast med båt: egen båt (närmaste hamn som nås med bil är Köklot i Korsholm, ca 20 km sjövägen) eller dagskryssningen sommartid med M/S Filifjonkan från Stråkaviken i Maxmo (avgång kl. 10, tillbaka ca kl. 17; förhandsbokning krävs, tfn 0500 869 385). Kryssningen är det enda reguljära sättet att komma tillbaka, så var i hamnen i tid.",
+  "warning": "Till Kummelskär kommer man endast med båt: egen båt (närmaste hamn som nås med bil är Köklot i Korsholm, ca 20 km sjövägen) eller en dagskryssning sommartid. Sommaren 2026 ordnade Vörå kommun dagskryssningar med M/S Filifjonkan (28.6–26.7 från Stråkaviken i Maxmo, 6–12.7 från Abborrgrund på Västerö; avgång kl. 10, tillbaka ca kl. 17; förhandsbokning). Reguljära turer har inte ordnats varje år och upplägget kan ändras – kolla aktuell information på Vörå kommuns webbplats (https://www.vora.fi/visitvora/aktiviteter/varldsarvet/). Kryssningen är det enda reguljära sättet att komma tillbaka, så var i hamnen i tid.",
   "access": "Ingen väg; leden börjar vid naturstationens hamn på Kummelskär.",
   "season": "Fåglarnas häckningstid 1.5-15.7: håll dig på de märkta stigarna. Naturstugan, tornet och caféet är öppna endast sommartid.",
   "parking_notes": [
-   "Parkera vid avgångshamnen: Stråkaviken (Maxmo) för dagskryssningen eller Köklot (Korsholm) för egen båt."
+   "Parkera vid avgångshamnen: Stråkaviken (Maxmo) för dagskryssningen (2026) eller Köklot (Korsholm) för egen båt."
   ]
  },
  "vora-kimo-river-mouth-bird-towers": {
