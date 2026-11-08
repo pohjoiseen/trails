@@ -119,7 +119,14 @@
   const BASES = {
     vector: { key: "layer_vector", make: makeVector },
     osm: { key: "layer_osm", make: () => L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>' }) },
-    mml: { key: "layer_mml", make: () => L.tileLayer("https://avoin-karttakuva.maanmittauslaitos.fi/avoin/wmts/1.0.0/maastokartta/default/WGS84_Pseudo-Mercator/{z}/{y}/{x}.png?api-key=27e77bfc-266a-4406-afe0-f7e827c11be3", { maxNativeZoom: 16, maxZoom: 19, attribution: '&copy; <a href="https://www.maanmittauslaitos.fi/avoindata" target="_blank" rel="noopener">Maanmittauslaitos</a>' }) }
+    mml: { key: "layer_mml", make: () => {
+      // No @2x tiles exist; on high-DPI screens use the next zoom level's tiles at half size (sharp, smaller labels).
+      const hd = L.Browser.retina;
+      return L.tileLayer("https://avoin-karttakuva.maanmittauslaitos.fi/avoin/wmts/1.0.0/maastokartta/default/WGS84_Pseudo-Mercator/{z}/{y}/{x}.png?api-key=27e77bfc-266a-4406-afe0-f7e827c11be3", {
+        tileSize: hd ? 128 : 256, zoomOffset: hd ? 1 : 0, maxNativeZoom: hd ? 15 : 16, maxZoom: 19, opacity: 0.7,
+        attribution: '&copy; <a href="https://www.maanmittauslaitos.fi/avoindata" target="_blank" rel="noopener">Maanmittauslaitos</a>'
+      });
+    } }
   };
 
   /* OpenFreeMap vector tiles (OSM data, no key), drawn by MapLibre GL: sharp on high-DPI screens.
