@@ -240,7 +240,7 @@
   ],
   "season": "No winter maintenance.",
   "parking_notes": [
-   "Vargis parking; the last stretch of Vargisvägen is a private road behind an unlocked barrier (close it after you)."
+   "Vargis parking at the end of Vargisvägen, behind a barrier on a private road (close it after you). The barrier may be locked outside the summer season; then park at the Panikevägen–Vargisvägen junction and walk the rest."
   ]
  },
  "sommaro-nature-trails": {
@@ -269,7 +269,7 @@
    "fishing huts"
   ],
   "duration": "About 6 km return.",
-  "warning": "Valsörarna can only be reached by boat across open sea: your own boat, a water taxi or a summer excursion boat (e.g. from Björköby or Vaasa), arranged in advance. There is no scheduled return service, so agree the pick-up time before you go and allow for wind, which can cancel boat trips.",
+  "warning": "Valsörarna can only be reached by boat across open sea: your own boat, a water taxi or a summer excursion boat (e.g. from Björköby or Vaasa), arranged in advance. In summer there are typically one or two scheduled excursions from Svedjehamn; otherwise there is no scheduled service, so agree the pick-up time before you go and allow for wind, which can cancel boat trips.",
   "access": "No road access or parking; the islands lie c. 15 km offshore from Björköby. The path runs from the Ebbskär harbour to the lighthouse on Storskär.",
   "season": "Landing ban 1 May–31 July (nesting season) except harbours and the nature trail. No winter maintenance."
  },
@@ -598,7 +598,7 @@
   ]
  },
  "isokyro-vuoressalo": {
-  "desc": "Vuoressalo is a bedrock hill rising from the flat fields of the Kyrönjoki valley. Two loops lead up onto its open, lichen-white rock outcrops with wide views. Among the rocks are curious stone formations whose human origin has long been debated, among them a 'pakouuni' (refuge oven), said to be a low wall built by peasants in the Club War, where a natural cleft forms a vault about 2 m high. A lean-to lies at the south end, reached by a short spur from the red-and-white marked path. One of the 'Tarinapolku' mobile-game stories is located here.",
+  "desc": "Vuoressalo is a bedrock hill rising from the flat fields of the Kyrönjoki valley. Two loops lead up onto its open, lichen-white rock outcrops with wide views. Among the rocks are curious stone formations whose human origin has long been debated, among them a 'pakouuni' (refuge oven), said to be a low wall built by peasants in the Club War (a peasant rebellion of 1596–97), where a natural cleft forms a vault about 2 m high. A lean-to lies at the south end, reached by a short spur from the red-and-white marked path. One of the 'Tarinapolku' mobile-game stories is located here.",
   "highlights": [
    "lichen-covered rock outcrops",
    "viewpoint",

@@ -240,7 +240,7 @@
   ],
   "season": "Ei talvikunnossapitoa.",
   "parking_notes": [
-   "Vargisin pysäköintipaikka; Vargisvägenin viimeinen osuus on yksityistie lukitsemattoman puomin takana (sulje puomi perässäsi)."
+   "Vargisin pysäköintipaikka Vargisvägenin päässä, yksityistien puomin takana (sulje puomi perässäsi). Puomi voi olla lukittuna kesäkauden ulkopuolella; jätä auto silloin Panikevägenin ja Vargisvägenin risteykseen ja kävele loppumatka."
   ]
  },
  "sommaro-nature-trails": {
@@ -269,7 +269,7 @@
    "kalastajamajat"
   ],
   "duration": "Noin 6 km edestakaisin.",
-  "warning": "Valsörarnaan pääsee vain veneellä avomeren yli: omalla veneellä, vesitaksilla tai kesäisellä retkiveneellä (esim. Björköbystä tai Vaasasta), joka on järjestettävä etukäteen. Säännöllistä paluuyhteyttä ei ole, joten sovi noutoaika ennen lähtöä ja varaudu tuuleen, joka voi estää veneretket.",
+  "warning": "Valsörarnaan pääsee vain veneellä avomeren yli: omalla veneellä, vesitaksilla tai kesäisellä retkiveneellä (esim. Björköbystä tai Vaasasta), joka on järjestettävä etukäteen. Kesäisin Svedjehamnista lähtee yleensä yksi tai kaksi aikataulun mukaista retkeä; muuten säännöllistä yhteyttä ei ole, joten sovi noutoaika ennen lähtöä ja varaudu tuuleen, joka voi estää veneretket.",
   "access": "Ei tieyhteyttä eikä pysäköintiä; saaret sijaitsevat n. 15 km Björköbystä merelle. Polku kulkee Ebbskärin satamasta Storskärin majakalle.",
   "season": "Maihinnousukielto 1.5.–31.7. (pesimäaika) lukuun ottamatta satamia ja luontopolkua. Ei talvikunnossapitoa."
  },

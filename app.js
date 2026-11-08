@@ -541,7 +541,7 @@
     $("#q").placeholder = t("search");
     $("#q").setAttribute("aria-label", t("search"));
     renderLang(); renderLayerMenu();
-    $("#foot").innerHTML = "<details><summary>" + esc(t("about")) + "</summary><p>" + esc(t("aboutText")) + "</p></details><p>" + esc(t("mapData")) + "</p>";
+    $("#foot").innerHTML = "<details><summary>" + esc(t("about")) + "</summary><p>" + rich(t("credits")) + "</p><p>" + esc(t("aboutText")) + "</p></details><p>" + esc(t("mapData")) + "</p>";
   }
 
   /* re-style vector layers when the theme flips */
